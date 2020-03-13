@@ -11,7 +11,10 @@ namespace Decisions.Api.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
-        // GET: api/Test
+        /// <summary>
+        /// Test get
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public string Get()
         {
