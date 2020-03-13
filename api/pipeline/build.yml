@@ -6,6 +6,11 @@
 variables: 
   csprojpath : 'api/**/*.csproj'
 
+trigger:
+  paths:
+    include:
+      - 'api'
+
 steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet restore'

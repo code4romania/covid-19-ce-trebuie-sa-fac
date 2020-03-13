@@ -3,6 +3,11 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+trigger:
+  paths:
+    include:
+      - 'frontend'
+
 steps:
 - task: CmdLine@2
   inputs:
