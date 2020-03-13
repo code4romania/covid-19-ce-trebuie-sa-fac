@@ -2,7 +2,8 @@
 
 [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
-[![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
+`API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
+`Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
 
 Arbore decizional pentru informarea publicului
 
