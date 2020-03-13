@@ -1,4 +1,4 @@
-# Ce ma fac
+# Ce mă fac
 
 [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
