@@ -8,6 +8,7 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
+  name: "dotnet restore"
   inputs:
     command: 'restore'
     projects: '$(csprojpath)'
