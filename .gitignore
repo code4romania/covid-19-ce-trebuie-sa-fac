@@ -1,2 +1,4 @@
-﻿/api/Decisions.Api/staticPages
+/api/Decisions.Api/staticPages
 */node_modules/
+frontend/build
+
