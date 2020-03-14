@@ -1,0 +1,15 @@
+{
+  "title": "Vrei sa ajuti, intra aici",
+  "doc_type": "USEFUL_APP",
+  "doc_id": 77,
+  "active": true,
+  "display_order": 12,
+  "app_type" : "NEWS / OFFER_HELP / DATA",
+	"content": "Lorem ipsum dolor sit amet...",
+	"buttons" : [
+    {
+      "title" : "Centrul de sprijin",
+      "link" : "https://test.com"
+    }
+  ]
+}
