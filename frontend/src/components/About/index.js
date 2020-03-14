@@ -13,12 +13,12 @@ import "./About.scss";
 const About = () => {
   return (
     <div className="App-content">
-      <about-page>
+      <div className="about-page">
         <section className="has-border-bottom">
-          <section-title>
+          <div className="section-title">
             <img src={covid_all} alt=""></img>
             <h1>Despre proiect</h1>
-          </section-title>
+          </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
             pretium tincidunt non, morbi. Egestas senectus a egestas massa
@@ -28,26 +28,42 @@ const About = () => {
             pellentesque fringilla non adipiscing. Amet, diam leo lacus et
             facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
           </p>
-          <section-footer>
+          <div className="section-footer">
             <span>Share on</span>
-            <a href="https://www.facebook.com/code4romania/">
+            <a
+              href="https://www.facebook.com/code4romania/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFacebook style={{ color: "#3b5998" }} size="30px"></FaFacebook>
             </a>
-            <a href="https://www.linkedin.com/company/code4romania/">
+            <a
+              href="https://www.linkedin.com/company/code4romania/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin style={{ color: "#0e76a8" }} size="30px"></FaLinkedin>
             </a>
-            <a href="https://www.instagram.com/code4romania/">
+            <a
+              href="https://www.instagram.com/code4romania/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram
                 style={{ color: "#833AB4" }}
                 size="30px"
               ></FaInstagram>
             </a>
-            <a href="https://twitter.com/code4romania">
+            <a
+              href="https://twitter.com/code4romania"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTwitter style={{ color: "#42D2F2" }} size="30px"></FaTwitter>
             </a>
-          </section-footer>
+          </div>
         </section>
-        <section id="about_section_logo">
+        <section className="about-section-logo">
           <img src={logo_large} alt=""></img>
         </section>
         <section className="has-border-bottom">
@@ -72,60 +88,62 @@ const About = () => {
             facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
           </p>
         </section>
-        <section id="about_section_useful_instruments">
-          <section-title>
+        <section className="about-section-useful-instruments">
+          <div className="section-title">
             <img src={covid_all} alt=""></img>
             <h1>Instrumente utile</h1>
-          </section-title>
-          <useful-instruments>
+          </div>
+          <div className="useful-instruments">
             <section>
-              <search-bar>
+              <div className="search-bar">
                 <input placeholder="caută informații aici"></input>
                 <FaSearch size="18px"></FaSearch>
-              </search-bar>
-              <info-card class="green">
-                <card-title>
+              </div>
+              <div className="info-card info-card-news">
+                <div className="card-title">
                   Instalează-ți add-on-ul de depistat știrile false
-                </card-title>
-              </info-card>
-              <info-card class="green">
-                <card-title>Stiri oficiale si informații la zi</card-title>
-                <card-content>
+                </div>
+              </div>
+              <div className="info-card info-card-news">
+                <div className="card-title">
+                  Stiri oficiale si informații la zi
+                </div>
+                <div className="card-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Elit, duis pretium.
                   </p>
                   <button>Cele mai noi informații oficiale</button>
-                </card-content>
-              </info-card>
+                </div>
+              </div>
             </section>
             <section>
-              <info-card class="red">
-                <card-title>Vrei să ajuți. Intră aici</card-title>
-                <card-content>
+              <div className="info-card info-card-help">
+                <div className="card-title">Vrei să ajuți. Intră aici</div>
+                <div className="card-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Elit, duis pretium.
                   </p>
-                  <button>Centrul de sprijin </button>
-                </card-content>
-              </info-card>
+                  <button>Centrul de sprijin</button>
+                </div>
+              </div>
             </section>
             <section>
-              <info-card class="pink">
-                <card-title>Date în timp real</card-title>
-                <card-content>
+              <div className="info-card info-card-data">
+                <div className="card-title">Date în timp real</div>
+                <div className="card-content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Elit, duis pretium.
                   </p>
                   <button>Vezi situația curentă </button>
-                </card-content>
-              </info-card>
+                </div>
+              </div>
             </section>
-          </useful-instruments>
+          </div>
         </section>
-      </about-page>
+      </div>
     </div>
   );
 };
