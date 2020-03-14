@@ -4,8 +4,8 @@
   "doc_id": 7,
   "active": true,
   "display_order": 3,
-	"content": "Lorem ipsum dolor sit amet...",
-	"buttons" : [
+  "content": "Lorem ipsum dolor sit amet...",
+  "buttons" : [
     {
       "title" : "Vezi toate legile",
       "link" : "https://test.com"
