@@ -1,13 +1,15 @@
 {
   "title": "Simptome si tratament",
   "doc_type": "DECISION_TREE",
-	"doc_id": 12,
+  "doc_id": 12,
   "active": true,
   "display_order": 1,
-	"content": "Lorem ipsum dolor sit amet...",
+  "content": "Lorem ipsum dolor sit amet...",
   "nodes": [
   	{
   		"node_id": 1,
+		"title" : "Intrebarea?",
+		"content": "Lorem ipsum dolor sit amet...",
   		"type": "single_choice",
   		"options": [{
   			"option": 1,
@@ -40,6 +42,8 @@
   	},
   	{
   		"node_id": 2,
+		"title" : "Intrebarea?",
+		"content": "Lorem ipsum dolor sit amet...",
   		"type": "multiple_choice",
   		"options": [{
   			"option": 1,
