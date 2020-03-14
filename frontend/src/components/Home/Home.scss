@@ -1,0 +1,17 @@
+.home-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "top-view top-view" "content-view useful-tools";
+  .top-view {
+    grid-area: top-view;
+  }
+  .content-view {
+    grid-area: content-view;
+  }
+  .useful-tools-container {
+    grid-area: useful-tools;
+    border: 1px solid #E5E5E5;
+    padding: 5px 30px;
+    margin: 10px 0;
+  }
+}
