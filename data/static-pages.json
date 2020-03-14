@@ -49,13 +49,13 @@
       			"value": "nu"
       		}],
       		"answers": [{
-      			"option": [
+      			"options": [
       				1
       			],
       			"result": 2
       		},
       		{
-      			"option": [
+      			"options": [
       				2
       			],
       			"result": 3
@@ -80,31 +80,31 @@
       			"value": "mucozități nazale excesive"
       		}],
       		"answers": [{
-      			"option": [
+      			"options": [
       				1
       			],
       			"result": 3
       		},
       		{
-      			"option": [
+      			"options": [
       				2
       			],
       			"result": 3
       		},
       		{
-      			"option": [
+      			"options": [
       				3
       			],
       			"result": 3
       		},
       		{
-      			"option": [
+      			"options": [
       				4
       			],
       			"result": 3
       		},
       		{
-      			"option": [
+      			"options": [
       				1, 2
       			],
       			"result": 4
