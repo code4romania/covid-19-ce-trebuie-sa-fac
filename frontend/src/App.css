@@ -48,7 +48,8 @@ app-credits span {
 }
 
 .App-content {
-    height: calc(100vh - 250px);
+    margin: 0 40px;
+    height: 100%;
 }
 
 .App-footer {
