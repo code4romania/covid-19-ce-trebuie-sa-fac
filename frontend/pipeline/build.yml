@@ -14,13 +14,6 @@ steps:
   inputs:
     command: 'install'
     workingDir: 'frontend'
-    
-- task: Npm@1
-  displayName: 'npm test'
-  inputs:
-    command: 'custom'
-    workingDir: 'frontend'
-    customCommand: 'test'
 
 - task: Npm@1
   displayName: 'npm build'
@@ -28,3 +21,10 @@ steps:
     command: 'custom'
     workingDir: 'frontend'
     customCommand: 'run build'
+
+- task: PublishPipelineArtifact@1
+  displayName: 'publish artifact'
+  inputs:
+    targetPath: 'frontend/build'
+    artifact: 'cmf-frontend'
+    publishLocation: 'pipeline'
