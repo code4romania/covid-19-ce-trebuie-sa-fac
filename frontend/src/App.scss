@@ -52,7 +52,7 @@ app-credits span {
 }
 
 .App-content {
-    height: calc(100vh - 250px);
+    height: calc(100vh - 350px);
 }
 
 .footer-bar {
@@ -80,6 +80,7 @@ app-credits span {
     justify-content: space-between;
     padding: 0px 100px;
     flex-flow: row wrap;
+    min-height: 270px;
 }
 
 .useful-links {
