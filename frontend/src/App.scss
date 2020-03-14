@@ -5,7 +5,9 @@
 }
 
 .App-content {
-  height: calc(100vh - 250px);
+  margin: 0 40px;
+  width: calc(100% - 80px);
+  height: 100%;
 }
 
 .App-footer {
