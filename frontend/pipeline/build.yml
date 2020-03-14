@@ -9,7 +9,22 @@ trigger:
       - 'frontend'
 
 steps:
-- task: CmdLine@2
+- task: Npm@1
+  displayName: 'npm install'
   inputs:
-    script: |
-      echo This is a dummy command - please remove the task
+    command: 'install'
+    workingDir: 'frontend'
+    
+- task: Npm@1
+  displayName: 'npm test'
+  inputs:
+    command: 'custom'
+    workingDir: 'frontend'
+    customCommand: 'test'
+
+- task: Npm@1
+  displayName: 'npm build'
+  inputs:
+    command: 'custom'
+    workingDir: 'frontend'
+    customCommand: 'run build'
