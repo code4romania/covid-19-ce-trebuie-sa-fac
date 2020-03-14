@@ -22,18 +22,29 @@ This project is built by amazing volunteers and you can be one of them! Here's a
 ## Built With
 
 ### Programming languages
+ - Javascript
 
 ### Platforms
 
-### Frontend framework
+### Frontend frameworks
+ - [React (16.13.*)](https://reactjs.org/)
+ - [Bulma (0.8.*)](https://bulma.io/)
 
 ### Package managers
+ - Frontend - [NPM](https://docs.npmjs.com/)
 
 ### Database technology & provider
 
 ## Repos and projects
 
 Mention all related repos and projects.
+
+## Development
+### Backend
+- WIP
+
+### Frontend
+- Please follow [these](/frontend/README.md#Development) instructions
 
 ## Deployment
 
