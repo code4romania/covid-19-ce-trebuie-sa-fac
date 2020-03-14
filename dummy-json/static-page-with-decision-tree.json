@@ -1,6 +1,6 @@
 {
   "title": "Simptome si tratament",
-  "doc_type": "DECISION_TREE",
+  "doc_type": "STATIC_PAGE",
   "doc_id": 12,
   "active": true,
   "display_order": 1,
