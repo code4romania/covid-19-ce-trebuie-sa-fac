@@ -21,35 +21,12 @@ section.has-border-bottom {
   }
 }
 
-
 .about-section-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   img {
     width: 100%;
-  }
-}
-
-.search-bar {
-  display: flex;
-  input {
-    background: #ffffff;
-    border: 1px solid #42d2f2;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 16px;
-    width: 100%;
-    padding: 16px 8px;
-    padding-right: 38px;
-    outline: none;
-  }
-  svg {
-    position: relative;
-    top: 16px;
-    right: 30px;
   }
 }
 

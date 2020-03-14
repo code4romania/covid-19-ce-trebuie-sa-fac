@@ -69,6 +69,28 @@
     }
   }
 }
+.search-bar {
+  display: flex;
+  input {
+    background: #ffffff;
+    border: 1px solid #42d2f2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+    padding: 16px 8px;
+    padding-right: 38px;
+    outline: none;
+  }
+  svg {
+    position: relative;
+    top: 20px;
+    right: 30px;
+  }
+}
+
 
 @media (min-width: 801px) {
   .useful-tools-grid>.useful-tools{
