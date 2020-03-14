@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaSearch
 } from "react-icons/fa";
-import "./About.css";
+import "./About.scss";
 
 const About = () => {
   return (
