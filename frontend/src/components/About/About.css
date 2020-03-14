@@ -1,7 +1,6 @@
 about-page {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 section.has-border-bottom {
@@ -50,12 +49,12 @@ section-footer>* {
 }
 
 useful-instruments {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 useful-instruments section {
+    margin: 10px 0;
     display: grid;
     grid-template-columns: 100%;
     row-gap: 20px;
@@ -133,4 +132,20 @@ info-card.pink card-title {
 info-card.pink button {
     background: #F5BCD6;
     color: #FFFFFF;
+}
+
+@media (min-width:801px) {
+    about-page {
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    useful-instruments {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+    useful-instruments section {
+        margin: 0;
+    }
 }
