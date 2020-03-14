@@ -25,7 +25,11 @@ const Header = () => {
             <img alt="" src={c4r_logo}></img>
           </a>
           <span>În parteneriat cu </span>
-          <a href="https://www.gov.ro/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.gov.ro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img alt="" src={gov_logo}></img>
           </a>
         </div>
