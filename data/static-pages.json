@@ -6,13 +6,14 @@
     "active": true,
     "display_order": 2,
     "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "buttons" : [
+    "nodes": null,
+    "buttons": [
       {
-        "title" : "Vezi toate legile",
-        "link" : "https://test.com"
+        "title": "Vezi toate legile",
+        "link": "https://test.com"
       }
     ]
-  } ,
+  },
   {
     "title": "Bune practici daca eȘti în autoizolare",
     "doc_type": "STATIC_PAGE",
@@ -20,107 +21,126 @@
     "active": true,
     "display_order": 1,
     "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "buttons" : [
+    "nodes": null,
+    "buttons": [
       {
-        "title" : "Click aici",
-        "link" : "https://test.com"
+        "title": "Click aici",
+        "link": "https://test.com"
       }
     ]
-  } ,
+  },
   {
-    {
-      "title": "Simptome și tratament",
-      "doc_type": "STATIC_PAGE",
-      "doc_id": 103,
-      "active": true,
-      "display_order": 3,
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "nodes": [
-      	{
-      		"node_id": 1,
-    		  "title" : "Ai călătorit recent în afara țării?",
-      		"type": "single_choice",
-          "content": null,
-      		"options": [{
-      			"option": 1,
-      			"value": "da"
-      		},{
-      			"option": 2,
-      			"value": "nu"
-      		}],
-      		"answers": [{
-      			"options": [
-      				1
-      			],
-      			"result": 2
-      		},
-      		{
-      			"options": [
-      				2
-      			],
-      			"result": 3
-      		}]
-      	},
-      	{
-      		"node_id": 2,
-    		  "title" : "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
-      		"type": "multiple_choice",
-          "content": null,
-      		"options": [{
-      			"option": 1,
-      			"value": "temperatură ridicată"
-      		},{
-      			"option": 2,
-      			"value": "tuse seacă"
-      		},{
-      			"option": 3,
-      			"value": "dificultate în respirație"
-      		},{
-      			"option": 4,
-      			"value": "mucozități nazale excesive"
-      		}],
-      		"answers": [{
-      			"options": [
-      				1
-      			],
-      			"result": 3
-      		},
-      		{
-      			"options": [
-      				2
-      			],
-      			"result": 3
-      		},
-      		{
-      			"options": [
-      				3
-      			],
-      			"result": 3
-      		},
-      		{
-      			"options": [
-      				4
-      			],
-      			"result": 3
-      		},
-      		{
-      			"options": [
-      				1, 2
-      			],
-      			"result": 4
-      		}]
-      	},{
-      		"node_id": 3,
-    		  "title" : "Conform cu răspunsurile tale, iată ce recomandăm:",
-      		"type": "final",
-          "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        },{
-      		"node_id": 4,
-    		  "title" : "Sună la 00000 pentru a cere testarea",
-      		"type": "final",
-          "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        }
-      ]
-    }
+    "title": "Simptome și tratament",
+    "doc_type": "STATIC_PAGE",
+    "doc_id": 103,
+    "active": true,
+    "display_order": 3,
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "buttons": null,
+    "nodes": [
+      {
+        "node_id": 1,
+        "title": "Ai călătorit recent în afara țării?",
+        "type": "SINGLE_CHOICE",
+        "content": null,
+        "options": [
+          {
+            "option": 1,
+            "value": "da"
+          },
+          {
+            "option": 2,
+            "value": "nu"
+          }
+        ],
+        "answers": [
+          {
+            "options": [
+              1
+            ],
+            "result": 2
+          },
+          {
+            "options": [
+              2
+            ],
+            "result": 3
+          }
+        ]
+      },
+      {
+        "node_id": 2,
+        "title": "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
+        "type": "MULTIPLE_CHOICE",
+        "content": null,
+        "options": [
+          {
+            "option": 1,
+            "value": "temperatură ridicată"
+          },
+          {
+            "option": 2,
+            "value": "tuse seacă"
+          },
+          {
+            "option": 3,
+            "value": "dificultate în respirație"
+          },
+          {
+            "option": 4,
+            "value": "mucozități nazale excesive"
+          }
+        ],
+        "answers": [
+          {
+            "options": [
+              1
+            ],
+            "result": 3
+          },
+          {
+            "options": [
+              2
+            ],
+            "result": 3
+          },
+          {
+            "options": [
+              3
+            ],
+            "result": 3
+          },
+          {
+            "options": [
+              4
+            ],
+            "result": 3
+          },
+          {
+            "options": [
+              1,
+              2
+            ],
+            "result": 4
+          }
+        ]
+      },
+      {
+        "node_id": 3,
+        "title": "Conform cu răspunsurile tale, iată ce recomandăm:",
+        "type": "FINAL",
+        "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "options": null,
+        "answers": null
+      },
+      {
+        "node_id": 4,
+        "title": "Sună la 00000 pentru a cere testarea",
+        "type": "FINAL",
+        "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "options": null,
+        "answers": null
+      }
+    ]
   }
 ]
