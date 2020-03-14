@@ -50,7 +50,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:taskforce@code4.ro">Contact</a>
+            <a href="mailto:contact@code4.ro">Contact</a>
           </li>
         </ul>
         <div className="code4-branding">
