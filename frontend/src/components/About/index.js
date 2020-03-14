@@ -1,7 +1,13 @@
 import React from "react";
 import covid_all from "../../images/covid_all.svg";
 import logo_large from "../../images/logo_large.svg";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaInstagram,
+  FaTwitter,
+  FaSearch
+} from "react-icons/fa";
 import "./About.css";
 
 const About = () => {
@@ -66,17 +72,58 @@ const About = () => {
             facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
           </p>
         </section>
-        <section id="about_section_usefull_instruments">
+        <section id="about_section_useful_instruments">
           <section-title>
             <img src={covid_all} alt=""></img>
             <h1>Instrumente utile</h1>
           </section-title>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rem
-            illo vero sunt tenetur possimus corporis non aliquam quaerat?
-            Accusantium ipsam, voluptates corporis blanditiis provident suscipit
-            quisquam sint id voluptatem!
-          </p>
+          <useful-instruments>
+            <section>
+              <search-bar>
+                <input placeholder="caută informații aici"></input>
+                <FaSearch size="18px"></FaSearch>
+              </search-bar>
+              <info-card class="green">
+                <card-title>
+                  Instalează-ți add-on-ul de depistat știrile false
+                </card-title>
+              </info-card>
+              <info-card class="green">
+                <card-title>Stiri oficiale si informații la zi</card-title>
+                <card-content>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elit, duis pretium.
+                  </p>
+                  <button>Cele mai noi informații oficiale</button>
+                </card-content>
+              </info-card>
+            </section>
+            <section>
+              <info-card class="red">
+                <card-title>Vrei să ajuți. Intră aici</card-title>
+                <card-content>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elit, duis pretium.
+                  </p>
+                  <button>Centrul de sprijin </button>
+                </card-content>
+              </info-card>
+            </section>
+            <section>
+              <info-card class="pink">
+                <card-title>Date în timp real</card-title>
+                <card-content>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elit, duis pretium.
+                  </p>
+                  <button>Vezi situația curentă </button>
+                </card-content>
+              </info-card>
+            </section>
+          </useful-instruments>
         </section>
       </about-page>
     </div>
