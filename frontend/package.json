@@ -19,10 +19,32 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "react-app",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "ignorePatterns": [
+      "**/serviceWorker.js",
+      "node_modules/"
+    ]
   },
   "browserslist": {
     "production": [
@@ -43,5 +65,11 @@
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/code4romania/ce-ma-fac/issues"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1"
   }
 }
