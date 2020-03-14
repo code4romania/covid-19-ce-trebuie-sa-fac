@@ -1,4 +1,4 @@
-.useful-tools {
+.useful-tools-grid>.useful-tools{
   display: flex;
   flex-direction: column;
   section {
@@ -6,6 +6,17 @@
     display: grid;
     grid-template-columns: 100%;
     row-gap: 20px;
+  }
+}
+
+.useful-tools-list>.useful-tools{
+  display: flex;
+  flex-direction: column;
+  section {
+    margin: 0;
+  }
+  & .info-card {
+    margin: 10px 0;
   }
 }
 
@@ -60,10 +71,17 @@
 }
 
 @media (min-width: 801px) {
-  .useful-tools{
+  .useful-tools-grid>.useful-tools{
     display: grid;
     grid-template-columns:  repeat(3, 1fr);
     column-gap: 10px;
+    section {
+      margin: 0;
+    }
+  }
+  .useful-tools-list>.useful-tools{
+    display: flex;
+    flex-direction: column;
     section {
       margin: 0;
     }

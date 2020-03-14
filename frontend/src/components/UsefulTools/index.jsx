@@ -1,12 +1,21 @@
 import React, { Component } from "react";
 import { FaSearch } from "react-icons/fa";
 import covid_all from "../../images/covid_all.svg";
+import PropTypes from "prop-types";
 import "./UsefulTools.scss";
 
 export default class UsefulTools extends Component {
+  static get propTypes() {
+    return {
+      type: PropTypes.string
+    };
+  }
   render() {
+    const { type = "list" } = this.props;
     return (
-      <div>
+      <div
+        className={type === "grid" ? "useful-tools-grid" : "useful-tools-list"}
+      >
         <div className="section-title">
           <img src={covid_all} alt=""></img>
           <h1>Instrumente utile</h1>

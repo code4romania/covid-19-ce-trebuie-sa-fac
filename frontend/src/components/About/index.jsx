@@ -84,7 +84,7 @@ const About = () => {
           </p>
         </section>
         <section className="about-section-useful-instruments">
-          <UsefulTools></UsefulTools>
+          <UsefulTools type="grid"></UsefulTools>
         </section>
       </div>
     </div>
