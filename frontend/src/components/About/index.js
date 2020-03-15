@@ -3,7 +3,7 @@ import covid_all from "../../images/covid_all.svg";
 import logo_large from "../../images/logo_large.svg";
 import "./About.scss";
 import UsefulTools from "../UsefulTools";
-import Share from "../Share";
+import SocialsShare from "../SocialsShare";
 
 const About = () => {
   return (
@@ -24,7 +24,14 @@ const About = () => {
             facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
           </p>
           <div className="section-footer">
-            <Share></Share>
+            <SocialsShare
+              currentPage={
+                window.location.protocol +
+                "//" +
+                window.location.host +
+                "/despre"
+              }
+            ></SocialsShare>
           </div>
         </section>
         <section className="about-section-logo">
