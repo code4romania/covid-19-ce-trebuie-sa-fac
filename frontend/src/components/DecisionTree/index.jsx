@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import Data from "./mock_data.json";
+import PropTypes from "prop-types";
 import Check from "../../images/check.svg";
 import "./DecisionTree.scss";
 
 export default class DecisionTree extends Component {
+  propTypes = {
+    data: PropTypes.any
+  };
+
   state = {
     currentNode: null,
     backwardHistory: [],
@@ -27,7 +31,7 @@ export default class DecisionTree extends Component {
   };
 
   setNextNode = () => {
-    const data = Data;
+    const { data } = this.props;
     const {
       currentNode,
       currentAnswers,
@@ -87,7 +91,7 @@ export default class DecisionTree extends Component {
   }
 
   init = () => {
-    const data = Data;
+    const { data } = this.props;
     this.setState({
       currentNode: data.nodes.filter(node => node.node_id === 1)[0],
       backwardHistory: [],
@@ -101,7 +105,7 @@ export default class DecisionTree extends Component {
   }
 
   render() {
-    const data = Data;
+    const { data } = this.props;
     const { currentNode, backwardHistory } = this.state;
     const questionView = !currentNode ? null : (
       <div className="question-content">
