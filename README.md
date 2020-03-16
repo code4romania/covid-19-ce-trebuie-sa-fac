@@ -1,6 +1,6 @@
 # Ce mă fac
 
-[![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
+[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
 `API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
 `Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
@@ -11,7 +11,7 @@ Obiectiv: Informarea clară și eficientă a publicului, creșterea gradului de 
 
 Cum: O platformă web cu ghiduri, chestionare și arbori decizionali care ajută populația să înțeleaga situația și îi ghidează în ceea ce trebuie să facă.
 
-[See the project live](insert_link_here)
+[See the project live](https://cemafac.ro/)
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
 
