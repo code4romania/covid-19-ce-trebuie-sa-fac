@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
+// import "taskforce-fe-components/dist/index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-// import "taskforce-fe-components/dist/index.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
