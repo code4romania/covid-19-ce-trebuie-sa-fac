@@ -12,7 +12,7 @@
     "react-icons": "^3.9.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "taskforce-fe-components": "git+https://github.com/code4romania/taskforce-fe-components#v0.1.0"
+    "taskforce-fe-components": "code4romania/taskforce-fe-components#postinstall"
   },
   "scripts": {
     "start": "react-scripts start",
