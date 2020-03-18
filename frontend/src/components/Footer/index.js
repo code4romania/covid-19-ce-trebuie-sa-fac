@@ -21,7 +21,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Ecosistemul Covid-19
           </a>
         </FooterLinkItem>
@@ -31,7 +30,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Instalează add-on-ul Firefox
           </a>
         </FooterLinkItem>
@@ -41,7 +39,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Instalează add-on-ul Chrome
           </a>
         </FooterLinkItem>
@@ -51,7 +48,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Date la zi
           </a>
         </FooterLinkItem>
@@ -61,7 +57,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Știri Oficiale
           </a>
         </FooterLinkItem>
@@ -71,7 +66,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Stăm acasă
           </a>
         </FooterLinkItem>
@@ -81,7 +75,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Diaspora Hub
           </a>
         </FooterLinkItem>
@@ -91,7 +84,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             RO help
           </a>
         </FooterLinkItem>
@@ -101,7 +93,6 @@ const MyFooter = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             Sprijină proiectul
           </a>
         </FooterLinkItem>
