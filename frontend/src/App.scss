@@ -10,12 +10,20 @@
   height: 100%;
 }
 
-@media (min-width:480px) { 
+@media (min-width: 480px) {
   .App-header {
     background-color: #fff;
     display: grid;
-    height: 150px;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 69px;
+    height: 80px;
+  }
+
+  .developed-by {
+    height: 69px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
   }
 }

@@ -2,3 +2,5 @@
 /api/Decisions.Api/staticPages
 */node_modules/
 frontend/build
+
+/.idea
