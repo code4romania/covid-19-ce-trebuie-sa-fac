@@ -7,7 +7,7 @@ import {
   FooterLinkItem
 } from "@code4ro/taskforce-fe-components";
 
-const MyFooter = () => {
+const FooterWrapper = () => {
   return (
     <Footer>
       <FooterLinks>
@@ -101,4 +101,4 @@ const MyFooter = () => {
   );
 };
 
-export default MyFooter;
+export default FooterWrapper;
