@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import Footer from "./components/Footer";
+import FooterWrapper from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -42,7 +42,6 @@ function App() {
     <Router>
       <Header Logo={Logo()} MenuItems={MenuItems} />
       <DevelopedBy />
-
       <Switch>
         <Route path="/despre">
           <About />
@@ -57,8 +56,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
-
-      <Footer />
+      <FooterWrapper />
     </Router>
   );
 }
