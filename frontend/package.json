@@ -43,6 +43,7 @@
     ],
     "ignorePatterns": [
       "**/serviceWorker.js",
+      "src/data/**/*.js",
       "node_modules/"
     ]
   },
