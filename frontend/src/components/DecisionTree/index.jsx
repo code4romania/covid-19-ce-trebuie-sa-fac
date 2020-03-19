@@ -119,7 +119,7 @@ function DecisionTree({ data }) {
   );
   return (
     <div>
-      <Hero title={data.title} subtitle={data.content} useFallbackIcon={true} />
+      <Hero title={data.title} subtitle={data.content} />
       {questionView}
       <div className="action-buttons">
         <Button onClick={init}>Reîncepe testul</Button>
