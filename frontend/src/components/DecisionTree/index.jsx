@@ -113,7 +113,7 @@ function DecisionTree({ data }) {
                 key={`answer_${currentNode.node_id}_${answer.option}`}
                 title={answer.value}
                 active={isSelected(answer.option)}
-                onClick={selectAnswer.bind(this, answer.option)}
+                onClick={() => selectAnswer(answer.option)}
               ></ListItem>
             ))
           )}
