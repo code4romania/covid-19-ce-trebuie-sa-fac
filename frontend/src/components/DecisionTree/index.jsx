@@ -105,7 +105,6 @@ function DecisionTree({ data }) {
             <ListItem
               title={currentNode.content}
               active={true}
-              onClick={() => {}}
             ></ListItem>
           ) : (
             currentNode.options.map(answer => (
