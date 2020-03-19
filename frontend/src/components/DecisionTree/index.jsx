@@ -128,7 +128,7 @@ function DecisionTree({ data }) {
       <div className="action-buttons">
         <Button onClick={init}>Reîncepe testul</Button>
         {backwardHistory && backwardHistory.length !== 0 && (
-          <Button onClick={setPreviousNode}>Inapoi</Button>
+          <Button inverted={true} onClick={setPreviousNode}>Inapoi</Button>
         )}
         {currentNode && currentNode.type !== "FINAL" && (
           <Button inverted={true} onClick={setNextNode}>Inainte</Button>
