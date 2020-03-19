@@ -90,7 +90,7 @@ function DecisionTree({ data }) {
   };
 
   const init = () => {
-    setCurrentNode(data.nodes.filter(node => node.node_id === 1)[0]);
+    setCurrentNode(data.nodes.find(node => node.node_id === 1));
     setBackwardHistory([]);
     setCurrentAnswers([]);
     setForwardHistory();
