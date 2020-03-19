@@ -62,10 +62,6 @@ export default [
 `,
     "nodes": null,
     "buttons": [
-      {
-        "title": "Vezi toate legile",
-        "link": "https://test.com"
-      }
     ]
   },
   {
@@ -84,25 +80,25 @@ export default [
           <li><a href="#plan-actiune">Cum să îți creezi un plan de acțiune la tine acasă</a></li>
          </ul>
          
-         <h3 id="cum-se-raspandeste">CUM SE RĂSPÂNDEȘTE</h3>
+         <h3 id="cum-se-raspandeste">Cun se răspândește</h3>
          <p>În acest moment, nu există un vaccin dezvoltat specific pentru a preveni îmbolnăviriea cu COVID-19. Cea mai bună cale de a preveni îmbolnăvirea este de a evita expunerea la acest virus. Se pare că virusul se răspândește, în mod principal, de la persoană la persoană.</p>
-         <p>Contact direct</p>
+         <p><b>Contact direct</b></p>
          <ul>
           <li>între persoane care sunt în contact strâns (strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile).</li>
           <li>prin picăturile produse atunci când o persoană infectată tușește sau strănută. (Aceste picături pot ajunge în gurile sau nasurile persoanelor care se află în apropiere sau pot fi inhalate în plămâni).</li>
          </ul>
          
-         <p>Contact indirect</p>
+         <p><b>Contact indirect</b></p>
          <ul>
           <li>atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces, etc.</li>
           <li>NU folosi aceeași  sticlă/pahar cu alte persoane și nu folosi aceleași tacâmuri.</li>
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
          
-         <p>ATENȚIE</p>
+         <p><b>ATENȚIE</b></p>
          <p>Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
          
-         <h3 id="masuri-protejare">MĂSURI PENTRU A TE PROTEJA</h3>
+         <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
           <li>Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor. Acoperă cu lichidul toată suprafața mâinilor și freacă-ți mâinile până când se simt uscate.</li>
@@ -112,7 +108,7 @@ export default [
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
          
-         <h3 id="masuri-protejare-altii">MĂSURI PENTRU A-I PROTEJA PE CEILALȚI</h3>
+         <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
           <li>Rămâi în casă dacă ai simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sună medicul de familie pentru a solicita sfaturi, <span style="background-color: #ffd738">nu merge din primul moment la unitățile de urgență</span>. (Există riscul, în cazul în care sunteți purtător al virusului, să transmiteți și altor persoane noul coronavirus. Este de preferat să rămâi la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare).</li>
@@ -122,7 +118,7 @@ export default [
           <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tau, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
          </ul>
          
-         <h3 id="curata-si-dezinfecteaza">CURĂȚĂ ȘI DEZINFECTEAZĂ</h3>
+         <h3 id="curata-si-dezinfecteaza">Curăță și dezinfectează</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
           <li>Dacă suprafețele sunt și murdare – folosește detergent sau săpun înainte de dezinfectare.</li>
@@ -141,7 +137,7 @@ export default [
             </ul> 
           </li>
          </ul>
-         Cum să cureți și să dezinfectezi
+         <b>Cum să cureți și să dezinfectezi</b>
          <ul>
           <li>Poartă mănuși de unică folosință atunci când cureți și dezinfectezi suprafețele. Mănușile trebuie aruncate la gunoi după fiecare curățare pe care o efectuezi. Dacă se folosesc mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri.</li>
           <li>Poartă mănuși de unică folosință atunci când manevrezi rufe murdare de la o persoană bolnavă și aruncă-le după fiecare utilizare. Dacă folosești mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri. Spală-ți mâinile imediat după îndepărtarea mănușilor !</li>
@@ -289,7 +285,7 @@ export default [
     ]
   },
   {
-    "title": "Adaptare și rezistență?",
+    "title": "Adaptare și rezistență",
     "doc_type": "STATIC_PAGE",
     "doc_id": 104,
     "active": false,
@@ -372,19 +368,19 @@ export default [
         <p>Este esențial ca părinții și îngrijitorii să dea un exemplu pozitiv, gestionând stresul prin alegeri sănătoase: să mănânce echilibrat, să facă mișcare, să doarmă suficient și să evite consumul de alcool sau de substanțe care pot da dependență. Când ești pregătit, odihnit și relaxat, poți reacționa mai bine la evenimente neașteptate și poți lua cele mai bune decizii pentru familia ta și pentru cei dragi. </p>
         <p>Următoarele sfaturi te pot ajuta să reduci stresul înainte, în timpul și după un dezastru sau eveniment traumatizant.</p>
         
-        <h3>Înainte</h3>
+        <h4>Înainte</h4>
         <ul>
           <li>Discută cu copiii tăi, astfel încât să știe că ești pregătit să le creezi un mediu în care să se simtă în siguranță.</li>
           <li>Revizuieste planurile de siguranță înainte ca dezastrul sau urgența să se întâmple. Când ai un plan, încrederea copiilor crește și îi ajută să le ofere un sentiment de control. </li>
         </ul>
         
-        <h3>În timpul</h3>
+        <h4>În timpul</h4>
         <ul>
           <li>Păstrează-ți calmul și liniștește-i pe cei mici.</li>
           <li>Discută cu copiii despre lucrurile care se întâmplă, într-un mod în care pot înțelege. Încearcă să le explici în termeni simpli, potriviți pentru vârsta lor. </li>
         </ul>
         
-        <h3>După</h3>
+        <h4>După</h4>
         <ul>
           <li>Creează-le copiilor contexte în care să vorbească despre ceea ce tocmai s-a întâmplat și felul în care gândesc. Încurajează-i să îți spună ce îi îngrijorează și pune-le întrebări.</li>
           <li>Poți să-ți ajuți copiii să simtă că sunt în control și că își pot gestiona emoțiile încurajându-i să se implice în activități direct legate de dezastru. De exemplu, copiii pot să se ajute unul pe celălalt după o situație de urgență, prin acțiuni de voluntariat care ajută comunitatea și membrii familiei, într-un cadru care să le ofere siguranță. Copiii NU ar trebui să participe la acțiuni de curățare de după un dezastru, din motive de sănătate și de siguranță. </li>
@@ -557,12 +553,12 @@ export default [
     ]
   },
   {
-    "title": "Echipele de sprijin",
+    "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
     "doc_type": "STATIC_PAGE",
     "doc_id": 105,
     "active": false,
     "display_order": 5,
-    "content": `<p>Pentru echipele de intervenție și cei care oferă ajutor în teren</p>
+    "content": `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Cei care fac parte din forțele de răspuns (instituții și voluntari deopotrivă) în situații de urgență vor fi expusi la stres in perioada urmatoare. Gestionarea stresului și luarea pauzelor vor face intervenția ta mai bună.</p>
         <p>Implicarea ta în gestionarea crizei asociate cu COVID-19 te poate afecta din punct de vedere emoțional. Există acțiuni pe care le poți face pentru a te ajuta să reduci reacțiile de stres traumatic secundar (STS), asociate cu gestionarea evenimentelor de criză.</p>
         <ul>
@@ -593,7 +589,7 @@ export default [
           </li>
          </ul>
          
-         <h4>Semne de Stres Traumatic Secundar</h4>
+         <h4>Semne de Stres Traumatic Secundar (STS)</h4>
          <ul>
           <li>Teama sau frica excesivă că ceva rău se va întâmpla</li>
           <li>Ușor de speriat sau „în gardă” tot timpul</li>
@@ -614,7 +610,7 @@ export default [
           <li><strong>Încearcă să creezi un mediu în echipă,</strong> în care colegul tău să se simtă în siguranță să își exprime nevoile și limitele. Facilitează comunicarea lui cu liderii echipei sau ceilalți colegi. </li>
          </ul>
          
-         <h3>Tehnici de îngrijire personală pentru membrii forțelor de răspuns</h3>
+         <h3>Tehnici de îngrijire personală pentru membrii echipelor de intervenție</h3>
          <ul>
           <li>Limitează-ți orele la muncă la ture care nu depășesc 12 ore.</li>
           <li>Lucrează în echipe și limitează timpul pe care îl petreci lucrând individual.</li>
@@ -637,7 +633,7 @@ export default [
     `
   },
   {
-    "title": "Q&A - întrebări frecvente",
+    "title": "Întrebări frecvente",
     "doc_type": "STATIC_PAGE",
     "doc_id": 106,
     "active": false,
@@ -645,7 +641,7 @@ export default [
     "content": `<p>Întrebări frecvente despre COVID-19</p>`,
     "accordion": [
       {
-        "title": `<h4>Ce este noul coronavirus?<h4>`,
+        "title": `<h4>Ce este noul coronavirus?</h4>`,
         "content": `
             <p>Noul coronavirus care provoacă COVID-19 este o nouă infecție virală din categoria coronavirusurilor, care nu era identificată anterior. Virusul care cauzează infecția cu COVID-19 nu este același cu coronavirusurile care circulă în mod comun în populație (Coronavirusurile comunitare), care cauzează boli ușoare ca răceala.</p>
             <p>Un diagnostic cu coronavirus comunitari (229E, NL63 sau HKU1) nu este același lucru cu un diagnostic cu COVID-19. Pacienții cu COVID-19 vor fi evaluați și tratați diferit decât cei cu coronavirusuri comunitare.</p>
@@ -657,7 +653,7 @@ export default [
             <p>Există mai multe tipuri de coronavirusuri umane, inclusiv unele care cauzează în mod curent infecții ușoare ale tractului respirator superior. COVID-19 e o boală nouă, cauzată de un coronavirus nou, care nu a fost descoperit anterior la oameni. Numele a fost selectat folosind Ghidul OMS (Organizația Mondială a Sănătății) de bune practici pentru numirea noilor boli infecțioase umane.</p>
         `
       },{
-        "title": `<h4>De ce ar dori cineva să dea vina pe/ sau să evite anumiți indivizi și anumite grupuri din cauza epidemiei?<h4>`,
+        "title": `<h4>De ce ar dori cineva să dea vina pe/ sau să evite anumiți indivizi și anumite grupuri din cauza epidemiei?</h4>`,
         "content": `
             <p>Cetățeni din România ar putea fi îngrijorați sau anxioși despre prieteni și rude care locuiesc în, se întorc din, sau vizitează zone afectate puternic de COVID-19. Unii oameni sunt îngrijorați de răspândirea bolii. Frica și anxietatea pot duce la stigmă socială, de exemplu față de persoane din China sau Italia sau față de persoane care au fost în carantină sau izolare.</p>
             <p>Stigmatizarea e discriminarea unui grup de oameni, un loc sau o națiune. Stigma e asociată cu o lipsă de cunoștințe despre COVID-19 și felurile în care se răspândește, cu o nevoie de a găsi pe cineva vinovat, cu frica de îmbolnăvire și moarte sau cu știri false care împrăștie mituri și zvonuri.</p>
@@ -680,7 +676,7 @@ export default [
             <p>Coronavirusurile sunt o familie virală numeroasă. Unele pot cauza boli la om pe când altele, precum coronavirusurile canine sau feline infectează doar animalele. Rareori unele coronavirusuri care infectează animalele au făcut tranziția la om, putând fi transmise de către acesta. Asta se suspectează că s-a întâmplat în cazul virusului care cauzează COVID-19. Sindromul Respirator din Orientul Mijlociu (MERS) și Sindromul Respirator Sever Acut (SARS) sunt alte două exemple de coronavirusuri care au trecut de la animal la om.</p>
         `
       },{
-        "title": `<h4>Cum se răspândește virusul?<h4>`,
+        "title": `<h4>Cum se răspândește virusul?</h4>`,
         "content": `
             <p>Virusul a fost detectat pentru prima dată în orașul Wuhan, provincia Hubei, China. Primele infecții au fost conectate, în urma anchetei epidemiologice, de o piață de animale vii. Însă acum virusul se răspândește de la om la om. E important să ținem cont de faptul că răspândirea de la om la om poate continua fără gazde animale.</p>
             <p>Unele virusuri sunt extrem de contagioase (precum pojarul) iar altele mai puțin.Virusul care cauzează COVID-19 pare să fie unul care se răspândește ușor și în mod susținut în comunități (“răspândire comunitară”) în unele zone geografice afectate. Răspândirea comunitară înseamnă că populația dintr-o zona a fost infectată cu virusul, inclusiv un număr de persoane despre care nu se știe unde au contactat boala (nu se cunoaște originea bolii).</p>
@@ -702,7 +698,7 @@ export default [
             <p>Se crede că persoanele sunt contagioase mai ales atunci când sunt simptomatice (vizibil bolnave). Este însă posibil ca unele persoane să răspândească virusul înainte sau fără să manifeste simptome; există cazuri în care se pare că acest lucru s-a întâmplat cu noul coronavirus dar aceasta nu pare să fie principala modalitate de răspândire.</p>
         `
       },{
-        "title": `<h4>Pot lua virusul de la o suprafață sau un obiect contaminat?</h4>`,
+        "title": `<h4>Pot lua virusul de pe o suprafață sau un obiect contaminat?</h4>`,
         "content": `
             <p>Este posibil ca o persoană să se îmbolnăvească de COVID-19 prin atingerea unei suprafețe sau al unui obiect care are virusul pe el, apoi atingându-și gura, nasul sau ochii, dar aceasta nu pare să fie principala modalitate de răspândire.</p>
         `
