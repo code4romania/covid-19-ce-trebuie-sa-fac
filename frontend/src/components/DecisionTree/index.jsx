@@ -11,7 +11,7 @@ import {
 
 function DecisionTree({ data }) {
   const [currentNode, setCurrentNode] = useState(
-    data.nodes.filter(node => node.node_id === 1)[0]
+    data.nodes.find(node => node.node_id === 1)
   );
   const [backwardHistory, setBackwardHistory] = useState([]);
   const [forwardHistory, setForwardHistory] = useState([]);
