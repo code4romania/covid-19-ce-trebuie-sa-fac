@@ -45,17 +45,7 @@
   padding: 10px 0;
   display: flex;
 
-  button {
+  * {
     margin-right: 16px;
-    height: 40px;
-
-    padding: 0 20px;
-    outline: none;
-    font-size: 14px;
-    background: #FFFFFF;
-    color: #1C1080;
-    border: 1px solid #1C1080;
-    box-sizing: border-box;
-    border-radius: 3px;
   }
 }

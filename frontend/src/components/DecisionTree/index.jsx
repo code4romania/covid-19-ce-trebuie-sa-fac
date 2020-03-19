@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Check from "../../images/check.svg";
 import "./DecisionTree.scss";
+import {
+  Button,
+  ListHeader,
+  List,
+  ListItem,
+  Hero
+} from "@code4ro/taskforce-fe-components";
 
 export default class DecisionTree extends Component {
   propTypes = {
@@ -43,7 +49,7 @@ export default class DecisionTree extends Component {
       nextState = forwardHistory.shift();
     } else {
       const currentOption = currentNode.answers.find(node =>
-        this.isNextNode(node.option, currentAnswers)
+        this.isNextNode(node.options, currentAnswers)
       );
       if (!currentOption) return;
       const nextNode = data.nodes.find(
@@ -74,9 +80,9 @@ export default class DecisionTree extends Component {
   selectAnswer(answer) {
     const { currentNode, currentAnswers } = this.state;
     let res = [];
-    if (currentNode.type === "single_choice") {
+    if (currentNode.type === "SINGLE_CHOICE") {
       res = [answer];
-    } else if (currentNode.type === "multiple_choice") {
+    } else if (currentNode.type === "MULTIPLE_CHOICE") {
       if (currentAnswers.includes(answer)) {
         // Remove item if it is already selected
         res = currentAnswers.filter(canswer => canswer !== answer);
@@ -86,7 +92,8 @@ export default class DecisionTree extends Component {
     }
 
     this.setState({
-      currentAnswers: res
+      currentAnswers: res,
+      forwardHistory: []
     });
   }
 
@@ -107,38 +114,44 @@ export default class DecisionTree extends Component {
   render() {
     const { data } = this.props;
     const { currentNode, backwardHistory } = this.state;
+
     const questionView = !currentNode ? null : (
       <div className="question-content">
-        <div className="question">{currentNode.title}</div>
+        <ListHeader title={currentNode.title} />
         <div className="options">
-          {currentNode.options.map(answer => (
-            <div
-              className={`option ${
-                this.isSelected(answer.option) ? "selected" : ""
-              }`}
-              key={`answer_${answer.option}`}
-              onClick={this.selectAnswer.bind(this, answer.option)}
-            >
-              <div className="answer-check">
-                <img src={Check} alt="check"></img>
-              </div>
-              <div className="answer-text">{answer.value}</div>
-            </div>
-          ))}
+          <List>
+            {currentNode.type === "FINAL" ? (
+              <ListItem title={currentNode.content} active={true}></ListItem>
+            ) : (
+              currentNode.options.map(answer => (
+                <ListItem
+                  key={`answer_${currentNode.node_id}_${answer.option}`}
+                  title={answer.value}
+                  active={this.isSelected(answer.option)}
+                  onClick={this.selectAnswer.bind(this, answer.option)}
+                ></ListItem>
+              ))
+            )}
+          </List>
         </div>
       </div>
     );
     return (
       <div>
-        <h2>{data.title}</h2>
-        <p>{data.content}</p>
+        <Hero
+          title={data.title}
+          subtitle={data.content}
+          useFallbackIcon={true}
+        />
         {questionView}
         <div className="action-buttons">
-          <button onClick={this.init}>Reîncepe testul</button>
-          {!backwardHistory || !backwardHistory.length ? null : (
-            <button onClick={this.setPreviousNode}>Inapoi</button>
+          <Button onClick={this.init}>Reîncepe testul</Button>
+          {backwardHistory && backwardHistory.length !== 0 && (
+            <Button onClick={this.setPreviousNode}>Inapoi</Button>
           )}
-          <button onClick={this.setNextNode}>Inainte</button>
+          {currentNode && currentNode.type !== "FINAL" && (
+            <Button onClick={this.setNextNode}>Inainte</Button>
+          )}
         </div>
       </div>
     );
