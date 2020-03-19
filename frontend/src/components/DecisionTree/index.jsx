@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./DecisionTree.scss";
 import {
@@ -9,19 +9,15 @@ import {
   Hero
 } from "@code4ro/taskforce-fe-components";
 
-export default class DecisionTree extends Component {
-  propTypes = {
-    data: PropTypes.any
-  };
+function DecisionTree({ data }) {
+  const [currentNode, setCurrentNode] = useState(
+    data.nodes.filter(node => node.node_id === 1)[0]
+  );
+  const [backwardHistory, setBackwardHistory] = useState([]);
+  const [forwardHistory, setForwardHistory] = useState([]);
+  const [currentAnswers, setCurrentAnswers] = useState([]);
 
-  state = {
-    currentNode: null,
-    backwardHistory: [],
-    forwardHistory: [],
-    currentAnswers: []
-  };
-
-  isNextNode(a, b) {
+  const isNextNode = (a, b) => {
     let found = true;
     if (a.length !== b.length) return false;
     for (let i of a) {
@@ -29,27 +25,19 @@ export default class DecisionTree extends Component {
       if (!found) break;
     }
     return found;
-  }
+  };
 
-  isSelected = answer => {
-    const { currentAnswers } = this.state;
+  const isSelected = answer => {
     return currentAnswers.includes(answer);
   };
 
-  setNextNode = () => {
-    const { data } = this.props;
-    const {
-      currentNode,
-      currentAnswers,
-      backwardHistory,
-      forwardHistory
-    } = this.state;
+  const setNextNode = () => {
     let nextState = null;
     if (forwardHistory.length > 0) {
       nextState = forwardHistory.shift();
     } else {
       const currentOption = currentNode.answers.find(node =>
-        this.isNextNode(node.options, currentAnswers)
+        isNextNode(node.options, currentAnswers)
       );
       if (!currentOption) return;
       const nextNode = data.nodes.find(
@@ -58,27 +46,33 @@ export default class DecisionTree extends Component {
       if (!nextNode) return;
       nextState = {
         currentNode: nextNode,
-        currentAnswers: []
+        currentAnswers: [],
+        forwardHistory: []
       };
     }
 
-    this.setState({
-      ...nextState,
-      backwardHistory: [...backwardHistory, { ...this.state }]
-    });
+    setCurrentNode(nextState.currentNode);
+    setCurrentAnswers(nextState.currentAnswers);
+    setForwardHistory(nextState.forwardHistory);
+    setBackwardHistory([
+      ...backwardHistory,
+      { currentNode, currentAnswers, forwardHistory, backwardHistory }
+    ]);
   };
 
-  setPreviousNode = () => {
-    const { backwardHistory, forwardHistory } = this.state;
+  const setPreviousNode = () => {
     const previousNode = backwardHistory.pop();
-    this.setState({
-      ...previousNode,
-      forwardHistory: [{ ...this.state }, ...forwardHistory]
-    });
+
+    setCurrentNode(previousNode.currentNode);
+    setBackwardHistory(previousNode.backwardHistory);
+    setCurrentAnswers(previousNode.currentAnswers);
+    setForwardHistory([
+      { currentNode, backwardHistory, currentAnswers, forwardHistory },
+      ...forwardHistory
+    ]);
   };
 
-  selectAnswer(answer) {
-    const { currentNode, currentAnswers } = this.state;
+  const selectAnswer = answer => {
     let res = [];
     if (currentNode.type === "SINGLE_CHOICE") {
       res = [answer];
@@ -91,69 +85,84 @@ export default class DecisionTree extends Component {
       }
     }
 
-    this.setState({
-      currentAnswers: res,
-      forwardHistory: []
-    });
-  }
-
-  init = () => {
-    const { data } = this.props;
-    this.setState({
-      currentNode: data.nodes.filter(node => node.node_id === 1)[0],
-      backwardHistory: [],
-      forwardHistory: [],
-      currentAnswers: []
-    });
+    setCurrentAnswers(res);
+    setForwardHistory([]);
   };
 
-  componentDidMount() {
-    this.init();
-  }
+  const init = () => {
+    setCurrentNode(data.nodes.filter(node => node.node_id === 1)[0]);
+    setBackwardHistory([]);
+    setCurrentAnswers([]);
+    setForwardHistory();
+  };
 
-  render() {
-    const { data } = this.props;
-    const { currentNode, backwardHistory } = this.state;
-
-    const questionView = !currentNode ? null : (
-      <div className="question-content">
-        <ListHeader title={currentNode.title} />
-        <div className="options">
-          <List>
-            {currentNode.type === "FINAL" ? (
-              <ListItem title={currentNode.content} active={true}></ListItem>
-            ) : (
-              currentNode.options.map(answer => (
-                <ListItem
-                  key={`answer_${currentNode.node_id}_${answer.option}`}
-                  title={answer.value}
-                  active={this.isSelected(answer.option)}
-                  onClick={this.selectAnswer.bind(this, answer.option)}
-                ></ListItem>
-              ))
-            )}
-          </List>
-        </div>
-      </div>
-    );
-    return (
-      <div>
-        <Hero
-          title={data.title}
-          subtitle={data.content}
-          useFallbackIcon={true}
-        />
-        {questionView}
-        <div className="action-buttons">
-          <Button onClick={this.init}>Reîncepe testul</Button>
-          {backwardHistory && backwardHistory.length !== 0 && (
-            <Button onClick={this.setPreviousNode}>Inapoi</Button>
+  const questionView = !currentNode ? null : (
+    <div className="question-content">
+      <ListHeader title={currentNode.title} />
+      <div className="options">
+        <List>
+          {currentNode.type === "FINAL" ? (
+            <ListItem
+              title={currentNode.content}
+              active={true}
+              onClick={() => {}}
+            ></ListItem>
+          ) : (
+            currentNode.options.map(answer => (
+              <ListItem
+                key={`answer_${currentNode.node_id}_${answer.option}`}
+                title={answer.value}
+                active={isSelected(answer.option)}
+                onClick={selectAnswer.bind(this, answer.option)}
+              ></ListItem>
+            ))
           )}
-          {currentNode && currentNode.type !== "FINAL" && (
-            <Button onClick={this.setNextNode}>Inainte</Button>
-          )}
-        </div>
+        </List>
       </div>
-    );
-  }
+    </div>
+  );
+  return (
+    <div>
+      <Hero title={data.title} subtitle={data.content} useFallbackIcon={true} />
+      {questionView}
+      <div className="action-buttons">
+        <Button onClick={init}>Reîncepe testul</Button>
+        {backwardHistory && backwardHistory.length !== 0 && (
+          <Button onClick={setPreviousNode}>Inapoi</Button>
+        )}
+        {currentNode && currentNode.type !== "FINAL" && (
+          <Button onClick={setNextNode}>Inainte</Button>
+        )}
+      </div>
+    </div>
+  );
 }
+
+DecisionTree.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string,
+    nodes: PropTypes.arrayOf(
+      PropTypes.shape({
+        node_id: PropTypes.number.isRequired,
+        title: PropTypes.string.isRequired,
+        type: PropTypes.oneOf(["FINAL", "SINGLE_CHOICE", "MULTIPLE_CHOICE"]),
+        content: PropTypes.string,
+        options: PropTypes.arrayOf(
+          PropTypes.shape({
+            option: PropTypes.number.isRequired,
+            value: PropTypes.string.isRequired
+          })
+        ),
+        answers: PropTypes.arrayOf(
+          PropTypes.shape({
+            options: PropTypes.arrayOf(PropTypes.number).isRequired,
+            result: PropTypes.number.isRequired
+          })
+        )
+      })
+    )
+  })
+};
+
+export default DecisionTree;
