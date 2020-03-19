@@ -102,10 +102,7 @@ function DecisionTree({ data }) {
       <div>
         <List>
           {currentNode.type === "FINAL" ? (
-            <ListItem
-              title={currentNode.content}
-              active={true}
-            ></ListItem>
+            <ListItem title={currentNode.content} active={true}></ListItem>
           ) : (
             currentNode.options.map(answer => (
               <ListItem
