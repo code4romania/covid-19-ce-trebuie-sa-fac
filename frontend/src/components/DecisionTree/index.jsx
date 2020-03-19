@@ -131,7 +131,7 @@ function DecisionTree({ data }) {
           <Button onClick={setPreviousNode}>Inapoi</Button>
         )}
         {currentNode && currentNode.type !== "FINAL" && (
-          <Button onClick={setNextNode}>Inainte</Button>
+          <Button inverted={true} onClick={setNextNode}>Inainte</Button>
         )}
       </div>
     </div>
