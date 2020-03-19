@@ -97,9 +97,9 @@ function DecisionTree({ data }) {
   };
 
   const questionView = !currentNode ? null : (
-    <div className="question-content">
+    <div>
       <ListHeader title={currentNode.title} />
-      <div className="options">
+      <div>
         <List>
           {currentNode.type === "FINAL" ? (
             <ListItem
@@ -128,10 +128,14 @@ function DecisionTree({ data }) {
       <div className="action-buttons">
         <Button onClick={init}>Reîncepe testul</Button>
         {backwardHistory && backwardHistory.length !== 0 && (
-          <Button inverted={true} onClick={setPreviousNode}>Inapoi</Button>
+          <Button inverted={true} onClick={setPreviousNode}>
+            Inapoi
+          </Button>
         )}
         {currentNode && currentNode.type !== "FINAL" && (
-          <Button inverted={true} onClick={setNextNode}>Inainte</Button>
+          <Button inverted={true} onClick={setNextNode}>
+            Inainte
+          </Button>
         )}
       </div>
     </div>
