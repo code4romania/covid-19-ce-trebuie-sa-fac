@@ -1,6 +1,6 @@
-import React from "react";
-import DecisionTree from "./DecisionTree";
-import Data from "./mock.json";
+import React, { useState } from "react";
+import ContentPage from "../ContentPage";
+import data from "../../data/static-pages";
 import {
   Hero,
   Instruments,
@@ -11,41 +11,41 @@ import {
 } from "@code4ro/taskforce-fe-components";
 
 const Home = () => {
+  const [selectedPage, setSelectedPage] = useState(null);
+
+  const onItemClick = document => {
+    setSelectedPage(document);
+  };
+
   return (
     <>
       <div className="container">
         <Hero
-          title={"Toate informatiile de care ai nevoie"}
+          title={"Toate informațiile de care ai nevoie"}
           useFallbackIcon={true}
           subtitle={
-            "Răspunde la următoarele întrebări pentru a te putea ghida către informațiile oficiale și sigure și pentru a fi la curent cu situația actuală"
+            "Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este un ghid cu reguli de interacțiune, acțiune și comportament recomandate în timpul situației de urgență generată de pandemia COVID-19. Vrem să aducem mai aproape de voi regulile de bază recomandate de autorități de la care este indicat să nu ne abatem în această perioadă."
           }
         />
       </div>
       <div className="container">
         <List columns={3}>
-          <ListItem title={"Simptome și tratament"} onClick={() => {}} />
-          <ListItem
-            title={"Bune practici dacă ești în auto-izolare"}
-            onClick={() => {}}
-          />
-          <ListItem
-            title={"Informații pentru românii din diaspora"}
-            onClick={() => {}}
-          />
-          <ListItem
-            title={"Date statistice despre coronavirus"}
-            onClick={() => {}}
-          />
-          <ListItem title={"Ce spune legea"} onClick={() => {}} />
-          <ListItem title={"Servicii disponibile gratuit"} onClick={() => {}} />
+          {data.map(doc => (
+            <ListItem
+              key={doc.doc_id}
+              active={selectedPage && selectedPage.doc_id === doc.doc_id}
+              title={doc.title}
+              onClick={onItemClick}
+              value={doc}
+            />
+          ))}
         </List>
       </div>
 
       <div className="container">
         <div className="columns">
           <div className="column is-8">
-            <DecisionTree data={Data}></DecisionTree>
+            {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
           <div className="column is-4">
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />

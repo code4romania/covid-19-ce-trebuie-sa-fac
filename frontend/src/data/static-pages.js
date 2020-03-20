@@ -5,6 +5,7 @@ export default [
     "doc_id": 101,
     "active": true,
     "display_order": 1,
+    "firstNodeId": null,
     "content": `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
 
     <h3>Cum se transmite COVID-19</h3>
@@ -60,9 +61,8 @@ export default [
 
     <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
 `,
-    "nodes": null,
-    "buttons": [
-    ]
+    "form": null,
+    "buttons": null
   },
   {
     "title": "Cum ne protejăm?",
@@ -79,7 +79,7 @@ export default [
           <li><a href="#curata-si-dezinfecteaza">Cum să cureți și să dezinfectezi</a></li>
           <li><a href="#plan-actiune">Cum să îți creezi un plan de acțiune la tine acasă</a></li>
          </ul>
-         
+
          <h3 id="cum-se-raspandeste">Cun se răspândește</h3>
          <p>În acest moment, nu există un vaccin dezvoltat specific pentru a preveni îmbolnăviriea cu COVID-19. Cea mai bună cale de a preveni îmbolnăvirea este de a evita expunerea la acest virus. Se pare că virusul se răspândește, în mod principal, de la persoană la persoană.</p>
          <p><b>Contact direct</b></p>
@@ -87,17 +87,17 @@ export default [
           <li>între persoane care sunt în contact strâns (strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile).</li>
           <li>prin picăturile produse atunci când o persoană infectată tușește sau strănută. (Aceste picături pot ajunge în gurile sau nasurile persoanelor care se află în apropiere sau pot fi inhalate în plămâni).</li>
          </ul>
-         
+
          <p><b>Contact indirect</b></p>
          <ul>
           <li>atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces, etc.</li>
           <li>NU folosi aceeași  sticlă/pahar cu alte persoane și nu folosi aceleași tacâmuri.</li>
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
-         
+
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;"><b>ATENȚIE</b></p>
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-         
+
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -107,7 +107,7 @@ export default [
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
-         
+
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
@@ -117,7 +117,7 @@ export default [
           <li>Dacă ești bolnav – trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești. </li>
           <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
          </ul>
-         
+
          <h3 id="curata-si-dezinfecteaza">Curăță și dezinfectează</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
@@ -129,12 +129,12 @@ export default [
             <ul>
               <li>Pentru a face o soluție de înălbitor (clor), amestecă 5 linguri (80 ml) la 3,8 litri de apă sau 4 <strong>lingurițe</strong> la un litru de apă.</li>
               <li>Urmează instrucțiunile producătorului pentru aplicare și pentru ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
-            </ul>   
+            </ul>
           </li>
           <li>Soluții alcoolice.
            <ul>
               <li>Asigură-te că soluția de dezinfectat are cel puțin 70% alcool.</li>
-            </ul> 
+            </ul>
           </li>
          </ul>
          <b>Cum să cureți și să dezinfectezi</b>
@@ -150,12 +150,12 @@ export default [
               <li>Înainte de a mânca sau pregăti mâncarea.</li>
               <li>După contactul cu animale domestice sau animale de companie.</li>
               <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
-            </ul> 
+            </ul>
           </li>
           <li>Pe cât posibil, persoana bolnavă trebuie să mănânce / să fie hrănită în propria cameră. Articolele non-alimentare folosite în acest proces și care nu sunt de unică folosință trebuie manipulate cu mănuși și spălate cu apă caldă sau într-o mașină de spălat vase. Curăță-ți mâinile după manipularea acestor instrumente.</li>
           <li>Dacă este posibil, căptușește și dedică un coș de gunoi persoanei bolnave. Folosește mănuși atunci când arunci sacii de gunoi la tomberon. Spală-ți mâinile după manipularea sau aruncarea gunoiului.</li>
          </ul>
-         
+
          <h3 id="plan-actiune">Creează un plan de acțiune la tine acasă</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
@@ -167,7 +167,10 @@ export default [
          <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
-    `
+    `,
+    "firstNodeId": null,
+    "form": null,
+    "buttons": null
   },
   {
     "title": "Ai simptome?",
@@ -175,114 +178,252 @@ export default [
     "doc_id": 103,
     "active": false,
     "display_order": 3,
-    "content": `
-    `,
-    "buttons": null,
-    "nodes": [
+    "content": ``,
+    "firstNodeId": 0,
+    "form": [
       {
-        "node_id": 1,
-        "title": "Ai călătorit recent în afara țării?",
+        "questionId": 1,
+        "questionText": "Ai peste 60 de ani?",
         "type": "SINGLE_CHOICE",
-        "content": null,
         "options": [
           {
-            "option": 1,
-            "value": "da"
+            "label": "Da",
+            "value": 1
           },
           {
-            "option": 2,
-            "value": "nu"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 2
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
+            "label": "Nu",
+            "value": 0
           }
         ]
       },
       {
-        "node_id": 2,
-        "title": "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
-        "type": "MULTIPLE_CHOICE",
-        "content": null,
+        "questionId": 2,
+        "questionText": "Care este sexul tău?",
+        "type": "SINGLE_CHOICE",
         "options": [
           {
-            "option": 1,
-            "value": "temperatură ridicată"
+            "label": "Masculin",
+            "value": 1
           },
           {
-            "option": 2,
-            "value": "tuse seacă"
-          },
-          {
-            "option": 3,
-            "value": "dificultate în respirație"
-          },
-          {
-            "option": 4,
-            "value": "mucozități nazale excesive"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              3
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              4
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              1,
-              2
-            ],
-            "result": 4
+            "label": "Feminin",
+            "value": 2
           }
         ]
       },
       {
-        "node_id": 3,
-        "title": "Conform cu răspunsurile tale, iată ce recomandăm:",
-        "type": "FINAL",
-        "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
+        "questionId": 3,
+        "questionText": "Ești fumător/fumătoare? (inclusiv țigări electronice)",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
       },
       {
-        "node_id": 4,
-        "title": "Sună la 00000 pentru a cere testarea",
+        "questionId": 4,
+        "questionText": "Ti-a spus vreun medic că ai o boală de inimă? (boală cardiovasculară inclusiv hipertensiune)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "questionText": "Ti-a spus vreun medic că ai diabet?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "questionText": "Ti-a spus vreun medic că ai o boală a plămânilor? (pulmonară)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "questionText": "Ti-a spus vreun medic că ai cancer (boală oncologică)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "questionText": "Ti-a spus vreun medic că ai altă boală cronică?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "questionText": "Ai avut in ultimele 14 zile febra 38 grade celsius sau mai mare?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "questionText": "Ai avut in ultimele 14 zile durere în gât și/sau dificultate în a înghiți?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "questionText": "Ai avut in ultimele 14 zile tuse intensă?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "questionText": "Ai avut in ultimele 14 zile dificultate în a respira?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "questionText": "Ți-a curs nasul in ultimele 14 zile?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "questionText": "Ai călătorit în/prin zone în care au existat cazuri de noul coronavirus?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 16,
+        "questionText": "Ai fost în contact direct cu o persoană diagnosticată/ confirmată cu noul coronavirus?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 17,
+        "questionText": "Ce ai de făcut",
         "type": "FINAL",
-        "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
+        "options": [
+          {
+            "label": "Simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
+              "Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+          },
+          {
+            "label": "Unul dintre simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+          },
+          {
+            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. ",
+          }
+        ]
       }
-    ]
+    ],
   },
   {
     "title": "Adaptare și rezistență",
@@ -300,7 +441,7 @@ export default [
         </ul>
         <p>Adaptarea la stres te face mai puternic pe tine, pe cei dragi și pe cei aparținând comunității tale. </p>
         <p>Fiecare răspunde diferit la situații de stres. Felul în care reacționezi în fața acestei epidemii poate depinde de experiențele anterioare, de lucrurile care te fac diferit de ceilalți și de comunitatea în care trăiești.  </p>
-        
+
         <h3>Persoanele care pot avea reacții mai puternice la stres, în situații de criză, sunt:</h3>
          <ul>
           <li>Persoanele în vârstă și cele cu boli cronice, care prezintă un risc mai ridicat la îmbolnăvirea cu COVID-19</li>
@@ -309,7 +450,7 @@ export default [
           <li>Persoanele care suferă de o afecțiune mintală, inclusiv cele care au probleme legate de abuzul de substanțe cu risc de dependență</li>
         </ul>
         <p>Dacă emoții precum tristețea, depresia sau anxietatea te afectează pe tine sau pe cineva la care ții, sau dacă simți că vrei să îți induci suferință, sună la </p>
-        
+
         <h3>Stresul în timpul unei epidemii infecțioase poate include: </h3>
          <ul>
           <li>Frică și îngrijorare legate de propria sănătate și de sănătatea celor dragi</li>
@@ -320,7 +461,7 @@ export default [
         </ul>
         <p>Persoanele cu afecțiuni legate de sănătatea mentală ar trebui să își continue tratamentul și să conștientizeze apariția unor simptome noi sau agravante. </p>
         <p>Acțiunile prin care îți manifești grija față de tine, prieteni și familie te pot ajuta să gestionezi stresul. Ajutându-i pe ceilalți să se adapteze condițiilor de stres poate duce la o comunitate mai puternică.</p>
-        
+
         <h2 id="ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine:</h2>
         <ul>
           <li>Să iei pauze de la a urmări, citi sau asculta știri, inclusiv cele apărute în social media. Expunerea repetată la tema pandemiei poate deveni deranjantă.</li>
@@ -329,11 +470,11 @@ export default [
           <li>Ia legătura cu ceilalți. Vorbește despre grijile tale sau despre felul în care te simți cu oamenii în care ai încredere.</li>
         </ul>
         <p>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</p>
-        
+
         <h3>Redu stresul la care te expui și la care se expun ceilalți</h3>
         <p>Când împărtășești informații <a href="https://www.stirioficiale.ro"> despre COVID-19 </a> și înțelegi riscul implicat pentru tine și pentru cei dragi, poți face ca epidemia să fie mai puțin stresantă.</p>
         <p>Atunci când transmiți informații verificate despre COVID-19, îi poți face pe ceilalți să se simtă mai puțin stresați și creezi o ocazie de a te conecta cu ei. </p>
-        
+
         <h3>Pentru părinți </h3>
         <p>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
@@ -358,38 +499,38 @@ export default [
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
         <p>Învață mai multe despre cum îi poți ajuta pe copii să gestioneze situația.</p>
-        
+
         <h2 id="ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</h2>
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Oamenii pot trece prin situații de stres dacă sunt expuși la imagini repetate ale unui dezastru discutat în mass media. În fazele incipiente, gândește-te la limitarea perioadei în care tu și cei dragi vă expuneți acestor mediatizări.</p>
-        
+
         <h3>Ce poți face pentru a-i ajuta pe copii să gestioneze o situație de urgență</h3>
         <p>Este esențial ca părinții și îngrijitorii să dea un exemplu pozitiv, gestionând stresul prin alegeri sănătoase: să mănânce echilibrat, să facă mișcare, să doarmă suficient și să evite consumul de alcool sau de substanțe care pot da dependență. Când ești pregătit, odihnit și relaxat, poți reacționa mai bine la evenimente neașteptate și poți lua cele mai bune decizii pentru familia ta și pentru cei dragi. </p>
         <p>Următoarele sfaturi te pot ajuta să reduci stresul înainte, în timpul și după un dezastru sau eveniment traumatizant.</p>
-        
+
         <h4>Înainte</h4>
         <ul>
           <li>Discută cu copiii tăi, astfel încât să știe că ești pregătit să le creezi un mediu în care să se simtă în siguranță.</li>
           <li>Revizuiește planurile de siguranță înainte ca dezastrul sau urgența să se întâmple. Când ai un plan, încrederea copiilor crește și îi ajută să le ofere un sentiment de control. </li>
         </ul>
-        
+
         <h4>În timpul</h4>
         <ul>
           <li>Păstrează-ți calmul și liniștește-i pe cei mici.</li>
           <li>Discută cu copiii despre lucrurile care se întâmplă, într-un mod în care pot înțelege. Încearcă să le explici în termeni simpli, potriviți pentru vârsta lor. </li>
         </ul>
-        
+
         <h4>După</h4>
         <ul>
           <li>Creează-le copiilor contexte în care să vorbească despre ceea ce tocmai s-a întâmplat și felul în care gândesc. Încurajează-i să îți spună ce îi îngrijorează și pune-le întrebări.</li>
           <li>Poți să-ți ajuți copiii să simtă că sunt în control și că își pot gestiona emoțiile încurajându-i să se implice în activități direct legate de dezastru. De exemplu, copiii pot să se ajute unul pe celălalt după o situație de urgență, prin acțiuni de voluntariat care ajută comunitatea și membrii familiei, într-un cadru care să le ofere siguranță. Copiii NU ar trebui să participe la acțiuni de curățare de după un dezastru, din motive de sănătate și de siguranță. </li>
           <li>Este dificil să prezici modul în care unii copiii vor reacționa la dezastre sau la evenimente traumatizante. Pentru că părinții, profesorii și alți adulți cunosc comportamentul copilului în diferite situații, e important ca aceștia să lucreze împreună și să împărtășească informații despre cum reușește fiecare copil să depășească un eveniment traumatizant. </li>
         </ul>
-        
+
         <h3>Reacții obișnuite</h3>
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
-        
+
         <h4>Pentru bebeluși și copii de până la 2 ani</h4>
         <p>Bebelușii pot deveni mai irascibili. S-ar putea să plângă mai des ca în mod obișnuit sau să vrea să fie ținuți în brațe mai mult. </p>
          <h4>Pentru copii cu vârste cuprinse între 3 și 6 ani</h4>
@@ -411,7 +552,7 @@ export default [
           <li>Alte schimbări emoționale sau legate de sănătatea mintală</li>
         </ul>
         <p>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</p>
-        
+
         <h2 id="stigmata">Diminuarea stigmatului</h2>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
@@ -446,111 +587,8 @@ export default [
         </ul>
     `,
     "buttons": null,
-    "nodes": [
-      {
-        "node_id": 1,
-        "title": "Ai călătorit recent în afara țării?",
-        "type": "SINGLE_CHOICE",
-        "content": null,
-        "options": [
-          {
-            "option": 1,
-            "value": "da"
-          },
-          {
-            "option": 2,
-            "value": "nu"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 2
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          }
-        ]
-      },
-      {
-        "node_id": 2,
-        "title": "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
-        "type": "MULTIPLE_CHOICE",
-        "content": null,
-        "options": [
-          {
-            "option": 1,
-            "value": "temperatură ridicată"
-          },
-          {
-            "option": 2,
-            "value": "tuse seacă"
-          },
-          {
-            "option": 3,
-            "value": "dificultate în respirație"
-          },
-          {
-            "option": 4,
-            "value": "mucozități nazale excesive"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              3
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              4
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              1,
-              2
-            ],
-            "result": 4
-          }
-        ]
-      },
-      {
-        "node_id": 3,
-        "title": "Conform cu răspunsurile tale, iată ce recomandăm:",
-        "type": "FINAL",
-        "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
-      },
-      {
-        "node_id": 4,
-        "title": "Sună la 00000 pentru a cere testarea",
-        "type": "FINAL",
-        "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
-      }
-    ]
+    "firstNodeId": 0,
+    "form": null
   },
   {
     "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
@@ -569,7 +607,7 @@ export default [
           <li>Ia o pauză de la știrile sau relatările legate de COVID-19</li>
           <li>Cere ajutor dacă te simți copleșit sau îngrijorat de faptul că COVID-19 îți afectează capacitatea de a avea grijă de familia și pacienții tăi, așa cum o făceai înainte de răspândirea virusului.</li>
          </ul>
-         
+
          <h4>Semne că suferi de epuizare profesională (Burnout):</h4>
          <ul>
           <li>Tristețe, depresie sau apatie </li>
@@ -588,7 +626,7 @@ export default [
             </ul>
           </li>
          </ul>
-         
+
          <h4>Semne de Stres Traumatic Secundar (STS)</h4>
          <ul>
           <li>Teama sau frica excesivă că ceva rău se va întâmpla</li>
@@ -598,7 +636,7 @@ export default [
           <li>Sentimentul că traumele celorlalți sunt ale tale</li>
          </ul>
          <p>Limitează timpul pe care îl petreci lucrând singur și încearcă să te implici mai mult, fie și în mediul online în activități de echipă, atunci când este posibil. </p>
-         
+
          <h3>Obține sprijin din partea membrilor echipei: dezvoltă un sistem de tip „buddy system/camarad”</h3>
          <p>Într-un sistem de tip „buddy system/camarad”, doi membri ai forțelor de răspuns formează o echipă pentru a se sprijini reciproc, pentru a-și monitoriza unul altuia nivelul de stres și de siguranță, cât și volumul de muncă.</p>
          <ul>
@@ -609,7 +647,7 @@ export default [
           <li><strong>Monitorizați-vă reciproc sarcinile de lucru</strong> Încurajați-vă unul pe celălalt să luați pauze. Discutați despre moduri prin care puteți reduce  stresul (odihnă, rutina de somn, experciții fizice și respirații profunde). </li>
           <li><strong>Încearcă să creezi un mediu în echipă,</strong> în care colegul tău să se simtă în siguranță să își exprime nevoile și limitele. Facilitează comunicarea lui cu liderii echipei sau ceilalți colegi. </li>
          </ul>
-         
+
          <h3>Tehnici de îngrijire personală pentru membrii echipelor de intervenție</h3>
          <ul>
           <li>Limitează-ți orele la muncă la ture care nu depășesc 12 ore.</li>
@@ -621,7 +659,7 @@ export default [
           <li>Acceptă că este perfect normal să-ți setezi limite și să spui „nu”.</li>
           <li>Evită sau limitează pe cât posibil cofeina și consumul de alcool.</li>
          </ul>
-         
+
          <h3>Este important să îți reamintești:</h3>
          <ul>
           <li>Nu ești egoist dacă iei pauze.</li>
@@ -630,7 +668,10 @@ export default [
           <li>Există și alte persoane care pot ajuta în răspunsul la pandemie.</li>
          </ul>
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
-    `
+    `,
+    "form": null,
+    "firstNodeId": null,
+    "buttons": null
   },
   {
     "title": "Întrebări frecvente",
@@ -639,6 +680,9 @@ export default [
     "active": false,
     "display_order": 6,
     "content": `<p>Întrebări frecvente despre COVID-19</p>`,
+    "firstNodeId": null,
+    "form": null,
+    "buttons": null,
     "accordion": [
       {
         "title": `<h4>Ce este noul coronavirus?</h4>`,

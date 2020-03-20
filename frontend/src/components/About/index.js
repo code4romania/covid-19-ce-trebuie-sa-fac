@@ -1,13 +1,7 @@
 import React from "react";
 import covid_all from "../../images/covid_all.svg";
 import logo_large from "../../images/logo_large.svg";
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaTwitter,
-  FaSearch
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter, FaSearch } from "react-icons/fa";
 import "./About.scss";
 
 const About = () => {
@@ -20,13 +14,12 @@ const About = () => {
             <h1>Despre proiect</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este
+            un ghid cu reguli de interacțiune, acțiune și comportament
+            recomandate în această perioadă de criză în care ne confruntăm cu
+            răspândirea foarte rapidă a infecției cu coronavirus. Vrem să aducem
+            mai aproape de voi regulile de bază recomandate de autorități de la
+            care este indicat să nu ne abatem în această perioadă.
           </p>
           <div className="section-footer">
             <span>Share on</span>
@@ -45,16 +38,6 @@ const About = () => {
               <FaLinkedin style={{ color: "#0e76a8" }} size="30px"></FaLinkedin>
             </a>
             <a
-              href="https://www.instagram.com/code4romania/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram
-                style={{ color: "#833AB4" }}
-                size="30px"
-              ></FaInstagram>
-            </a>
-            <a
               href="https://twitter.com/code4romania"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,24 +51,20 @@ const About = () => {
         </section>
         <section className="has-border-bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            cemăfac.ro este o platformă care ajută populația să înțeleagă mai
+            bine care sunt regulile ce trebuie respectate în timpul pandemieii
+            COVID-19. Un ghid simplu și practic bazat pe scenarii posibile prin
+            care populația poate trece. Această platformă te va ghida prin
+            situații variate și te va aduce mai aproape de măsurile recomandate
+            pentru o mai bună protejare a ta, a familiei și a comunității tale
+            în această situație de urgență.
           </p>
         </section>
         <section className="has-border-bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            Platforma cemăfac.ro este construită de Code for Romania Task Force
+            în parteneriat cu Guvernul României prin Autoritatea pentru
+            Digitalizarea României și Departamentul pentru Situații de Urgență.
           </p>
         </section>
         <section className="about-section-useful-instruments">
