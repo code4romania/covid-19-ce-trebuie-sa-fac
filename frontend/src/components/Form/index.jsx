@@ -35,7 +35,7 @@ function Form({ data }) {
           <SingleChoice
             question={currentQuestion}
             currentResponse={formState[currentQuestion.questionId]}
-            answer={answerCurrentQuestion}
+            onAnswer={answerCurrentQuestion}
           />
         );
       }
@@ -44,7 +44,7 @@ function Form({ data }) {
           <MultipleChoice
             question={currentQuestion}
             currentResponse={formState[currentQuestion.questionId]}
-            answer={answerCurrentQuestion}
+            onAnswer={answerCurrentQuestion}
           />
         );
       }
@@ -67,7 +67,6 @@ function Form({ data }) {
 
   return (
     <div>
-      {console.log(formState, currentNode)}
       {questionView()}
       <div className="action-buttons">
         {data.form && <Button onClick={init}>Reîncepe testul</Button>}

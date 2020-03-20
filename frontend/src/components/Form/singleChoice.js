@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./Form.scss";
 import { ListHeader, List, ListItem } from "@code4ro/taskforce-fe-components";
 
-function SingleChoice({ question, answer, currentResponse }) {
+function SingleChoice({ question, onAnswer, currentResponse }) {
   const isSelected = option => {
     return currentResponse === option.value;
   };
@@ -19,7 +19,7 @@ function SingleChoice({ question, answer, currentResponse }) {
               title={option.label}
               active={isSelected(option)}
               onClick={() =>
-                answer({
+                onAnswer({
                   questionId: question.questionId,
                   value: option.value
                 })
@@ -44,7 +44,7 @@ SingleChoice.propTypes = {
       })
     )
   }),
-  answer: PropTypes.func,
+  onAnswer: PropTypes.func,
   currentResponse: PropTypes.number
 };
 

@@ -18,12 +18,7 @@ const Home = () => {
   };
 
   return (
-    <div
-      style={{
-        maxWidth: "1400px",
-        margin: "0 auto"
-      }}
-    >
+    <>
       <div className="container">
         <Hero
           title={"Toate informatiile de care ai nevoie"}
@@ -90,7 +85,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

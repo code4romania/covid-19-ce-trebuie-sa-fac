@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./Form.scss";
 import { ListHeader, List, ListItem } from "@code4ro/taskforce-fe-components";
 
-function MultipleChoice({ question, answer, currentResponse = [] }) {
+function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
   const [answers, setAnswers] = useState([]);
   const isSelected = option => {
     return currentResponse.includes(option.value);
@@ -17,7 +17,7 @@ function MultipleChoice({ question, answer, currentResponse = [] }) {
       newAnswers = [...answers, option.value];
     }
     setAnswers(newAnswers);
-    answer({
+    onAnswer({
       questionId: question.questionId,
       value: newAnswers
     });
@@ -54,7 +54,7 @@ MultipleChoice.propTypes = {
       })
     )
   }),
-  answer: PropTypes.func,
+  onAnswer: PropTypes.func,
   currentResponse: PropTypes.arrayOf(PropTypes.number)
 };
 
