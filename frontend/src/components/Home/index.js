@@ -33,7 +33,7 @@ const Home = () => {
           {data.map(doc => (
             <ListItem
               key={doc.doc_id}
-              active={false}
+              active={selectedPage && selectedPage.doc_id === doc.doc_id}
               title={doc.title}
               onClick={onItemClick}
               value={doc}
