@@ -1,6 +1,5 @@
 import React from "react";
 import logo_large from "../../images/logo_large.svg";
-import { FaFacebook, FaLinkedin, FaTwitter, FaSearch } from "react-icons/fa";
 import {
   SocialsShare,
   Hero,
@@ -12,18 +11,16 @@ const About = () => {
   return (
     <div className="container about-page">
       <section>
-        <div className="section-title">
-          <img src={covid_all} alt=""></img>
-          <h1>Despre proiect</h1>
-        </div>
-        <p>
-          Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este
-          un ghid cu reguli de interacțiune, acțiune și comportament
-          recomandate în această perioadă de criză în care ne confruntăm cu
-          răspândirea foarte rapidă a infecției cu coronavirus. Vrem să aducem
-          mai aproape de voi regulile de bază recomandate de autorități de la
-          care este indicat să nu ne abatem în această perioadă.
-        </p>
+        <Hero
+          title="Despre proiect"
+          useFallbackIcon={true}
+          subtitle="Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este un
+          ghid cu reguli de interacțiune, acțiune și comportament recomandate în
+          această perioadă de criză în care ne confruntăm cu răspândirea foarte
+          rapidă a infecției cu coronavirus. Vrem să aducem mai aproape de voi
+          regulile de bază recomandate de autorități de la care este indicat să
+          nu ne abatem în această perioadă."
+        />
         <div>
           <SocialsShare currentPage={"https://cemafac.ro/despre"} />
         </div>
@@ -31,35 +28,33 @@ const About = () => {
       <section className="about-section-logo">
         <img src={logo_large} alt=""></img>
       </section>
-      <section className="has-border-bottom">
+      <section className="has-border-bottom has-horizontal-paddding">
         <p>
-          cemăfac.ro este o platformă care ajută populația să înțeleagă mai
-          bine care sunt regulile ce trebuie respectate în timpul pandemieii
+          cemăfac.ro este o platformă care ajută populația să înțeleagă mai bine
+          care sunt regulile ce trebuie respectate în timpul pandemieii
           COVID-19. Un ghid simplu și practic bazat pe scenarii posibile prin
           care populația poate trece. Această platformă te va ghida prin
           situații variate și te va aduce mai aproape de măsurile recomandate
-          pentru o mai bună protejare a ta, a familiei și a comunității tale
-          în această situație de urgență.
+          pentru o mai bună protejare a ta, a familiei și a comunității tale în
+          această situație de urgență.
         </p>
       </section>
-      <section className="has-border-bottom">
+      <section className="has-border-bottom has-horizontal-paddding">
         <p>
-          Platforma cemăfac.ro este construită de Code for Romania Task Force
-          în parteneriat cu Guvernul României prin Autoritatea pentru
-          Digitalizarea României și Departamentul pentru Situații de Urgență.
+          Platforma cemăfac.ro este construită de Code for Romania Task Force în
+          parteneriat cu Guvernul României prin Autoritatea pentru Digitalizarea
+          României și Departamentul pentru Situații de Urgență.
         </p>
       </section>
       <section className="about-section-useful-instruments">
-        <div className="section-title">
-          <img src={covid_all} alt=""></img>
-          <h1>Instrumente utile</h1>
-        </div>
+        <Hero title={"Instrumente utile"} useFallbackIcon={true} />
         <div className="useful-instruments">
           <section>
-            <div className="search-bar">
-              <input placeholder="caută informații aici"></input>
-              <FaSearch size="18px"></FaSearch>
-            </div>
+            <SearchInput
+              hasIcon={true}
+              placeholder={"cauta informatii aici"}
+              onValueChange={() => {}}
+            />
             <div className="info-card info-card-news">
               <div className="card-title">
                 Instalează-ți add-on-ul de depistat știrile false
