@@ -61,7 +61,9 @@ const Home = () => {
               onValueChange={() => {}}
             />
             <Instruments layout="column">
-              {UsefulApps.map(usefulApp => {
+              {UsefulApps.sort((a, b) => {
+                return a.display_order - b.display_order;
+              }).map(usefulApp => {
                 return (
                   <InstrumentsItem
                     key={`useful_app_${usefulApp.doc_id}`}

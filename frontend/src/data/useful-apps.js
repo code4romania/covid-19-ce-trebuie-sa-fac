@@ -1,5 +1,20 @@
 export default [
   {
+    title: "Date în timp real",
+    doc_type: "USEFUL_APP",
+    doc_id: 4,
+    active: true,
+    display_order: 4,
+    app_type: "DATA",
+    content: "Lorem ipsum dolor sit amet...",
+    buttons: [
+      {
+        title: "Vezi situația curentă",
+        link: "https://test.com"
+      }
+    ]
+  },
+  {
     title: "Instalează-ți add-on-ul de depistat știrile false",
     doc_type: "USEFUL_APP",
     doc_id: 1,
@@ -39,19 +54,4 @@ export default [
       }
     ]
   },
-  {
-    title: "Date în timp real",
-    doc_type: "USEFUL_APP",
-    doc_id: 4,
-    active: true,
-    display_order: 4,
-    app_type: "DATA",
-    content: "Lorem ipsum dolor sit amet...",
-    buttons: [
-      {
-        title: "Vezi situația curentă",
-        link: "https://test.com"
-      }
-    ]
-  }
 ];
