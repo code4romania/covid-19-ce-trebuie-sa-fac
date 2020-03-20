@@ -43,9 +43,6 @@ const About = () => {
         );
       });
   };
-  console.log(
-    UsefulApps.filter(usefulApp => usefulApp.app_type === "OFFER_HELP")
-  );
   return (
     <div className="App-content">
       <div className="about-page">
