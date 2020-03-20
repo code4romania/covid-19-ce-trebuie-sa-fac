@@ -54,7 +54,7 @@ jobs:
         uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
         env:
           DISTRIBUTION_ID: $DISTRIBUTION_ID_TEST
-        
+
       - name: Deploy to S3 Production
         if: github.ref == 'refs/heads/master'
         uses: jakejarvis/s3-sync-action@v0.5.1
