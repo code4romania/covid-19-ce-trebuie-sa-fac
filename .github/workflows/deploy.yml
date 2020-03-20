@@ -59,7 +59,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
-          args: --acl public-read --delete
+          args: --delete
         env:
           AWS_S3_BUCKET: $AWS_S3_BUCKET_PROD
 
