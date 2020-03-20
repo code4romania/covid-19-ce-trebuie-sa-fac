@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import "./DecisionTree.scss";
 import {
@@ -11,11 +11,20 @@ import {
 
 function DecisionTree({ data }) {
   const [currentNode, setCurrentNode] = useState(
-    data.nodes.find(node => node.node_id === 1)
+    data.nodes && data.nodes.find(node => node.node_id === data.first_node_id)
   );
   const [backwardHistory, setBackwardHistory] = useState([]);
   const [forwardHistory, setForwardHistory] = useState([]);
   const [currentAnswers, setCurrentAnswers] = useState([]);
+
+  const init = () => {
+    setCurrentNode(
+      data.nodes && data.nodes.find(node => node.node_id === data.first_node_id)
+    );
+    setBackwardHistory([]);
+    setCurrentAnswers([]);
+    setForwardHistory();
+  };
 
   const isNextNode = (a, b) => {
     let found = true;
@@ -89,12 +98,9 @@ function DecisionTree({ data }) {
     setForwardHistory([]);
   };
 
-  const init = () => {
-    setCurrentNode(data.nodes.find(node => node.node_id === 1));
-    setBackwardHistory([]);
-    setCurrentAnswers([]);
-    setForwardHistory();
-  };
+  useEffect(() => {
+    init();
+  }, [data.nodes]); // eslint-disable-line
 
   const questionView = !currentNode ? null : (
     <div>
@@ -119,10 +125,14 @@ function DecisionTree({ data }) {
   );
   return (
     <div>
-      <Hero title={data.title} subtitle={data.content} />
+      <Hero title={data.title} />
+      <div
+        className="content"
+        dangerouslySetInnerHTML={{ __html: data.content }}
+      />
       {questionView}
       <div className="action-buttons">
-        <Button onClick={init}>Reîncepe testul</Button>
+        {data.nodes && <Button onClick={init}>Reîncepe testul</Button>}
         {backwardHistory && backwardHistory.length !== 0 && (
           <Button inverted={true} onClick={setPreviousNode}>
             Inapoi
@@ -142,6 +152,7 @@ DecisionTree.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     content: PropTypes.string,
+    first_node_id: PropTypes.number,
     nodes: PropTypes.arrayOf(
       PropTypes.shape({
         node_id: PropTypes.number.isRequired,
