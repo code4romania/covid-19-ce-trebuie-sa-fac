@@ -1,15 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Form.scss";
-import {
-  ListHeader,
-  List,
-  ListItem,
-} from "@code4ro/taskforce-fe-components";
+import { ListHeader, List, ListItem } from "@code4ro/taskforce-fe-components";
 
 function SingleChoice({ question, answer, currentResponse }) {
-
-  const isSelected = (option) => {
+  const isSelected = option => {
     return currentResponse === option.value;
   };
 
@@ -19,15 +14,17 @@ function SingleChoice({ question, answer, currentResponse }) {
       <div>
         <List>
           {question.options.map(option => (
-          <ListItem
-            key={`answer_${question.questionId}_${option.value}`}
-            title={option.label}
-            active={isSelected(option)}
-            onClick={() => answer({
-              questionId: question.questionId,
-              value: option.value,
-            })}
-          />
+            <ListItem
+              key={`answer_${question.questionId}_${option.value}`}
+              title={option.label}
+              active={isSelected(option)}
+              onClick={() =>
+                answer({
+                  questionId: question.questionId,
+                  value: option.value
+                })
+              }
+            />
           ))}
         </List>
       </div>

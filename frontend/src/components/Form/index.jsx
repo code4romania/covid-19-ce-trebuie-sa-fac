@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import SingleChoice from './singleChoice';
-import MultipleChoice from './multipleChoice';
-import Results from './results';
+import SingleChoice from "./singleChoice";
+import MultipleChoice from "./multipleChoice";
+import Results from "./results";
 import "./Form.scss";
-import {
-  Button,
-} from "@code4ro/taskforce-fe-components";
+import { Button } from "@code4ro/taskforce-fe-components";
 
 function Form({ data }) {
   // TODO: at some point, allow for answers to some questions to affect the visibility of other questions
@@ -21,42 +19,47 @@ function Form({ data }) {
     init();
   }, [data.form]); // eslint-disable-line
 
-  const answerCurrentQuestion = (answer) => {
+  const answerCurrentQuestion = answer => {
     setFormState({
       ...formState,
       [answer.questionId]: answer.value
     });
-  }
+  };
 
   const questionView = () => {
     const currentQuestion = data.form[currentNode];
     // TODO: add components for other question types
     switch (currentQuestion.type) {
       case "SINGLE_CHOICE": {
-        return <SingleChoice question={currentQuestion}
-                             currentResponse={formState[currentQuestion.questionId]}
-                             answer={answerCurrentQuestion}
-        />
+        return (
+          <SingleChoice
+            question={currentQuestion}
+            currentResponse={formState[currentQuestion.questionId]}
+            answer={answerCurrentQuestion}
+          />
+        );
       }
       case "MULTIPLE_CHOICE": {
-        return <MultipleChoice question={currentQuestion}
-                               currentResponse={formState[currentQuestion.questionId]}
-                               answer={answerCurrentQuestion}
-        />
+        return (
+          <MultipleChoice
+            question={currentQuestion}
+            currentResponse={formState[currentQuestion.questionId]}
+            answer={answerCurrentQuestion}
+          />
+        );
       }
       case "FINAL": {
-        return <Results question={currentQuestion}
-                        answers={formState}
-        />
+        return <Results question={currentQuestion} answers={formState} />;
       }
-      default: return null;
+      default:
+        return null;
     }
   };
 
   const goToNextQuestion = () => {
     if (formState[data.form[currentNode].questionId] !== undefined) {
-      setCurrentNode(currentNode + 1)
-    };
+      setCurrentNode(currentNode + 1);
+    }
   };
   const goToPreviousQuestion = () => {
     setCurrentNode(currentNode - 1);
@@ -74,8 +77,7 @@ function Form({ data }) {
           </Button>
         )}
         {currentNode < data.form.length - 1 && (
-          <Button inverted={true}
-                  onClick={goToNextQuestion}>
+          <Button inverted={true} onClick={goToNextQuestion}>
             Inainte
           </Button>
         )}

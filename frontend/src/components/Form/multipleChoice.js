@@ -1,19 +1,15 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Form.scss";
-import {
-  ListHeader,
-  List,
-  ListItem,
-} from "@code4ro/taskforce-fe-components";
+import { ListHeader, List, ListItem } from "@code4ro/taskforce-fe-components";
 
 function MultipleChoice({ question, answer, currentResponse = [] }) {
   const [answers, setAnswers] = useState([]);
-  const isSelected = (option) => {
+  const isSelected = option => {
     return currentResponse.includes(option.value);
   };
 
-  const handleClick = (option) => {
+  const handleClick = option => {
     let newAnswers;
     if (answers.includes(option.value)) {
       newAnswers = answers.filter(item => item !== option.value);
@@ -23,7 +19,7 @@ function MultipleChoice({ question, answer, currentResponse = [] }) {
     setAnswers(newAnswers);
     answer({
       questionId: question.questionId,
-      value: newAnswers,
+      value: newAnswers
     });
   };
 
@@ -33,12 +29,12 @@ function MultipleChoice({ question, answer, currentResponse = [] }) {
       <div>
         <List>
           {question.options.map(option => (
-          <ListItem
-            key={`answer_${question.questionId}_${option.value}`}
-            title={option.label}
-            active={isSelected(option)}
-            onClick={() => handleClick(option)}
-          />
+            <ListItem
+              key={`answer_${question.questionId}_${option.value}`}
+              title={option.label}
+              active={isSelected(option)}
+              onClick={() => handleClick(option)}
+            />
           ))}
         </List>
       </div>

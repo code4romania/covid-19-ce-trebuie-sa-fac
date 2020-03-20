@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Form from '../Form';
-import {
-  Hero
-} from "@code4ro/taskforce-fe-components";
+import Form from "../Form";
+import { Hero } from "@code4ro/taskforce-fe-components";
 
-function ContentPage({data}) {
+function ContentPage({ data }) {
   return (
     <div>
       <Hero title={data.title} />
@@ -13,7 +11,7 @@ function ContentPage({data}) {
         className="content"
         dangerouslySetInnerHTML={{ __html: data.content }}
       />
-      {data.form && <Form data={data}/>}
+      {data.form && <Form data={data} />}
     </div>
   );
 }
