@@ -2,16 +2,13 @@
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
-`API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
-`Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
+[See the project live](https://cemafac.ro/)
 
 Objective: Clear information of the public, increase in the level of proper actions taken.
 
 How: Web platform with guides, questionaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
 
-[See the project live](https://cemafac.ro/)
-
-[Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
+[Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Development](#development) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
 
 ## Contributing
 
@@ -22,8 +19,6 @@ This project is built by amazing volunteers and you can be one of them! Here's a
 ### Programming languages
  - Javascript
 
-### Platforms
-
 ### Frontend frameworks
  - [React (16.13.*)](https://reactjs.org/)
  - [Bulma (0.8.*)](https://bulma.io/)
@@ -31,13 +26,12 @@ This project is built by amazing volunteers and you can be one of them! Here's a
 ### Package managers
  - Frontend - [NPM](https://docs.npmjs.com/)
 
-### Database technology & provider
-
 ## Repos and projects
 
-Mention all related repos and projects.
+Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-fe-components
 
 ## Development
+
 ### Backend
 - WIP
 
@@ -46,13 +40,11 @@ Mention all related repos and projects.
 
 ## Deployment
 
-Guide users through getting your code up and running on their own system. In this section you can talk about:
-1. Installation process
-2. Software dependencies
-3. Latest releases
-4. API references
+`API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
+`Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
 
-Describe and show how to build your code and run the tests.
+- automatically deployed using https://zeit.co/ from PRs for testing 
+- uses github actions for deploying in prod
 
 ## Feedback
 
