@@ -5,7 +5,7 @@ export default [
     "doc_id": 101,
     "active": true,
     "display_order": 1,
-    "first_node_id": null,
+    "firstNodeId": null,
     "content": `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
 
     <h3>Cum se transmite COVID-19</h3>
@@ -61,7 +61,7 @@ export default [
 
     <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
 `,
-    "nodes": null,
+    "form": null,
     "buttons": null
   },
   {
@@ -94,17 +94,10 @@ export default [
           <li>NU folosi aceeași  sticlă/pahar cu alte persoane și nu folosi aceleași tacâmuri.</li>
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
-<<<<<<< HEAD
-         
+
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;"><b>ATENȚIE</b></p>
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-         
-=======
 
-         <p><b>ATENȚIE</b></p>
-         <p>Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-
->>>>>>> 5abe120... feat: integrate list with the decision tree
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -135,13 +128,8 @@ export default [
           <li>Diluarea înălbitorului (clorului) casnic.
             <ul>
               <li>Pentru a face o soluție de înălbitor (clor), amestecă 5 linguri (80 ml) la 3,8 litri de apă sau 4 <strong>lingurițe</strong> la un litru de apă.</li>
-<<<<<<< HEAD
               <li>Urmează instrucțiunile producătorului pentru aplicare și pentru ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
-            </ul>   
-=======
-              <li>Urmează instrucțiunile producătorului pentru aplicare și ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
             </ul>
->>>>>>> 5abe120... feat: integrate list with the decision tree
           </li>
           <li>Soluții alcoolice.
            <ul>
@@ -180,8 +168,8 @@ export default [
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
     `,
-    "first_node_id": null,
-    "nodes": null,
+    "firstNodeId": null,
+    "form": null,
     "buttons": null
   },
   {
@@ -599,112 +587,8 @@ export default [
         </ul>
     `,
     "buttons": null,
-    "first_node_id": 1,
-    "nodes": [
-      {
-        "node_id": 1,
-        "title": "Ai călătorit recent în afara țării?",
-        "type": "SINGLE_CHOICE",
-        "content": null,
-        "options": [
-          {
-            "option": 1,
-            "value": "da"
-          },
-          {
-            "option": 2,
-            "value": "nu"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 2
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          }
-        ]
-      },
-      {
-        "node_id": 2,
-        "title": "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
-        "type": "MULTIPLE_CHOICE",
-        "content": null,
-        "options": [
-          {
-            "option": 1,
-            "value": "temperatură ridicată"
-          },
-          {
-            "option": 2,
-            "value": "tuse seacă"
-          },
-          {
-            "option": 3,
-            "value": "dificultate în respirație"
-          },
-          {
-            "option": 4,
-            "value": "mucozități nazale excesive"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              3
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              4
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              1,
-              2
-            ],
-            "result": 4
-          }
-        ]
-      },
-      {
-        "node_id": 3,
-        "title": "Conform cu răspunsurile tale, iată ce recomandăm:",
-        "type": "FINAL",
-        "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
-      },
-      {
-        "node_id": 4,
-        "title": "Sună la 00000 pentru a cere testarea",
-        "type": "FINAL",
-        "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
-      }
-    ]
+    "firstNodeId": 0,
+    "form": null
   },
   {
     "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
@@ -785,8 +669,8 @@ export default [
          </ul>
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
     `,
-    "nodes": null,
-    "first_node_id": null,
+    "form": null,
+    "firstNodeId": null,
     "buttons": null
   },
   {
@@ -796,8 +680,8 @@ export default [
     "active": false,
     "display_order": 6,
     "content": `<p>Întrebări frecvente despre COVID-19</p>`,
-    "first_node_id": null,
-    "nodes": null,
+    "firstNodeId": null,
+    "form": null,
     "buttons": null,
     "accordion": [
       {
