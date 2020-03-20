@@ -28,6 +28,8 @@ jobs:
       - name: Build
         working-directory: ${{env.working-directory}}
         run: npm run build
+        env:
+          REACT_APP_GA_TRACKING_ID: "UA-160603540-1"
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1

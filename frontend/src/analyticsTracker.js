@@ -1,7 +1,10 @@
 import ReactGA from "react-ga";
 
 export const initializeGA = () => {
-  ReactGA.initialize("UA-160603540-1");
+  if (!process.env.REACT_APP_GA_TRACKING_ID) {
+    return;
+  }
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 };
 
 export const logPageView = history => {
