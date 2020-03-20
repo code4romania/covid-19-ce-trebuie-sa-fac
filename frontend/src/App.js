@@ -5,7 +5,11 @@ import About from "./components/About";
 import Home from "./components/Home";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsAndConditions from "./components/TermsAndConditions";
-import { Header, DevelopedBy } from "@code4ro/taskforce-fe-components";
+import {
+  Header,
+  DevelopedBy,
+  IncubatedBy
+} from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo_small.svg";
 import "./App.scss";
 
@@ -56,6 +60,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <IncubatedBy />
       <FooterWrapper />
     </Router>
   );
