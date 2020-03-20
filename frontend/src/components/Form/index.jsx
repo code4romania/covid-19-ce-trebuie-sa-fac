@@ -11,7 +11,7 @@ function Form({ data }) {
   const [formState, setFormState] = useState({});
   const [currentNode, setCurrentNode] = useState(0);
   const init = () => {
-    setCurrentNode(0);
+    setCurrentNode(data.firstNodeId);
     setFormState({});
   };
 
@@ -57,6 +57,7 @@ function Form({ data }) {
   };
 
   const goToNextQuestion = () => {
+    // TODO use the disabled prop once the Button component implements it
     if (formState[data.form[currentNode].questionId] !== undefined) {
       setCurrentNode(currentNode + 1);
     }
@@ -68,18 +69,28 @@ function Form({ data }) {
   return (
     <div>
       {questionView()}
-      <div className="action-buttons">
-        {data.form && <Button onClick={init}>Reîncepe testul</Button>}
-        {currentNode > 0 && (
-          <Button inverted={true} onClick={goToPreviousQuestion}>
-            Inapoi
-          </Button>
-        )}
-        {currentNode < data.form.length - 1 && (
-          <Button inverted={true} onClick={goToNextQuestion}>
-            Inainte
-          </Button>
-        )}
+      <div className="level action-buttons">
+        <div className="level-left">
+          {currentNode > 0 && (
+            <div className="level-item">
+              <Button inverted={true} onClick={goToPreviousQuestion}>
+                Inapoi
+              </Button>
+            </div>
+          )}
+          {currentNode < data.form.length - 1 && (
+            <div className="level-item">
+              <Button onClick={goToNextQuestion}>Inainte</Button>
+            </div>
+          )}
+        </div>
+        <div className="level-right">
+          {data.form && (
+            <Button inverted={true} onClick={init}>
+              Reîncepe testul
+            </Button>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -89,7 +100,7 @@ Form.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     content: PropTypes.string,
-    first_node_id: PropTypes.number,
+    firstNodeId: PropTypes.number.isRequired,
     form: PropTypes.arrayOf(
       PropTypes.shape({
         questionId: PropTypes.number.isRequired,

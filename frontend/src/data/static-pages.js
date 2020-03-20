@@ -179,6 +179,7 @@ export default [
     "active": false,
     "display_order": 3,
     "content": ``,
+    "firstNodeId": 0,
     "form": [
       {
         "questionId": 1,
