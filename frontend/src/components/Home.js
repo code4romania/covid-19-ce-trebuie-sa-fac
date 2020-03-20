@@ -15,10 +15,10 @@ const Home = () => {
     <>
       <div className="container">
         <Hero
-          title={"Toate informatiile de care ai nevoie"}
+          title={"Toate informațiile de care ai nevoie"}
           useFallbackIcon={true}
           subtitle={
-            "Răspunde la următoarele întrebări pentru a te putea ghida către informațiile oficiale și sigure și pentru a fi la curent cu situația actuală"
+            "Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este un ghid cu reguli de interacțiune, acțiune și comportament recomandate în timpul situației de urgență generată de pandemia COVID-19. Vrem să aducem mai aproape de voi regulile de bază recomandate de autorități de la care este indicat să nu ne abatem în această perioadă."
           }
         />
       </div>
