@@ -1,8 +1,11 @@
 import React from "react";
-import covid_all from "../../images/covid_all.svg";
 import logo_large from "../../images/logo_large.svg";
 import { FaFacebook, FaLinkedin, FaTwitter, FaSearch } from "react-icons/fa";
-import { SocialsShare } from "@code4ro/taskforce-fe-components";
+import {
+  SocialsShare,
+  Hero,
+  SearchInput
+} from "@code4ro/taskforce-fe-components";
 import "./About.scss";
 
 const About = () => {
