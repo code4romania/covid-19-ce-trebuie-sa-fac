@@ -65,7 +65,7 @@ const App = () => {
   return (
     <>
       <Header Logo={Logo()} MenuItems={MenuItems} />
-      <DevelopedBy />
+      <DevelopedBy showSecondLine={true} />
       <Switch>
         <Route path="/despre">
           <About />
