@@ -1,16 +1,51 @@
 import React from "react";
 import covid_all from "../../images/covid_all.svg";
 import logo_large from "../../images/logo_large.svg";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import {
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaTwitter,
-  FaSearch
-} from "react-icons/fa";
+  Hero,
+  Instruments,
+  InstrumentsItem,
+  SearchInput
+} from "@code4ro/taskforce-fe-components";
+import UsefulApps from "../../data/useful-apps";
+
 import "./About.scss";
 
 const About = () => {
+  const renderInstrumentsItemCategory = (data, category) => {
+    return data
+      .sort((a, b) => {
+        return a.display_order - b.display_order;
+      })
+      .map(usefulApp => {
+        return (
+          <InstrumentsItem
+            key={`useful_app_${usefulApp.doc_id}`}
+            color={category}
+            title={usefulApp.title}
+            content={usefulApp.content}
+            ctaText={
+              usefulApp.buttons &&
+              usefulApp.buttons.length > 0 &&
+              usefulApp.buttons[0].title
+            }
+            onClick={() => {
+              if (
+                usefulApp.buttons &&
+                usefulApp.buttons.length > 0 &&
+                usefulApp.buttons[0].link
+              ) {
+                window.open(usefulApp.buttons[0].link, "_blank");
+              }
+            }}
+          />
+        );
+      });
+  };
+  console.log(
+    UsefulApps.filter(usefulApp => usefulApp.app_type === "OFFER_HELP")
+  );
   return (
     <div className="App-content">
       <div className="about-page">
@@ -20,13 +55,12 @@ const About = () => {
             <h1>Despre proiect</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este
+            un ghid cu reguli de interacțiune, acțiune și comportament
+            recomandate în această perioadă de criză în care ne confruntăm cu
+            răspândirea foarte rapidă a infecției cu coronavirus. Vrem să aducem
+            mai aproape de voi regulile de bază recomandate de autorități de la
+            care este indicat să nu ne abatem în această perioadă.
           </p>
           <div className="section-footer">
             <span>Share on</span>
@@ -45,16 +79,6 @@ const About = () => {
               <FaLinkedin style={{ color: "#0e76a8" }} size="30px"></FaLinkedin>
             </a>
             <a
-              href="https://www.instagram.com/code4romania/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram
-                style={{ color: "#833AB4" }}
-                size="30px"
-              ></FaInstagram>
-            </a>
-            <a
               href="https://twitter.com/code4romania"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,80 +92,52 @@ const About = () => {
         </section>
         <section className="has-border-bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            cemăfac.ro este o platformă care ajută populația să înțeleagă mai
+            bine care sunt regulile ce trebuie respectate în timpul pandemieii
+            COVID-19. Un ghid simplu și practic bazat pe scenarii posibile prin
+            care populația poate trece. Această platformă te va ghida prin
+            situații variate și te va aduce mai aproape de măsurile recomandate
+            pentru o mai bună protejare a ta, a familiei și a comunității tale
+            în această situație de urgență.
           </p>
         </section>
         <section className="has-border-bottom">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis
-            pretium tincidunt non, morbi. Egestas senectus a egestas massa
-            varius orci, tellus non. Sit vel, sollicitudin sit amet. Blandit a
-            duis dolor ut risus, posuere sed consectetur. Lorem molestie quam
-            nisl, magnis pellentesque eu vel. Tellus amet purus amet
-            pellentesque fringilla non adipiscing. Amet, diam leo lacus et
-            facilisi. Sed risus nullam cursus et dui nunc tincidunt tortor.
+            Platforma cemăfac.ro este construită de Code for Romania Task Force
+            în parteneriat cu Guvernul României prin Autoritatea pentru
+            Digitalizarea României și Departamentul pentru Situații de Urgență.
           </p>
         </section>
         <section className="about-section-useful-instruments">
-          <div className="section-title">
-            <img src={covid_all} alt=""></img>
-            <h1>Instrumente utile</h1>
-          </div>
-          <div className="useful-instruments">
+          <Hero title={"Instrumente utile"} useFallbackIcon={true} />
+
+          <Instruments layout="grid">
             <section>
-              <div className="search-bar">
-                <input placeholder="caută informații aici"></input>
-                <FaSearch size="18px"></FaSearch>
-              </div>
-              <div className="info-card info-card-news">
-                <div className="card-title">
-                  Instalează-ți add-on-ul de depistat știrile false
-                </div>
-              </div>
-              <div className="info-card info-card-news">
-                <div className="card-title">
-                  Stiri oficiale si informații la zi
-                </div>
-                <div className="card-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Elit, duis pretium.
-                  </p>
-                  <button>Cele mai noi informații oficiale</button>
-                </div>
-              </div>
+              <SearchInput
+                hasIcon={true}
+                placeholder={"cauta informatii aici"}
+                onValueChange={() => {}}
+              />
+              {renderInstrumentsItemCategory(
+                UsefulApps.filter(usefulApp => usefulApp.app_type === "NEWS"),
+                "green"
+              )}
             </section>
             <section>
-              <div className="info-card info-card-help">
-                <div className="card-title">Vrei să ajuți. Intră aici</div>
-                <div className="card-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Elit, duis pretium.
-                  </p>
-                  <button>Centrul de sprijin</button>
-                </div>
-              </div>
+              {renderInstrumentsItemCategory(
+                UsefulApps.filter(
+                  usefulApp => usefulApp.app_type === "OFFER_HELP"
+                ),
+                "red"
+              )}
             </section>
             <section>
-              <div className="info-card info-card-data">
-                <div className="card-title">Date în timp real</div>
-                <div className="card-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Elit, duis pretium.
-                  </p>
-                  <button>Vezi situația curentă </button>
-                </div>
-              </div>
+              {renderInstrumentsItemCategory(
+                UsefulApps.filter(usefulApp => usefulApp.app_type === "DATA"),
+                "pink"
+              )}
             </section>
-          </div>
+          </Instruments>
         </section>
       </div>
     </div>
