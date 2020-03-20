@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DecisionTree from "../DecisionTree";
+import ContentPage from "../ContentPage";
 import data from "../../data/static-pages";
 import {
   Hero,
@@ -18,7 +18,10 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div style={{
+      maxWidth: '1400px',
+      margin: '0 auto'
+    }}>
       <div className="container">
         <Hero
           title={"Toate informatiile de care ai nevoie"}
@@ -45,7 +48,7 @@ const Home = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-8">
-            {selectedPage && <DecisionTree data={selectedPage}></DecisionTree>}
+            {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
           <div className="column is-4">
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />
@@ -85,7 +88,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
