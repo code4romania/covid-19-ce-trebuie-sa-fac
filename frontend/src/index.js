@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
-import App from "./App";
+import AppWrapper from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "@code4ro/taskforce-fe-components/dist/index.css";
+import { initializeGA } from "./analyticsTracker";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+initializeGA();
+ReactDOM.render(<AppWrapper />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

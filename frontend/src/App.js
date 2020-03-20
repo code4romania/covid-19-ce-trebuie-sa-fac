@@ -1,5 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+  useHistory
+} from "react-router-dom";
+import { logPageView } from "./analyticsTracker";
 import FooterWrapper from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
@@ -41,9 +48,22 @@ const MenuItems = [
   </a>
 ];
 
-function App() {
+const AppWrapper = () => {
   return (
     <Router>
+      <App />
+    </Router>
+  );
+};
+
+const App = () => {
+  const history = useHistory();
+  useEffect(() => {
+    logPageView(history);
+  }, [history]);
+
+  return (
+    <>
       <Header Logo={Logo()} MenuItems={MenuItems} />
       <DevelopedBy />
       <Switch>
@@ -62,8 +82,8 @@ function App() {
       </Switch>
       <IncubatedBy />
       <FooterWrapper />
-    </Router>
+    </>
   );
-}
+};
 
-export default App;
+export default AppWrapper;
