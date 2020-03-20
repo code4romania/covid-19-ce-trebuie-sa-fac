@@ -22,7 +22,7 @@ export default [
       Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
       <ul>
         <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
-        <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta sunt metoda principală de contagiune.</li>
+        <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
       </ul>
     </p>
 
@@ -31,7 +31,7 @@ export default [
     <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
     <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
 
-    <h3>Cât de ușor se transmite virusul</h3>
+    <h3>Cât de ușor se transmite virusul?</h3>
     <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
     <p>Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
 
@@ -41,7 +41,7 @@ export default [
      <ul>
       <li><a href="https://datelazi.ro">DateLaZi</a></li>
       <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
-      <li><a href="https://www.insp.gov.ro">Site Institutul Național de Sănătate Publică</a></li>
+      <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
     </ul>
 
     <h3>Simptome</h3>
@@ -65,7 +65,7 @@ export default [
     ]
   },
   {
-    "title": "Cum ne protejăm",
+    "title": "Cum ne protejăm?",
     "doc_type": "STATIC_PAGE",
     "doc_id": 102,
     "active": false,
@@ -95,15 +95,15 @@ export default [
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
          
-         <p><b>ATENȚIE</b></p>
-         <p>Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;"><b>ATENȚIE</b></p>
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
          
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
           <li>Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor. Acoperă cu lichidul toată suprafața mâinilor și freacă-ți mâinile până când se simt uscate.</li>
-          <li>NU intra în contact direct cu membrii familiei, atunci când revi la domiciliu, decât după igienizarea mâinilor.</li>
-          <li>Dacă strănuți sau tușești acoperiți gura și nasul cu un șervețel de unică folosință, pe care ai  grijă să îl arunci imediat la coșul de gunoi.</li>
+          <li>NU intra în contact direct cu membrii familiei, atunci când revii la domiciliu, ]nainte de igienizarea mâinilor.</li>
+          <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
@@ -111,11 +111,11 @@ export default [
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
-          <li>Rămâi în casă dacă ai simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sună medicul de familie pentru a solicita sfaturi, <span style="background-color: #ffd738">nu merge din primul moment la unitățile de urgență</span>. (Există riscul, în cazul în care sunteți purtător al virusului, să transmiteți și altor persoane noul coronavirus. Este de preferat să rămâi la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare).</li>
+          <li>Rămâi în casă dacă ai simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sună medicul de familie pentru a solicita sfaturi, <span style="background-color: #ffd738">nu merge din primul moment la unitățile de urgență</span>. (Există riscul, în cazul în care sunteți purtători al virusului, să transmiteți și altor persoane noul coronavirus. Este de preferat să rămâi la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare).</li>
           <li>Acoperă-ți gura și nasul cu un șervețel atunci când tușești sau strănuți, sau folosește interiorul cotului. Aruncă apoi șervețelele folosite la gunoi imediat. Spală-te imediat pe mâini cu apă și săpun, timp de cel puțin 20 de secunde. Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor care conține cel puțin 60% alcool.</li>
-          <li>Dacă strănuți sau tușești acoperiți gura și nasul cu un șervețel de unică folosință, pe care ai  grijă să îl arunci imediat la coșul de gunoi.</li>
-          <li>Dacă ești bolnav – trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești. <a href="">Află aici ce trebuie să faci dacă ești bolnav.</a></li>
-          <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tau, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
+          <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
+          <li>Dacă ești bolnav – trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești. </li>
+          <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
          </ul>
          
          <h3 id="curata-si-dezinfecteaza">Curăță și dezinfectează</h3>
@@ -128,7 +128,7 @@ export default [
           <li>Diluarea înălbitorului (clorului) casnic.
             <ul>
               <li>Pentru a face o soluție de înălbitor (clor), amestecă 5 linguri (80 ml) la 3,8 litri de apă sau 4 <strong>lingurițe</strong> la un litru de apă.</li>
-              <li>Urmează instrucțiunile producătorului pentru aplicare și ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
+              <li>Urmează instrucțiunile producătorului pentru aplicare și pentru ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
             </ul>   
           </li>
           <li>Soluții alcoolice.
@@ -140,7 +140,7 @@ export default [
          <b>Cum să cureți și să dezinfectezi</b>
          <ul>
           <li>Poartă mănuși de unică folosință atunci când cureți și dezinfectezi suprafețele. Mănușile trebuie aruncate la gunoi după fiecare curățare pe care o efectuezi. Dacă se folosesc mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri.</li>
-          <li>Poartă mănuși de unică folosință atunci când manevrezi rufe murdare de la o persoană bolnavă și aruncă-le după fiecare utilizare. Dacă folosești mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri. Spală-ți mâinile imediat după îndepărtarea mănușilor !</li>
+          <li>Poartă mănuși de unică folosință atunci când manevrezi rufe murdare de la o persoană bolnavă și aruncă-le după fiecare utilizare. Dacă folosești mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri. Spală-ți mâinile imediat după îndepărtarea mănușilor!</li>
           <li>Membrii gospodăriei trebuie să își curețe des mâinile, inclusiv imediat după îndepărtarea mănușilor și după contactul cu o persoană bolnavă, prin spălarea mâinilor cu apă și săpun timp de 20 de secunde. În cazul în care săpunul și apa nu sunt disponibile și mâinile nu sunt vizibil murdare, se poate folosi un dezinfectant de mâini pe bază de alcool, care conține cel puțin 70% alcool. Cu toate acestea, dacă mâinile sunt vizibil murdare, spălați prima dată mâinile cu apă și săpun.</li>
           <li>Membrii gospodăriei trebuie să urmeze acțiuni normale de prevenire a transmisiei viruslui la serviciu și acasă, inclusiv igiena mâinilor recomandată și evitarea atingerii ochilor, nasului sau gurii cu mâinile nespălate.</li>
           <li>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:
@@ -164,8 +164,8 @@ export default [
          <p>Cunoaște-ți vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Identifică organizațiile de ajutor din propria comunitate. Creează o listă de organizații locale pe care le puteți contacta în cazul în care aveți nevoie de acces la informații, servicii de asistență medicală, ajutor și resurse. Ia în considerare organizațiile care furnizează servicii de sănătate mintală sau consiliere, mâncare și alte consumabile. vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Creează o listă de contacte de urgență. Asigură-te că există în propria casă o listă actuală de contacte de urgență pentru familie, prieteni, vecini, furnizori de servicii medicale, profesori, angajatori, departamentul local de sănătate publică și alte resurse ale comunității.</p>
-         <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală”!</p>
-         <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau directia de sanatate publică) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
+         <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+         <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
     `
   },
@@ -294,7 +294,7 @@ export default [
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Epidemia de coronavirus 2019 (COVID-19) poate fi un motiv de stres pentru populație. Frica și anxietatea generate de o boală pot deveni copleșitoare și pot cauza emoții puternice în rândul adulților și copiilor</p>
         <p>În această pagină vei afla despre:</p>
         <ul>
-          <li><a href="#ajutor-self">Lucruri pe care le poți gace pentru a te ajuta pe tine și pe ceilalți</a></li>
+          <li><a href="#ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine și pe ceilalți</a></li>
           <li><a href="#ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</a></li>
           <li><a href="#stigmata">Diminuarea stigmatului</a></li>
         </ul>
@@ -303,7 +303,7 @@ export default [
         
         <h3>Persoanele care pot avea reacții mai puternice la stres, în situații de criză, sunt:</h3>
          <ul>
-          <li>Persoanele în vârstă și cele cu boli cronice, care prezintă un risc mai ridicat la îmbolnăvirea cu CODIV-19</li>
+          <li>Persoanele în vârstă și cele cu boli cronice, care prezintă un risc mai ridicat la îmbolnăvirea cu COVID-19</li>
           <li>Copiii și adulții</li>
           <li>Persoanele care ajută la tratarea COVID-19, spre exemplu doctorii și alte cadre din sistemul sanitar, ori cei care oferă prim ajutor</li>
           <li>Persoanele care suferă de o afecțiune mintală, inclusiv cele care au probleme legate de abuzul de substanțe cu risc de dependență</li>
@@ -331,11 +331,11 @@ export default [
         <p>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</p>
         
         <h3>Redu stresul la care te expui și la care se expun ceilalți</h3>
-        <p>Când împărtășești informații <a href="https://www.stirioficiale.ro"></a> despre COVID-19 și înțelegi riscul implicat pentru tine și pentru cei dragi, poți face ca epidemia să fie mai puțin stresantă.</p>
+        <p>Când împărtășești informații <a href="https://www.stirioficiale.ro"> despre COVID-19 </a> și înțelegi riscul implicat pentru tine și pentru cei dragi, poți face ca epidemia să fie mai puțin stresantă.</p>
         <p>Atunci când transmiți informații verificate despre COVID-19, îi poți face pe ceilalți să se simtă mai puțin stresați și creezi o ocazie de a te conecta cu ei. </p>
         
         <h3>Pentru părinți </h3>
-        <p>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd de la adulții din jurul lor. Când părinții și îngrijitorii gestionează COVID-19 cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
+        <p>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
         <ul>
           <li>Plâns excesiv sau comportamente care arată iritarea în rândul copiilor mici</li>
@@ -351,7 +351,7 @@ export default [
         </ul>
         <p>Sunt multe lucruri pe care le poți face pentru a-ți susține copilul:</p>
         <ul>
-          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații (<a href="">insert link here</a>) despre COVID-19, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
+          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
           <li>Asigură-ți copilul sau adolescentul că e în siguranță. Fă-l să conștientizeze că e ok dacă se simte supărat. Spune-i felul în care procedezi tu în momentele de stres, ca să poată să învețe de la tine cum să gestioneze situația.</li>
           <li>Limitează expunerea familiei tale la știri despre evenimente, inclusiv cele apărute pe social media. Copiii pot interpreta greșit ceea ce aud și pot fi speriați de lucruri pe care nu le înțeleg</li>
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
@@ -371,7 +371,7 @@ export default [
         <h4>Înainte</h4>
         <ul>
           <li>Discută cu copiii tăi, astfel încât să știe că ești pregătit să le creezi un mediu în care să se simtă în siguranță.</li>
-          <li>Revizuieste planurile de siguranță înainte ca dezastrul sau urgența să se întâmple. Când ai un plan, încrederea copiilor crește și îi ajută să le ofere un sentiment de control. </li>
+          <li>Revizuiește planurile de siguranță înainte ca dezastrul sau urgența să se întâmple. Când ai un plan, încrederea copiilor crește și îi ajută să le ofere un sentiment de control. </li>
         </ul>
         
         <h4>În timpul</h4>
