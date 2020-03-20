@@ -7,7 +7,8 @@ import {
   InstrumentsItem,
   List,
   ListItem,
-  SearchInput
+  SearchInput,
+  SocialsShare
 } from "@code4ro/taskforce-fe-components";
 
 const Home = () => {
@@ -45,6 +46,7 @@ const Home = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-8">
+            <SocialsShare currentPage="https://cemafac.ro" />
             {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
           <div className="column is-4">
