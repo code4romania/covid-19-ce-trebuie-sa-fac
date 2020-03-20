@@ -191,113 +191,251 @@ export default [
     "active": false,
     "display_order": 3,
     "content": ``,
-    "buttons": null,
-    "first_node_id": 1,
-    "nodes": [
+    "firstNodeId": 0,
+    "form": [
       {
-        "node_id": 1,
-        "title": "Ai călătorit recent în afara țării?",
+        "questionId": 1,
+        "questionText": "Ai peste 60 de ani?",
         "type": "SINGLE_CHOICE",
-        "content": null,
         "options": [
           {
-            "option": 1,
-            "value": "da"
+            "label": "Da",
+            "value": 1
           },
           {
-            "option": 2,
-            "value": "nu"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 2
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
+            "label": "Nu",
+            "value": 0
           }
         ]
       },
       {
-        "node_id": 2,
-        "title": "Ai vreunul dintre simptomele de mai jos (bifează toate opțiunile care se aplică)?",
-        "type": "MULTIPLE_CHOICE",
-        "content": null,
+        "questionId": 2,
+        "questionText": "Care este sexul tău?",
+        "type": "SINGLE_CHOICE",
         "options": [
           {
-            "option": 1,
-            "value": "temperatură ridicată"
+            "label": "Masculin",
+            "value": 1
           },
           {
-            "option": 2,
-            "value": "tuse seacă"
-          },
-          {
-            "option": 3,
-            "value": "dificultate în respirație"
-          },
-          {
-            "option": 4,
-            "value": "mucozități nazale excesive"
-          }
-        ],
-        "answers": [
-          {
-            "options": [
-              1
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              2
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              3
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              4
-            ],
-            "result": 3
-          },
-          {
-            "options": [
-              1,
-              2
-            ],
-            "result": 4
+            "label": "Feminin",
+            "value": 2
           }
         ]
       },
       {
-        "node_id": 3,
-        "title": "Conform cu răspunsurile tale, iată ce recomandăm:",
-        "type": "FINAL",
-        "content": "Conform cu răspunsurile tale, iată ce recomandăm: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
+        "questionId": 3,
+        "questionText": "Ești fumător/fumătoare? (inclusiv țigări electronice)",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
       },
       {
-        "node_id": 4,
-        "title": "Sună la 00000 pentru a cere testarea",
+        "questionId": 4,
+        "questionText": "Ti-a spus vreun medic că ai o boală de inimă? (boală cardiovasculară inclusiv hipertensiune)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "questionText": "Ti-a spus vreun medic că ai diabet?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "questionText": "Ti-a spus vreun medic că ai o boală a plămânilor? (pulmonară)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "questionText": "Ti-a spus vreun medic că ai cancer (boală oncologică)?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "questionText": "Ti-a spus vreun medic că ai altă boală cronică?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "questionText": "Ai avut in ultimele 14 zile febra 38 grade celsius sau mai mare?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "questionText": "Ai avut in ultimele 14 zile durere în gât și/sau dificultate în a înghiți?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "questionText": "Ai avut in ultimele 14 zile tuse intensă?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "questionText": "Ai avut in ultimele 14 zile dificultate în a respira?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "questionText": "Ți-a curs nasul in ultimele 14 zile?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "questionText": "Ai călătorit în/prin zone în care au existat cazuri de noul coronavirus?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 16,
+        "questionText": "Ai fost în contact direct cu o persoană diagnosticată/ confirmată cu noul coronavirus?",
+        "type": "SINGLE_CHOICE",
+        "options": [
+          {
+            "label": "Da",
+            "value": 1
+          },
+          {
+            "label": "Nu",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "questionId": 17,
+        "questionText": "Ce ai de făcut",
         "type": "FINAL",
-        "content": "Sună la 00000 pentru a cere testarea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "options": null,
-        "answers": null
+        "options": [
+          {
+            "label": "Simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
+              "Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+          },
+          {
+            "label": "Unul dintre simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+          },
+          {
+            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. ",
+          }
+        ]
       }
-    ]
+    ],
   },
   {
     "title": "Adaptare și rezistență",
