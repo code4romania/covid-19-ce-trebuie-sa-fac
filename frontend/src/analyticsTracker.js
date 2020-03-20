@@ -1,10 +1,10 @@
 import ReactGA from "react-ga";
 
 export const initializeGA = () => {
-  if (!process.env.REACT_APP_GA_TRACKING_ID) {
+  if (document.location.hostname !== "cemafac.ro") {
     return;
   }
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  ReactGA.initialize("UA-160603540-1");
 };
 
 export const logPageView = history => {
