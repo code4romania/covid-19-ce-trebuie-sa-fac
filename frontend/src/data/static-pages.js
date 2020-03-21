@@ -700,48 +700,48 @@ export default [
     "buttons": null,
     "accordion": [
       {
-        "title": `<h4>Ce este noul coronavirus?</h4>`,
+        "title": `Ce este noul coronavirus?`,
         "content": `
             <p>Noul coronavirus care provoacă COVID-19 este o nouă infecție virală din categoria coronavirusurilor, care nu era identificată anterior. Virusul care cauzează infecția cu COVID-19 nu este același cu coronavirusurile care circulă în mod comun în populație (Coronavirusurile comunitare), care cauzează boli ușoare ca răceala.</p>
             <p>Un diagnostic cu coronavirus comunitari (229E, NL63 sau HKU1) nu este același lucru cu un diagnostic cu COVID-19. Pacienții cu COVID-19 vor fi evaluați și tratați diferit decât cei cu coronavirusuri comunitare.</p>
         `
       },{
-        "title": `<h4>De ce este boala numită “Coronavirus Disease 2019”, COVID-19?</h4>`,
+        "title": `De ce este boala numită “Coronavirus Disease 2019”, COVID-19?`,
         "content": `
             <p>Pe data de 11 Februarie 2019, Organizația Mondială a Sănătății a anunțat un nume oficial pentru boala virală care cauzează epidemia de coronavirus nou din 2019, identificat prima dată în orașul Wuhan din China. Noul nume al bolii este “Coronavirus disease 2019 - care se traduce “boală coronavirus 2019”- abreviată COVID-19. În COVID ‘CO’ vine de la corona, ‘VI’ vine de la virus și ‘D’ de la disease (boală). Înainte, boala era numită “noul coronavirus - 2019” sau “2019-nCoV”.</p>
             <p>Există mai multe tipuri de coronavirusuri umane, inclusiv unele care cauzează în mod curent infecții ușoare ale tractului respirator superior. COVID-19 e o boală nouă, cauzată de un coronavirus nou, care nu a fost descoperit anterior la oameni. Numele a fost selectat folosind Ghidul OMS (Organizația Mondială a Sănătății) de bune practici pentru numirea noilor boli infecțioase umane.</p>
         `
       },{
-        "title": `<h4>De ce ar dori cineva să dea vina pe/ sau să evite anumiți indivizi și anumite grupuri din cauza epidemiei?</h4>`,
+        "title": `De ce ar dori cineva să dea vina pe/ sau să evite anumiți indivizi și anumite grupuri din cauza epidemiei?`,
         "content": `
             <p>Cetățeni din România ar putea fi îngrijorați sau anxioși despre prieteni și rude care locuiesc în, se întorc din, sau vizitează zone afectate puternic de COVID-19. Unii oameni sunt îngrijorați de răspândirea bolii. Frica și anxietatea pot duce la stigmă socială, de exemplu față de persoane din China sau Italia sau față de persoane care au fost în carantină sau izolare.</p>
             <p>Stigmatizarea e discriminarea unui grup de oameni, un loc sau o națiune. Stigma e asociată cu o lipsă de cunoștințe despre COVID-19 și felurile în care se răspândește, cu o nevoie de a găsi pe cineva vinovat, cu frica de îmbolnăvire și moarte sau cu știri false care împrăștie mituri și zvonuri.</p>
             <p>Stigma afectează pe toată lumea deoarece creează mai multă frică sau furie față de oameni obișnuiți care ajung să fie învinuiți în locul bolii care cauzează problema.</p>
         `
       }, {
-        "title": `<h4>Cum putem opri stigma asociată COVID-19?</h4>`,
+        "title": `Cum putem opri stigma asociată COVID-19?`,
         "content": `
             <p>Putem lupta împotriva stigmatizării și să îi ajutăm pe ceilalți, nu să îi rănim, oferind suport social. Trebuie să ne opunem stigmatizării prin stăpânirea bună a datelor exacte. Comunicând strict cunoștințe legate de virus, cum se  răspândește și despre efectele acestuia fără a învinovăți categorii largi de persoane pe bază de rasă, etnicitate sau proveniență, putem să oprim stigmatizarea.</p>
         `
       },{
-        "title": `<h4>Ar trebui să fiu îngrijorat(ă) de COVID-19?</h4>`,
+        "title": `Ar trebui să fiu îngrijorat(ă) de COVID-19?`,
         "content": `
             <p>Îmbolnăvirile datorită infecției cu noul coronavirus sunt în general ușoare, în special în rândul copiilor și al tinerilor adulți. Cu toate acestea, COVID-19 poate cauza îmbolnăviri serioase: aproximativ 1 din 5 persoane care contactează această boală au nevoie de îngrijiri medicale spitalicești. Este așadar normal ca oamenii să se îngrijoreze de cum îi va afecta epidemia COVID-19 pe ei și pe cei dragi.</p>
             <p>Ne concentrăm îngrijorările în acțiuni pentru a ne proteja pe noi, pe cei dragi și comunitatea în care trăim. Prima dintre aceste acțiuni este spălarea frecventă și riguroasă a mâinilor cât și menținerea unei igiene respiratorii bune. În același timp, informați-vă și urmați recomandările autorităților locale și naționale privind orice restricții de călătorie, mobilitate și izolare.</p>
         `
       },{
-        "title": `<h4>Care e sursa virusului?</h4>`,
+        "title": `Care e sursa virusului?`,
         "content": `
             <p>Coronavirusurile sunt o familie virală numeroasă. Unele pot cauza boli la om pe când altele, precum coronavirusurile canine sau feline infectează doar animalele. Rareori unele coronavirusuri care infectează animalele au făcut tranziția la om, putând fi transmise de către acesta. Asta se suspectează că s-a întâmplat în cazul virusului care cauzează COVID-19. Sindromul Respirator din Orientul Mijlociu (MERS) și Sindromul Respirator Sever Acut (SARS) sunt alte două exemple de coronavirusuri care au trecut de la animal la om.</p>
         `
       },{
-        "title": `<h4>Cum se răspândește virusul?</h4>`,
+        "title": `Cum se răspândește virusul?`,
         "content": `
             <p>Virusul a fost detectat pentru prima dată în orașul Wuhan, provincia Hubei, China. Primele infecții au fost conectate, în urma anchetei epidemiologice, de o piață de animale vii. Însă acum virusul se răspândește de la om la om. E important să ținem cont de faptul că răspândirea de la om la om poate continua fără gazde animale.</p>
             <p>Unele virusuri sunt extrem de contagioase (precum pojarul) iar altele mai puțin.Virusul care cauzează COVID-19 pare să fie unul care se răspândește ușor și în mod susținut în comunități (“răspândire comunitară”) în unele zone geografice afectate. Răspândirea comunitară înseamnă că populația dintr-o zona a fost infectată cu virusul, inclusiv un număr de persoane despre care nu se știe unde au contactat boala (nu se cunoaște originea bolii).</p>
         `
       },{
-        "title": `<h4>Poate cineva care are COVID-19 să răspândească boala?</h4>`,
+        "title": `Poate cineva care are COVID-19 să răspândească boala?`,
         "content": `
             <p>Virusul care cauzează COVID-19 se răspândește de la om la om. Cineva care este bolnav cu COVID-19 poate răspândi boala către alții. De aceea se recomandă carantinarea pacienților până sunt din nou sănătoși și nu mai prezintă risc de infecție pentru alții.</p>
             <p>Se crede că virusul se răspândește mai ales de la persoană la persoană în mod direct:</p>
@@ -752,23 +752,23 @@ export default [
             <p>Aceste picături microscopice pot ajunge în gura sau nasul persoanelor aflate în apropiere sau pot fi inhalate direct în plămâni.</p>
         `
       },{
-        "title": `<h4>Poate cineva care nu pare bolnav să răspândească virusul?</h4>`,
+        "title": `Poate cineva care nu pare bolnav să răspândească virusul?`,
         "content": `
             <p>Se crede că persoanele sunt contagioase mai ales atunci când sunt simptomatice (vizibil bolnave). Este însă posibil ca unele persoane să răspândească virusul înainte sau fără să manifeste simptome; există cazuri în care se pare că acest lucru s-a întâmplat cu noul coronavirus dar aceasta nu pare să fie principala modalitate de răspândire.</p>
         `
       },{
-        "title": `<h4>Pot lua virusul de pe o suprafață sau un obiect contaminat?</h4>`,
+        "title": `Pot lua virusul de pe o suprafață sau un obiect contaminat?`,
         "content": `
             <p>Este posibil ca o persoană să se îmbolnăvească de COVID-19 prin atingerea unei suprafețe sau al unui obiect care are virusul pe el, apoi atingându-și gura, nasul sau ochii, dar aceasta nu pare să fie principala modalitate de răspândire.</p>
         `
       },{
-        "title": `<h4>Cât timp poate supraviețui noul coronavirus pe suprafețe contaminate? </h4>`,
+        "title": `Cât timp poate supraviețui noul coronavirus pe suprafețe contaminate? `,
         "content": `
             <p>Deși încă nu este sigur cât timp supraviețui virusul care cauzează COVID-19 pe suprafețe, Organizația Mondială a Sănătății sugerează că acesta pare să se comporte ca și celălalte tipuri de coronavirus. Studiile făcute pe acestea sugerează că pot persista pe suprafețe între câteva ore și câteva zile (informație susținută și de datele preliminare despre noul coronavirus). Acest timp poate varia în funcție de condiții (ex. tipul de suprafață, temperatura sau umiditatea din mediu). </p>
             <p>Dacă considerați că o suprafață ar putea fi infectată, curățați-o cu un dezinfectant pentru a omorâ virusul și pentru a vă proteja pe dumneavoastră și pe cei din jur. Curățați-vă apoi mainile cu o soluție pe bază de alcool sau spălați-vă pe mâini cu apă și săpun. Evitați să vă atingeți ochii, nasul și gura.</p>
         `
       },{
-        "title": `<h4>Care este durata de infecție cu COVID-19?</h4>`,
+        "title": `Care este durata de infecție cu COVID-19?`,
         "content": `
             <p>Cât de multă vreme o persoană e bolnavă în mod activ variază de la om la om și la fel poate varia decizia de a elibera pe cineva din spital, carantină sau izolare. Eliberarea se face de la caz la caz în funcție de decizia personalului medical și al specialiștilor în prevenția răspândirii bolilor infecțioase. Decizia se ia pe baza simptomatologiei și testelor de laborator.</p>
             <p>Directivele Centrului de Control și Prevenția al Bolilor (CDC) din SUA subliniază trei criterii pentru eliberarea din carantină:</p>
@@ -780,39 +780,39 @@ export default [
             <p>O persoană eliberată din izolare e considerată ca fiind necontagioasă, neprezentând risc de infecție pentru alții.</p>
         `
       },{
-        "title": `<h4>Poate o persoană care a fost în carantină să îi infecteze pe alții?</h4>`,
+        "title": `Poate o persoană care a fost în carantină să îi infecteze pe alții?`,
         "content": `
             <p>Carantină înseamnă separarea unei persoane sau a unui grup de persoane care a fost expus unei boli contagioase (dar nu a dezvoltat simptome de boală) de populația care nu a fost expusă, pentru a limita posibilitățile de răspândire ale bolii. La fel ca autoizolarea, carantina este de obicei stabilită pentru perioada de incubație a bolii comunicabile, adică durata de timp în care oamenii dezvoltă boala după expunere. Pentru COVID-19, perioada de carantinare e de 14 zile de la data expunerii, deoarece 14 zile este cea mai lungă perioadă de incubație descoperită la coronavirusuri similare. O persoană eliberată din carantină e considerată ca fiind necontagioasă, neprezentând risc de infecție pentru alții.</p>
         `
       },{
-        "title": `<h4>Poate virusul care cauzează COVID-19 să fie răspândit  prin mâncare, inclusiv mâncare congelată sau refrigerată?</h4>`,
+        "title": `Poate virusul care cauzează COVID-19 să fie răspândit  prin mâncare, inclusiv mâncare congelată sau refrigerată?`,
         "content": `
             <p>De regulă coronavirusurile se răspândesc de la persoană la persoană prin picături respiratorii. În prezent nu există dovezi care să susțină transmisia CIVID-19 prin mâncare. Înainte de a pregăti mâncare sau de a mânca e important să vă spălați pe mâini cu apă și săpun timp de 20 de secunde pentru siguranța alimentară generală. Pe toată durata zilei spălați-vă pe mâini de fiecare dată când tușiți strănutați, vă suflați nasul sau mergeți la toaletă.</p>
             <p>Ar putea fi posibil ca o persoană să se îmbolnăvească de COVID-19 prin atingerea unei suprafețe sau a unui obiect care are virusul pe el, apoi atingându-și gura, nasul sau chiar ochii, dar aceasta nu pare să fie principala modalitate de răspândire.</p>
             <p>În general, deoarece coronavirusurile supraviețuiesc puțin timp pe suprafețe, riscul de îmbolnăvire de la ambalaje sau produse alimentare e foarte scăzut, acestea călătorind timp de zile sau chiar săptămâni la temperaturi ambientale, refrigerate sau congelate.</p>
         `
       },{
-        "title": `<h4>Va opri vremea caldă epidemia de COVID-19?</h4>`,
+        "title": `Va opri vremea caldă epidemia de COVID-19?`,
         "content": `
             <p>Nu se știe încă sigur dacă vremea și temperatura influențează răspândirea COVID-19. Alte virusuri, precum răceala sau gripa se răspândesc mai mult când vremea e rece dar asta nu înseamnă că e imposibil să te îmbolnăvești cu aceste virusuri în lunile calde. În acest moment nu știm dacă răspândirea COVID-19 va scădea când vremea se va încălzi. </p>
         `
       },{
-        "title": `<h4>Ce e răspândirea comunitară?</h4>`,
+        "title": `Ce e răspândirea comunitară?`,
         "content": `
             <p>Răspândirea comunitară e când mai multe persoane au fost infectate într-o zonă, inclusiv unele persoane care nu sunt sigure de metoda prin care au fost infectate (nu se cunoaște sursa infectării).</p>
         `
       },{
-        "title": `<h4>Pot să mă infectez în România?</h4>`,
+        "title": `Pot să mă infectez în România?`,
         "content": `
             <p>Situația evoluează foarte repede și riscul de infecție poate evolua zilnic. Consultați sursele oficiale la zi pentru a stabili riscul pentru dumneavoastră.</p>
         `
       },{
-        "title": `<h4>Există cazuri în România?</h4>`,
+        "title": `Există cazuri în România?`,
         "content": `
             <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro">aici</a></p>
         `
       },{
-        "title": `<h4>Cum mă pot proteja?</h4>`,
+        "title": `Cum mă pot proteja?`,
         "content": `
             <p>Momentan nu există un vaccin preventiv pentru coronavirusul care cauzează COVID-19.
 Cea mai sigură metodă de evitare a infecției este să evitați expunerea la virus prin limitarea contactului cu alte persoane sau autoizolare (așa-numitele metode de distanțare socială).
@@ -853,17 +853,17 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             </ul>
         `
       },{
-        "title": `<h4>Ce să fac dacă am avut contact direct cu o persoană confirmată cu COVID-19?</h4>`,
+        "title": `Ce să fac dacă am avut contact direct cu o persoană confirmată cu COVID-19?`,
         "content": `
             <p>Contactați autoritățile la linia TELVERDE 0800 800 358 Veți primi instrucțiuni punctuale. Între timp, evitați contactul cu alte persoane pe cât posibil.</p>
         `
       },{
-        "title": `<h4>Cine e expus mai mult riscului de îmbolnăvire gravă cu COVID-19?</h4>`,
+        "title": `Cine e expus mai mult riscului de îmbolnăvire gravă cu COVID-19?`,
         "content": `
             <p>Din datele disponibile până acum, persoanele cele mai expuse la o îmbolnăvire gravă cu COVID-19 sunt persoanele în vârstă și persoanele bolnave cronic de diabet, boli pulmonare, boli cardiace inclusiv hipertensiune.</p>
         `
       },{
-        "title": `<h4>Ce pot face persoanele ce prezintă risc ridicat de îmbolnăvire?</h4>`,
+        "title": `Ce pot face persoanele ce prezintă risc ridicat de îmbolnăvire?`,
         "content": `
             <p>Dacă sunteți într-o grupă de risc:</p>
             <ul>
@@ -874,12 +874,12 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             </ul>
         `
       },{
-        "title": `<h4>Sunt expus la risc de îmbolnăvire cu COVID-19 dacă deschid pachete provenite din țări afectate ca China sau Italia?</h4>`,
+        "title": `Sunt expus la risc de îmbolnăvire cu COVID-19 dacă deschid pachete provenite din țări afectate ca China sau Italia?`,
         "content": `
             <p>Momentan nu știm destule despre rata de supraviețuire a coronavirusului ce provoacă COVID-19 dar coronavirusurile au o rată scăzută de supraviețuire pe supraafețe iar pachetele stau zile dacă nu săptămâni pe traseu. Riscul de contaminare de la un pachet este foarte redus și nu avem dovezi de nici un caz la nivel mondial contaminat prin colete poștale.</p>
         `
       },{
-        "title": `<h4>Care sunt simptomele COVID-19?</h4>`,
+        "title": `Care sunt simptomele COVID-19?`,
         "content": `
             <p>Cele mai răspândite simptome pentru infecția cu noul coronavirus sunt:</p>
              <ul>
@@ -899,39 +899,39 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             <p>Această listă este doar una provizorie. Contactați-vă medicul de familie dacă prezentați orice tip de simptome asociate COVID-19. Pe baza simptomatologiei se poate dispune testarea pentru COVID-19 și spitalizarea într-unul din centrele specializate dacă se consideră necesar de către cadrele medicale. Contactați  numărul de urgență 112 doar în caz de simptome grave. O persoană trebuie să fie testată de două ori consecutiv cu un rezultat negativ, pentru a fi considerată vindecată.</p>
         `
       },{
-        "title": `<h4>Poate o persoană ce a primit un diagnostic negativ la test să fie apoi testată și să fie identificată ca bolnavă cu COVID-19?</h4>`,
+        "title": `Poate o persoană ce a primit un diagnostic negativ la test să fie apoi testată și să fie identificată ca bolnavă cu COVID-19?`,
         "content": `
             <p>Un test negativ înseamnă că virusul care cauzează COVD-19 nu a fost descoperit în mostra prelevată de la persoana testată. Un test “fals negativ” este posibil mai ales în perioada timpurie a infecției. În cazul COVID-19 un test negativ prelevat de la o persoană cu simptome înseamnă că persoana respectivă probabil suferă de o altă afecțiune respiratorie cum ar fi gripa sau răceala.</p>
         `
       },{
-        "title": `<h4>Există orice medicamente sau terapii care previn sau tratează COVID-19?</h4>`,
+        "title": `Există orice medicamente sau terapii care previn sau tratează COVID-19?`,
         "content": `
             <p>În timp ce unele tratamente medicamentoase sau remedii casnice pot oferi confort și ameliorează simptomele de COVID-19, nu există până în momentul de față dovezi clare că medicamentele existente pot preveni sau trata boala. Organizația Mondială a Sănătății <strong>nu</strong> recomanda auto-medicația, inclusiv administrarea de antibiotice, pentru prevenirea și tratarea COVID-19. Cu toate acestea, există studii clinice care evaluează diferite tratamente pentru COVD-19 și vom actualiza informațiile când acestea devin disponibile. </p>
         `
       },{
-        "title": `<h4>Sunt antibioticele eficiente în prevenirea și tratarea COVID-19?</h4>`,
+        "title": `Sunt antibioticele eficiente în prevenirea și tratarea COVID-19?`,
         "content": `
             <p>Nu. Antibioticele nu funcționează împotriva virusurilor, acestea funcționează doar pentru infecții bacteriene. COVID-19 este cauzată de un virus, așadar antibioticele nu au rezultat. Antibioticele nu ar trebui folosite ca mijloc de prevenție sau tratament pentru COVID-19. Acestea ar trebui folosite doar la indicația medicului pentru a trata o infecție bacteriană.</p>
         `
       },{
-        "title": `<h4>Există un vaccin, medicament sau tratament specific pentru COVID-19?</h4>`,
+        "title": `Există un vaccin, medicament sau tratament specific pentru COVID-19?`,
         "content": `
             <p>Încă nu. Până în acest moment, nu există niciun vaccin și niciun medicament specific antiviral pentru a preveni sau trata COVID-19. Cu toate acestea, cei afectați trebuie să primească îngrijiri pentru a le ameliora (reduce) simptomele. Persoanele cu forme grave trebuie spitalizate. Majoritatea pacienților se recuperează în urma îngrijirilor.</p>
             <p>Posibile vaccinuri și tratamente specifice medicamentoase sunt în investigație. Acestea sunt testate prin studii clinice controlate. Organizația Mondială a Sănătății coordonează eforturile de a se dezvolta un vaccin și un tratament medicamentos pentru a preveni și trata COVID-19.</p>
             <p>Cea mai eficientă metodă de a vă proteja pe dumneavoastră și pe cei din jur împotriva COVID-19 este de a vă curăța frecvent mâinile, să vă acoperiți gura atunci când tușiți cu un șervețel sau cu interiorul cotului și să păstrați o distanță de minim 1m de persoane care tușesc sau strănută.</p>
         `
       },{
-        "title": `<h4>Pot animalele să răspândească virusul ce cauzează COVID-19?</h4>`,
+        "title": `Pot animalele să răspândească virusul ce cauzează COVID-19?`,
         "content": `
             <p>Deși boala a apărut prin transferul de la animal la om nu există nicio dovadă că animalele de curte sau animalele de companie prezintă vreun risc de transmisie al bolii. Animalele pot însă transmite alte boli virale sau bacteriene așa că se recomandă spălatul pe mâini după contactul cu animale.</p>
         `
       },{
-        "title": `<h4>Dacă sunt infectat cu COVID-19 să evit contactul cu animalele de companie sau alte animale?</h4>`,
+        "title": `Dacă sunt infectat cu COVID-19 să evit contactul cu animalele de companie sau alte animale?`,
         "content": `
             <p>Deși boala nu se transmite prin animale sau animale de companie din ce se cunoaște ar trebui să evitați contactul pe durata bolii nu doar cu alte persoane ci și cu animalele până cunoaștem mai multe despre evoluția acestei boli.</p>
         `
       },{
-        "title": `<h4>Ar mai fi alte lucruri care nu ar fi recomandat să le fac?</h4>`,
+        "title": `Ar mai fi alte lucruri care nu ar fi recomandat să le fac?`,
         "content": `
             <p>Conform Organizației Mondiale a Sănătății, următoarele comportamente nu sunt eficiente împotriva COVID-19 și pot fi dăunătoare:</p>
             <ul>
