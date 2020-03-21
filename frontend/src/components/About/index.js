@@ -3,44 +3,19 @@ import logo_large from "../../images/logo_large.svg";
 import {
   Hero,
   Instruments,
-  InstrumentsItem,
   SocialsShare,
   SearchInput
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
+import {
+  renderInstrumentItem,
+  remapInstrumentsData
+} from "../../utils/instruments.utils";
 
 const About = () => {
-  const renderInstrumentsItemCategory = (data, category) => {
-    return data
-      .sort((a, b) => {
-        return a.display_order - b.display_order;
-      })
-      .map(usefulApp => {
-        return (
-          <InstrumentsItem
-            key={`useful_app_${usefulApp.doc_id}`}
-            color={category}
-            title={usefulApp.title}
-            content={usefulApp.content}
-            ctaText={
-              usefulApp.buttons &&
-              usefulApp.buttons.length > 0 &&
-              usefulApp.buttons[0].title
-            }
-            onClick={() => {
-              if (
-                usefulApp.buttons &&
-                usefulApp.buttons.length > 0 &&
-                usefulApp.buttons[0].link
-              ) {
-                window.open(usefulApp.buttons[0].link, "_blank");
-              }
-            }}
-          />
-        );
-      });
-  };
+  const instrumentsData = remapInstrumentsData(UsefulApps);
+
   return (
     <div className="container about-page">
       <section>
@@ -84,29 +59,23 @@ const About = () => {
 
         <Instruments layout="grid">
           <section>
-            {renderInstrumentsItemCategory(
-              UsefulApps.filter(usefulApp => usefulApp.app_type === "INFO"),
-              "yellow"
+            <SearchInput
+              hasIcon={true}
+              placeholder={"cauta informatii aici"}
+              onValueChange={() => {}}
+            />
+            {instrumentsData.news.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
             )}
           </section>
           <section>
-            {renderInstrumentsItemCategory(
-              UsefulApps.filter(usefulApp => usefulApp.app_type === "NEWS"),
-              "green"
+            {instrumentsData.offer_help.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
             )}
           </section>
           <section>
-            {renderInstrumentsItemCategory(
-              UsefulApps.filter(
-                usefulApp => usefulApp.app_type === "OFFER_HELP"
-              ),
-              "red"
-            )}
-          </section>
-          <section>
-            {renderInstrumentsItemCategory(
-              UsefulApps.filter(usefulApp => usefulApp.app_type === "DATA"),
-              "pink"
+            {instrumentsData.data.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
             )}
           </section>
         </Instruments>

@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
 import AppWrapper from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "@code4ro/taskforce-fe-components/dist/index.css";

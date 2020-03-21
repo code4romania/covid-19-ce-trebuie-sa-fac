@@ -1,4 +1,4 @@
-# Ce mă fac - Arbore decizional pentru informarea publicului
+# Ce mă fac - Web platform with guides & questionnaires
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
@@ -6,7 +6,7 @@
 
 Objective: Clear information of the public, increase in the level of proper actions taken.
 
-How: Web platform with guides, questionaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
+How: Web platform with guides, questionnaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Development](#development) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
 
@@ -43,7 +43,7 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 `API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
 `Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
 
-- automatically deployed using https://zeit.co/ from PRs for testing 
+- automatically deployed using https://zeit.co/ from PRs for testing; preview environment: https://ce-ma-fac.now.sh/
 - uses github actions for deploying in prod
 
 ## Feedback
