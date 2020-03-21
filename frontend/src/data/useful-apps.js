@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Informații din surse oficiale",
+    title: "Știri oficiale și informații la zi",
     doc_type: "USEFUL_APP",
     doc_id: 1,
     active: true,
