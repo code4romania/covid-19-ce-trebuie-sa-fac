@@ -13,43 +13,7 @@ const FooterWrapper = () => {
       <FooterLinks>
         <FooterLinkHeader>Linkuri utile</FooterLinkHeader>
         <FooterLinkItem>
-          <Link to="/despre"> Despre</Link>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://code4.ro/ro/apps/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ecosistemul Covid-19
-          </a>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://addons.mozilla.org/en-US/firefox/addon/covid-19-%C8%99tiri-oficiale/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instalează add-on-ul Firefox
-          </a>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://chrome.google.com/webstore/detail/pdcpkplohipjhdfdchpmgekifmcdbnha"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instalează add-on-ul Chrome
-          </a>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://datelazi.ro/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Date la zi
-          </a>
+          <Link to="/despre"> Despre proiect</Link>
         </FooterLinkItem>
         <FooterLinkItem>
           <a
@@ -62,38 +26,20 @@ const FooterWrapper = () => {
         </FooterLinkItem>
         <FooterLinkItem>
           <a
-            href="https://stamacasa.ro/"
+            href="https://www.gov.ro/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Stăm acasă
+            Guvernul României
           </a>
         </FooterLinkItem>
         <FooterLinkItem>
           <a
-            href="https://diasporahub.ro/"
+            href="http://www.dsu.mai.gov.ro/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Diaspora Hub
-          </a>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://rohelp.ro/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RO help
-          </a>
-        </FooterLinkItem>
-        <FooterLinkItem>
-          <a
-            href="https://code4.ro/ro/doneaza/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Sprijină proiectul
+            Departamentul pentru Situații de Urgență
           </a>
         </FooterLinkItem>
       </FooterLinks>
