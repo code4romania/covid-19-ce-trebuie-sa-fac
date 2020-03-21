@@ -413,14 +413,21 @@ export default [
         "type": "FINAL",
         "options": [
           {
-            "label": "Simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
+            "label": "Conform răspunsurilor tale ai un grad ridicat de risc să fii infectat cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
               "Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "value": 0
           },
           {
-            "label": "Unul dintre simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "label": "Conform răspunsurilor tale există o posibilitate să fii infectat cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "value": 1
           },
           {
-            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. ",
+            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. ",
+            "value": 2
+          },
+          {
+            "label": "Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări sau manifești simptome, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.",
+            "value": 3
           }
         ]
       }
