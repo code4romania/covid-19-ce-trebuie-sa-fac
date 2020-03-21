@@ -90,7 +90,6 @@ function Results({ question, answers }) {
   };
 
   const showResults = () => {
-    console.log(calculateResults(), question);
     return question.options[calculateResults()].label;
   };
 
