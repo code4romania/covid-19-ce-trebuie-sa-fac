@@ -59,11 +59,11 @@ const About = () => {
 
         <Instruments layout="grid">
           <section>
-            <SearchInput
-              hasIcon={true}
-              placeholder={"cauta informatii aici"}
-              onValueChange={() => {}}
-            />
+            {instrumentsData.info.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
+          </section>
+          <section>
             {instrumentsData.news.map(usefulApp =>
               renderInstrumentItem(usefulApp)
             )}
