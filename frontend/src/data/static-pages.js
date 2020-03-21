@@ -1,6 +1,7 @@
 export default [
   {
     "title": "Transmitere și simptome",
+    "slug": "transmitere-si-simptome",
     "doc_type": "STATIC_PAGE",
     "doc_id": 101,
     "active": true,
@@ -58,12 +59,15 @@ export default [
     <p/>
 
     <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
+    <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
+
 `,
     "form": null,
     "buttons": null
   },
   {
     "title": "Cum ne protejăm?",
+    "slug": "cum-ne-protejam",
     "doc_type": "STATIC_PAGE",
     "doc_id": 102,
     "active": false,
@@ -172,6 +176,7 @@ export default [
   },
   {
     "title": "Ai simptome?",
+    "slug": "ai-simptome",
     "doc_type": "STATIC_PAGE",
     "doc_id": 103,
     "active": false,
@@ -410,14 +415,21 @@ export default [
         "type": "FINAL",
         "options": [
           {
-            "label": "Simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
+            "label": "Conform răspunsurilor tale ai un grad ridicat de risc să fii infectat cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
               "Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "value": 0
           },
           {
-            "label": "Unul dintre simptomele pe care le manifești sunt specifice infecției cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "label": "Conform răspunsurilor tale există o posibilitate să fii infectat cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+            "value": 1
           },
           {
-            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. ",
+            "label": "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. ",
+            "value": 2
+          },
+          {
+            "label": "Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări sau manifești simptome, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.",
+            "value": 3
           }
         ]
       }
@@ -425,6 +437,7 @@ export default [
   },
   {
     "title": "Adaptare și rezistență",
+    "slug": "adaptare-si-rezistenta",
     "doc_type": "STATIC_PAGE",
     "doc_id": 104,
     "active": false,
@@ -590,6 +603,7 @@ export default [
   },
   {
     "title": "Pentru cei care oferă ajutor",
+    "slug": "pentru-cei-care-ofera-ajutor",
     "doc_type": "STATIC_PAGE",
     "doc_id": 105,
     "active": false,
@@ -666,6 +680,8 @@ export default [
           <li>Există și alte persoane care pot ajuta în răspunsul la pandemie.</li>
          </ul>
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
+
     `,
     "form": null,
     "firstNodeId": null,
@@ -673,6 +689,7 @@ export default [
   },
   {
     "title": "Întrebări frecvente",
+    "slug": "intrebari-frecvente",
     "doc_type": "STATIC_PAGE",
     "doc_id": 106,
     "active": false,

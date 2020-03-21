@@ -77,7 +77,7 @@ const App = () => {
         <Route path="/termeni-si-conditii">
           <TermsAndConditions />
         </Route>
-        <Route path="/">
+        <Route exact path="/:slug?/">
           <Home />
         </Route>
       </Switch>
