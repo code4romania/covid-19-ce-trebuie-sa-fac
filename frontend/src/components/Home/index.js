@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useParams, useHistory } from "react-router-dom";
 import ContentPage from "../ContentPage";
 import data from "../../data/static-pages";
 import {
@@ -7,7 +8,8 @@ import {
   InstrumentsItem,
   List,
   ListItem,
-  SearchInput
+  SearchInput,
+  SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 
@@ -18,9 +20,21 @@ const Home = () => {
     DATA: "pink"
   };
   const [selectedPage, setSelectedPage] = useState(null);
+  const history = useHistory();
+  const { slug } = useParams();
+
+  useEffect(() => {
+    const document = data.find(doc => doc.slug === slug);
+    if (document) {
+      setSelectedPage(document);
+    } else {
+      const [firstDocument] = data;
+      history.push((firstDocument && firstDocument.slug) || "/");
+    }
+  }, [slug, history]);
 
   const onItemClick = document => {
-    setSelectedPage(document);
+    history.push(document.slug);
   };
 
   return (
@@ -51,6 +65,7 @@ const Home = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-8">
+            <SocialsShare currentPage={window.location.href} />
             {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
           <div className="column is-4">

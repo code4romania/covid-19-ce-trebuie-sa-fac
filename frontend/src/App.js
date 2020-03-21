@@ -29,7 +29,8 @@ const Logo = () => (
 const MenuItems = [
   <Link to="/despre" key={"des"}>
     Despre
-  </Link>,
+  </Link>
+  /*,
   <a
     href="https://code4.ro/ro/apps/"
     target="_blank"
@@ -45,7 +46,7 @@ const MenuItems = [
     key={"don"}
   >
     Sprijină proiectul
-  </a>
+  </a> */
 ];
 
 const AppWrapper = () => {
@@ -65,7 +66,7 @@ const App = () => {
   return (
     <>
       <Header Logo={Logo()} MenuItems={MenuItems} />
-      <DevelopedBy />
+      <DevelopedBy showSecondLine={true} />
       <Switch>
         <Route path="/despre">
           <About />
@@ -76,7 +77,7 @@ const App = () => {
         <Route path="/termeni-si-conditii">
           <TermsAndConditions />
         </Route>
-        <Route path="/">
+        <Route exact path="/:slug?/">
           <Home />
         </Route>
       </Switch>

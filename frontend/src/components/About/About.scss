@@ -1,33 +1,15 @@
 .about-page {
   display: flex;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 
 section.has-border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.section-title {
-  display: flex;
-  align-items: center;
-  img {
-    height: 40px;
-  }
-  h1 {
-    font-size: 32px;
-    line-height: 49px;
-    padding-left: 5px;
-    color: #1c1080;
-  }
-}
-
-.section-footer {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  > * {
-    padding-right: 10px;
-  }
+section.has-horizontal-paddding {
+  padding: 50px 0;
 }
 
 .about-section-logo {
@@ -47,28 +29,6 @@ section.has-border-bottom {
     display: grid;
     grid-template-columns: 100%;
     row-gap: 20px;
-  }
-}
-
-.search-bar {
-  display: flex;
-  input {
-    background: #ffffff;
-    border: 1px solid #42d2f2;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 16px;
-    width: 100%;
-    padding: 16px 8px;
-    padding-right: 38px;
-    outline: none;
-  }
-  svg {
-    position: relative;
-    top: 16px;
-    right: 30px;
   }
 }
 
@@ -125,7 +85,7 @@ section.has-border-bottom {
 @media (min-width: 801px) {
   .about-page {
     display: grid;
-    column-gap: 10px;
+    column-gap: 32px;
     grid-template-columns: 1fr 1fr;
   }
   .useful-instruments {
