@@ -1,4 +1,4 @@
-# Ce mă fac - Arbore decizional pentru informarea publicului
+# Ce mă fac - Web platform with guides & questionnaires
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
@@ -6,7 +6,7 @@
 
 Objective: Clear information of the public, increase in the level of proper actions taken.
 
-How: Web platform with guides, questionaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
+How: Web platform with guides, questionnaires, and decision trees which can help the population understand the current situation and guides them through what steps need to be taken.
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Development](#development) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
 
