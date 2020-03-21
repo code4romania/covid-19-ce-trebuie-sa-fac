@@ -17,12 +17,12 @@ import {
   DevelopedBy,
   IncubatedBy
 } from "@code4ro/taskforce-fe-components";
-import LogoSvg from "./images/logo_small.svg";
+import LogoSvg from "./images/logo.svg";
 import "./App.scss";
 
 const Logo = () => (
   <Link to="/">
-    <img alt="" src={LogoSvg} />
+    <img width="145" height="32" alt="" src={LogoSvg} />
   </Link>
 );
 

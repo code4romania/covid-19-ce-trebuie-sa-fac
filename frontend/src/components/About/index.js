@@ -1,5 +1,5 @@
 import React from "react";
-import logo_large from "../../images/logo_large.svg";
+import logo from "../../images/logo.svg";
 import {
   Hero,
   Instruments,
@@ -34,7 +34,7 @@ const About = () => {
         </div>
       </section>
       <section className="about-section-logo">
-        <img src={logo_large} alt=""></img>
+        <img src={logo} alt=""></img>
       </section>
       <section className="has-border-bottom has-horizontal-paddding">
         <p>
