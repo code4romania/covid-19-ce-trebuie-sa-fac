@@ -29,7 +29,8 @@ const Logo = () => (
 const MenuItems = [
   <Link to="/despre" key={"des"}>
     Despre
-  </Link>,
+  </Link>
+  /*,
   <a
     href="https://code4.ro/ro/apps/"
     target="_blank"
@@ -45,7 +46,7 @@ const MenuItems = [
     key={"don"}
   >
     Sprijină proiectul
-  </a>
+  </a> */
 ];
 
 const AppWrapper = () => {

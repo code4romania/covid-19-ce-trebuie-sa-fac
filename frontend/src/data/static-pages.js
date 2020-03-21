@@ -602,8 +602,8 @@ export default [
     "form": null
   },
   {
-    "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
-    "slug": "pentru-echipele-de-interventie-si-cei-care-ofera-ajutor-in-teren",
+    "title": "Pentru cei care oferă ajutor",
+    "slug": "pentru-cei-care-ofera-ajutor",
     "doc_type": "STATIC_PAGE",
     "doc_id": 105,
     "active": false,
