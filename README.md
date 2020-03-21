@@ -43,7 +43,7 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 `API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
 `Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
 
-- automatically deployed using https://zeit.co/ from PRs for testing 
+- automatically deployed using https://zeit.co/ from PRs for testing; preview environment: https://ce-ma-fac.now.sh/
 - uses github actions for deploying in prod
 
 ## Feedback
