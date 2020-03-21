@@ -18,7 +18,7 @@ const Home = () => {
   const { slug } = useParams();
 
   useEffect(() => {
-    const document = data.find(doc => doc.slug === slug);
+    const document = data.find(doc => doc.slug === (slug || "/"));
     if (document) {
       setSelectedPage(document);
     } else {
