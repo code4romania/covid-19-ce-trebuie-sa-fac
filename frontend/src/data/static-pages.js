@@ -589,7 +589,7 @@ export default [
     "form": null
   },
   {
-    "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
+    "title": "Pentru cei care oferă ajutor",
     "doc_type": "STATIC_PAGE",
     "doc_id": 105,
     "active": false,
