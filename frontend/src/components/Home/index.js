@@ -22,7 +22,8 @@ const Home = () => {
     if (document) {
       setSelectedPage(document);
     } else {
-      history.push("/");
+      const [firstDocument] = data;
+      history.push((firstDocument && firstDocument.slug) || "/");
     }
   }, [slug, history]);
 
