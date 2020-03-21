@@ -5,20 +5,18 @@ import data from "../../data/static-pages";
 import {
   Hero,
   Instruments,
-  InstrumentsItem,
   List,
   ListItem,
   SearchInput,
   SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
+import {
+  renderInstrumentItem,
+  remapInstrumentsData
+} from "../../utils/instruments.utils";
 
 const Home = () => {
-  const colorMap = {
-    NEWS: "green",
-    OFFER_HELP: "red",
-    DATA: "pink"
-  };
   const [selectedPage, setSelectedPage] = useState(null);
   const history = useHistory();
   const { slug } = useParams();
@@ -36,6 +34,8 @@ const Home = () => {
   const onItemClick = document => {
     history.push(document.slug);
   };
+
+  const instrumentsData = remapInstrumentsData(UsefulApps);
 
   return (
     <>
@@ -76,30 +76,9 @@ const Home = () => {
               onValueChange={() => {}}
             />
             <Instruments layout="column">
-              {UsefulApps.sort((a, b) => {
-                return a.display_order - b.display_order;
-              }).map(usefulApp => {
-                return (
-                  <InstrumentsItem
-                    key={`useful_app_${usefulApp.doc_id}`}
-                    color={colorMap[usefulApp.app_type]}
-                    title={usefulApp.title}
-                    content={usefulApp.content}
-                    ctaText={
-                      usefulApp.buttons &&
-                      usefulApp.buttons.length > 0 &&
-                      usefulApp.buttons[0].title
-                    }
-                    onClick={() => {
-                      if (
-                        usefulApp.buttons &&
-                        usefulApp.buttons.length > 0 &&
-                        usefulApp.buttons[0].link
-                      ) {
-                        window.open(usefulApp.buttons[0].link, "_blank");
-                      }
-                    }}
-                  />
+              {Object.keys(instrumentsData).map(category => {
+                return instrumentsData[category].map(usefulApp =>
+                  renderInstrumentItem(usefulApp)
                 );
               })}
             </Instruments>
