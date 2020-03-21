@@ -17,7 +17,8 @@ const Home = () => {
   const colorMap = {
     NEWS: "green",
     OFFER_HELP: "red",
-    DATA: "pink"
+    DATA: "pink",
+    INFO: "yellow"
   };
   const [selectedPage, setSelectedPage] = useState(null);
   const history = useHistory();
