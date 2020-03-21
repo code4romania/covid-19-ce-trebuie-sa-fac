@@ -5,12 +5,16 @@ import data from "../../data/static-pages";
 import {
   Hero,
   Instruments,
-  InstrumentsItem,
   List,
   ListItem,
   SearchInput,
   SocialsShare
 } from "@code4ro/taskforce-fe-components";
+import UsefulApps from "../../data/useful-apps";
+import {
+  renderInstrumentItem,
+  remapInstrumentsData
+} from "../../utils/instruments.utils";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -30,6 +34,8 @@ const Home = () => {
   const onItemClick = document => {
     history.push(document.slug);
   };
+
+  const instrumentsData = remapInstrumentsData(UsefulApps);
 
   return (
     <>
@@ -70,32 +76,11 @@ const Home = () => {
               onValueChange={() => {}}
             />
             <Instruments layout="column">
-              <InstrumentsItem
-                color="green"
-                title="Instalează-ți add-on-ul de depistat știrile false"
-                onClick={() => {}}
-              />
-              <InstrumentsItem
-                color="green"
-                title="Stiri oficiale si informații la zi"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis pretium."
-                ctaText="Cele mai noi informații oficiale"
-                onClick={() => {}}
-              />
-              <InstrumentsItem
-                color="red"
-                title="Vrei să ajuți. Intră aici"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis pretium."
-                ctaText="Centrul de sprijin"
-                onClick={() => {}}
-              />
-              <InstrumentsItem
-                color="pink"
-                title="Date în timp real"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, duis pretium."
-                ctaText="Vezi situația curentă"
-                onClick={() => {}}
-              />
+              {Object.keys(instrumentsData).map(category => {
+                return instrumentsData[category].map(usefulApp =>
+                  renderInstrumentItem(usefulApp)
+                );
+              })}
             </Instruments>
           </div>
         </div>

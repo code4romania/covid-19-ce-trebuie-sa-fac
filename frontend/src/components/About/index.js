@@ -1,13 +1,21 @@
 import React from "react";
 import logo_large from "../../images/logo_large.svg";
 import {
-  SocialsShare,
   Hero,
+  Instruments,
+  SocialsShare,
   SearchInput
 } from "@code4ro/taskforce-fe-components";
+import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
+import {
+  renderInstrumentItem,
+  remapInstrumentsData
+} from "../../utils/instruments.utils";
 
 const About = () => {
+  const instrumentsData = remapInstrumentsData(UsefulApps);
+
   return (
     <div className="container about-page">
       <section>
@@ -48,56 +56,29 @@ const About = () => {
       </section>
       <section className="about-section-useful-instruments">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-        <div className="useful-instruments">
+
+        <Instruments layout="grid">
           <section>
             <SearchInput
               hasIcon={true}
               placeholder={"cauta informatii aici"}
               onValueChange={() => {}}
             />
-            <div className="info-card info-card-news">
-              <div className="card-title">
-                Instalează-ți add-on-ul de depistat știrile false
-              </div>
-            </div>
-            <div className="info-card info-card-news">
-              <div className="card-title">
-                Stiri oficiale si informații la zi
-              </div>
-              <div className="card-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
-                  duis pretium.
-                </p>
-                <button>Cele mai noi informații oficiale</button>
-              </div>
-            </div>
+            {instrumentsData.news.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
           </section>
           <section>
-            <div className="info-card info-card-help">
-              <div className="card-title">Vrei să ajuți. Intră aici</div>
-              <div className="card-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
-                  duis pretium.
-                </p>
-                <button>Centrul de sprijin</button>
-              </div>
-            </div>
+            {instrumentsData.offer_help.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
           </section>
           <section>
-            <div className="info-card info-card-data">
-              <div className="card-title">Date în timp real</div>
-              <div className="card-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
-                  duis pretium.
-                </p>
-                <button>Vezi situația curentă </button>
-              </div>
-            </div>
+            {instrumentsData.data.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
           </section>
-        </div>
+        </Instruments>
       </section>
     </div>
   );
