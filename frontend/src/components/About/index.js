@@ -84,11 +84,12 @@ const About = () => {
 
         <Instruments layout="grid">
           <section>
-            <SearchInput
-              hasIcon={true}
-              placeholder={"cauta informatii aici"}
-              onValueChange={() => {}}
-            />
+            {renderInstrumentsItemCategory(
+              UsefulApps.filter(usefulApp => usefulApp.app_type === "INFO"),
+              "yellow"
+            )}
+          </section>
+          <section>
             {renderInstrumentsItemCategory(
               UsefulApps.filter(usefulApp => usefulApp.app_type === "NEWS"),
               "green"

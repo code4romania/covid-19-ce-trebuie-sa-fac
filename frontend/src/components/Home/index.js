@@ -71,11 +71,6 @@ const Home = () => {
           </div>
           <div className="column is-4">
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-            /*<SearchInput
-              hasIcon={true}
-              placeholder={"cauta informatii aici"}
-              onValueChange={() => {}}
-            />*/
             <Instruments layout="column">
               {UsefulApps.sort((a, b) => {
                 return a.display_order - b.display_order;
