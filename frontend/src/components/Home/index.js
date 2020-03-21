@@ -7,7 +7,6 @@ import {
   Instruments,
   List,
   ListItem,
-  SearchInput,
   SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
@@ -17,12 +16,6 @@ import {
 } from "../../utils/instruments.utils";
 
 const Home = () => {
-  const colorMap = {
-    NEWS: "green",
-    OFFER_HELP: "red",
-    DATA: "pink",
-    INFO: "yellow"
-  };
   const [selectedPage, setSelectedPage] = useState(null);
   const history = useHistory();
   const { slug } = useParams();

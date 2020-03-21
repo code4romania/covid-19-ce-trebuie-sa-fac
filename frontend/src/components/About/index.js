@@ -3,8 +3,7 @@ import logo_large from "../../images/logo_large.svg";
 import {
   Hero,
   Instruments,
-  SocialsShare,
-  SearchInput
+  SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
