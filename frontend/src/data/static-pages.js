@@ -1,6 +1,7 @@
 export default [
   {
     "title": "Transmitere și simptome",
+    "slug": "transmitere-si-simptome",
     "doc_type": "STATIC_PAGE",
     "doc_id": 101,
     "active": true,
@@ -66,6 +67,7 @@ export default [
   },
   {
     "title": "Cum ne protejăm?",
+    "slug": "cum-ne-protejam",
     "doc_type": "STATIC_PAGE",
     "doc_id": 102,
     "active": false,
@@ -174,6 +176,7 @@ export default [
   },
   {
     "title": "Ai simptome?",
+    "slug": "ai-simptome",
     "doc_type": "STATIC_PAGE",
     "doc_id": 103,
     "active": false,
@@ -427,6 +430,7 @@ export default [
   },
   {
     "title": "Adaptare și rezistență",
+    "slug": "adaptare-si-rezistenta",
     "doc_type": "STATIC_PAGE",
     "doc_id": 104,
     "active": false,
@@ -592,6 +596,7 @@ export default [
   },
   {
     "title": "Pentru echipele de intervenție și cei care oferă ajutor în teren",
+    "slug": "pentru-echipele-de-interventie-si-cei-care-ofera-ajutor-in-teren",
     "doc_type": "STATIC_PAGE",
     "doc_id": 105,
     "active": false,
@@ -675,6 +680,7 @@ export default [
   },
   {
     "title": "Întrebări frecvente",
+    "slug": "intrebari-frecvente",
     "doc_type": "STATIC_PAGE",
     "doc_id": 106,
     "active": false,
