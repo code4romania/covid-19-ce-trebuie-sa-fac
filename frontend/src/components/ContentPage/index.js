@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Form from "../Form";
-import { Hero } from "@code4ro/taskforce-fe-components";
+import { Hero, Accordion } from "@code4ro/taskforce-fe-components";
 
 function ContentPage({ data }) {
   return (
@@ -12,6 +12,19 @@ function ContentPage({ data }) {
         dangerouslySetInnerHTML={{ __html: data.content }}
       />
       {data.form && <Form data={data} />}
+      {data.accordion &&
+        data.accordion.map((accordion, index) => (
+          <Accordion
+            key={`accordion_${index}`}
+            title={accordion.title}
+            content={
+              <div
+                className="content"
+                dangerouslySetInnerHTML={{ __html: accordion.content }}
+              />
+            }
+          />
+        ))}
     </div>
   );
 }
@@ -32,6 +45,12 @@ ContentPage.propTypes = {
             value: PropTypes.number.isRequired
           })
         )
+      })
+    ),
+    accordion: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        content: PropTypes.string.isRequired
       })
     )
   })
