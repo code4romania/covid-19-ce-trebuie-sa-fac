@@ -5,7 +5,7 @@
   "description": "Arbore decizional pentru informarea publicului",
   "private": true,
   "dependencies": {
-    "@code4ro/taskforce-fe-components": "^0.1.7",
+    "@code4ro/taskforce-fe-components": "^0.1.8",
     "bulma": "^0.8.0",
     "react": "^16.13.0",
     "react-bulma-components": "^3.2.0",
@@ -13,7 +13,7 @@
     "react-ga": "^2.7.0",
     "react-icons": "^3.9.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
