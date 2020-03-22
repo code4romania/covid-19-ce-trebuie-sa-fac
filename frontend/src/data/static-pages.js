@@ -11,6 +11,7 @@ export default [
       {
         title: "Transmitere și simptome",
         display_order: 1,
+        slug: "/",
         page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
 
       <h3>Cum se transmite COVID-19</h3>
@@ -84,6 +85,7 @@ export default [
       {
         title: "Cum ne protejăm?",
         display_order: 1,
+        slug: "/",
         page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
         <p>În această pagină vei afla despre:</p>
 
@@ -109,6 +111,7 @@ export default [
       {
          title: "Ce măsuri trebuie să iei pentru a te proteja",
          display_order: 2,
+         slug: "masuri-protejare",
          page: `
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
@@ -124,6 +127,7 @@ export default [
        {
           title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
           display_order: 3,
+          slug: "masuri-protejare-altii",
           page: `
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
@@ -144,6 +148,7 @@ export default [
          {
           title: "Cum să cureți și să dezinfectezi",
           display_order: 4,
+          slug: "sfaturi-pentru-dezinfectare",
           page: `
          <h3 id="sfaturi-pentru-dezinfectare">Sfaturi pentru dezinfectare</h3>
          <ul>
@@ -188,6 +193,7 @@ export default [
          {
           title: "Cum să îți creezi un plan de acțiune la tine acasă",
           display_order: 5,
+          slug: "plan-actiune-acasa",
           page: `
          <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
@@ -495,6 +501,7 @@ export default [
       {
         title: "Adaptare și rezistență",
         display_order: 1,
+        slug: "/",
         page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Epidemia de coronavirus 2019 (COVID-19) poate fi un motiv de stres pentru populație. Frica și anxietatea generate de o boală pot deveni copleșitoare și pot cauza emoții puternice în rândul adulților și copiilor</p>
 
@@ -536,6 +543,7 @@ export default [
         {
          title: "Sfaturi pentru părinți",
          display_order: 2,
+         slug: "sfaturi-pentru-parinti",
          page: `
         <p style="background-color: ##ffd738; padding: 10px;>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
@@ -564,8 +572,9 @@ export default [
         `
         } ,
         {
-         title: "Ajutor pentru copii în genstionarea stărilor de urgentă",
+         title: "Ajutor pentru copii în gestionarea stărilor de urgentă",
          display_order: 3,
+         slug: "ajutor-pentru-copii",
          page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
@@ -600,6 +609,7 @@ export default [
         {
          title: "Reacții obișnuite pentru copii și adolescenți",
          display_order: 4,
+         slug: "reactii-obisnuite",
          page: `
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
 
@@ -625,6 +635,7 @@ export default [
         {
          title: "Pentru cei care tocmai au ieșit din carantină",
          display_order: 5,
+         slug: "cei-care-tocmai-au-iesit-din-carantina",
          page: `
         <p>Separarea de ceilalți, dacă un cadru medical consideră că ai fi putut fi expus la COVID-19, poate fi o situație de stres, chiar dacă nu te îmbolnăvești. Fiecare se simte diferit după perioada de stat în carantină. O parte din stări includ:</p>
         <ul>
@@ -642,6 +653,7 @@ export default [
         {
          title: "Diminuarea stigmatului",
          display_order: 6,
+         slug: "diminuarea-stigmatului",
          page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
@@ -696,6 +708,7 @@ export default [
       {
         title: "Pentru cei care oferă ajutor",
         display_order: 1,
+        slug: "/",
         page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Cei care fac parte din forțele de răspuns (instituții și voluntari deopotrivă) în situații de urgență vor fi expusi la stres in perioada urmatoare. Gestionarea stresului și luarea pauzelor vor face intervenția ta mai bună.</p>
         <p>Implicarea ta în gestionarea crizei asociate cu COVID-19 te poate afecta din punct de vedere emoțional. Există acțiuni pe care le poți face pentru a te ajuta să reduci reacțiile de stres traumatic secundar (STS), asociate cu gestionarea evenimentelor de criză.</p>
