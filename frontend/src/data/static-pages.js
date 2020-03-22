@@ -495,14 +495,9 @@ export default [
       {
         title: "Adaptare și rezistență",
         display_order: 1,
-        page: `<h3>Stresul și adaptarea la situație</h3>
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Epidemia de coronavirus 2019 (COVID-19) poate fi un motiv de stres pentru populație. Frica și anxietatea generate de o boală pot deveni copleșitoare și pot cauza emoții puternice în rândul adulților și copiilor</p>
-        <p>În această pagină vei afla despre:</p>
-        <ul>
-          <li><a href="#ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine și pe ceilalți</a></li>
-          <li><a href="#ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</a></li>
-          <li><a href="#stigmata">Diminuarea stigmatului</a></li>
-        </ul>
+
         <p>Adaptarea la stres te face mai puternic pe tine, pe cei dragi și pe cei aparținând comunității tale. </p>
         <p>Fiecare răspunde diferit la situații de stres. Felul în care reacționezi în fața acestei epidemii poate depinde de experiențele anterioare, de lucrurile care te fac diferit de ceilalți și de comunitatea în care trăiești.  </p>
 
@@ -513,7 +508,6 @@ export default [
           <li>Persoanele care ajută la tratarea COVID-19, spre exemplu doctorii și alte cadre din sistemul sanitar, ori cei care oferă prim ajutor</li>
           <li>Persoanele care suferă de o afecțiune mintală, inclusiv cele care au probleme legate de abuzul de substanțe cu risc de dependență</li>
         </ul>
-        <p>Dacă emoții precum tristețea, depresia sau anxietatea te afectează pe tine sau pe cineva la care ții, sau dacă simți că vrei să îți induci suferință, sună la </p>
 
         <h3>Stresul în timpul unei epidemii infecțioase poate include: </h3>
          <ul>
@@ -526,21 +520,25 @@ export default [
         <p>Persoanele cu afecțiuni legate de sănătatea mentală ar trebui să își continue tratamentul și să conștientizeze apariția unor simptome noi sau agravante. </p>
         <p>Acțiunile prin care îți manifești grija față de tine, prieteni și familie te pot ajuta să gestionezi stresul. Ajutându-i pe ceilalți să se adapteze condițiilor de stres poate duce la o comunitate mai puternică.</p>
 
-        <h2 id="ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine:</h2>
+        <p style="background-color: ##E5F9FE; padding: 10px;>
+        <b>Lucruri pe care le poți face pentru a te ajuta pe tine:</b></br>
         <ul>
           <li>Să iei pauze de la a urmări, citi sau asculta știri, inclusiv cele apărute în social media. Expunerea repetată la tema pandemiei poate deveni deranjantă.</li>
           <li>Să ai grijă de corpul tău. Încearcă să respiri adânc, să faci exerciții de stretching sau să meditezi. Încearcă să mănânci sănătos, să ai mese echilibrate, să faci mișcare în mod regulat, să dormi suficient și să eviți alcoolul sau substanțele ilegale. </li>
           <li>Fă-ți timp pentru a te deconecta. Încearcă activități care îți fac plăcere. </li>
           <li>Ia legătura cu ceilalți. Vorbește despre grijile tale sau despre felul în care te simți cu oamenii în care ai încredere.</li>
+          <li>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</li>
         </ul>
-        <p>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</p>
+        </p>
 
-        <h3>Redu stresul la care te expui și la care se expun ceilalți</h3>
-        <p>Când împărtășești informații <a href="https://www.stirioficiale.ro"> despre COVID-19 </a> și înțelegi riscul implicat pentru tine și pentru cei dragi, poți face ca epidemia să fie mai puțin stresantă.</p>
-        <p>Atunci când transmiți informații verificate despre COVID-19, îi poți face pe ceilalți să se simtă mai puțin stresați și creezi o ocazie de a te conecta cu ei. </p>
+        `
+        } ,
+        {
+         title: "Sfaturi pentru părinți",
+         display_order: 2,
+         page: `
+        <p style="background-color: ##ffd738; padding: 10px;>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
-        <h3>Pentru părinți </h3>
-        <p>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
         <ul>
           <li>Plâns excesiv sau comportamente care arată iritarea în rândul copiilor mici</li>
@@ -562,14 +560,19 @@ export default [
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
-        <p>Învață mai multe despre cum îi poți ajuta pe copii să gestioneze situația.</p>
 
-        <h2 id="ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</h2>
+        `
+        } ,
+        {
+         title: "Ajutor pentru copii în genstionarea stărilor de urgentă",
+         display_order: 3,
+         page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Oamenii pot trece prin situații de stres dacă sunt expuși la imagini repetate ale unui dezastru discutat în mass media. În fazele incipiente, gândește-te la limitarea perioadei în care tu și cei dragi vă expuneți acestor mediatizări.</p>
 
         <h3>Ce poți face pentru a-i ajuta pe copii să gestioneze o situație de urgență</h3>
+
         <p>Este esențial ca părinții și îngrijitorii să dea un exemplu pozitiv, gestionând stresul prin alegeri sănătoase: să mănânce echilibrat, să facă mișcare, să doarmă suficient și să evite consumul de alcool sau de substanțe care pot da dependență. Când ești pregătit, odihnit și relaxat, poți reacționa mai bine la evenimente neașteptate și poți lua cele mai bune decizii pentru familia ta și pentru cei dragi. </p>
         <p>Următoarele sfaturi te pot ajuta să reduci stresul înainte, în timpul și după un dezastru sau eveniment traumatizant.</p>
 
@@ -592,20 +595,37 @@ export default [
           <li>Este dificil să prezici modul în care unii copiii vor reacționa la dezastre sau la evenimente traumatizante. Pentru că părinții, profesorii și alți adulți cunosc comportamentul copilului în diferite situații, e important ca aceștia să lucreze împreună și să împărtășească informații despre cum reușește fiecare copil să depășească un eveniment traumatizant. </li>
         </ul>
 
-        <h3>Reacții obișnuite</h3>
+        `
+        } ,
+        {
+         title: "Reacții obișnuite pentru copii și adolescenți",
+         display_order: 4,
+         page: `
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
 
         <h4>Pentru bebeluși și copii de până la 2 ani</h4>
         <p>Bebelușii pot deveni mai irascibili. S-ar putea să plângă mai des ca în mod obișnuit sau să vrea să fie ținuți în brațe mai mult. </p>
-         <h4>Pentru copii cu vârste cuprinse între 3 și 6 ani</h4>
+
+        <h4>Pentru copii cu vârste cuprinse între 3 și 6 ani</h4>
         <p>Preșcolarii și copiii de grădiniță s-ar putea întoarce la comportamente pe care le depășiseră deja. De exemplu, accidente în rutina legată de mersul la toaletă, urinat în pat sau stări de spaimă asociate separării de părinți sau de îngrijitori. E posibil să aibă accese de furie sau dificultăți în a dormi. </p>
-         <h4>Pentru copii cu vârste cuprinse între 7 și 10 ani</h4>
+
+        <h4>Pentru copii cu vârste cuprinse între 7 și 10 ani</h4>
         <p>Copiii mai mari pot resimți supărare, furie sau teama de repetare a evenimentului. Colegii lor pot transmite informații false; cu toate acestea, părinții sau îngrijitorii pot corecta dezinformările. Copiii mai mari se concentrează pe detaliile evenimentului și fie vor să vorbească despre asta tot timpul, fie refuză total să vorbească. Există posibilitatea ca aceștia să întâmpine dificultăți în menținerea concentrării.</p>
-         <h4>Pentru pre-adolescenți și adolescenți </h4>
+
+        <h4>Pentru pre-adolescenți și adolescenți </h4>
         <p>Unii pre-adolescenți și adolescenți răspund la traume prin izbucniri. De exemplu, pot ajunge să se comporte neglijent sau să apeleze la alcool sau la substanțe care pot da dependență. Alții se pot teme să iasă din casă. Unii ar putea să reducă timpul petrecut cu prietenii lor. S-ar putea lăsa copleșiți de emoții intense, simțind că nu sunt în stare să vorbească despre ele. Emoțiile pot să-i facă să devină mai iritați și chiar să ajungă să se certe cu frații, părinții, îngrijitorii sau alți adulți. </p>
-         <h4>Pentru copii cu nevoi speciale</h4>
-        <p>Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi. </p>
-         <h4>Pentru cei care tocmai au ieșit din carantină</h4>
+
+        <p style="background-color: ##ffd738; padding: 10px;>
+          <h4>Pentru copii cu nevoi speciale</h4>
+          Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi.
+        </p>
+
+        `
+        } ,
+        {
+         title: "Pentru cei care tocmai au ieșit din carantină",
+         display_order: 5,
+         page: `
         <p>Separarea de ceilalți, dacă un cadru medical consideră că ai fi putut fi expus la COVID-19, poate fi o situație de stres, chiar dacă nu te îmbolnăvești. Fiecare se simte diferit după perioada de stat în carantină. O parte din stări includ:</p>
         <ul>
           <li>Emoții contradictorii, inclusiv cel de destindere de după perioada carantinei</li>
@@ -614,14 +634,20 @@ export default [
           <li>Tristețe, furie sau frustrare, ca urmare a temerilor nefondate de contactare a bolii, din partea prietenilor sau a celor dragi, în ciuda faptului că ai fost declarat necontagios</li>
           <li>Vina asociată faptului că nu ai putut să lucrezi sau să ai grijă de copii, în parametri normali, pe durata carantinei</li>
           <li>Alte schimbări emoționale sau legate de sănătatea mintală</li>
+          <li>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</li>
         </ul>
-        <p>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</p>
 
-        <h2 id="stigmata">Diminuarea stigmatului</h2>
+        `
+        } ,
+        {
+         title: "Diminuarea stigmatului",
+         display_order: 6,
+         page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
         <p>Este important să ne amintim că oamenii – inclusiv cei cu descendență asiatică – care nu locuiesc sau care nu au fost recent într-o zonă de răspândire a virusului care duce la COVID-19, ori cei care nu au fost în contact cu o persoană confirmată sau suspectă de COVID-19, nu prezintă un risc mai ridicat de răspândire a virusului COVID-19 decât indivizii din alte țări.</p>
-        <p>Câteva din grupurile care pot suferi în urma stigmatizării din cauza COVID-19 includ:</p>
+
+        <h3>Câteva din grupurile care pot suferi în urma stigmatizării din cauza COVID-19 includ:</h3>
         <ul>
           <li>Persoane cu descendență asiatică</li>
           <li>Cei care au călătorit</li>
@@ -629,7 +655,8 @@ export default [
           <li>Forțele de intervenție sau personalul din sistemul medical</li>
         </ul>
         <p>Stigmatizarea îi afectează pe toți pentru că generează teamă sau furie față de alți oameni. </p>
-        <p>Grupurile stigmatizate pot fi supuse unor experiențe precum:</p>
+
+        <h3>Grupurile stigmatizate pot fi supuse unor experiențe precum:</h3>
         <ul>
           <li>Evitare socială sau respingere</li>
           <li>Refuzul accesului la servicii de sănătate, de educație, locative sau de angajare</li>
