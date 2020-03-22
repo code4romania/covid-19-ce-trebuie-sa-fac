@@ -8,13 +8,15 @@ import {
   List,
   ListItem,
   SearchInput,
-  SocialsShare
+  SocialsShare,
+  MailchimpSubscribe
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
   renderInstrumentItem,
   remapInstrumentsData
 } from "../../utils/instruments.utils";
+import { mailchimpURL } from "../../config/mailchimp";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -82,6 +84,9 @@ const Home = () => {
                 );
               })}
             </Instruments>
+            <section>
+              <MailchimpSubscribe url={mailchimpURL} compact={true} />
+            </section>
           </div>
         </div>
       </div>

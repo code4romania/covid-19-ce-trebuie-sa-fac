@@ -4,7 +4,8 @@ import {
   Hero,
   Instruments,
   SocialsShare,
-  SearchInput
+  SearchInput,
+  MailchimpSubscribe
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
@@ -12,6 +13,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData
 } from "../../utils/instruments.utils";
+import { mailchimpURL } from "../../config/mailchimp";
 
 const About = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -53,6 +55,9 @@ const About = () => {
           parteneriat cu Guvernul României prin Autoritatea pentru Digitalizarea
           României și Departamentul pentru Situații de Urgență.
         </p>
+      </section>
+      <section>
+        <MailchimpSubscribe url={mailchimpURL} />
       </section>
       <section className="about-section-useful-instruments">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
