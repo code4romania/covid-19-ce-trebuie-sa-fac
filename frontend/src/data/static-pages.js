@@ -86,15 +86,8 @@ export default [
         display_order: 1,
         page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
         <p>În această pagină vei afla despre:</p>
-        <ul>
-          <li><a href="#cum-se-raspandeste">Cum se răspândește</a></li>
-          <li><a href="#masuri-protejare">Ce măsuri trebuie să iei pentru a te proteja</a></li>
-          <li><a href="#masuri-protejare-altii">Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți</a></li>
-          <li><a href="#curata-si-dezinfecteaza">Cum să cureți și să dezinfectezi</a></li>
-          <li><a href="#plan-actiune">Cum să îți creezi un plan de acțiune la tine acasă</a></li>
-         </ul>
 
-         <h3 id="cum-se-raspandeste">Cun se răspândește</h3>
+         <h3 id="cum-se-raspandeste">Cum se răspândește</h3>
          <p>În acest moment, nu există un vaccin dezvoltat specific pentru a preveni îmbolnăviriea cu COVID-19. Cea mai bună cale de a preveni îmbolnăvirea este de a evita expunerea la acest virus. Se pare că virusul se răspândește, în mod principal, de la persoană la persoană.</p>
          <p><b>Contact direct</b></p>
          <ul>
@@ -109,9 +102,14 @@ export default [
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
 
-         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;"><b>ATENȚIE</b></p>
-         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">ATENȚIE</br>
+         Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
+         `
+      } ,
+      {
+         title: "Ce măsuri trebuie să iei pentru a te proteja",
+         display_order: 2,
+         page: `
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -121,18 +119,33 @@ export default [
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
-
+         `
+       } ,
+       {
+          title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
+          display_order: 3,
+          page: `
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
           <li>Rămâi în casă dacă ai simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sună medicul de familie pentru a solicita sfaturi, <span style="background-color: #ffd738">nu merge din primul moment la unitățile de urgență</span>. (Există riscul, în cazul în care sunteți purtători al virusului, să transmiteți și altor persoane noul coronavirus. Este de preferat să rămâi la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare).</li>
           <li>Acoperă-ți gura și nasul cu un șervețel atunci când tușești sau strănuți, sau folosește interiorul cotului. Aruncă apoi șervețelele folosite la gunoi imediat. Spală-te imediat pe mâini cu apă și săpun, timp de cel puțin 20 de secunde. Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor care conține cel puțin 60% alcool.</li>
           <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
-          <li>Dacă ești bolnav – trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești. </li>
-          <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
          </ul>
+         <p style="background-color: #ffd738; padding: 10px;"><b>Dacă ești bolnav</b></br>
+           trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
+         </p>
 
-         <h3 id="curata-si-dezinfecteaza">Curăță și dezinfectează</h3>
+         <p style="background-color: ##E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
+           Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
+         </p>
+         `
+         } ,
+         {
+          title: "Cum să cureți și să dezinfectezi",
+          display_order: 4,
+          page: `
+         <h3 id="sfaturi-pentru-dezinfectare">Sfaturi pentru dezinfectare</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
           <li>Dacă suprafețele sunt și murdare – folosește detergent sau săpun înainte de dezinfectare.</li>
@@ -151,34 +164,44 @@ export default [
             </ul>
           </li>
          </ul>
-         <b>Cum să cureți și să dezinfectezi</b>
+         <h3 id="cum-sa-cureti-si-sa-dezinfectezi-corect">Cum să cureți și să dezinfectezi corect</h3>
          <ul>
           <li>Poartă mănuși de unică folosință atunci când cureți și dezinfectezi suprafețele. Mănușile trebuie aruncate la gunoi după fiecare curățare pe care o efectuezi. Dacă se folosesc mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri.</li>
           <li>Poartă mănuși de unică folosință atunci când manevrezi rufe murdare de la o persoană bolnavă și aruncă-le după fiecare utilizare. Dacă folosești mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri. Spală-ți mâinile imediat după îndepărtarea mănușilor!</li>
           <li>Membrii gospodăriei trebuie să își curețe des mâinile, inclusiv imediat după îndepărtarea mănușilor și după contactul cu o persoană bolnavă, prin spălarea mâinilor cu apă și săpun timp de 20 de secunde. În cazul în care săpunul și apa nu sunt disponibile și mâinile nu sunt vizibil murdare, se poate folosi un dezinfectant de mâini pe bază de alcool, care conține cel puțin 70% alcool. Cu toate acestea, dacă mâinile sunt vizibil murdare, spălați prima dată mâinile cu apă și săpun.</li>
           <li>Membrii gospodăriei trebuie să urmeze acțiuni normale de prevenire a transmisiei viruslui la serviciu și acasă, inclusiv igiena mâinilor recomandată și evitarea atingerii ochilor, nasului sau gurii cu mâinile nespălate.</li>
-          <li>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:
-            <ul>
-              <li>După ce îți sufli nasul, tușești sau strănuți.</li>
-              <li>După utilizarea toaletei.</li>
-              <li>Înainte de a mânca sau pregăti mâncarea.</li>
-              <li>După contactul cu animale domestice sau animale de companie.</li>
-              <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
-            </ul>
-          </li>
           <li>Pe cât posibil, persoana bolnavă trebuie să mănânce / să fie hrănită în propria cameră. Articolele non-alimentare folosite în acest proces și care nu sunt de unică folosință trebuie manipulate cu mănuși și spălate cu apă caldă sau într-o mașină de spălat vase. Curăță-ți mâinile după manipularea acestor instrumente.</li>
           <li>Dacă este posibil, căptușește și dedică un coș de gunoi persoanei bolnave. Folosește mănuși atunci când arunci sacii de gunoi la tomberon. Spală-ți mâinile după manipularea sau aruncarea gunoiului.</li>
          </ul>
-
-         <h3 id="plan-actiune">Creează un plan de acțiune la tine acasă</h3>
+         <p style="background-color: ##E5F9FE; padding: 10px;>
+         <b>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:</b></br>
+           <ul>
+             <li>După ce îți sufli nasul, tușești sau strănuți.</li>
+             <li>După utilizarea toaletei.</li>
+             <li>Înainte de a mânca sau pregăti mâncarea.</li>
+             <li>După contactul cu animale domestice sau animale de companie.</li>
+             <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
+           </ul>
+         </p>
+         `
+         } ,
+         {
+          title: "Cum să îți creezi un plan de acțiune la tine acasă",
+          display_order: 5,
+          page: `
+         <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
          <p>Fă un plan pentru modalitățile de îngrijire a celor care ar putea avea un risc mai mare de complicații grave. Există informații limitate despre cine poate fi expus riscului de complicații severe cauzate de COVID-19. Din datele care sunt disponibile pentru pacienții cu COVID-19, precum și din datele pentru coronavirusuri asociate, cum ar fi SARS-CoV și MERS-CoV, este posibil ca vârstnicii și persoanele care au afecțiuni medicale cronice să fie expuși riscului de complicații severe. Nu intrați în contact direct sau indirect cu ei. Datele de la începutul acestei boli sugerează că persoanele în vârstă sunt mai susceptibile să aibă o formă mai gravă a COVID-19. </p>
-         <p>Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
+
+         <p style="background-color: ##E5F9FE; padding: 10px;>Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
+
          <p>Cunoaște-ți vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Identifică organizațiile de ajutor din propria comunitate. Creează o listă de organizații locale pe care le puteți contacta în cazul în care aveți nevoie de acces la informații, servicii de asistență medicală, ajutor și resurse. Ia în considerare organizațiile care furnizează servicii de sănătate mintală sau consiliere, mâncare și alte consumabile. vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Creează o listă de contacte de urgență. Asigură-te că există în propria casă o listă actuală de contacte de urgență pentru familie, prieteni, vecini, furnizori de servicii medicale, profesori, angajatori, departamentul local de sănătate publică și alte resurse ale comunității.</p>
-         <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+
+         <p style="background-color: ##ffd738; padding: 10px;>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
 
