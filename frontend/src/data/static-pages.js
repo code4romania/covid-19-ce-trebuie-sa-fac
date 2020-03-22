@@ -226,7 +226,7 @@ export default [
     doc_id: 103,
     active: false,
     display_order: 3,
-    content: ``,
+    content: [],
     firstNodeId: 0,
     form: [
       {
@@ -537,9 +537,8 @@ export default [
           <li>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</li>
         </ul>
         </p>
-
         `
-        } ,
+        },
         {
          title: "Sfaturi pentru părinți",
          display_order: 2,
@@ -568,9 +567,8 @@ export default [
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
-
         `
-        } ,
+        },
         {
          title: "Ajutor pentru copii în gestionarea stărilor de urgentă",
          display_order: 3,

@@ -99,7 +99,12 @@ function Form({ data }) {
 Form.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    content: PropTypes.string,
+    content: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        page: PropTypes.string.isRequired
+      })
+    ),
     firstNodeId: PropTypes.number.isRequired,
     form: PropTypes.arrayOf(
       PropTypes.shape({
