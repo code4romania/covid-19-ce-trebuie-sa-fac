@@ -87,7 +87,6 @@ export default [
         display_order: 1,
         slug: "/",
         page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
-        <p>În această pagină vei afla despre:</p>
 
          <h3 id="cum-se-raspandeste">Cum se răspândește</h3>
          <p>În acest moment, nu există un vaccin dezvoltat specific pentru a preveni îmbolnăviriea cu COVID-19. Cea mai bună cale de a preveni îmbolnăvirea este de a evita expunerea la acest virus. Se pare că virusul se răspândește, în mod principal, de la persoană la persoană.</p>
@@ -140,7 +139,7 @@ export default [
            trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
          </p>
 
-         <p style="background-color: ##E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
+         <p style="background-color: #E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
            Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
          `
@@ -157,13 +156,13 @@ export default [
          </ul>
          Opțiunile includ:
          <ul>
-          <li>Diluarea înălbitorului (clorului) casnic.
+          <li><b>Diluarea înălbitorului (clorului) casnic.</b>
             <ul>
               <li>Pentru a face o soluție de înălbitor (clor), amestecă 5 linguri (80 ml) la 3,8 litri de apă sau 4 <strong>lingurițe</strong> la un litru de apă.</li>
               <li>Urmează instrucțiunile producătorului pentru aplicare și pentru ventilarea corespunzătoare a spațiilor după aplicare. Verifică data de expirare a produsului pentru a nu folosi produse expirate. Nu amesteca niciodată înălbitorul (clorul) cu amoniacul sau orice alt produs de curățare. Înălbitorul casnic care nu a expirat va fi eficient împotriva coronavirusurilor atunci când este diluat corespunzător.</li>
             </ul>
           </li>
-          <li>Soluții alcoolice.
+          <li><b>Soluții alcoolice.</b>
            <ul>
               <li>Asigură-te că soluția de dezinfectat are cel puțin 70% alcool.</li>
             </ul>
@@ -178,16 +177,16 @@ export default [
           <li>Pe cât posibil, persoana bolnavă trebuie să mănânce / să fie hrănită în propria cameră. Articolele non-alimentare folosite în acest proces și care nu sunt de unică folosință trebuie manipulate cu mănuși și spălate cu apă caldă sau într-o mașină de spălat vase. Curăță-ți mâinile după manipularea acestor instrumente.</li>
           <li>Dacă este posibil, căptușește și dedică un coș de gunoi persoanei bolnave. Folosește mănuși atunci când arunci sacii de gunoi la tomberon. Spală-ți mâinile după manipularea sau aruncarea gunoiului.</li>
          </ul>
-         <p style="background-color: ##E5F9FE; padding: 10px;>
-         <b>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:</b></br>
-           <ul>
-             <li>După ce îți sufli nasul, tușești sau strănuți.</li>
-             <li>După utilizarea toaletei.</li>
-             <li>Înainte de a mânca sau pregăti mâncarea.</li>
-             <li>După contactul cu animale domestice sau animale de companie.</li>
-             <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
-           </ul>
-         </p>
+         <div style="background-color: #E5F9FE; padding: 10px;">
+           <b>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:</b></br>
+             <ul>
+               <li>După ce îți sufli nasul, tușești sau strănuți.</li>
+               <li>După utilizarea toaletei.</li>
+               <li>Înainte de a mânca sau pregăti mâncarea.</li>
+               <li>După contactul cu animale domestice sau animale de companie.</li>
+               <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
+             </ul>
+         </div>
          `
          } ,
          {
@@ -200,13 +199,13 @@ export default [
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
          <p>Fă un plan pentru modalitățile de îngrijire a celor care ar putea avea un risc mai mare de complicații grave. Există informații limitate despre cine poate fi expus riscului de complicații severe cauzate de COVID-19. Din datele care sunt disponibile pentru pacienții cu COVID-19, precum și din datele pentru coronavirusuri asociate, cum ar fi SARS-CoV și MERS-CoV, este posibil ca vârstnicii și persoanele care au afecțiuni medicale cronice să fie expuși riscului de complicații severe. Nu intrați în contact direct sau indirect cu ei. Datele de la începutul acestei boli sugerează că persoanele în vârstă sunt mai susceptibile să aibă o formă mai gravă a COVID-19. </p>
 
-         <p style="background-color: ##E5F9FE; padding: 10px;>Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
+         <p style="background-color: #E5F9FE; padding: 10px;">Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
 
          <p>Cunoaște-ți vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Identifică organizațiile de ajutor din propria comunitate. Creează o listă de organizații locale pe care le puteți contacta în cazul în care aveți nevoie de acces la informații, servicii de asistență medicală, ajutor și resurse. Ia în considerare organizațiile care furnizează servicii de sănătate mintală sau consiliere, mâncare și alte consumabile. vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Creează o listă de contacte de urgență. Asigură-te că există în propria casă o listă actuală de contacte de urgență pentru familie, prieteni, vecini, furnizori de servicii medicale, profesori, angajatori, departamentul local de sănătate publică și alte resurse ale comunității.</p>
 
-         <p style="background-color: ##ffd738; padding: 10px;>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+         <p style="background-color: #ffd738; padding: 10px;">Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
 
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
@@ -226,7 +225,25 @@ export default [
     doc_id: 103,
     active: false,
     display_order: 3,
-    content: [],
+    content: [
+        {
+          title: "Ai simptome?",
+          display_order: 1,
+          slug: "/",
+          page: `
+          <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces. Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
+          </p>
+          <ul>
+          <li>Febră. </li>
+          <li>Tuse seacă. </li>
+          <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare)</li>
+          </ul>
+          <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.
+          </p>
+          <p>Folosește chestionarul de mai jos pentru a identifica gradul de risc propriu pentru a putea vedea ce pași ai de urmat mai departe, în funcție de starea ta de sănătate și de acțiunile întreprinse în ultima perioadă.</p>
+          `
+        }
+    ],
     firstNodeId: 0,
     form: [
       {
@@ -527,7 +544,7 @@ export default [
         <p>Persoanele cu afecțiuni legate de sănătatea mentală ar trebui să își continue tratamentul și să conștientizeze apariția unor simptome noi sau agravante. </p>
         <p>Acțiunile prin care îți manifești grija față de tine, prieteni și familie te pot ajuta să gestionezi stresul. Ajutându-i pe ceilalți să se adapteze condițiilor de stres poate duce la o comunitate mai puternică.</p>
 
-        <p style="background-color: ##E5F9FE; padding: 10px;>
+        <div style="background-color: #E5F9FE; padding: 10px;">
         <b>Lucruri pe care le poți face pentru a te ajuta pe tine:</b></br>
         <ul>
           <li>Să iei pauze de la a urmări, citi sau asculta știri, inclusiv cele apărute în social media. Expunerea repetată la tema pandemiei poate deveni deranjantă.</li>
@@ -536,7 +553,7 @@ export default [
           <li>Ia legătura cu ceilalți. Vorbește despre grijile tale sau despre felul în care te simți cu oamenii în care ai încredere.</li>
           <li>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</li>
         </ul>
-        </p>
+        </div>
         `
         },
         {
@@ -544,7 +561,7 @@ export default [
          display_order: 2,
          slug: "sfaturi-pentru-parinti",
          page: `
-        <p style="background-color: ##ffd738; padding: 10px;>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
+        <p style="background-color: #ffd738; padding: 10px;">Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
         <ul>
@@ -559,7 +576,7 @@ export default [
           <li>Dureri inexplicabile de cap sau ale corpului</li>
           <li>Uz de alcool, tutun sau alte substanțe care pot provoca dependență</li>
         </ul>
-        <p>Sunt multe lucruri pe care le poți face pentru a-ți susține copilul:</p>
+        <p><b>Sunt multe lucruri pe care le poți face pentru a-ți susține copilul:</b></p>
         <ul>
           <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
           <li>Asigură-ți copilul sau adolescentul că e în siguranță. Fă-l să conștientizeze că e ok dacă se simte supărat. Spune-i felul în care procedezi tu în momentele de stres, ca să poată să învețe de la tine cum să gestioneze situația.</li>
@@ -575,7 +592,8 @@ export default [
          slug: "ajutor-pentru-copii",
          page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
-        <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
+
+        <p style="background-color: #ffd738; padding: 10px;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Oamenii pot trece prin situații de stres dacă sunt expuși la imagini repetate ale unui dezastru discutat în mass media. În fazele incipiente, gândește-te la limitarea perioadei în care tu și cei dragi vă expuneți acestor mediatizări.</p>
 
         <h3>Ce poți face pentru a-i ajuta pe copii să gestioneze o situație de urgență</h3>
@@ -623,10 +641,10 @@ export default [
         <h4>Pentru pre-adolescenți și adolescenți </h4>
         <p>Unii pre-adolescenți și adolescenți răspund la traume prin izbucniri. De exemplu, pot ajunge să se comporte neglijent sau să apeleze la alcool sau la substanțe care pot da dependență. Alții se pot teme să iasă din casă. Unii ar putea să reducă timpul petrecut cu prietenii lor. S-ar putea lăsa copleșiți de emoții intense, simțind că nu sunt în stare să vorbească despre ele. Emoțiile pot să-i facă să devină mai iritați și chiar să ajungă să se certe cu frații, părinții, îngrijitorii sau alți adulți. </p>
 
-        <p style="background-color: ##ffd738; padding: 10px;>
+        <div style="background-color: #ffd738; padding: 10px;">
           <h4>Pentru copii cu nevoi speciale</h4>
           Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi.
-        </p>
+        </div>
 
         `
         } ,
@@ -738,6 +756,7 @@ export default [
           </li>
          </ul>
 
+         <div style="background-color: #E5F9FE; padding: 10px;">
          <h4>Semne de Stres Traumatic Secundar (STS)</h4>
          <ul>
           <li>Teama sau frica excesivă că ceva rău se va întâmpla</li>
@@ -747,6 +766,7 @@ export default [
           <li>Sentimentul că traumele celorlalți sunt ale tale</li>
          </ul>
          <p>Limitează timpul pe care îl petreci lucrând singur și încearcă să te implici mai mult, fie și în mediul online în activități de echipă, atunci când este posibil. </p>
+         </div>
 
          <h3>Obține sprijin din partea membrilor echipei: dezvoltă un sistem de tip „buddy system/camarad”</h3>
          <p>Într-un sistem de tip „buddy system/camarad”, doi membri ai forțelor de răspuns formează o echipă pentru a se sprijini reciproc, pentru a-și monitoriza unul altuia nivelul de stres și de siguranță, cât și volumul de muncă.</p>
@@ -771,6 +791,7 @@ export default [
           <li>Evită sau limitează pe cât posibil cofeina și consumul de alcool.</li>
          </ul>
 
+         <div style="background-color: #E5F9FE; padding: 10px;">
          <h3>Este important să îți reamintești:</h3>
          <ul>
           <li>Nu ești egoist dacă iei pauze.</li>
@@ -779,7 +800,20 @@ export default [
           <li>Există și alte persoane care pot ajuta în răspunsul la pandemie.</li>
          </ul>
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
-         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
+         </div>
+
+         <p>&nbsp;</p>
+
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">
+         Fundația Estuar a lansat 4medicALL, o linie de consiliere și suport psihologic oferită de specialiști în sănătate mintală pentru cei mai încercați dintre noi în această perioadă, personalul medical, paramedical și sanitar implicat în tratarea persoanelor infectate cu virusul COVID-19, linia I de intervenție.
+         </br></br>
+         Cum puteți beneficia de ajutor:
+         </br>0758 119 314
+         </br>0758 119 313
+         </br>0758 119 304
+         </br></br>
+         consiliere@estuar.org
+         </p>
 
        `
        }
