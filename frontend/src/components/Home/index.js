@@ -87,7 +87,7 @@ const Home = () => {
               ></ContentPage>
             )}
           </div>
-          <div className="column is-4">
+          <aside className="column is-4">
             <SidebarMenu>
               {data.map(doc => {
                 let menuItems = null;
@@ -133,7 +133,7 @@ const Home = () => {
                 );
               })}
             </Instruments>
-          </div>
+          </aside>
         </div>
       </div>
     </>

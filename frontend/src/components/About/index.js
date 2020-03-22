@@ -53,7 +53,7 @@ const About = () => {
           României și Departamentul pentru Situații de Urgență.
         </p>
       </section>
-      <section className="about-section-useful-instruments">
+      <aside className="about-section-useful-instruments">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
 
         <Instruments layout="grid">
@@ -78,7 +78,7 @@ const About = () => {
             )}
           </section>
         </Instruments>
-      </section>
+      </aside>
     </div>
   );
 };
