@@ -3,8 +3,7 @@ import logo from "../../images/logo.svg";
 import {
   Hero,
   Instruments,
-  SocialsShare,
-  SearchInput
+  SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
@@ -59,11 +58,11 @@ const About = () => {
 
         <Instruments layout="grid">
           <section>
-            <SearchInput
-              hasIcon={true}
-              placeholder={"cauta informatii aici"}
-              onValueChange={() => {}}
-            />
+            {instrumentsData.info.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
+          </section>
+          <section>
             {instrumentsData.news.map(usefulApp =>
               renderInstrumentItem(usefulApp)
             )}

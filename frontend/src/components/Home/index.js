@@ -7,7 +7,6 @@ import {
   Instruments,
   List,
   ListItem,
-  SearchInput,
   SocialsShare
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
@@ -70,11 +69,6 @@ const Home = () => {
           </div>
           <div className="column is-4">
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-            <SearchInput
-              hasIcon={true}
-              placeholder={"cauta informatii aici"}
-              onValueChange={() => {}}
-            />
             <Instruments layout="column">
               {Object.keys(instrumentsData).map(category => {
                 return instrumentsData[category].map(usefulApp =>

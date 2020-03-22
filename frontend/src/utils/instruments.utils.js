@@ -19,6 +19,7 @@ const remapInstrumentsData = data => {
     return a.display_order - b.display_order;
   });
   return {
+    info: getCategoryItems(sortedData, "INFO"),
     news: getCategoryItems(sortedData, "NEWS"),
     data: getCategoryItems(sortedData, "DATA"),
     offer_help: getCategoryItems(sortedData, "OFFER_HELP")
@@ -29,7 +30,8 @@ const renderInstrumentItem = usefulApp => {
   const cartegoryMap = {
     NEWS: "green",
     OFFER_HELP: "red",
-    DATA: "pink"
+    DATA: "pink",
+    INFO: "yellow"
   };
   return (
     <InstrumentsItem
