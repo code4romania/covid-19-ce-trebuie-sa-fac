@@ -136,7 +136,7 @@ export default [
           <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
          </ul>
          <p style="background-color: #ffd738; padding: 10px;"><b>Dacă ești bolnav</b></br>
-           trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
+           Trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
          </p>
 
          <p style="background-color: #E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
@@ -294,7 +294,7 @@ export default [
       {
         questionId: 4,
         questionText:
-          "Ti-a spus vreun medic că ai o boală de inimă? (boală cardiovasculară inclusiv hipertensiune)?",
+          "Ți-a spus vreun medic că ai o boală de inimă? (boală cardiovasculară inclusiv hipertensiune)?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -309,7 +309,7 @@ export default [
       },
       {
         questionId: 5,
-        questionText: "Ti-a spus vreun medic că ai diabet?",
+        questionText: "Ți-a spus vreun medic că ai diabet?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -325,7 +325,7 @@ export default [
       {
         questionId: 6,
         questionText:
-          "Ti-a spus vreun medic că ai o boală a plămânilor? (pulmonară)?",
+          "Ți-a spus vreun medic că ai o boală a plămânilor? (pulmonară)?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -340,7 +340,7 @@ export default [
       },
       {
         questionId: 7,
-        questionText: "Ti-a spus vreun medic că ai cancer (boală oncologică)?",
+        questionText: "Ți-a spus vreun medic că ai cancer (boală oncologică)?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -355,7 +355,7 @@ export default [
       },
       {
         questionId: 8,
-        questionText: "Ti-a spus vreun medic că ai altă boală cronică?",
+        questionText: "Ți-a spus vreun medic că ai altă boală cronică?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -371,7 +371,7 @@ export default [
       {
         questionId: 10,
         questionText:
-          "Ai avut in ultimele 14 zile febra 38 grade celsius sau mai mare?",
+          "Ai avut în ultimele 14 zile febra 38 grade celsius sau mai mare?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -387,7 +387,7 @@ export default [
       {
         questionId: 11,
         questionText:
-          "Ai avut in ultimele 14 zile durere în gât și/sau dificultate în a înghiți?",
+          "Ai avut în ultimele 14 zile durere în gât și/sau dificultate în a înghiți?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -402,7 +402,7 @@ export default [
       },
       {
         questionId: 12,
-        questionText: "Ai avut in ultimele 14 zile tuse intensă?",
+        questionText: "Ai avut în ultimele 14 zile tuse intensă?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -417,7 +417,7 @@ export default [
       },
       {
         questionId: 13,
-        questionText: "Ai avut in ultimele 14 zile dificultate în a respira?",
+        questionText: "Ai avut în ultimele 14 zile dificultate în a respira?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -432,7 +432,7 @@ export default [
       },
       {
         questionId: 14,
-        questionText: "Ți-a curs nasul in ultimele 14 zile?",
+        questionText: "Ți-a curs nasul în ultimele 14 zile?",
         type: "SINGLE_CHOICE",
         options: [
           {
@@ -587,7 +587,7 @@ export default [
         `
         },
         {
-         title: "Ajutor pentru copii în gestionarea stărilor de urgentă",
+         title: "Ajutor pentru copii în gestionarea stărilor de urgență",
          display_order: 3,
          slug: "ajutor-pentru-copii",
          page: `
