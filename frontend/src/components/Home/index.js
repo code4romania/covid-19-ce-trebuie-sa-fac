@@ -6,8 +6,7 @@ import {
   Hero,
   Instruments,
   List,
-  ListItem,
-  SocialsShare
+  ListItem
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
@@ -64,7 +63,6 @@ const Home = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-8">
-            <SocialsShare currentPage={window.location.href} />
             {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
           <div className="column is-4">

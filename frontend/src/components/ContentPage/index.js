@@ -1,12 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Form from "../Form";
-import { Hero, Accordion } from "@code4ro/taskforce-fe-components";
+import {
+  Hero,
+  Accordion,
+  SocialsShare
+} from "@code4ro/taskforce-fe-components";
 
 function ContentPage({ data }) {
   return (
     <div>
       <Hero title={data.title} />
+      <SocialsShare currentPage={window.location.href} />
       <div
         className="content"
         dangerouslySetInnerHTML={{ __html: data.content }}
