@@ -7,61 +7,69 @@ export default [
     active: true,
     display_order: 1,
     firstNodeId: null,
-    content: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
+    content: [
+      {
+        title: "Transmitere și simptome",
+        display_order: 1,
+        page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
 
-    <h3>Cum se transmite COVID-19</h3>
+      <h3>Cum se transmite COVID-19</h3>
 
-    <h4>Transmiterea de la persoană la persoană</h4>
+      <h4>Transmiterea de la persoană la persoană</h4>
 
-    <p>
-      Se crede că virusul se transmite în principal de la persoană la persoană:
-      <ul>
-        <li>Între oameni care sunt în contact apropiat unul cu celălalt (la o distanță de cca. 1,5 - 2 m).</li>
-        <li>Prin stropi respiratorii produși atunci când o persoană infectată tușește sau strănută. Acești stropi pot ajunge ușor în gura sau nasul celor din preajmă sau chiar pot fi inhalați în plămâni.</li>
+      <p>
+        Se crede că virusul se transmite în principal de la persoană la persoană:
+        <ul>
+          <li>Între oameni care sunt în contact apropiat unul cu celălalt (la o distanță de cca. 1,5 - 2 m).</li>
+          <li>Prin stropi respiratorii produși atunci când o persoană infectată tușește sau strănută. Acești stropi pot ajunge ușor în gura sau nasul celor din preajmă sau chiar pot fi inhalați în plămâni.</li>
+        </ul>
+      </p>
+      <p>
+        Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
+        <ul>
+          <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
+          <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
+        </ul>
+      </p>
+
+      <h4>Infectarea prin atingerea unor suprafețe contaminate</h4>
+
+      <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
+      <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
+
+      <h3>Cât de ușor se transmite virusul?</h3>
+      <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
+
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
+
+      <h3>Situația din România</h3>
+
+      <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
+       <ul>
+        <li><a href="https://datelazi.ro">DateLaZi</a></li>
+        <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
+        <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
       </ul>
-    </p>
-    <p>
-      Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
-      <ul>
-        <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
-        <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
-      </ul>
-    </p>
 
-    <h4>Infectarea prin atingerea unor suprafețe contaminate</h4>
+      <h3>Simptome</h3>
 
-    <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
-    <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
+      <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces.</p>
+      <p>
+        Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
+        <ul>
+          <li>Febră.</li>
+          <li>Tuse seacă.</li>
+          <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare).</li>
+        </ul>
+      <p/>
 
-    <h3>Cât de ușor se transmite virusul?</h3>
-    <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
-    <p>Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
+      <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
 
-    <h3>Situația din România</h3>
-
-    <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
-     <ul>
-      <li><a href="https://datelazi.ro">DateLaZi</a></li>
-      <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
-      <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
-    </ul>
-
-    <h3>Simptome</h3>
-
-    <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces.</p>
-    <p>
-      Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
-      <ul>
-        <li>Febră.</li>
-        <li>Tuse seacă.</li>
-        <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare).</li>
-      </ul>
-    <p/>
-
-    <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
-    <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
-
-`,
+  `
+      }
+    ]
+    ,
     form: null,
     buttons: null
   },
@@ -72,7 +80,11 @@ export default [
     doc_id: 102,
     active: false,
     display_order: 2,
-    content: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
+    content: [
+      {
+        title: "Cum ne protejăm?",
+        display_order: 1,
+        page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
         <p>În această pagină vei afla despre:</p>
         <ul>
           <li><a href="#cum-se-raspandeste">Cum se răspândește</a></li>
@@ -169,7 +181,11 @@ export default [
          <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
-    `,
+
+        `
+       }
+     ]
+     ,
     firstNodeId: null,
     form: null,
     buttons: null
@@ -452,7 +468,11 @@ export default [
     doc_id: 104,
     active: false,
     display_order: 4,
-    content: `<h3>Stresul și adaptarea la situație</h3>
+    content: [
+      {
+        title: "Adaptare și rezistență",
+        display_order: 1,
+        page: `<h3>Stresul și adaptarea la situație</h3>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Epidemia de coronavirus 2019 (COVID-19) poate fi un motiv de stres pentru populație. Frica și anxietatea generate de o boală pot deveni copleșitoare și pot cauza emoții puternice în rândul adulților și copiilor</p>
         <p>În această pagină vei afla despre:</p>
         <ul>
@@ -606,7 +626,11 @@ export default [
           <li>Să mulțumească angajaților din sistemul de sănătate și celor care răspund apelurilor. Cei care au călătorit în zone de largă răspândire a COVID-19, pentru a ajuta, au avut o contribuție valoroasă pentru toată lumea, asigurându-se că boala nu se răspândește și mai mult. </li>
           <li>Să împărtășească nevoia de sprijin social pentru cei care s-au întors din China sau care sunt îngrijorați cu privire la prietenii sau la rudele rămase în zonele afectate. </li>
         </ul>
-    `,
+
+      `
+      }
+    ]
+    ,
     buttons: null,
     firstNodeId: 0,
     form: null
@@ -618,7 +642,11 @@ export default [
     doc_id: 105,
     active: false,
     display_order: 5,
-    content: `
+    content: [
+      {
+        title: "Pentru cei care oferă ajutor",
+        display_order: 1,
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Cei care fac parte din forțele de răspuns (instituții și voluntari deopotrivă) în situații de urgență vor fi expusi la stres in perioada urmatoare. Gestionarea stresului și luarea pauzelor vor face intervenția ta mai bună.</p>
         <p>Implicarea ta în gestionarea crizei asociate cu COVID-19 te poate afecta din punct de vedere emoțional. Există acțiuni pe care le poți face pentru a te ajuta să reduci reacțiile de stres traumatic secundar (STS), asociate cu gestionarea evenimentelor de criză.</p>
         <ul>
@@ -692,7 +720,10 @@ export default [
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
 
-    `,
+       `
+       }
+     ]
+     ,
     form: null,
     firstNodeId: null,
     buttons: null
@@ -704,7 +735,13 @@ export default [
     doc_id: 106,
     active: false,
     display_order: 6,
-    content: `<p>Întrebări frecvente despre COVID-19</p>`,
+    content: [
+      {
+        title: "Întrebări frecvente",
+        display_order: 1,
+        page: `<p>Întrebări frecvente despre COVID-19</p>`
+      }
+    ],
     firstNodeId: null,
     form: null,
     buttons: null,
