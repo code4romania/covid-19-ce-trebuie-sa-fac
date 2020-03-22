@@ -23,7 +23,7 @@ import "./App.scss";
 
 const Logo = () => (
   <Link to="/">
-    <img width="145" height="32" alt="" src={LogoSvg} />
+    <img width="145" height="32" alt="Covid-19. Ce ma fac?" src={LogoSvg} />
   </Link>
 );
 
@@ -72,20 +72,22 @@ const App = () => {
       />
       <Header Logo={Logo()} MenuItems={MenuItems} />
       <DevelopedBy showSecondLine={true} />
-      <Switch>
-        <Route path="/despre">
-          <About />
-        </Route>
-        <Route path="/politica-confidentialitate">
-          <PrivacyPolicy />
-        </Route>
-        <Route path="/termeni-si-conditii">
-          <TermsAndConditions />
-        </Route>
-        <Route exact path="/:slug?/">
-          <Home />
-        </Route>
-      </Switch>
+      <main>
+        <Switch>
+          <Route path="/despre">
+            <About />
+          </Route>
+          <Route path="/politica-confidentialitate">
+            <PrivacyPolicy />
+          </Route>
+          <Route path="/termeni-si-conditii">
+            <TermsAndConditions />
+          </Route>
+          <Route exact path="/:slug?/">
+            <Home />
+          </Route>
+        </Switch>
+      </main>
       <IncubatedBy />
       <FooterWrapper />
     </>

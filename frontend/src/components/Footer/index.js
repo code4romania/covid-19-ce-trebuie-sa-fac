@@ -11,9 +11,9 @@ const FooterWrapper = () => {
   return (
     <Footer>
       <FooterLinks>
-        <FooterLinkHeader>Linkuri utile</FooterLinkHeader>
+        <FooterLinkHeader>Link-uri utile</FooterLinkHeader>
         <FooterLinkItem>
-          <Link to="/despre"> Despre proiect</Link>
+          <Link to="/despre">Despre proiect</Link>
         </FooterLinkItem>
         <FooterLinkItem>
           <a

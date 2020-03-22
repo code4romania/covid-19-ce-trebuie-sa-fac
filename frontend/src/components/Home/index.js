@@ -67,7 +67,7 @@ const Home = () => {
             <SocialsShare currentPage={window.location.href} />
             {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
           </div>
-          <div className="column is-4">
+          <aside className="column is-4">
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />
             <Instruments layout="column">
               {Object.keys(instrumentsData).map(category => {
@@ -76,7 +76,7 @@ const Home = () => {
                 );
               })}
             </Instruments>
-          </div>
+          </aside>
         </div>
       </div>
     </>
