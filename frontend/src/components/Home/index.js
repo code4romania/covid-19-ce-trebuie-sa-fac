@@ -7,7 +7,8 @@ import {
   Instruments,
   List,
   ListItem,
-  SocialsShare
+  SidebarMenu,
+  SidebarMenuItem
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
@@ -17,21 +18,36 @@ import {
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
+  const [selectedSubPage, setSelectedSubPage] = useState(null);
+  const { pageSlug, subPageSlug } = useParams();
   const history = useHistory();
-  const { slug } = useParams();
 
   useEffect(() => {
-    const document = data.find(doc => doc.slug === (slug || "/"));
-    if (document) {
-      setSelectedPage(document);
-    } else {
-      const [firstDocument] = data;
-      history.push((firstDocument && firstDocument.slug) || "/");
-    }
-  }, [slug, history]);
+    // Find the page
+    const page = data.find(doc => doc.slug === (pageSlug || "/"));
+    let subPage = null;
 
-  const onItemClick = document => {
-    history.push(document.slug);
+    if (page) {
+      // Find the subPage
+      if (subPageSlug) {
+        subPage = page.content.find(page => page.slug === subPageSlug);
+      } else if (page.content.length) {
+        [subPage] = page.content;
+      }
+
+      setSelectedPage(page);
+      setSelectedSubPage(subPage);
+    } else {
+      // Fallback to the first page if there is no slug
+      const [firstPage] = data;
+      history.push((firstPage && firstPage.slug) || "/");
+    }
+  }, [pageSlug, subPageSlug, history]);
+
+  const navigate = slug => {
+    // Fix SecurityError of pushState on History
+    // Edge case for the `/` slug
+    history.push(`/${slug !== "/" ? slug : ""}`);
   };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -54,7 +70,7 @@ const Home = () => {
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
               title={doc.title}
-              onClick={onItemClick}
+              onClick={() => navigate(doc.slug)}
               value={doc}
             />
           ))}
@@ -64,10 +80,51 @@ const Home = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-8">
-            <SocialsShare currentPage={window.location.href} />
-            {selectedPage && <ContentPage data={selectedPage}></ContentPage>}
+            {selectedPage && (
+              <ContentPage
+                page={selectedPage}
+                subPage={selectedSubPage}
+              ></ContentPage>
+            )}
           </div>
           <aside className="column is-4">
+            <SidebarMenu>
+              {data.map(doc => {
+                let menuItems = null;
+                if (doc.content.length > 1) {
+                  // Ignore the first subpage title
+                  // It's shown as page title
+                  menuItems = doc.content.slice(1).map(page => (
+                    <SidebarMenuItem
+                      key={`subpage-header_${page.slug}`}
+                      active={page.slug === subPageSlug}
+                      onClick={() => navigate(`${doc.slug}/${page.slug}`)}
+                    >
+                      {page.title}
+                    </SidebarMenuItem>
+                  ));
+                }
+
+                return (
+                  <div key={`page-wrapper_${doc.slug}`}>
+                    <SidebarMenuItem
+                      key={`page-header_${doc.slug}`}
+                      active={
+                        !subPageSlug &&
+                        (doc.slug === pageSlug ||
+                          (doc.slug === "/" && !pageSlug))
+                      }
+                      onClick={() => navigate(doc.slug)}
+                      isTitle
+                    >
+                      {doc.title}
+                    </SidebarMenuItem>
+                    {menuItems}
+                  </div>
+                );
+              })}
+            </SidebarMenu>
+
             <Hero title={"Instrumente utile"} useFallbackIcon={true} />
             <Instruments layout="column">
               {Object.keys(instrumentsData).map(category => {

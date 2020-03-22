@@ -83,7 +83,7 @@ const App = () => {
           <Route path="/termeni-si-conditii">
             <TermsAndConditions />
           </Route>
-          <Route exact path="/:slug?/">
+          <Route exact path="/:pageSlug?/:subPageSlug?/">
             <Home />
           </Route>
         </Switch>

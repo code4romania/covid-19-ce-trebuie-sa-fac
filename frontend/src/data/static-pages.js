@@ -7,61 +7,70 @@ export default [
     active: true,
     display_order: 1,
     firstNodeId: null,
-    content: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
+    content: [
+      {
+        title: "Transmitere și simptome",
+        display_order: 1,
+        slug: "/",
+        page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">COVID-19 este o boală nouă. Încă descoperim cum se transmite, cât de grave sunt consecințele și în ce măsură se poate răspândi în România. Vom ține această pagină actualizată cu ultimele informații, pe măsură ce ele apar.</p>
 
-    <h3>Cum se transmite COVID-19</h3>
+      <h3>Cum se transmite COVID-19</h3>
 
-    <h4>Transmiterea de la persoană la persoană</h4>
+      <h4>Transmiterea de la persoană la persoană</h4>
 
-    <p>
-      Se crede că virusul se transmite în principal de la persoană la persoană:
-      <ul>
-        <li>Între oameni care sunt în contact apropiat unul cu celălalt (la o distanță de cca. 1,5 - 2 m).</li>
-        <li>Prin stropi respiratorii produși atunci când o persoană infectată tușește sau strănută. Acești stropi pot ajunge ușor în gura sau nasul celor din preajmă sau chiar pot fi inhalați în plămâni.</li>
+      <p>
+        Se crede că virusul se transmite în principal de la persoană la persoană:
+        <ul>
+          <li>Între oameni care sunt în contact apropiat unul cu celălalt (la o distanță de cca. 1,5 - 2 m).</li>
+          <li>Prin stropi respiratorii produși atunci când o persoană infectată tușește sau strănută. Acești stropi pot ajunge ușor în gura sau nasul celor din preajmă sau chiar pot fi inhalați în plămâni.</li>
+        </ul>
+      </p>
+      <p>
+        Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
+        <ul>
+          <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
+          <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
+        </ul>
+      </p>
+
+      <h4>Infectarea prin atingerea unor suprafețe contaminate</h4>
+
+      <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
+      <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
+
+      <h3>Cât de ușor se transmite virusul?</h3>
+      <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
+
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
+
+      <h3>Situația din România</h3>
+
+      <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
+       <ul>
+        <li><a href="https://datelazi.ro">DateLaZi</a></li>
+        <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
+        <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
       </ul>
-    </p>
-    <p>
-      Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
-      <ul>
-        <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
-        <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
-      </ul>
-    </p>
 
-    <h4>Infectarea prin atingerea unor suprafețe contaminate</h4>
+      <h3>Simptome</h3>
 
-    <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
-    <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
+      <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces.</p>
+      <p>
+        Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
+        <ul>
+          <li>Febră.</li>
+          <li>Tuse seacă.</li>
+          <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare).</li>
+        </ul>
+      <p/>
 
-    <h3>Cât de ușor se transmite virusul?</h3>
-    <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
-    <p>Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
+      <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
 
-    <h3>Situația din România</h3>
-
-    <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
-     <ul>
-      <li><a href="https://datelazi.ro">DateLaZi</a></li>
-      <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
-      <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
-    </ul>
-
-    <h3>Simptome</h3>
-
-    <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces.</p>
-    <p>
-      Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
-      <ul>
-        <li>Febră.</li>
-        <li>Tuse seacă.</li>
-        <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare).</li>
-      </ul>
-    <p/>
-
-    <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
-    <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
-
-`,
+  `
+      }
+    ]
+    ,
     form: null,
     buttons: null
   },
@@ -72,17 +81,15 @@ export default [
     doc_id: 102,
     active: false,
     display_order: 2,
-    content: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
+    content: [
+      {
+        title: "Cum ne protejăm?",
+        display_order: 1,
+        slug: "/",
+        page: `<p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Vârstnicii și persoanele cu afecțiuni medicale cronice precum boli de inimă, boli pulmonare sau diabet par să aibă un risc mai ridicat pentru complicații severe din cauza îmbolnăvirii cu COVID-19.</p>
         <p>În această pagină vei afla despre:</p>
-        <ul>
-          <li><a href="#cum-se-raspandeste">Cum se răspândește</a></li>
-          <li><a href="#masuri-protejare">Ce măsuri trebuie să iei pentru a te proteja</a></li>
-          <li><a href="#masuri-protejare-altii">Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți</a></li>
-          <li><a href="#curata-si-dezinfecteaza">Cum să cureți și să dezinfectezi</a></li>
-          <li><a href="#plan-actiune">Cum să îți creezi un plan de acțiune la tine acasă</a></li>
-         </ul>
 
-         <h3 id="cum-se-raspandeste">Cun se răspândește</h3>
+         <h3 id="cum-se-raspandeste">Cum se răspândește</h3>
          <p>În acest moment, nu există un vaccin dezvoltat specific pentru a preveni îmbolnăviriea cu COVID-19. Cea mai bună cale de a preveni îmbolnăvirea este de a evita expunerea la acest virus. Se pare că virusul se răspândește, în mod principal, de la persoană la persoană.</p>
          <p><b>Contact direct</b></p>
          <ul>
@@ -97,9 +104,15 @@ export default [
           <li>Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line (Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane.)</li>
          </ul>
 
-         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;"><b>ATENȚIE</b></p>
-         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-
+         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">ATENȚIE</br>
+         Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
+         `
+      } ,
+      {
+         title: "Ce măsuri trebuie să iei pentru a te proteja",
+         display_order: 2,
+         slug: "masuri-protejare",
+         page: `
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -109,18 +122,35 @@ export default [
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
-
+         `
+       } ,
+       {
+          title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
+          display_order: 3,
+          slug: "masuri-protejare-altii",
+          page: `
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
           <li>Rămâi în casă dacă ai simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sună medicul de familie pentru a solicita sfaturi, <span style="background-color: #ffd738">nu merge din primul moment la unitățile de urgență</span>. (Există riscul, în cazul în care sunteți purtători al virusului, să transmiteți și altor persoane noul coronavirus. Este de preferat să rămâi la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare).</li>
           <li>Acoperă-ți gura și nasul cu un șervețel atunci când tușești sau strănuți, sau folosește interiorul cotului. Aruncă apoi șervețelele folosite la gunoi imediat. Spală-te imediat pe mâini cu apă și săpun, timp de cel puțin 20 de secunde. Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor care conține cel puțin 60% alcool.</li>
           <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
-          <li>Dacă ești bolnav – trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești. </li>
-          <li>Dacă nu ești bolnav – Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă. </li>
          </ul>
+         <p style="background-color: #ffd738; padding: 10px;"><b>Dacă ești bolnav</b></br>
+           trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
+         </p>
 
-         <h3 id="curata-si-dezinfecteaza">Curăță și dezinfectează</h3>
+         <p style="background-color: ##E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
+           Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
+         </p>
+         `
+         } ,
+         {
+          title: "Cum să cureți și să dezinfectezi",
+          display_order: 4,
+          slug: "sfaturi-pentru-dezinfectare",
+          page: `
+         <h3 id="sfaturi-pentru-dezinfectare">Sfaturi pentru dezinfectare</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
           <li>Dacă suprafețele sunt și murdare – folosește detergent sau săpun înainte de dezinfectare.</li>
@@ -139,37 +169,52 @@ export default [
             </ul>
           </li>
          </ul>
-         <b>Cum să cureți și să dezinfectezi</b>
+         <h3 id="cum-sa-cureti-si-sa-dezinfectezi-corect">Cum să cureți și să dezinfectezi corect</h3>
          <ul>
           <li>Poartă mănuși de unică folosință atunci când cureți și dezinfectezi suprafețele. Mănușile trebuie aruncate la gunoi după fiecare curățare pe care o efectuezi. Dacă se folosesc mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri.</li>
           <li>Poartă mănuși de unică folosință atunci când manevrezi rufe murdare de la o persoană bolnavă și aruncă-le după fiecare utilizare. Dacă folosești mănuși reutilizabile, acestea trebuie să fie dedicate curățării și dezinfectării suprafețelor pentru COVID-19 și nu trebuie utilizate în alte scopuri. Spală-ți mâinile imediat după îndepărtarea mănușilor!</li>
           <li>Membrii gospodăriei trebuie să își curețe des mâinile, inclusiv imediat după îndepărtarea mănușilor și după contactul cu o persoană bolnavă, prin spălarea mâinilor cu apă și săpun timp de 20 de secunde. În cazul în care săpunul și apa nu sunt disponibile și mâinile nu sunt vizibil murdare, se poate folosi un dezinfectant de mâini pe bază de alcool, care conține cel puțin 70% alcool. Cu toate acestea, dacă mâinile sunt vizibil murdare, spălați prima dată mâinile cu apă și săpun.</li>
           <li>Membrii gospodăriei trebuie să urmeze acțiuni normale de prevenire a transmisiei viruslui la serviciu și acasă, inclusiv igiena mâinilor recomandată și evitarea atingerii ochilor, nasului sau gurii cu mâinile nespălate.</li>
-          <li>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:
-            <ul>
-              <li>După ce îți sufli nasul, tușești sau strănuți.</li>
-              <li>După utilizarea toaletei.</li>
-              <li>Înainte de a mânca sau pregăti mâncarea.</li>
-              <li>După contactul cu animale domestice sau animale de companie.</li>
-              <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
-            </ul>
-          </li>
           <li>Pe cât posibil, persoana bolnavă trebuie să mănânce / să fie hrănită în propria cameră. Articolele non-alimentare folosite în acest proces și care nu sunt de unică folosință trebuie manipulate cu mănuși și spălate cu apă caldă sau într-o mașină de spălat vase. Curăță-ți mâinile după manipularea acestor instrumente.</li>
           <li>Dacă este posibil, căptușește și dedică un coș de gunoi persoanei bolnave. Folosește mănuși atunci când arunci sacii de gunoi la tomberon. Spală-ți mâinile după manipularea sau aruncarea gunoiului.</li>
          </ul>
-
-         <h3 id="plan-actiune">Creează un plan de acțiune la tine acasă</h3>
+         <p style="background-color: ##E5F9FE; padding: 10px;>
+         <b>În plus, curățarea mâinilor mai trebuie realizată în următoarele momente:</b></br>
+           <ul>
+             <li>După ce îți sufli nasul, tușești sau strănuți.</li>
+             <li>După utilizarea toaletei.</li>
+             <li>Înainte de a mânca sau pregăti mâncarea.</li>
+             <li>După contactul cu animale domestice sau animale de companie.</li>
+             <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
+           </ul>
+         </p>
+         `
+         } ,
+         {
+          title: "Cum să îți creezi un plan de acțiune la tine acasă",
+          display_order: 5,
+          slug: "plan-actiune-acasa",
+          page: `
+         <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
          <p>Fă un plan pentru modalitățile de îngrijire a celor care ar putea avea un risc mai mare de complicații grave. Există informații limitate despre cine poate fi expus riscului de complicații severe cauzate de COVID-19. Din datele care sunt disponibile pentru pacienții cu COVID-19, precum și din datele pentru coronavirusuri asociate, cum ar fi SARS-CoV și MERS-CoV, este posibil ca vârstnicii și persoanele care au afecțiuni medicale cronice să fie expuși riscului de complicații severe. Nu intrați în contact direct sau indirect cu ei. Datele de la începutul acestei boli sugerează că persoanele în vârstă sunt mai susceptibile să aibă o formă mai gravă a COVID-19. </p>
-         <p>Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
+
+         <p style="background-color: ##E5F9FE; padding: 10px;>Dacă tu sau membrii propriei gospodării aveți un risc crescut de complicații cauzate de COVID-19, trebuie să consultați medicul de familie pentru mai multe informații despre monitorizarea stării de sănătate sub influența COVID-19. Organismele internaționale recomandă acțiuni care să ajute la protejarea persoanelor cu risc ridicat pentru complicații, în cazul apariției unui focar de COVID-19 în propria comunitate.</p>
+
          <p>Cunoaște-ți vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Identifică organizațiile de ajutor din propria comunitate. Creează o listă de organizații locale pe care le puteți contacta în cazul în care aveți nevoie de acces la informații, servicii de asistență medicală, ajutor și resurse. Ia în considerare organizațiile care furnizează servicii de sănătate mintală sau consiliere, mâncare și alte consumabile. vecinii, vorbește cu ei despre planificarea de urgență la telefon sau on-line. Dacă propriul cartier are un site sau o pagină de socializare, ia în considerare urmărirea sau aderarea la acestea pentru a menține comunicare cu vecinii, accesul la informații și resurse.</p>
          <p>Creează o listă de contacte de urgență. Asigură-te că există în propria casă o listă actuală de contacte de urgență pentru familie, prieteni, vecini, furnizori de servicii medicale, profesori, angajatori, departamentul local de sănătate publică și alte resurse ale comunității.</p>
-         <p>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+
+         <p style="background-color: ##ffd738; padding: 10px;>Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
+
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
-    `,
+
+        `
+       }
+     ]
+     ,
     firstNodeId: null,
     form: null,
     buttons: null
@@ -181,7 +226,7 @@ export default [
     doc_id: 103,
     active: false,
     display_order: 3,
-    content: ``,
+    content: [],
     firstNodeId: 0,
     form: [
       {
@@ -452,14 +497,14 @@ export default [
     doc_id: 104,
     active: false,
     display_order: 4,
-    content: `<h3>Stresul și adaptarea la situație</h3>
+    content: [
+      {
+        title: "Adaptare și rezistență",
+        display_order: 1,
+        slug: "/",
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Epidemia de coronavirus 2019 (COVID-19) poate fi un motiv de stres pentru populație. Frica și anxietatea generate de o boală pot deveni copleșitoare și pot cauza emoții puternice în rândul adulților și copiilor</p>
-        <p>În această pagină vei afla despre:</p>
-        <ul>
-          <li><a href="#ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine și pe ceilalți</a></li>
-          <li><a href="#ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</a></li>
-          <li><a href="#stigmata">Diminuarea stigmatului</a></li>
-        </ul>
+
         <p>Adaptarea la stres te face mai puternic pe tine, pe cei dragi și pe cei aparținând comunității tale. </p>
         <p>Fiecare răspunde diferit la situații de stres. Felul în care reacționezi în fața acestei epidemii poate depinde de experiențele anterioare, de lucrurile care te fac diferit de ceilalți și de comunitatea în care trăiești.  </p>
 
@@ -470,7 +515,6 @@ export default [
           <li>Persoanele care ajută la tratarea COVID-19, spre exemplu doctorii și alte cadre din sistemul sanitar, ori cei care oferă prim ajutor</li>
           <li>Persoanele care suferă de o afecțiune mintală, inclusiv cele care au probleme legate de abuzul de substanțe cu risc de dependență</li>
         </ul>
-        <p>Dacă emoții precum tristețea, depresia sau anxietatea te afectează pe tine sau pe cineva la care ții, sau dacă simți că vrei să îți induci suferință, sună la </p>
 
         <h3>Stresul în timpul unei epidemii infecțioase poate include: </h3>
          <ul>
@@ -483,21 +527,25 @@ export default [
         <p>Persoanele cu afecțiuni legate de sănătatea mentală ar trebui să își continue tratamentul și să conștientizeze apariția unor simptome noi sau agravante. </p>
         <p>Acțiunile prin care îți manifești grija față de tine, prieteni și familie te pot ajuta să gestionezi stresul. Ajutându-i pe ceilalți să se adapteze condițiilor de stres poate duce la o comunitate mai puternică.</p>
 
-        <h2 id="ajutor-self">Lucruri pe care le poți face pentru a te ajuta pe tine:</h2>
+        <p style="background-color: ##E5F9FE; padding: 10px;>
+        <b>Lucruri pe care le poți face pentru a te ajuta pe tine:</b></br>
         <ul>
           <li>Să iei pauze de la a urmări, citi sau asculta știri, inclusiv cele apărute în social media. Expunerea repetată la tema pandemiei poate deveni deranjantă.</li>
           <li>Să ai grijă de corpul tău. Încearcă să respiri adânc, să faci exerciții de stretching sau să meditezi. Încearcă să mănânci sănătos, să ai mese echilibrate, să faci mișcare în mod regulat, să dormi suficient și să eviți alcoolul sau substanțele ilegale. </li>
           <li>Fă-ți timp pentru a te deconecta. Încearcă activități care îți fac plăcere. </li>
           <li>Ia legătura cu ceilalți. Vorbește despre grijile tale sau despre felul în care te simți cu oamenii în care ai încredere.</li>
+          <li>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</li>
         </ul>
-        <p>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</p>
+        </p>
+        `
+        },
+        {
+         title: "Sfaturi pentru părinți",
+         display_order: 2,
+         slug: "sfaturi-pentru-parinti",
+         page: `
+        <p style="background-color: ##ffd738; padding: 10px;>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
-        <h3>Redu stresul la care te expui și la care se expun ceilalți</h3>
-        <p>Când împărtășești informații <a href="https://www.stirioficiale.ro"> despre COVID-19 </a> și înțelegi riscul implicat pentru tine și pentru cei dragi, poți face ca epidemia să fie mai puțin stresantă.</p>
-        <p>Atunci când transmiți informații verificate despre COVID-19, îi poți face pe ceilalți să se simtă mai puțin stresați și creezi o ocazie de a te conecta cu ei. </p>
-
-        <h3>Pentru părinți </h3>
-        <p>Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
         <ul>
           <li>Plâns excesiv sau comportamente care arată iritarea în rândul copiilor mici</li>
@@ -519,14 +567,19 @@ export default [
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
-        <p>Învață mai multe despre cum îi poți ajuta pe copii să gestioneze situația.</p>
-
-        <h2 id="ajutor-copii">Ajutor pentru copii în gestionarea stărilor de urgență</h2>
+        `
+        },
+        {
+         title: "Ajutor pentru copii în gestionarea stărilor de urgentă",
+         display_order: 3,
+         slug: "ajutor-pentru-copii",
+         page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
         <p>Oamenii pot trece prin situații de stres dacă sunt expuși la imagini repetate ale unui dezastru discutat în mass media. În fazele incipiente, gândește-te la limitarea perioadei în care tu și cei dragi vă expuneți acestor mediatizări.</p>
 
         <h3>Ce poți face pentru a-i ajuta pe copii să gestioneze o situație de urgență</h3>
+
         <p>Este esențial ca părinții și îngrijitorii să dea un exemplu pozitiv, gestionând stresul prin alegeri sănătoase: să mănânce echilibrat, să facă mișcare, să doarmă suficient și să evite consumul de alcool sau de substanțe care pot da dependență. Când ești pregătit, odihnit și relaxat, poți reacționa mai bine la evenimente neașteptate și poți lua cele mai bune decizii pentru familia ta și pentru cei dragi. </p>
         <p>Următoarele sfaturi te pot ajuta să reduci stresul înainte, în timpul și după un dezastru sau eveniment traumatizant.</p>
 
@@ -549,20 +602,39 @@ export default [
           <li>Este dificil să prezici modul în care unii copiii vor reacționa la dezastre sau la evenimente traumatizante. Pentru că părinții, profesorii și alți adulți cunosc comportamentul copilului în diferite situații, e important ca aceștia să lucreze împreună și să împărtășească informații despre cum reușește fiecare copil să depășească un eveniment traumatizant. </li>
         </ul>
 
-        <h3>Reacții obișnuite</h3>
+        `
+        } ,
+        {
+         title: "Reacții obișnuite pentru copii și adolescenți",
+         display_order: 4,
+         slug: "reactii-obisnuite",
+         page: `
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
 
         <h4>Pentru bebeluși și copii de până la 2 ani</h4>
         <p>Bebelușii pot deveni mai irascibili. S-ar putea să plângă mai des ca în mod obișnuit sau să vrea să fie ținuți în brațe mai mult. </p>
-         <h4>Pentru copii cu vârste cuprinse între 3 și 6 ani</h4>
+
+        <h4>Pentru copii cu vârste cuprinse între 3 și 6 ani</h4>
         <p>Preșcolarii și copiii de grădiniță s-ar putea întoarce la comportamente pe care le depășiseră deja. De exemplu, accidente în rutina legată de mersul la toaletă, urinat în pat sau stări de spaimă asociate separării de părinți sau de îngrijitori. E posibil să aibă accese de furie sau dificultăți în a dormi. </p>
-         <h4>Pentru copii cu vârste cuprinse între 7 și 10 ani</h4>
+
+        <h4>Pentru copii cu vârste cuprinse între 7 și 10 ani</h4>
         <p>Copiii mai mari pot resimți supărare, furie sau teama de repetare a evenimentului. Colegii lor pot transmite informații false; cu toate acestea, părinții sau îngrijitorii pot corecta dezinformările. Copiii mai mari se concentrează pe detaliile evenimentului și fie vor să vorbească despre asta tot timpul, fie refuză total să vorbească. Există posibilitatea ca aceștia să întâmpine dificultăți în menținerea concentrării.</p>
-         <h4>Pentru pre-adolescenți și adolescenți </h4>
+
+        <h4>Pentru pre-adolescenți și adolescenți </h4>
         <p>Unii pre-adolescenți și adolescenți răspund la traume prin izbucniri. De exemplu, pot ajunge să se comporte neglijent sau să apeleze la alcool sau la substanțe care pot da dependență. Alții se pot teme să iasă din casă. Unii ar putea să reducă timpul petrecut cu prietenii lor. S-ar putea lăsa copleșiți de emoții intense, simțind că nu sunt în stare să vorbească despre ele. Emoțiile pot să-i facă să devină mai iritați și chiar să ajungă să se certe cu frații, părinții, îngrijitorii sau alți adulți. </p>
-         <h4>Pentru copii cu nevoi speciale</h4>
-        <p>Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi. </p>
-         <h4>Pentru cei care tocmai au ieșit din carantină</h4>
+
+        <p style="background-color: ##ffd738; padding: 10px;>
+          <h4>Pentru copii cu nevoi speciale</h4>
+          Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi.
+        </p>
+
+        `
+        } ,
+        {
+         title: "Pentru cei care tocmai au ieșit din carantină",
+         display_order: 5,
+         slug: "cei-care-tocmai-au-iesit-din-carantina",
+         page: `
         <p>Separarea de ceilalți, dacă un cadru medical consideră că ai fi putut fi expus la COVID-19, poate fi o situație de stres, chiar dacă nu te îmbolnăvești. Fiecare se simte diferit după perioada de stat în carantină. O parte din stări includ:</p>
         <ul>
           <li>Emoții contradictorii, inclusiv cel de destindere de după perioada carantinei</li>
@@ -571,14 +643,21 @@ export default [
           <li>Tristețe, furie sau frustrare, ca urmare a temerilor nefondate de contactare a bolii, din partea prietenilor sau a celor dragi, în ciuda faptului că ai fost declarat necontagios</li>
           <li>Vina asociată faptului că nu ai putut să lucrezi sau să ai grijă de copii, în parametri normali, pe durata carantinei</li>
           <li>Alte schimbări emoționale sau legate de sănătatea mintală</li>
+          <li>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</li>
         </ul>
-        <p>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</p>
 
-        <h2 id="stigmata">Diminuarea stigmatului</h2>
+        `
+        } ,
+        {
+         title: "Diminuarea stigmatului",
+         display_order: 6,
+         slug: "diminuarea-stigmatului",
+         page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
         <p>Este important să ne amintim că oamenii – inclusiv cei cu descendență asiatică – care nu locuiesc sau care nu au fost recent într-o zonă de răspândire a virusului care duce la COVID-19, ori cei care nu au fost în contact cu o persoană confirmată sau suspectă de COVID-19, nu prezintă un risc mai ridicat de răspândire a virusului COVID-19 decât indivizii din alte țări.</p>
-        <p>Câteva din grupurile care pot suferi în urma stigmatizării din cauza COVID-19 includ:</p>
+
+        <h3>Câteva din grupurile care pot suferi în urma stigmatizării din cauza COVID-19 includ:</h3>
         <ul>
           <li>Persoane cu descendență asiatică</li>
           <li>Cei care au călătorit</li>
@@ -586,7 +665,8 @@ export default [
           <li>Forțele de intervenție sau personalul din sistemul medical</li>
         </ul>
         <p>Stigmatizarea îi afectează pe toți pentru că generează teamă sau furie față de alți oameni. </p>
-        <p>Grupurile stigmatizate pot fi supuse unor experiențe precum:</p>
+
+        <h3>Grupurile stigmatizate pot fi supuse unor experiențe precum:</h3>
         <ul>
           <li>Evitare socială sau respingere</li>
           <li>Refuzul accesului la servicii de sănătate, de educație, locative sau de angajare</li>
@@ -606,7 +686,11 @@ export default [
           <li>Să mulțumească angajaților din sistemul de sănătate și celor care răspund apelurilor. Cei care au călătorit în zone de largă răspândire a COVID-19, pentru a ajuta, au avut o contribuție valoroasă pentru toată lumea, asigurându-se că boala nu se răspândește și mai mult. </li>
           <li>Să împărtășească nevoia de sprijin social pentru cei care s-au întors din China sau care sunt îngrijorați cu privire la prietenii sau la rudele rămase în zonele afectate. </li>
         </ul>
-    `,
+
+      `
+      }
+    ]
+    ,
     buttons: null,
     firstNodeId: 0,
     form: null
@@ -618,7 +702,12 @@ export default [
     doc_id: 105,
     active: false,
     display_order: 5,
-    content: `
+    content: [
+      {
+        title: "Pentru cei care oferă ajutor",
+        display_order: 1,
+        slug: "/",
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Cei care fac parte din forțele de răspuns (instituții și voluntari deopotrivă) în situații de urgență vor fi expusi la stres in perioada urmatoare. Gestionarea stresului și luarea pauzelor vor face intervenția ta mai bună.</p>
         <p>Implicarea ta în gestionarea crizei asociate cu COVID-19 te poate afecta din punct de vedere emoțional. Există acțiuni pe care le poți face pentru a te ajuta să reduci reacțiile de stres traumatic secundar (STS), asociate cu gestionarea evenimentelor de criză.</p>
         <ul>
@@ -692,7 +781,10 @@ export default [
          <p>A fi parte din forțele de răspuns în caz de dezastre poate fi o activitate care îți aduce satisfacții însă este în acelați timp și  și stresantă. Recunoscând că ești stresat și încercând să găsești metode de a gestiona  stresul în timp ce continui să răspunzi solicitărilor, te va ajuta să te menții sănătos și astfel poți continu să îi ajuți pe cei care sunt afectați.</p>
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
 
-    `,
+       `
+       }
+     ]
+     ,
     form: null,
     firstNodeId: null,
     buttons: null
@@ -704,7 +796,13 @@ export default [
     doc_id: 106,
     active: false,
     display_order: 6,
-    content: `<p>Întrebări frecvente despre COVID-19</p>`,
+    content: [
+      {
+        title: "Întrebări frecvente",
+        display_order: 1,
+        page: `<p>Întrebări frecvente despre COVID-19</p>`
+      }
+    ],
     firstNodeId: null,
     form: null,
     buttons: null,
