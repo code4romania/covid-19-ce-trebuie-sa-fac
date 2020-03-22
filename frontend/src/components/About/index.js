@@ -16,6 +16,7 @@ const About = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
   return (
+    <>
     <div className="container about-page">
       <section>
         <Hero
@@ -53,6 +54,15 @@ const About = () => {
           României și Departamentul pentru Situații de Urgență.
         </p>
       </section>
+      </div>
+      <div className="sponsors">
+        <p><strong>Programul Code for Romania Task Force este susținut de:&nbsp;</strong></p>
+        <p>&nbsp;</p>
+        <p>
+          <img src="https://cdn.stirioficiale.ro/storage/Partners/banda sponsori.png" alt="" width="550" height="98" />
+        </p>
+      </div>
+      <div className="container about-page">
       <aside className="about-section-useful-instruments">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
 
@@ -80,6 +90,7 @@ const About = () => {
         </Instruments>
       </aside>
     </div>
+    </>
   );
 };
 
