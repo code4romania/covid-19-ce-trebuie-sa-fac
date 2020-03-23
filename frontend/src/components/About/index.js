@@ -56,7 +56,7 @@ const About = () => {
           României și Departamentul pentru Situații de Urgență.
         </p>
       </section>
-      <section>
+      <section className="has-border-bottom has-horizontal-paddding">
         <MailchimpSubscribe url={mailchimpURL} />
       </section>
       <section className="about-section-useful-instruments">
