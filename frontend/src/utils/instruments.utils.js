@@ -5,12 +5,6 @@ const hasButtons = buttons => {
   return buttons && buttons.length;
 };
 
-const handleInstrumentItemOnClick = buttons => {
-  if (hasButtons(buttons)) {
-    window.open(buttons[0].link, "_blank");
-  }
-};
-
 const getCategoryItems = (usefulApps, category) => {
   return usefulApps.filter(usefulApp => usefulApp.app_type === category);
 };
@@ -19,6 +13,7 @@ const remapInstrumentsData = data => {
     return a.display_order - b.display_order;
   });
   return {
+    info: getCategoryItems(sortedData, "INFO"),
     news: getCategoryItems(sortedData, "NEWS"),
     data: getCategoryItems(sortedData, "DATA"),
     offer_help: getCategoryItems(sortedData, "OFFER_HELP")
@@ -29,7 +24,8 @@ const renderInstrumentItem = usefulApp => {
   const cartegoryMap = {
     NEWS: "green",
     OFFER_HELP: "red",
-    DATA: "pink"
+    DATA: "pink",
+    INFO: "yellow"
   };
   return (
     <InstrumentsItem
@@ -40,9 +36,9 @@ const renderInstrumentItem = usefulApp => {
       ctaText={
         hasButtons(usefulApp.buttons) && usefulApp.buttons[0].title // TODO refactor
       }
-      onClick={() => {
-        handleInstrumentItemOnClick(usefulApp.buttons);
-      }}
+      ctaLink={
+        hasButtons(usefulApp.buttons) && usefulApp.buttons[0].link // TODO refactor
+      }
     />
   );
 };

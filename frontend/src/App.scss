@@ -1,10 +1,18 @@
-@import '~bulma/sass/utilities/_all.sass';
-@import "~bulma/sass/elements/content.sass";
-@import "~bulma/sass/elements/container.sass";
+@import "./fonts";
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/derived-variables.sass";
+@import "~bulma/sass/utilities/mixins.sass";
 @import "~bulma/sass/components/level.sass";
-.__social-share-container {
-  padding-top: 1rem;
+
+.container {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
 }
+
+.__social-share-container {
+  margin-bottom: 1.6rem;
+}
+
 .incubated-by-wrapper {
   margin-top: 2rem;
 }

@@ -1,19 +1,33 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Form from "../Form";
-import { Hero, Accordion } from "@code4ro/taskforce-fe-components";
+import {
+  Hero,
+  Accordion,
+  SocialsShare
+} from "@code4ro/taskforce-fe-components";
 
-function ContentPage({ data }) {
+function ContentPage({ page, subPage }) {
+  const renderContent = () => {
+    return (
+      subPage &&
+      subPage.page && (
+        <div
+          className="content"
+          dangerouslySetInnerHTML={{ __html: subPage.page }}
+        />
+      )
+    );
+  };
+
   return (
     <div>
-      <Hero title={data.title} />
-      <div
-        className="content"
-        dangerouslySetInnerHTML={{ __html: data.content }}
-      />
-      {data.form && <Form data={data} />}
-      {data.accordion &&
-        data.accordion.map((accordion, index) => (
+      <Hero title={(subPage && subPage.title) || page.title} />
+      <SocialsShare currentPage={window.location.href} />
+      {renderContent()}
+      {page.form && <Form data={page} />}
+      {page.accordion &&
+        page.accordion.map((accordion, index) => (
           <Accordion
             key={`accordion_${index}`}
             title={accordion.title}
@@ -30,9 +44,14 @@ function ContentPage({ data }) {
 }
 
 ContentPage.propTypes = {
-  data: PropTypes.shape({
+  page: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    content: PropTypes.string,
+    content: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        page: PropTypes.string.isRequired
+      })
+    ),
     first_node_id: PropTypes.number,
     form: PropTypes.arrayOf(
       PropTypes.shape({
@@ -53,6 +72,10 @@ ContentPage.propTypes = {
         content: PropTypes.string.isRequired
       })
     )
+  }),
+  subPage: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    page: PropTypes.string.isRequired
   })
 };
 

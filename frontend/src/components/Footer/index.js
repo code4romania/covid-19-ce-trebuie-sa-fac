@@ -11,9 +11,9 @@ const FooterWrapper = () => {
   return (
     <Footer>
       <FooterLinks>
-        <FooterLinkHeader>Linkuri utile</FooterLinkHeader>
+        <FooterLinkHeader>Link-uri utile</FooterLinkHeader>
         <FooterLinkItem>
-          <Link to="/despre"> Despre proiect</Link>
+          <Link to="/despre">Despre proiect</Link>
         </FooterLinkItem>
         <FooterLinkItem>
           <a
@@ -40,6 +40,15 @@ const FooterWrapper = () => {
             rel="noopener noreferrer"
           >
             Departamentul pentru Situații de Urgență
+          </a>
+        </FooterLinkItem>
+        <FooterLinkItem>
+          <a
+            href="http://www.code4.ro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code for Romania
           </a>
         </FooterLinkItem>
       </FooterLinks>
