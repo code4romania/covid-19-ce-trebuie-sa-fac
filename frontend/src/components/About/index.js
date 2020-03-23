@@ -66,8 +66,27 @@ const About = () => {
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
             Platforma cemăfac.ro este construită de Code for Romania Task Force
-            în parteneriat cu Guvernul României prin Autoritatea pentru
-            Digitalizarea României și Departamentul pentru Situații de Urgență.
+            în parteneriat cu&nbsp;
+            <a
+              href="https://www.gov.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            > Guvernul României
+            </a>
+            , prin&nbsp;
+            <a
+              href="https://www.aadr.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >  Autoritatea pentru Digitalizarea României
+            </a>
+            , și&nbsp;
+            <a
+              href="http://www.dsu.mai.gov.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            > Departamentul pentru Situații de Urgență
+            </a>
           </p>
         </section>
       </div>
