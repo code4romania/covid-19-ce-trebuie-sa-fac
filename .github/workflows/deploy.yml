@@ -3,6 +3,18 @@ on:
   push:
     branches:
       - develop
+      - master
+
+env:
+  AWS_S3_BUCKET_TEST: ${{ secrets.AWS_S3_BUCKET_TEST }}
+  AWS_S3_BUCKET_PROD: ${{ secrets.AWS_S3_BUCKET_PROD }}
+  DISTRIBUTION_ID_TEST: ${{ secrets.DISTRIBUTION_ID_TEST }}
+  DISTRIBUTION_ID_PROD: ${{ secrets.DISTRIBUTION_ID_PROD }}
+  PATHS: '/*'
+  SOURCE_DIR: "./frontend/build"
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_REGION: ${{ secrets.AWS_REGION }}
 
 jobs:
   deploy:
@@ -29,22 +41,30 @@ jobs:
         working-directory: ${{env.working-directory}}
         run: npm run build
 
-      - name: Deploy to S3
+      - name: Deploy to S3 Staging
+        if: github.ref == 'refs/heads/develop'
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --delete
         env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          SOURCE_DIR: "./frontend/build"
-    
-      - name: Invalidate Cloudfront
+          AWS_S3_BUCKET: $AWS_S3_BUCKET_TEST
+
+      - name: Invalidate Cloudfront Staging
+        if: github.ref == 'refs/heads/develop'
         uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
         env:
-          DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
-          PATHS: '/*'
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          DISTRIBUTION_ID: $DISTRIBUTION_ID_TEST
+        
+      - name: Deploy to S3 Production
+        if: github.ref == 'refs/heads/master'
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --acl public-read --delete
+        env:
+          AWS_S3_BUCKET: $AWS_S3_BUCKET_PROD
+
+      - name: Invalidate Cloudfront Production
+        if: github.ref == 'refs/heads/master'
+        uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
+        env:
+          DISTRIBUTION_ID: $DISTRIBUTION_ID_PROD
