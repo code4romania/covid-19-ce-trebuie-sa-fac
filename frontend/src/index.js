@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import AppWrapper from "./App";
-import "typeface-titillium-web";
 import * as serviceWorker from "./serviceWorker";
 import "@code4ro/taskforce-fe-components/dist/index.css";
 import { initializeGA } from "./analyticsTracker";
