@@ -15,6 +15,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData
 } from "../../utils/instruments.utils";
+import "./styles.scss";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -63,7 +64,7 @@ const Home = () => {
           }
         />
       </div>
-      <div className="container">
+      <div className="container pages-list">
         <List columns={3}>
           {data.map(doc => (
             <ListItem
@@ -78,16 +79,8 @@ const Home = () => {
       </div>
 
       <div className="container">
-        <div className="columns">
-          <div className="column is-8">
-            {selectedPage && (
-              <ContentPage
-                page={selectedPage}
-                subPage={selectedSubPage}
-              ></ContentPage>
-            )}
-          </div>
-          <aside className="column is-4">
+        <div className="columns homepage-columns">
+          <aside className="column is-4 homepage-sidebar">
             <SidebarMenu>
               {data.map(doc => {
                 let menuItems = null;
@@ -125,15 +118,25 @@ const Home = () => {
               })}
             </SidebarMenu>
 
-            <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-            <Instruments layout="column">
-              {Object.keys(instrumentsData).map(category => {
-                return instrumentsData[category].map(usefulApp =>
-                  renderInstrumentItem(usefulApp)
-                );
-              })}
-            </Instruments>
+            <div className="instruments-wrapper">
+              <Hero title={"Instrumente utile"} useFallbackIcon={true} />
+              <Instruments layout="column">
+                {Object.keys(instrumentsData).map(category => {
+                  return instrumentsData[category].map(usefulApp =>
+                    renderInstrumentItem(usefulApp)
+                  );
+                })}
+              </Instruments>
+            </div>
           </aside>
+          <div className="column is-8">
+            {selectedPage && (
+              <ContentPage
+                page={selectedPage}
+                subPage={selectedSubPage}
+              ></ContentPage>
+            )}
+          </div>
         </div>
       </div>
     </>
