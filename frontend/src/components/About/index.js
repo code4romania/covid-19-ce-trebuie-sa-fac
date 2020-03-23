@@ -76,18 +76,18 @@ const About = () => {
           <Hero title={"Instrumente utile"} useFallbackIcon={true} />
 
           <Instruments layout="grid">
-              {instrumentsData.info.map(usefulApp =>
-                renderInstrumentItem(usefulApp)
-              )}
-              {instrumentsData.news.map(usefulApp =>
-                renderInstrumentItem(usefulApp)
-              )}
-              {instrumentsData.offer_help.map(usefulApp =>
-                renderInstrumentItem(usefulApp)
-              )}
-              {instrumentsData.data.map(usefulApp =>
-                renderInstrumentItem(usefulApp)
-              )}
+            {instrumentsData.info.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
+            {instrumentsData.news.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
+            {instrumentsData.offer_help.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
+            {instrumentsData.data.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
           </Instruments>
         </aside>
       </div>
