@@ -5,12 +5,6 @@ const hasButtons = buttons => {
   return buttons && buttons.length;
 };
 
-const handleInstrumentItemOnClick = buttons => {
-  if (hasButtons(buttons)) {
-    window.open(buttons[0].link, "_blank");
-  }
-};
-
 const getCategoryItems = (usefulApps, category) => {
   return usefulApps.filter(usefulApp => usefulApp.app_type === category);
 };
@@ -42,9 +36,9 @@ const renderInstrumentItem = usefulApp => {
       ctaText={
         hasButtons(usefulApp.buttons) && usefulApp.buttons[0].title // TODO refactor
       }
-      onClick={() => {
-        handleInstrumentItemOnClick(usefulApp.buttons);
-      }}
+      ctaLink={
+        hasButtons(usefulApp.buttons) && usefulApp.buttons[0].link // TODO refactor
+      }
     />
   );
 };
