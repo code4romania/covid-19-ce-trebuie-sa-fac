@@ -42,9 +42,9 @@ const renderInstrumentItem = usefulApp => {
       ctaText={
         hasButtons(usefulApp.buttons) && usefulApp.buttons[0].title // TODO refactor
       }
-      onClick={() => {
-        handleInstrumentItemOnClick(usefulApp.buttons);
-      }}
+      ctaLink={
+        hasButtons(usefulApp.buttons) && usefulApp.buttons[0].link // TODO refactor
+      }
     />
   );
 };
