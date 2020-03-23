@@ -71,21 +71,24 @@ const About = () => {
               href="https://www.gov.ro/"
               target="_blank"
               rel="noopener noreferrer"
-            > Guvernul României
+            >
+              Guvernul României
             </a>
             , prin&nbsp;
             <a
               href="https://www.aadr.ro/"
               target="_blank"
               rel="noopener noreferrer"
-            >  Autoritatea pentru Digitalizarea României
+            >
+              Autoritatea pentru Digitalizarea României
             </a>
             , și&nbsp;
             <a
               href="http://www.dsu.mai.gov.ro/"
               target="_blank"
               rel="noopener noreferrer"
-            > Departamentul pentru Situații de Urgență
+            >
+              Departamentul pentru Situații de Urgență
             </a>
           </p>
         </section>
