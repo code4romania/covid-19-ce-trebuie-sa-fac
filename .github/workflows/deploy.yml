@@ -68,4 +68,4 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
         env:
-          DISTRIBUTION_ID: $DISTRIBUTION_ID_PROD    
+          DISTRIBUTION_ID: $DISTRIBUTION_ID_PROD
