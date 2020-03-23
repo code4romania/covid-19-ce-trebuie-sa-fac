@@ -38,13 +38,13 @@ const About = () => {
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
-            cemăfac.ro este o platformă care ajută populația să înțeleagă mai
-            bine care sunt regulile ce trebuie respectate în timpul pandemiei
-            COVID-19. Un ghid simplu și practic bazat pe scenarii posibile prin
-            care populația poate trece. Această platformă te va ghida prin
-            situații variate și te va aduce mai aproape de măsurile recomandate
-            pentru o mai bună protejare a ta, a familiei și a comunității tale
-            în această situație de urgență.
+            cemăfac.ro este o platformă care ajută populația să înțeleagă mai bine care sunt regulile ce 
+            trebuie respectate în timpul pandemieii COVID-19. Un ghid simplu  și practic, redactat pe înțelesul 
+            tuturor cu sprijinul <a href="https://www.facebook.com/comunicarenonprofit/" target="_blank">Brigăzii de 
+            Comunicare Nonprofit</a>, avizat de <a href="http://www.dsu.mai.gov.ro/" target="_blank">Departamentul pentru Situații de Urgență</a>, 
+            bazat pe scenarii posibile prin care populația poate trece. Această platformă te va ghida prin situații 
+            variate și te va aduce mai aproape de măsurile recomandate pentru o mai bună protejare a ta, a familiei 
+            și a comunității tale în această situație de urgență.
           </p>
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
