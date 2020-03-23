@@ -47,7 +47,7 @@ export default [
 
       <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
        <ul>
-        <li><a href="https://datelazi.ro">DateLaZi</a></li>
+        <li><a href="https://stirioficiale.ro/">Știri oficiale</a></li>
         <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
         <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
       </ul>
