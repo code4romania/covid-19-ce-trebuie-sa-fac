@@ -490,7 +490,7 @@ export default [
           },
           {
             label:
-              "Conform răspunsurilor tale există o posibilitate să fii infectat cu COVID-19. Te rugăm să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugam să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
             value: 1
           },
           {
