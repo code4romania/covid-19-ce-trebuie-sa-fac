@@ -42,6 +42,15 @@ const FooterWrapper = () => {
             Departamentul pentru Situații de Urgență
           </a>
         </FooterLinkItem>
+        <FooterLinkItem>
+          <a
+            href="http://www.code4.ro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code for Romania
+          </a>
+        </FooterLinkItem>
       </FooterLinks>
     </Footer>
   );
