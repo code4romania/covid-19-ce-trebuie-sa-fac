@@ -39,7 +39,7 @@ const About = () => {
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
             cemăfac.ro este o platformă care ajută populația să înțeleagă mai
-            bine care sunt regulile ce trebuie respectate în timpul pandemieii
+            bine care sunt regulile ce trebuie respectate în timpul pandemiei
             COVID-19. Un ghid simplu și practic bazat pe scenarii posibile prin
             care populația poate trece. Această platformă te va ghida prin
             situații variate și te va aduce mai aproape de măsurile recomandate
