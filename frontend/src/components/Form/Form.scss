@@ -1,0 +1,11 @@
+.action-buttons {
+  padding: 10px 0;
+  display: flex;
+}
+
+.no-hover {
+  &:hover {
+    cursor: initial !important;
+    background-color: whitesmoke !important;
+  }
+}

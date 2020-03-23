@@ -1,0 +1,42 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+variables: 
+  csprojpath : 'api/**/*.csproj'
+
+trigger:
+  paths:
+    include:
+      - 'api'
+
+steps:
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet restore'
+  inputs:
+    command: 'restore'
+    projects: '$(csprojpath)'
+    feedsToUse: 'select'
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
+  inputs:
+    command: 'build'
+    projects: '$(csprojpath)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet publish'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: '$(csprojpath)'
+    arguments: '-o $(Build.ArtifactStagingDirectory)'
+    modifyOutputPath: true
+
+- task: PublishPipelineArtifact@1
+  displayName: 'publish artifacts'
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)'
+    artifact: 'api'
+    publishLocation: 'pipeline'
