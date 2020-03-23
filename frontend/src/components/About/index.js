@@ -64,7 +64,7 @@ const About = () => {
         <p>&nbsp;</p>
         <p>
           <img
-            src="https://cdn.stirioficiale.ro/storage/Partners/banda sponsori.png"
+            src="/images/banda_sponsori.png"
             alt=""
             width="550"
             height="98"
