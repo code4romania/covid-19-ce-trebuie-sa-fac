@@ -1,7 +1,14 @@
 .about-page {
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+}
+
+.sponsors {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 section.has-border-bottom {
