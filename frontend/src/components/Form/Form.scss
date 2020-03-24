@@ -9,3 +9,17 @@
     background-color: whitesmoke !important;
   }
 }
+
+@media (max-width: 768px) {
+  .action-buttons {
+    padding: 0;
+    .level-left {
+      margin-top: 1.5rem;
+      display: flex;
+
+      .level-item {
+        margin: 0 1rem 0 0;
+      }
+    }
+  }
+}

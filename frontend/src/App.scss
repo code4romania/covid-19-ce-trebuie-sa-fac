@@ -16,3 +16,9 @@
 .incubated-by-wrapper {
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  .banner-wrapper {
+    text-align: center;
+  }
+}
