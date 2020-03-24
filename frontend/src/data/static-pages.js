@@ -116,7 +116,7 @@ export default [
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
           <li>Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor. Acoperă cu lichidul toată suprafața mâinilor și freacă-ți mâinile până când se simt uscate.</li>
-          <li>NU intra în contact direct cu membrii familiei, atunci când revii la domiciliu, ]nainte de igienizarea mâinilor.</li>
+          <li>NU intra în contact direct cu membrii familiei, atunci când revii la domiciliu, înainte de igienizarea mâinilor.</li>
           <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
