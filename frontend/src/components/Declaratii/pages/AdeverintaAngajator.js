@@ -128,7 +128,7 @@ function AdeverintaAngajator() {
 
       <Section bottom="medium" left="medium">
         Datele persoanei care se deplasează:
-        <p>
+        <div>
           {" "}
           Nume:{" "}
           <TextField
@@ -137,8 +137,8 @@ function AdeverintaAngajator() {
             value={form?.nume_angajat}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Prenume:{" "}
           <TextField
@@ -147,8 +147,8 @@ function AdeverintaAngajator() {
             value={form?.prenume_angajat}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Data nașterii:{" "}
           <TextField
@@ -157,8 +157,8 @@ function AdeverintaAngajator() {
             value={form?.data_nasterii}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Adresa:{" "}
           <TextField
@@ -167,8 +167,8 @@ function AdeverintaAngajator() {
             value={form?.adresa}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Domeniul activității profesionale:{" "}
           <TextField
@@ -177,8 +177,8 @@ function AdeverintaAngajator() {
             value={form?.domeniu_activitate}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Locul de desfășurare al activității profesionale:{" "}
           <TextField
@@ -187,8 +187,8 @@ function AdeverintaAngajator() {
             value={form?.loc_activitate}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Traseul deplasării:{" "}
           <TextField
@@ -197,8 +197,8 @@ function AdeverintaAngajator() {
             value={form?.traseu}
             onChange={onChange}
           />
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           Mijlocul de deplasare:{" "}
           <TextField
@@ -207,7 +207,7 @@ function AdeverintaAngajator() {
             value={form?.mijloc_deplasare}
             onChange={onChange}
           />
-        </p>
+        </div>
       </Section>
 
       <Section bottom="medium">
@@ -220,7 +220,7 @@ function AdeverintaAngajator() {
 
       <Section bottom="small">
         Perioada:
-        <p>
+        <div>
           De la{" "}
           <TextField
             name="perioada_start"
@@ -233,7 +233,7 @@ function AdeverintaAngajator() {
             value={form?.perioada_final}
             onChange={onChange}
           />
-        </p>
+        </div>
       </Section>
 
       <Section>
