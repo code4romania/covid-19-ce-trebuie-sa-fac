@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import { createGlobalStyle } from "styled-components";
 import { PDFDownloadLink } from "@react-pdf/renderer";
-import SignatureCanvas from "react-signature-canvas";
 
 import { useEffect, useSetState, useLocalStorage } from "../helpers/hooks";
 import { color, fontWeight, fontFamily, fontSize } from "../helpers/constants";
@@ -11,7 +10,6 @@ import Button from "../components/Button";
 import Wrapper from "../components/Wrapper";
 import Section from "../components/Section";
 import TextField from "../components/TextField";
-import Signature from "../components/Signature";
 
 import RendererAngajator from "../pdf/RendererAngajator";
 
@@ -234,17 +232,6 @@ function AdeverintaAngajator() {
             onChange={onChange}
           />
         </div>
-      </Section>
-
-      <Section>
-        Semnătura
-        <Signature>
-          <SignatureCanvas
-            penColor={color.black}
-            ref={signature}
-            canvasProps={{ width: 760, height: 200 }}
-          />
-        </Signature>
       </Section>
 
       <Section align="center">

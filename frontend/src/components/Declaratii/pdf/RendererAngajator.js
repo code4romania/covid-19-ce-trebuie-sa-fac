@@ -138,9 +138,6 @@ function RendererAngajator({ form, signature }) {
           </View>
           <View>
             <Text style={styles.text}>Semnătura</Text>
-            <View style={styles.signature}>
-              <Image src={signature} />
-            </View>
           </View>
         </View>
 

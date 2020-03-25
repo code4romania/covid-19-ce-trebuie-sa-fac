@@ -259,9 +259,6 @@ function RendererProprie({ form, signature }) {
           </View>
           <View>
             <Text style={styles.text}>Semnatura</Text>
-            <View style={styles.signature}>
-              <Image src={signature} />
-            </View>
           </View>
         </View>
       </Page>

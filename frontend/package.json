@@ -17,7 +17,6 @@
     "@rehooks/local-storage": "^2.3.0",
     "react-input-autosize": "^2.2.2",
     "date-format": "^3.0.0",
-    "react-signature-canvas": "^1.0.3",
     "styled-components": "^5.0.1"
   },
   "scripts": {
