@@ -38,10 +38,10 @@ const About = () => {
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
-            Cetrebuiesafac.ro este o platformă care ajută populația să înțeleagă mai
-            bine care sunt regulile ce trebuie respectate în timpul pandemieii
-            COVID-19. Un ghid simplu și practic, redactat pe înțelesul tuturor
-            cu sprijinul&nbsp;
+            Cetrebuiesafac.ro este o platformă care ajută populația să înțeleagă
+            mai bine care sunt regulile ce trebuie respectate în timpul
+            pandemieii COVID-19. Un ghid simplu și practic, redactat pe
+            înțelesul tuturor cu sprijinul&nbsp;
             <a
               href="https://www.facebook.com/comunicarenonprofit/"
               target="_blank"
@@ -65,8 +65,8 @@ const About = () => {
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
-            Platforma cetrebuiesafac.ro este construită de Code for Romania Task Force
-            în parteneriat cu&nbsp;
+            Platforma cetrebuiesafac.ro este construită de Code for Romania Task
+            Force în parteneriat cu&nbsp;
             <a
               href="https://www.gov.ro/"
               target="_blank"
