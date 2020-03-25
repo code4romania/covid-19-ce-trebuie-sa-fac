@@ -1,7 +1,7 @@
 {
   "name": "ce-ma-fac",
   "author": "code4romania",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Arbore decizional pentru informarea publicului",
   "private": true,
   "dependencies": {
