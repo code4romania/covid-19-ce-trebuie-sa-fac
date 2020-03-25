@@ -17,13 +17,33 @@ import {
 } from "@code4ro/taskforce-fe-components";
 // import LogoSvg from "./images/logo.svg";
 import "./App.scss";
+import { Font } from "@react-pdf/renderer";
+import sansSerif from "./components/Declaratii/static/Roboto-Regular.ttf";
+import sansSerifCondensed from "./components/Declaratii/static/Roboto-Condensed.ttf";
+import { fontFamily } from "./components/Declaratii/helpers/constants";
 
 const About = lazy(() => import("./components/About"));
 const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
 );
+const DeclaratieProprie = lazy(() =>
+  import("./components/Declaratii/pages/DeclaratieProprie")
+);
+const AdeverintaAngajator = lazy(() =>
+  import("./components/Declaratii/pages/AdeverintaAngajator")
+);
 const FooterWrapper = lazy(() => import("./components/Footer"));
+
+// Fonts for the pdf renderer
+Font.register({
+  src: sansSerif,
+  family: fontFamily.sansSerif
+});
+Font.register({
+  src: sansSerifCondensed,
+  family: fontFamily.sansSerifCondensed
+});
 
 const Logo = () => (
   <Link to="/">
@@ -92,6 +112,12 @@ const App = () => {
             </Route>
             <Route path="/termeni-si-conditii">
               <TermsAndConditions />
+            </Route>
+            <Route path="/declaratie">
+              <DeclaratieProprie />
+            </Route>
+            <Route path="/adeverinta">
+              <AdeverintaAngajator />
             </Route>
             <Route exact path="/:pageSlug?/:subPageSlug?/">
               <Home />

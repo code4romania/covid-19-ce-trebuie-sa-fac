@@ -12,7 +12,13 @@
     "react-ga": "^2.7.0",
     "react-icons": "^3.9.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "@react-pdf/renderer": "^1.6.8",
+    "@rehooks/local-storage": "^2.3.0",
+    "react-input-autosize": "^2.2.2",
+    "date-format": "^3.0.0",
+    "react-signature-canvas": "^1.0.3",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
