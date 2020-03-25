@@ -22,15 +22,15 @@ const About = () => {
           <Hero
             title="Despre proiect"
             useFallbackIcon={true}
-            subtitle="Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este un
-          ghid cu reguli de interacțiune, acțiune și comportament recomandate în
-          această perioadă de criză în care ne confruntăm cu răspândirea foarte
-          rapidă a infecției cu coronavirus. Vrem să aducem mai aproape de voi
-          regulile de bază recomandate de autorități de la care este indicat să
-          nu ne abatem în această perioadă."
+            subtitle="Vrem să facem lucrurile mai simple pentru noi toți.
+          Cetrebuiesafac.ro este un ghid cu reguli de interacțiune, acțiune și
+          comportament recomandate în această perioadă de criză în care ne
+          confruntăm cu răspândirea foarte rapidă a infecției cu coronavirus.
+          Vrem să aducem mai aproape de voi regulile de bază recomandate de
+          autorități de la care este indicat să nu ne abatem în această perioadă."
           />
           <div>
-            <SocialsShare currentPage={"https://cemafac.ro/despre"} />
+            <SocialsShare currentPage={"https://cetrebuiesafac.ro/despre"} />
           </div>
         </section>
         <section className="about-section-logo">
@@ -38,10 +38,10 @@ const About = () => {
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
-            cemăfac.ro este o platformă care ajută populația să înțeleagă mai
-            bine care sunt regulile ce trebuie respectate în timpul pandemieii
-            COVID-19. Un ghid simplu și practic, redactat pe înțelesul tuturor
-            cu sprijinul&nbsp;
+            Cetrebuiesafac.ro este o platformă care ajută populația să înțeleagă
+            mai bine care sunt regulile ce trebuie respectate în timpul
+            pandemieii COVID-19. Un ghid simplu și practic, redactat pe
+            înțelesul tuturor cu sprijinul&nbsp;
             <a
               href="https://www.facebook.com/comunicarenonprofit/"
               target="_blank"
@@ -65,8 +65,8 @@ const About = () => {
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
-            Platforma cemăfac.ro este construită de Code for Romania Task Force
-            în parteneriat cu&nbsp;
+            Platforma cetrebuiesafac.ro este construită de Code for Romania Task
+            Force în parteneriat cu&nbsp;
             <a
               href="https://www.gov.ro/"
               target="_blank"

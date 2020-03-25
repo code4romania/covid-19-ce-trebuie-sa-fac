@@ -1,6 +1,7 @@
-@import '~bulma/sass/utilities/_all.sass';
-@import "~bulma/sass/elements/content.sass";
-@import "~bulma/sass/elements/container.sass";
+@import "./fonts";
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/derived-variables.sass";
+@import "~bulma/sass/utilities/mixins.sass";
 @import "~bulma/sass/components/level.sass";
 
 .container {
@@ -14,4 +15,10 @@
 
 .incubated-by-wrapper {
   margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .banner-wrapper {
+    text-align: center;
+  }
 }
