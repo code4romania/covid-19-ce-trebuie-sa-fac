@@ -2,7 +2,7 @@
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
-[See the project live](https://cemafac.ro/)
+[See the project live](https://cetrebuiesafac.ro/)
 
 Objective: Clear information of the public, increase in the level of proper actions taken.
 

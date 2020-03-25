@@ -15,7 +15,7 @@ import {
   IncubatedBy,
   Banner
 } from "@code4ro/taskforce-fe-components";
-import LogoSvg from "./images/logo.svg";
+// import LogoSvg from "./images/logo.svg";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
@@ -27,7 +27,12 @@ const FooterWrapper = lazy(() => import("./components/Footer"));
 
 const Logo = () => (
   <Link to="/">
-    <img width="145" height="32" alt="Covid-19. Ce ma fac?" src={LogoSvg} />
+    <img
+      width="178"
+      height="32"
+      alt="Covid-19. Ce trebuie să fac?"
+      src="/images/logo.png"
+    />
   </Link>
 );
 
