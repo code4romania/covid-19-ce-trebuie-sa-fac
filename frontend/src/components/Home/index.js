@@ -60,7 +60,7 @@ const Home = () => {
           title={"Toate informațiile de care ai nevoie"}
           useFallbackIcon={true}
           subtitle={
-            "Vrem să facem lucrurile mai simple pentru noi toți. Cemafac.ro este un ghid cu reguli de interacțiune, acțiune și comportament recomandate în timpul situației de urgență generată de pandemia COVID-19. Vrem să aducem mai aproape de voi regulile de bază recomandate de autorități de la care este indicat să nu ne abatem în această perioadă."
+            "Vrem să facem lucrurile mai simple pentru noi toți. Cetrebuiesafac.ro este un ghid cu reguli de interacțiune, acțiune și comportament recomandate în timpul situației de urgență generată de pandemia COVID-19. Vrem să aducem mai aproape de voi regulile de bază recomandate de autorități de la care este indicat să nu ne abatem în această perioadă.”"
           }
         />
       </div>

@@ -1,7 +1,7 @@
 import ReactGA from "react-ga";
 
 export const initializeGA = () => {
-  if (document.location.hostname !== "cemafac.ro") {
+  if (document.location.hostname !== "cetrebuiesafac.ro") {
     return;
   }
   ReactGA.initialize("UA-160603540-1");
