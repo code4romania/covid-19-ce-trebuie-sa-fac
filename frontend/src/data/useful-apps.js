@@ -61,5 +61,20 @@ export default [
         link: "https://stirioficiale.ro/"
       }
     ]
+  },
+  {
+    title: "Date la zi",
+    doc_type: "USEFUL_APP",
+    doc_id: 5,
+    active: true,
+    display_order: 5,
+    app_type: "DATA",
+    content: null,
+    buttons: [
+      {
+        title: "Vezi aici date la zi",
+        link: "https://datelazi.ro/"
+      }
+    ]
   }
 ];
