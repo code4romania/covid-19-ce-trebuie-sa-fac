@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </section>
         <section className="about-section-logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" width="450" />
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
