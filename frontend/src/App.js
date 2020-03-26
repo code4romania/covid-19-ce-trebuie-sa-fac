@@ -37,6 +37,14 @@ const Logo = () => (
 );
 
 const MenuItems = [
+  <a
+    href="https://stirioficiale.ro"
+    target="_blank"
+    rel="noopener noreferrer"
+    key={"stiri"}
+  >
+    Știri oficiale
+  </a>,
   <Link to="/despre" key={"des"}>
     Despre
   </Link>
