@@ -130,7 +130,9 @@ const Home = () => {
                 })}
               </Instruments>
             </div>
-            <MailchimpSubscribe url={mailchimpURL} compact={true} />
+            <div className="newsletter">
+              <MailchimpSubscribe url={mailchimpURL} compact={true} />
+            </div>
           </aside>
           <div className="column is-8">
             {selectedPage && (
