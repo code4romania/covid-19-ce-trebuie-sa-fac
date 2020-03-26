@@ -41,10 +41,10 @@ const MenuItems = [
     href="https://stirioficiale.ro"
     target="_blank"
     rel="noopener noreferrer"
+    key={"stiri"}
   >
     Știri oficiale
-  </a>
-  ,
+  </a>,
   <Link to="/despre" key={"des"}>
     Despre
   </Link>
