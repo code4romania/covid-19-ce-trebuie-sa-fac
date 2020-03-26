@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.svg";
+import bandaSponsori from "../../images/banda_sponsori.png";
 import {
   Hero,
   Instruments,
@@ -34,7 +35,7 @@ const About = () => {
           </div>
         </section>
         <section className="about-section-logo">
-          <img src={logo} alt=""></img>
+          <img src={logo} alt="" width="450" />
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
@@ -96,18 +97,11 @@ const About = () => {
       <div className="sponsors">
         <p>
           <strong>
-            Programul Code for Romania Task Force este susținut de:&nbsp;
+            Programul Code for Romania Task Force este susținut de:
           </strong>
         </p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="/images/banda_sponsori.png"
-            alt=""
-            width="550"
-            height="98"
-          />
-        </p>
+        <br />
+        <img src={bandaSponsori} alt="" width="550" height="98" />
       </div>
       <div className="container about-page">
         <aside className="about-section-useful-instruments">
