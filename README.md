@@ -34,11 +34,10 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 
 ## Development
 
-### Backend
-- WIP
-
-### Frontend
-- Please follow [these](/frontend/README.md#Development) instructions
+- Fork this repo
+- Clone your fork
+- Open the directory where you have cloned the repo
+- And then follow [these](/frontend/README.md#Development) instructions
 
 ## Development
 ### Backend
