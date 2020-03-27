@@ -2,7 +2,7 @@
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/ce-ma-fac.svg?style=for-the-badge)](https://github.com/code4romania/ce-ma-fac/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
-[See the project live](https://cetrebuiesafac.ro/)
+[See the project live](https://cetrebuiesafac.ro/) and [the preview environment](https://ce-ma-fac.now.sh/) with the work in progress.
 
 Objective: Clear information of the public, increase in the level of proper actions taken.
 
@@ -13,6 +13,8 @@ How: Web platform with guides, questionnaires, and decision trees which can help
 ## Contributing
 
 This project is built by amazing volunteers and you can be one of them! Here's a list of ways in [which you can contribute to this project](.github/CONTRIBUTING.md).
+
+Also, this is [the workflow we follow](.github/WORKFLOW.md). 
 
 ## Built With
 
