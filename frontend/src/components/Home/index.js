@@ -8,7 +8,8 @@ import {
   List,
   ListItem,
   SidebarMenu,
-  SidebarMenuItem
+  SidebarMenuItem,
+  MailchimpSubscribe
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
@@ -16,6 +17,7 @@ import {
   remapInstrumentsData
 } from "../../utils/instruments.utils";
 import "./styles.scss";
+import { mailchimpURL } from "../../config/mailchimp";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -127,6 +129,9 @@ const Home = () => {
                   );
                 })}
               </Instruments>
+            </div>
+            <div className="newsletter">
+              <MailchimpSubscribe url={mailchimpURL} compact={true} />
             </div>
           </aside>
           <div className="column is-8">
