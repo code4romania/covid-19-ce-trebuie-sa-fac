@@ -4,7 +4,8 @@ import bandaSponsori from "../../images/banda_sponsori.png";
 import {
   Hero,
   Instruments,
-  SocialsShare
+  SocialsShare,
+  MailchimpSubscribe
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
@@ -12,6 +13,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData
 } from "../../utils/instruments.utils";
+import { mailchimpURL } from "../../config/mailchimp";
 
 const About = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -92,6 +94,9 @@ const About = () => {
               Departamentul pentru Situații de Urgență
             </a>
           </p>
+        </section>
+        <section className="has-border-bottom has-horizontal-paddding">
+          <MailchimpSubscribe url={mailchimpURL} />
         </section>
       </div>
       <div className="sponsors">
