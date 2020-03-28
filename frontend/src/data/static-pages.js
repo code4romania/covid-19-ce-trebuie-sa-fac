@@ -47,9 +47,9 @@ export default [
 
       <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
        <ul>
-        <li><a href="https://stirioficiale.ro/">Știri oficiale</a></li>
-        <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
-        <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
+        <li><a href="https://stirioficiale.ro/" target="_blank" rel="noopener noreferrer">Știri oficiale</a></li>
+        <li><a href="https://coronavirus.jhu.edu/map.html" target="_blank" rel="noopener noreferrer">Zone internaționale afectate</a></li>
+        <li><a href="https://www.insp.gov.ro" target="_blank" rel="noopener noreferrer">Site Institutului Național de Sănătate Publică</a></li>
       </ul>
 
       <h3>Simptome</h3>
@@ -105,12 +105,12 @@ export default [
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">ATENȚIE</br>
          Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
          `
-      } ,
+      },
       {
-         title: "Ce măsuri trebuie să iei pentru a te proteja",
-         display_order: 2,
-         slug: "masuri-protejare",
-         page: `
+        title: "Ce măsuri trebuie să iei pentru a te proteja",
+        display_order: 2,
+        slug: "masuri-protejare",
+        page: `
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -121,12 +121,12 @@ export default [
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
          `
-       } ,
-       {
-          title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
-          display_order: 3,
-          slug: "masuri-protejare-altii",
-          page: `
+      },
+      {
+        title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
+        display_order: 3,
+        slug: "masuri-protejare-altii",
+        page: `
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
@@ -142,12 +142,12 @@ export default [
            Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
          `
-         } ,
-         {
-          title: "Cum să cureți și să dezinfectezi",
-          display_order: 4,
-          slug: "sfaturi-pentru-dezinfectare",
-          page: `
+      },
+      {
+        title: "Cum să cureți și să dezinfectezi",
+        display_order: 4,
+        slug: "sfaturi-pentru-dezinfectare",
+        page: `
          <h3 id="sfaturi-pentru-dezinfectare">Sfaturi pentru dezinfectare</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
@@ -187,12 +187,12 @@ export default [
              </ul>
          </div>
          `
-         } ,
-         {
-          title: "Cum să îți creezi un plan de acțiune la tine acasă",
-          display_order: 5,
-          slug: "plan-actiune-acasa",
-          page: `
+      },
+      {
+        title: "Cum să îți creezi un plan de acțiune la tine acasă",
+        display_order: 5,
+        slug: "plan-actiune-acasa",
+        page: `
          <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
@@ -210,9 +210,9 @@ export default [
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
 
         `
-       }
-     ]
-     ,
+      }
+    ]
+    ,
     firstNodeId: null,
     form: null,
     buttons: null
@@ -225,11 +225,11 @@ export default [
     active: false,
     display_order: 3,
     content: [
-        {
-          title: "Ai simptome?",
-          display_order: 1,
-          slug: "/",
-          page: `
+      {
+        title: "Ai simptome?",
+        display_order: 1,
+        slug: "/",
+        page: `
           <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces. Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
           </p>
           <ul>
@@ -241,7 +241,7 @@ export default [
           </p>
           <p>Folosește chestionarul de mai jos pentru a identifica gradul de risc propriu pentru a putea vedea ce pași ai de urmat mai departe, în funcție de starea ta de sănătate și de acțiunile întreprinse în ultima perioadă.</p>
           `
-        }
+      }
     ],
     firstNodeId: 0,
     form: [
@@ -553,12 +553,12 @@ export default [
         </ul>
         </div>
         `
-        },
-        {
-         title: "Sfaturi pentru părinți",
-         display_order: 2,
-         slug: "sfaturi-pentru-parinti",
-         page: `
+      },
+      {
+        title: "Sfaturi pentru părinți",
+        display_order: 2,
+        slug: "sfaturi-pentru-parinti",
+        page: `
         <p style="background-color: #ffd738; padding: 10px;">Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
@@ -576,19 +576,19 @@ export default [
         </ul>
         <p><b>Sunt multe lucruri pe care le poți face pentru a-ți susține copilul:</b></p>
         <ul>
-          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
+          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro" target="_blank" rel="noopener noreferrer">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
           <li>Asigură-ți copilul sau adolescentul că e în siguranță. Fă-l să conștientizeze că e ok dacă se simte supărat. Spune-i felul în care procedezi tu în momentele de stres, ca să poată să învețe de la tine cum să gestioneze situația.</li>
           <li>Limitează expunerea familiei tale la știri despre evenimente, inclusiv cele apărute pe social media. Copiii pot interpreta greșit ceea ce aud și pot fi speriați de lucruri pe care nu le înțeleg</li>
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
         `
-        },
-        {
-         title: "Ajutor pentru copii în gestionarea stărilor de urgență",
-         display_order: 3,
-         slug: "ajutor-pentru-copii",
-         page: `
+      },
+      {
+        title: "Ajutor pentru copii în gestionarea stărilor de urgență",
+        display_order: 3,
+        slug: "ajutor-pentru-copii",
+        page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
 
         <p style="background-color: #ffd738; padding: 10px;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
@@ -618,12 +618,12 @@ export default [
         </ul>
 
         `
-        } ,
-        {
-         title: "Reacții obișnuite pentru copii și adolescenți",
-         display_order: 4,
-         slug: "reactii-obisnuite",
-         page: `
+      },
+      {
+        title: "Reacții obișnuite pentru copii și adolescenți",
+        display_order: 4,
+        slug: "reactii-obisnuite",
+        page: `
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
 
         <h4>Pentru bebeluși și copii de până la 2 ani</h4>
@@ -644,12 +644,12 @@ export default [
         </div>
 
         `
-        } ,
-        {
-         title: "Pentru cei care tocmai au ieșit din carantină",
-         display_order: 5,
-         slug: "cei-care-tocmai-au-iesit-din-carantina",
-         page: `
+      },
+      {
+        title: "Pentru cei care tocmai au ieșit din carantină",
+        display_order: 5,
+        slug: "cei-care-tocmai-au-iesit-din-carantina",
+        page: `
         <p>Separarea de ceilalți, dacă un cadru medical consideră că ai fi putut fi expus la COVID-19, poate fi o situație de stres, chiar dacă nu te îmbolnăvești. Fiecare se simte diferit după perioada de stat în carantină. O parte din stări includ:</p>
         <ul>
           <li>Emoții contradictorii, inclusiv cel de destindere de după perioada carantinei</li>
@@ -662,12 +662,12 @@ export default [
         </ul>
 
         `
-        } ,
-        {
-         title: "Diminuarea stigmatului",
-         display_order: 6,
-         slug: "diminuarea-stigmatului",
-         page: `
+      },
+      {
+        title: "Diminuarea stigmatului",
+        display_order: 6,
+        slug: "diminuarea-stigmatului",
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
         <p>Este important să ne amintim că oamenii – inclusiv cei cu descendență asiatică – care nu locuiesc sau care nu au fost recent într-o zonă de răspândire a virusului care duce la COVID-19, ori cei care nu au fost în contact cu o persoană confirmată sau suspectă de COVID-19, nu prezintă un risc mai ridicat de răspândire a virusului COVID-19 decât indivizii din alte țări.</p>
@@ -811,9 +811,9 @@ export default [
          </p>
 
        `
-       }
-     ]
-     ,
+      }
+    ]
+    ,
     form: null,
     firstNodeId: null,
     buttons: null
@@ -963,7 +963,7 @@ export default [
       {
         title: `Există cazuri în România?`,
         content: `
-            <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro">aici</a></p>
+            <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro" target="_blank" rel="noopener noreferrer">aici</a></p>
         `
       },
       {
