@@ -43,13 +43,6 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 - Open the directory where you have cloned the repo
 - And then follow [these](/frontend/README.md#Development) instructions
 
-## Development
-### Backend
-- WIP
-
-### Frontend
-- Please follow [these](/frontend/README.md#Development) instructions
-
 ## Deployment
 
 `API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)

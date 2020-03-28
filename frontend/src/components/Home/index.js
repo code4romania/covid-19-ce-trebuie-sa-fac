@@ -55,24 +55,6 @@ const Home = () => {
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
-  const extraInfo = (
-    <>
-      <div className="instruments-wrapper">
-        <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-        <Instruments layout="column">
-          {Object.keys(instrumentsData).map(category => {
-            return instrumentsData[category].map(usefulApp =>
-              renderInstrumentItem(usefulApp)
-            );
-          })}
-        </Instruments>
-      </div>
-      <div className="newsletter">
-        <MailchimpSubscribe url={mailchimpURL} compact={true} />
-      </div>
-    </>
-  );
-
   return (
     <>
       <div className="container">
@@ -138,16 +120,27 @@ const Home = () => {
               })}
             </SidebarMenu>
 
-            {extraInfo}
+            <div className="instruments-wrapper">
+              <Hero title={"Instrumente utile"} useFallbackIcon={true} />
+              <Instruments layout="column">
+                {Object.keys(instrumentsData).map(category => {
+                  return instrumentsData[category].map(usefulApp =>
+                    renderInstrumentItem(usefulApp)
+                  );
+                })}
+              </Instruments>
+            </div>
+            <div className="newsletter">
+              <MailchimpSubscribe url={mailchimpURL} compact={true} />
+            </div>
           </aside>
-          <div className="column is-8 homepage-content">
+          <div className="column is-8">
             {selectedPage && (
               <ContentPage
                 page={selectedPage}
                 subPage={selectedSubPage}
               ></ContentPage>
             )}
-            {extraInfo}
           </div>
         </div>
       </div>

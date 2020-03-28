@@ -2,22 +2,15 @@
   margin-top: 20px;
 }
 
-/* media queries are inclussive, so to avoid overlap, min-width query must be one pixel more than the max-width */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .homepage-columns {
     flex-direction: row-reverse;
-  }
-
-  .homepage-content .instruments-wrapper,
-  .homepage-content .newsletter {
-    display: none;
   }
 }
 
 @media (max-width: 768px) {
   .homepage-sidebar .instruments-wrapper,
-  .homepage-sidebar .newsletter,
-  .pages-list {
+  .pages-list, .newsletter {
     display: none;
   }
 }
