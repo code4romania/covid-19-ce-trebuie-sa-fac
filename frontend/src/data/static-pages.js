@@ -95,7 +95,6 @@ export default [
           <li>între persoane care sunt în contact strâns (strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile).</li>
           <li>prin picăturile produse atunci când o persoană infectată tușește sau strănută. (Aceste picături pot ajunge în gurile sau nasurile persoanelor care se află în apropiere sau pot fi inhalate în plămâni).</li>
          </ul>
-
          <p><b>Contact indirect</b></p>
          <ul>
           <li>atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces, etc.</li>
@@ -532,7 +531,6 @@ export default [
           <li>Persoanele care ajută la tratarea COVID-19, spre exemplu doctorii și alte cadre din sistemul sanitar, ori cei care oferă prim ajutor</li>
           <li>Persoanele care suferă de o afecțiune mintală, inclusiv cele care au probleme legate de abuzul de substanțe cu risc de dependență</li>
         </ul>
-
         <h3>Stresul în timpul unei epidemii infecțioase poate include: </h3>
          <ul>
           <li>Frică și îngrijorare legate de propria sănătate și de sănătatea celor dragi</li>
@@ -612,7 +610,6 @@ export default [
           <li>Păstrează-ți calmul și liniștește-i pe cei mici.</li>
           <li>Discută cu copiii despre lucrurile care se întâmplă, într-un mod în care pot înțelege. Încearcă să le explici în termeni simpli, potriviți pentru vârsta lor. </li>
         </ul>
-
         <h4>După</h4>
         <ul>
           <li>Creează-le copiilor contexte în care să vorbească despre ceea ce tocmai s-a întâmplat și felul în care gândesc. Încurajează-i să îți spună ce îi îngrijorează și pune-le întrebări.</li>
@@ -736,7 +733,6 @@ export default [
           <li>Ia o pauză de la știrile sau relatările legate de COVID-19</li>
           <li>Cere ajutor dacă te simți copleșit sau îngrijorat de faptul că COVID-19 îți afectează capacitatea de a avea grijă de familia și pacienții tăi, așa cum o făceai înainte de răspândirea virusului.</li>
          </ul>
-
          <h4>Semne că suferi de epuizare profesională (Burnout):</h4>
          <ul>
           <li>Tristețe, depresie sau apatie </li>
@@ -778,7 +774,6 @@ export default [
           <li><strong>Monitorizați-vă reciproc sarcinile de lucru</strong> Încurajați-vă unul pe celălalt să luați pauze. Discutați despre moduri prin care puteți reduce  stresul (odihnă, rutina de somn, experciții fizice și respirații profunde). </li>
           <li><strong>Încearcă să creezi un mediu în echipă,</strong> în care colegul tău să se simtă în siguranță să își exprime nevoile și limitele. Facilitează comunicarea lui cu liderii echipei sau ceilalți colegi. </li>
          </ul>
-
          <h3>Tehnici de îngrijire personală pentru membrii echipelor de intervenție</h3>
          <ul>
           <li>Limitează-ți orele la muncă la ture care nu depășesc 12 ore.</li>

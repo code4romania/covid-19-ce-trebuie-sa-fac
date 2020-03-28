@@ -1,9 +1,11 @@
 import React from "react";
 import logo from "../../images/logo.svg";
+import bandaSponsori from "../../images/banda_sponsori.png";
 import {
   Hero,
   Instruments,
-  SocialsShare
+  SocialsShare,
+  MailchimpSubscribe
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import "./About.scss";
@@ -11,6 +13,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData
 } from "../../utils/instruments.utils";
+import { mailchimpURL } from "../../config/mailchimp";
 
 const About = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -34,7 +37,7 @@ const About = () => {
           </div>
         </section>
         <section className="about-section-logo">
-          <img src={logo} alt=""></img>
+          <img src={logo} alt="" width="450" />
         </section>
         <section className="has-border-bottom has-horizontal-paddding">
           <p>
@@ -92,22 +95,18 @@ const About = () => {
             </a>
           </p>
         </section>
+        <section className="has-border-bottom has-horizontal-paddding">
+          <MailchimpSubscribe url={mailchimpURL} />
+        </section>
       </div>
       <div className="sponsors">
         <p>
           <strong>
-            Programul Code for Romania Task Force este susținut de:&nbsp;
+            Programul Code for Romania Task Force este susținut de:
           </strong>
         </p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="/images/banda_sponsori.png"
-            alt=""
-            width="550"
-            height="98"
-          />
-        </p>
+        <br />
+        <img src={bandaSponsori} alt="" width="550" height="98" />
       </div>
       <div className="container about-page">
         <aside className="about-section-useful-instruments">

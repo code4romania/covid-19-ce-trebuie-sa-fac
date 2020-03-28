@@ -15,7 +15,7 @@ import {
   IncubatedBy,
   Banner
 } from "@code4ro/taskforce-fe-components";
-// import LogoSvg from "./images/logo.svg";
+import LogoSvg from "./images/logo.svg";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
@@ -31,12 +31,20 @@ const Logo = () => (
       width="178"
       height="32"
       alt="Covid-19. Ce trebuie să fac?"
-      src="/images/logo.png"
+      src={LogoSvg}
     />
   </Link>
 );
 
 const MenuItems = [
+  <a
+    href="https://stirioficiale.ro"
+    target="_blank"
+    rel="noopener noreferrer"
+    key={"stiri"}
+  >
+    Știri oficiale
+  </a>,
   <Link to="/despre" key={"des"}>
     Despre
   </Link>
