@@ -18,7 +18,6 @@ import {
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
-import { useMedia, SMALL_DEVICE_QUERY } from "../../utils/useMedia.hook";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -55,8 +54,6 @@ const Home = () => {
   };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
-
-  const isSmallDevice = useMedia([SMALL_DEVICE_QUERY], [true], false);
 
   const extraInfo = (
     <>
@@ -141,16 +138,16 @@ const Home = () => {
               })}
             </SidebarMenu>
 
-            {!isSmallDevice && extraInfo}
+            {extraInfo}
           </aside>
-          <div className="column is-8">
+          <div className="column is-8 homepage-content">
             {selectedPage && (
               <ContentPage
                 page={selectedPage}
                 subPage={selectedSubPage}
               ></ContentPage>
             )}
-            {isSmallDevice && extraInfo}
+            {extraInfo}
           </div>
         </div>
       </div>
