@@ -803,11 +803,11 @@ export default [
          Fundația Estuar a lansat 4medicALL, o linie de consiliere și suport psihologic oferită de specialiști în sănătate mintală pentru cei mai încercați dintre noi în această perioadă, personalul medical, paramedical și sanitar implicat în tratarea persoanelor infectate cu virusul COVID-19, linia I de intervenție.
          </br></br>
          Cum puteți beneficia de ajutor:
-         </br>0758 119 314
-         </br>0758 119 313
-         </br>0758 119 304
+         </br><a href="tel:+40758119314">0758 119 314</a>
+         </br><a href="tel:+40758119313">0758 119 313</a>
+         </br><a href="tel:+40758119304">0758 119 304</a>
          </br></br>
-         consiliere@estuar.org
+         <a href="mailto:consiliere@estuar.org">consiliere@estuar.org</a>
          </p>
 
        `
