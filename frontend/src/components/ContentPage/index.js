@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
 import Form from "../Form";
+import { List, ListItem } from "@code4ro/taskforce-fe-components";
 import {
   Hero,
   Accordion,
@@ -8,6 +10,15 @@ import {
 } from "@code4ro/taskforce-fe-components";
 
 function ContentPage({ page, subPage }) {
+  const history = useHistory();
+  const navigate = slug => {
+    // Fix SecurityError of pushState on History
+    const cleanPageSlug = `/${page.slug}/${slug}`.replace(/\/+$/, "");
+    history.push(cleanPageSlug);
+  };
+
+  const scrollAnchorRef = useRef(null);
+
   const renderContent = () => {
     return (
       subPage &&
@@ -20,11 +31,44 @@ function ContentPage({ page, subPage }) {
     );
   };
 
+  const renderSubPages = () => {
+    if (!page || !page.content || page.content.length < 2) {
+      return;
+    }
+    const items = page.content
+      .filter(item => item.slug !== subPage.slug)
+      .map(item => (
+        <ListItem
+          key={item.display_order}
+          title={item.title}
+          onClick={() => {
+            navigate(item.slug);
+            try {
+              scrollAnchorRef.current.scrollIntoView({
+                block: "start",
+                behavior: "smooth"
+              });
+            } catch (e) {
+              scrollAnchorRef.current.scrollIntoView(true);
+            }
+          }}
+          value={item}
+        />
+      ));
+    return (
+      <div className="content">
+        <h4>Află mai multe:</h4>
+        <List columns={2}>{items}</List>
+      </div>
+    );
+  };
+
   return (
-    <div>
+    <div ref={scrollAnchorRef}>
       <Hero title={(subPage && subPage.title) || page.title} />
       <SocialsShare currentPage={window.location.href} />
       {renderContent()}
+      {renderSubPages()}
       {page.form && <Form data={page} />}
       {page.accordion &&
         page.accordion.map((accordion, index) => (
@@ -46,10 +90,12 @@ function ContentPage({ page, subPage }) {
 ContentPage.propTypes = {
   page: PropTypes.shape({
     title: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
     content: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
-        page: PropTypes.string.isRequired
+        page: PropTypes.string.isRequired,
+        slug: PropTypes.string.isRequired
       })
     ),
     first_node_id: PropTypes.number,
@@ -75,7 +121,8 @@ ContentPage.propTypes = {
   }),
   subPage: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    page: PropTypes.string.isRequired
+    page: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired
   })
 };
 
