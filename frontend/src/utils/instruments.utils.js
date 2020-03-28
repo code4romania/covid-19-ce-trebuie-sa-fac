@@ -54,4 +54,14 @@ const scrollRefIntoView = scrollAnchorRef => {
   }
 };
 
-export { renderInstrumentItem, remapInstrumentsData, scrollRefIntoView };
+const navigate = (history, slug, anchor) => {
+  // Fix SecurityError of pushState on History
+  const cleanSlug = (slug || "")
+    .replace(/\/+/g, "/") // delete duplicated slashes
+    .replace(/\/$/g, "") // delete trailing slash
+    .replace(/^\//g, ""); //remove leading slash
+  history.push("/" + cleanSlug);
+  scrollRefIntoView(anchor);
+};
+
+export { renderInstrumentItem, remapInstrumentsData, navigate };

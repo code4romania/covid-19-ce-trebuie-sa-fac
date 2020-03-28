@@ -9,16 +9,10 @@ import {
   SocialsShare
 } from "@code4ro/taskforce-fe-components";
 
-import { scrollRefIntoView } from "../../utils/instruments.utils";
+import { navigate } from "../../utils/instruments.utils";
 
 function ContentPage({ page, subPage }) {
   const history = useHistory();
-  const navigate = slug => {
-    // Fix SecurityError of pushState on History
-    const cleanPageSlug = `/${page.slug}/${slug}`.replace(/\/+$/, "");
-    history.push(cleanPageSlug);
-    scrollRefIntoView(scrollAnchorRef);
-  };
 
   const scrollAnchorRef = useRef(null);
 
@@ -44,7 +38,9 @@ function ContentPage({ page, subPage }) {
         <ListItem
           key={item.display_order}
           title={item.title}
-          onClick={() => navigate(item.slug)}
+          onClick={() =>
+            navigate(history, `/${page.slug}/${item.slug}`, scrollAnchorRef)
+          }
           value={item}
         />
       ));

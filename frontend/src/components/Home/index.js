@@ -15,7 +15,7 @@ import UsefulApps from "../../data/useful-apps";
 import {
   renderInstrumentItem,
   remapInstrumentsData,
-  scrollRefIntoView
+  navigate
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
@@ -45,16 +45,10 @@ const Home = () => {
     } else {
       // Fallback to the first page if there is no slug
       const [firstPage] = data;
-      history.push((firstPage && firstPage.slug) || "/");
+      const destinationSlug = (firstPage && firstPage.slug) || "/";
+      navigate(history, destinationSlug, scrollAnchorRef);
     }
   }, [pageSlug, subPageSlug, history]);
-
-  const navigate = slug => {
-    // Fix SecurityError of pushState on History
-    // Edge case for the `/` slug
-    history.push(`/${slug !== "/" ? slug : ""}`);
-    scrollRefIntoView(scrollAnchorRef);
-  };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
@@ -94,7 +88,7 @@ const Home = () => {
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
               title={doc.title}
-              onClick={() => navigate(doc.slug)}
+              onClick={() => navigate(history, doc.slug, scrollAnchorRef)}
               value={doc}
             />
           ))}
@@ -114,7 +108,13 @@ const Home = () => {
                     <SidebarMenuItem
                       key={`subpage-header_${page.slug}`}
                       active={page.slug === subPageSlug}
-                      onClick={() => navigate(`${doc.slug}/${page.slug}`)}
+                      onClick={() =>
+                        navigate(
+                          history,
+                          `${doc.slug}/${page.slug}`,
+                          scrollAnchorRef
+                        )
+                      }
                     >
                       {page.title}
                     </SidebarMenuItem>
@@ -130,7 +130,9 @@ const Home = () => {
                         (doc.slug === pageSlug ||
                           (doc.slug === "/" && !pageSlug))
                       }
-                      onClick={() => navigate(doc.slug)}
+                      onClick={() =>
+                        navigate(history, doc.slug, scrollAnchorRef)
+                      }
                       isTitle
                     >
                       {doc.title}
