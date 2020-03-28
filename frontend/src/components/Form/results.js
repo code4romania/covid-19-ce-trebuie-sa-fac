@@ -97,7 +97,7 @@ function Results({ question, answers }) {
     <div>
       <ListHeader title={question.questionText} />
       <div>
-        <ListItem title={<div dangerouslySetInnerHTML={{ __html: showResults() }} />} />
+        <ListItem nonOption={true} title={<div dangerouslySetInnerHTML={{ __html: showResults() }} />} />
       </div>
     </div>
   );
