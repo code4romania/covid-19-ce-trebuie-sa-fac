@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import ContentPage from "../ContentPage";
 import data from "../../data/static-pages";
@@ -14,7 +14,8 @@ import {
 import UsefulApps from "../../data/useful-apps";
 import {
   renderInstrumentItem,
-  remapInstrumentsData
+  remapInstrumentsData,
+  scrollRefIntoView
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
@@ -24,6 +25,7 @@ const Home = () => {
   const [selectedSubPage, setSelectedSubPage] = useState(null);
   const { pageSlug, subPageSlug } = useParams();
   const history = useHistory();
+  const scrollAnchorRef = useRef(null);
 
   useEffect(() => {
     // Find the page
@@ -51,6 +53,7 @@ const Home = () => {
     // Fix SecurityError of pushState on History
     // Edge case for the `/` slug
     history.push(`/${slug !== "/" ? slug : ""}`);
+    scrollRefIntoView(scrollAnchorRef);
   };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -140,7 +143,7 @@ const Home = () => {
 
             {extraInfo}
           </aside>
-          <div className="column is-8 homepage-content">
+          <div ref={scrollAnchorRef} className="column is-8 homepage-content">
             {selectedPage && (
               <ContentPage
                 page={selectedPage}

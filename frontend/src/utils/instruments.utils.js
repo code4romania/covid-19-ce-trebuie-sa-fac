@@ -43,4 +43,15 @@ const renderInstrumentItem = usefulApp => {
   );
 };
 
-export { renderInstrumentItem, remapInstrumentsData };
+const scrollRefIntoView = scrollAnchorRef => {
+  try {
+    scrollAnchorRef.current.scrollIntoView({
+      block: "start",
+      behavior: "smooth"
+    });
+  } catch (e) {
+    scrollAnchorRef.current.scrollIntoView(true);
+  }
+};
+
+export { renderInstrumentItem, remapInstrumentsData, scrollRefIntoView };
