@@ -65,7 +65,7 @@ export default [
       <p/>
 
       <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
-      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul <a href="tel:0800800358">0800.800.358</a>. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor <a href="tel:+40213202020">+4021.320.20.20</a>.</p>
 
   `
       }
@@ -803,11 +803,11 @@ export default [
          Fundația Estuar a lansat 4medicALL, o linie de consiliere și suport psihologic oferită de specialiști în sănătate mintală pentru cei mai încercați dintre noi în această perioadă, personalul medical, paramedical și sanitar implicat în tratarea persoanelor infectate cu virusul COVID-19, linia I de intervenție.
          </br></br>
          Cum puteți beneficia de ajutor:
-         </br>0758 119 314
-         </br>0758 119 313
-         </br>0758 119 304
+         </br><a href="tel:+40758119314">0758 119 314</a>
+         </br><a href="tel:+40758119313">0758 119 313</a>
+         </br><a href="tel:+40758119304">0758 119 304</a>
          </br></br>
-         consiliere@estuar.org
+         <a href="mailto:consiliere@estuar.org">consiliere@estuar.org</a>
          </p>
 
        `
