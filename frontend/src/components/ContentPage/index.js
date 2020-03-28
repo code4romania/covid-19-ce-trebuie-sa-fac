@@ -43,7 +43,14 @@ function ContentPage({ page, subPage }) {
           title={item.title}
           onClick={() => {
             navigate(item.slug);
-            scrollAnchorRef.current.scrollIntoView(true);
+            try {
+              scrollAnchorRef.current.scrollIntoView({
+                block: "start",
+                behavior: "smooth"
+              });
+            } catch (e) {
+              scrollAnchorRef.current.scrollIntoView(true);
+            }
           }}
           value={item}
         />
