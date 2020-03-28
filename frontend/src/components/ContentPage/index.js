@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
 import Form from "../Form";
@@ -17,6 +17,8 @@ function ContentPage({ page, subPage }) {
     const navTarget = page.slug !== cleanPageSlug ? cleanPageSlug : page.slug;
     history.push(navTarget);
   };
+
+  const scrollAnchorRef = useRef(null);
 
   const renderContent = () => {
     return (
@@ -40,7 +42,10 @@ function ContentPage({ page, subPage }) {
         <ListItem
           key={item.display_order}
           title={item.title}
-          onClick={() => navigate(item.slug)}
+          onClick={() => {
+            navigate(item.slug);
+            scrollAnchorRef.current.scrollIntoView(true);
+          }}
           value={item}
         />
       ));
@@ -53,7 +58,7 @@ function ContentPage({ page, subPage }) {
   };
 
   return (
-    <div>
+    <div ref={scrollAnchorRef}>
       <Hero title={(subPage && subPage.title) || page.title} />
       <SocialsShare currentPage={window.location.href} />
       {renderContent()}
