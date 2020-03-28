@@ -14,8 +14,7 @@ function ContentPage({ page, subPage }) {
   const navigate = slug => {
     // Fix SecurityError of pushState on History
     const cleanPageSlug = `/${page.slug}/${slug}`.replace(/\/+$/, "");
-    const navTarget = page.slug !== cleanPageSlug ? cleanPageSlug : page.slug;
-    history.push(navTarget);
+    history.push(cleanPageSlug);
   };
 
   const renderContent = () => {
