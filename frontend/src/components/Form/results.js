@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Form.scss";
 import {
-  ListHeader,
+  ListHeader, ListItem,
 } from "@code4ro/taskforce-fe-components";
 
 function Results({ question, answers }) {
@@ -93,19 +93,11 @@ function Results({ question, answers }) {
     return question.options[calculateResults()].label;
   };
 
-  // TODO: use a real component for this
   return (
     <div>
       <ListHeader title={question.questionText} />
       <div>
-        <div
-          className={'__list-item no-hover'}
-        >
-          <div className="__list-item__left-side" />
-          <div className="__list-item__content">
-            <p dangerouslySetInnerHTML={{ __html: showResults() }} />
-          </div>
-        </div>
+        <ListItem title={<div dangerouslySetInnerHTML={{ __html: showResults() }} />} />
       </div>
     </div>
   );
