@@ -102,7 +102,9 @@ function Results({ question, answers }) {
           className={'__list-item no-hover'}
         >
           <div className="__list-item__left-side" />
-          <div className="__list-item__content">{showResults()}</div>
+          <div className="__list-item__content">
+            <p dangerouslySetInnerHTML={{ __html: showResults() }} />
+          </div>
         </div>
       </div>
     </div>
