@@ -7,10 +7,3 @@
     flex-direction: row-reverse;
   }
 }
-
-@media (max-width: 768px) {
-  .homepage-sidebar .instruments-wrapper,
-  .pages-list, .newsletter {
-    display: none;
-  }
-}

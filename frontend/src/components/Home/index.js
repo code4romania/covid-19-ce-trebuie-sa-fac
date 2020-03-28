@@ -18,6 +18,7 @@ import {
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
+import { useMedia, SMALL_DEVICE_QUERY } from "../../utils/useMedia.hook";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -54,6 +55,27 @@ const Home = () => {
   };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
+
+  const isSmallDevice = useMedia([SMALL_DEVICE_QUERY], [true], false);
+
+  const extraInfo = (
+    <>
+      <div className="instruments-wrapper">
+        <Hero title={"Instrumente utile"} useFallbackIcon={true} />
+        <Instruments layout="column">
+          {Object.keys(instrumentsData).map(category => {
+            return instrumentsData[category].map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            );
+          })}
+        </Instruments>
+      </div>
+      <div className="newsletter">
+        <MailchimpSubscribe url={mailchimpURL} compact={true} />
+      </div>
+    </>
+  );
+
 
   return (
     <>
@@ -120,19 +142,7 @@ const Home = () => {
               })}
             </SidebarMenu>
 
-            <div className="instruments-wrapper">
-              <Hero title={"Instrumente utile"} useFallbackIcon={true} />
-              <Instruments layout="column">
-                {Object.keys(instrumentsData).map(category => {
-                  return instrumentsData[category].map(usefulApp =>
-                    renderInstrumentItem(usefulApp)
-                  );
-                })}
-              </Instruments>
-            </div>
-            <div className="newsletter">
-              <MailchimpSubscribe url={mailchimpURL} compact={true} />
-            </div>
+            {!isSmallDevice && extraInfo}
           </aside>
           <div className="column is-8">
             {selectedPage && (
@@ -141,6 +151,7 @@ const Home = () => {
                 subPage={selectedSubPage}
               ></ContentPage>
             )}
+            {isSmallDevice && extraInfo}
           </div>
         </div>
       </div>
