@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 /**
  * Hook that evaluates media queries.
@@ -6,12 +5,12 @@ import { useEffect, useState } from "react";
  */
 
 /** Query that matches small devices (same one used in css) */
-export const SMALL_DEVICE_QUERY = '(max-width: 768px)';
+export const SMALL_DEVICE_QUERY = "(max-width: 768px)";
 
 /**
  * Use a different value depending on which media query matches.
  * Note: queries are executed in order (first match wins)
- * 
+ *
  * @param {string[]} queries one or more media queries to match
  * @param {Array} values the values to use for each media query
  * @param {*} defaultValue the value to use if none match
@@ -25,7 +24,7 @@ export function useMedia(queries, values, defaultValue) {
     // Get index of first media query that matches
     const index = mediaQueryLists.findIndex(mql => mql.matches);
     // Return related value or defaultValue if none
-    return typeof values[index] !== 'undefined' ? values[index] : defaultValue;
+    return typeof values[index] !== "undefined" ? values[index] : defaultValue;
   };
 
   // State and setter for matched value
