@@ -5,8 +5,10 @@
   "description": "Arbore decizional pentru informarea publicului",
   "private": true,
   "dependencies": {
-    "@code4ro/taskforce-fe-components": "^1.0.3",
+    "@code4ro/taskforce-fe-components": "^1.0.4",
     "bulma": "^0.8.0",
+    "fuse.js": "^5.0.10-beta",
+    "query-string": "^6.11.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-ga": "^2.7.0",

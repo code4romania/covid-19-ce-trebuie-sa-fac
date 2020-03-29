@@ -9,7 +9,8 @@ import {
   ListItem,
   SidebarMenu,
   SidebarMenuItem,
-  MailchimpSubscribe
+  MailchimpSubscribe,
+  SearchInput
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
@@ -18,14 +19,28 @@ import {
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
+import * as queryString from "query-string";
+import SearchResults from "./searchResults";
+
+const SEARCH_SLUG = "search";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
   const [selectedSubPage, setSelectedSubPage] = useState(null);
+  const [searchQuery, setSearchQuery] = useState(null);
   const { pageSlug, subPageSlug } = useParams();
   const history = useHistory();
 
   useEffect(() => {
+    if (pageSlug === SEARCH_SLUG) {
+      setSelectedPage(undefined);
+      setSelectedSubPage(undefined);
+
+      const queryParams = queryString.parse(window.location.search);
+      setSearchQuery(queryParams.q);
+      return;
+    }
+
     // Find the page
     const page = data.find(doc => doc.slug === (pageSlug || "/"));
     let subPage = null;
@@ -54,6 +69,13 @@ const Home = () => {
   };
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
+
+  const search = query => {
+    history.push("/search?q=" + query);
+    // TODO remove, might be useless
+    const queryParams = queryString.parse(window.location.search);
+    setSearchQuery(queryParams.q);
+  };
 
   return (
     <>
@@ -84,6 +106,12 @@ const Home = () => {
         <div className="columns homepage-columns">
           <aside className="column is-4 homepage-sidebar">
             <SidebarMenu>
+              <SearchInput
+                value={searchQuery}
+                onEnter={search}
+                onClick={search}
+              />
+
               {data.map(doc => {
                 let menuItems = null;
                 if (doc.content.length > 1) {
@@ -135,10 +163,14 @@ const Home = () => {
             </div>
           </aside>
           <div className="column is-8">
+            {!selectedPage && searchQuery && (
+              <SearchResults query={searchQuery} data={data} />
+            )}
             {selectedPage && (
               <ContentPage
                 page={selectedPage}
                 subPage={selectedSubPage}
+                docs={data}
               ></ContentPage>
             )}
           </div>
