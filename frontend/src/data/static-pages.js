@@ -1121,7 +1121,8 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: "Mituri despre coronavirus",
         display_order: 1,
-        page: `<p>GHID ÎNTREBĂRI ȘI MITURI</p>`
+        page: `<p>GHID ÎNTREBĂRI ȘI MITURI</p>`,
+        slug: "/"
       }
     ],
     firstNodeId: null,
@@ -1299,12 +1300,18 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               În aceste condiții, este esențial să luăm măsuri pentru a limita transmiterea bolii:
             </p>
              <ul style="list-style-type:none;">
-              <li><span style="margin-right: 10px;">1️⃣</span>Evitați contactul direct cu alte persoane!</li>
-              <li><span style="margin-right: 10px;">2️⃣</span>Evitați deplasările și zonele aglomerate!</li>
-              <li><span style="margin-right: 10px;">3️⃣</span>Păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane!</li>
-              <li><span style="margin-right: 10px;">4️⃣</span>Spălați-vă frecvent pe mâini timp de 20-30 de secunde (cât durează să cântăm prima strofă din Deșteaptă-te Române!).</li>
-              <li><span style="margin-right: 10px;">5️⃣</span>Nu vă atingeți fața, ochii, nasul sau gura fără a fi riguros spălat pe mâini!</li>
-              <li><span style="margin-right: 10px;">6️⃣</span>Dezinfectați suprafețele cu care intrați în contact în mod frecvent!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">1️⃣</span>Evitați contactul direct cu alte persoane!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">2️⃣</span>Evitați deplasările și zonele aglomerate!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">3️⃣</span>Păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">4️⃣</span>Spălați-vă frecvent pe mâini timp de 20-30 de secunde (cât durează să cântăm prima strofă din Deșteaptă-te Române!).</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">5️⃣</span>Nu vă atingeți fața, ochii, nasul sau gura fără a fi riguros spălat pe mâini!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">6️⃣</span>Dezinfectați suprafețele cu care intrați în contact în mod frecvent!</li>
             </ul>
             <p>
               🔴 În caz că manifestați simptome specifice, izolați-vă și apelați medicul de familie sau Direcția de Sănătate Publică! Apelați 112 doar în caz de urgență!
