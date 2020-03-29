@@ -3,13 +3,6 @@
   display: flex;
 }
 
-.no-hover {
-  &:hover {
-    cursor: initial !important;
-    background-color: whitesmoke !important;
-  }
-}
-
 @media (max-width: 768px) {
   .action-buttons {
     padding: 0;
