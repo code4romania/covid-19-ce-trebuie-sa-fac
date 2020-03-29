@@ -1,5 +1,3 @@
-import styles from '../styles/styles.js';
-
 export default [
   {
     title: "Transmitere și simptome",
@@ -1133,7 +1131,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Este distrus coronavirusul de inhalarea de aer fierbinte ?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 26 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 26 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1155,7 +1153,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Pierderea gustului/mirosului este un simptom în COVID-19?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 26 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 26 Martie 2020 </p>
             <p>
               Pierderea mirosului și a gustului pot apărea în cazul infecţiei cu coronavirus. <strong> Încă nu ştim  </strong> cât de comune
               sunt aceste simptome.
@@ -1182,7 +1180,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Fumatul este un factor de risc pentru COVID-19?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 25 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 25 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1207,7 +1205,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Există o legătură între vaccinul antigripal și coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 25 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 25 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1226,7 +1224,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Coronavirusul se poate transmite prin tuse sau stranut?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 24 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 24 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1246,7 +1244,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Sunt gravidele puse în pericol de coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 23 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 23 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1267,7 +1265,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Cât durează să te vindeci de coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 21 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 21 Martie 2020 </p>
             <p>
               Depinde de severitatea simptomelor: de la 2 săptămâni până la 6 săptămâni.
             </p>
@@ -1286,7 +1284,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Pot fi infectat cu coronavirus chiar dacă nu am simptome?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 20 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1300,13 +1298,13 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             <p>
               În aceste condiții, este esențial să luăm măsuri pentru a limita transmiterea bolii:
             </p>
-             <ul style="${styles["no-bullet"]}">
-              <li><span style="${styles["margin-right-10"]}">1️⃣</span>Evitați contactul direct cu alte persoane!</li>
-              <li><span style="${styles["margin-right-10"]}">2️⃣</span>Evitați deplasările și zonele aglomerate!</li>
-              <li><span style="${styles["margin-right-10"]}">3️⃣</span>Păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane!</li>
-              <li><span style="${styles["margin-right-10"]}">4️⃣</span>Spălați-vă frecvent pe mâini timp de 20-30 de secunde (cât durează să cântăm prima strofă din Deșteaptă-te Române!).</li>
-              <li><span style="${styles["margin-right-10"]}">5️⃣</span>Nu vă atingeți fața, ochii, nasul sau gura fără a fi riguros spălat pe mâini!</li>
-              <li><span style="${styles["margin-right-10"]}">6️⃣</span>Dezinfectați suprafețele cu care intrați în contact în mod frecvent!</li>
+             <ul style="list-style-type:none;">
+              <li><span style="margin-right: 10px;">1️⃣</span>Evitați contactul direct cu alte persoane!</li>
+              <li><span style="margin-right: 10px;">2️⃣</span>Evitați deplasările și zonele aglomerate!</li>
+              <li><span style="margin-right: 10px;">3️⃣</span>Păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane!</li>
+              <li><span style="margin-right: 10px;">4️⃣</span>Spălați-vă frecvent pe mâini timp de 20-30 de secunde (cât durează să cântăm prima strofă din Deșteaptă-te Române!).</li>
+              <li><span style="margin-right: 10px;">5️⃣</span>Nu vă atingeți fața, ochii, nasul sau gura fără a fi riguros spălat pe mâini!</li>
+              <li><span style="margin-right: 10px;">6️⃣</span>Dezinfectați suprafețele cu care intrați în contact în mod frecvent!</li>
             </ul>
             <p>
               🔴 În caz că manifestați simptome specifice, izolați-vă și apelați medicul de familie sau Direcția de Sănătate Publică! Apelați 112 doar în caz de urgență!
@@ -1319,7 +1317,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Sunt utile măștile textile sau cele fabricate manual?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 20 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1332,7 +1330,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               în același timp, să permită respirația corectă. Materialul din care sunt fabricate măștile care nu respectă aceste reguli speciale de
               fabricație prezintă o rețea de fibre prea largă, care permite trecerea microorganismelor și astfel nu ne protejează eficient împotriva infecțiilor.
             </p>
-            <ul style="${styles["no-bullet"]} ${styles["no-left-margin"]}">
+            <ul style="list-style-type:none; margin-left:0;">
               <li>👉 Dacă sunteți suspect sau aveți infecție cu coronavirus: purtatul unei măști faciale poate reduce riscul de a-i infecta pe cei din jur.</li>
               <li>👉 Dacă nu sunteți infectat: nu există în prezent dovezi științifice că sunteți mai protejat în fața coronavirusului dacă purtați mască decât dacă nu purtați. </li>
             </ul>
@@ -1344,7 +1342,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Tratamentul homeopat vindecă sau previne coronavirusul?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 19 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1362,7 +1360,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Este sigur să donez sânge în contextul actual?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 19 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1395,7 +1393,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Este (hidroxi)clorochina un tratament promițător în COVID-19?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 19 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
             <p>
               Acţiunea (hidroxi)clorochinei este studiată şi rezultate clare sunt așteptate peste câteva săptămâni.
             </p>
@@ -1416,7 +1414,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Pot să mă infectez cu coronavirus de două ori?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 18 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
             <p>
               Nu există dovezi care să ateste că o persoană poate să se re-infecteze cu noul coronavirus.
             </p>
@@ -1433,7 +1431,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Pot lua ibuprofen dacă am coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 18 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
             <p>
               Încă neclar. Nu există studii privind efectele administrării de ibuprofen asupra pacienţilor cu COVID-19. Dacă aveţi febră, luaţi medicamente doar la recomandarea medicului!
             </p>
@@ -1453,7 +1451,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Mă pot infecta de pe suprafața fructelor sau legumelor?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 18 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
             <p>
               Coronavirusul poate rezista pe diferite suprafeţe, dar încă nu există dovezi care să susţină transmiterea prin intermediul fructelor şi legumelor neambalate. Chiar şi aşa, spălaţi bine fructele și legumele!
             </p>
@@ -1472,7 +1470,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Dacă am febră sau tuse trebuie să merg la spital?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 17 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 17 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1497,7 +1495,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Coronavirusul are o variantă blândă şi una rea?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 16 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 16 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1518,7 +1516,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Dacă beau apă la fiecare 15 minute, mă feresc de COVID-19?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 16 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 16 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1546,7 +1544,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Există vaccin sau tratament pentru coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 15 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 15 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1566,7 +1564,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Trebuie evitate mijloacele de transport în comun aglomerate?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 15 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 15 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1597,7 +1595,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Vitamina C și coronavirusul`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 14 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 14 Martie 2020 </p>
             <p>
               Nu există dovezi că Vitamina C ajută la prevenirea sau tratamentul infecţiei cu coronavirus.
             </p>
@@ -1619,7 +1617,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Coronavirusul provine de la animale?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 13 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1642,7 +1640,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Copiii trebuie să evite locurile de joacă aglomerate?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 13 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
             <p>
               <strong> DA.</strong>
             </p>
@@ -1659,14 +1657,14 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Spirtul poate ajuta în prevenirea COVID-19?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 13 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
             <p>
               Alcoolul sanitar (etanol 70%) este dezinfectant și poate ajuta în prevenirea coronavirusului. Recomandat în special pentru dezinfectarea suprafeţelor.
             </p>
             <p>
               Organizaţia Mondială a Sănătăţii recomandă folosirea alcoolului sanitar (spirt medicinal) ca măsură de prevenire a infecției cu coronavirus.
             </p>
-            <ul style="${styles["no-bullet"]} ${styles["no-left-margin"]}">
+            <ul style="list-style-type:none; margin-left:0;">
               <li>
                 ➡️ Alcoolul sanitar (etanol 70%) poate fi folosit pentru dezinfectarea suprafeţelor atinse frecvent.
               </li>
@@ -1683,7 +1681,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Consumul de lămâie previne infecția cu coronavirus?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 12 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 12 Martie 2020 </p>
             <p>
               <strong> NU.</strong>
             </p>
@@ -1702,7 +1700,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Este preferabil să stăm acasă în această perioadă?`,
         content: `
-            <p style="${styles["grey-700-uppercase"]}"> 12 Martie 2020 </p>
+            <p style="text-transform: uppercase; color: #828282;"> 12 Martie 2020 </p>
             <p>
               <strong>DA.</strong>
             </p>
