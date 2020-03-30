@@ -21,7 +21,7 @@ import {
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
 import * as queryString from "query-string";
-import SearchResults from "./searchResults";
+import SearchResults from "../SearchResults/index";
 
 const SEARCH_SLUG = "search";
 
@@ -35,11 +35,7 @@ const Home = () => {
 
   useEffect(() => {
     if (pageSlug === SEARCH_SLUG) {
-      setSelectedPage(undefined);
-      setSelectedSubPage(undefined);
-
-      const queryParams = queryString.parse(window.location.search);
-      setSearchQuery(queryParams.q);
+      updateSearchQuery();
       return;
     }
 
@@ -67,11 +63,16 @@ const Home = () => {
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
-  const search = query => {
-    history.push("/search?q=" + query);
-    // TODO remove, might be useless
+  const updateSearchQuery = () => {
+    setSelectedPage(undefined);
+    setSelectedSubPage(undefined);
     const queryParams = queryString.parse(window.location.search);
     setSearchQuery(queryParams.q);
+  };
+
+  const search = query => {
+    navigate(history, "/search?q=" + query, scrollAnchorRef);
+    updateSearchQuery();
   };
 
   return (
@@ -103,12 +104,14 @@ const Home = () => {
         <div className="columns homepage-columns">
           <aside className="column is-4 homepage-sidebar">
             <SidebarMenu>
-              <SearchInput
-                value={searchQuery}
-                onEnter={search}
-                onClick={search}
-              />
-
+              <div className="search-input">
+                <SearchInput
+                  placeholder="Caută informații aici"
+                  value={searchQuery}
+                  onEnter={search}
+                  onClick={search}
+                />
+              </div>
               {data.map(doc => {
                 let menuItems = null;
                 if (doc.content.length > 1) {
@@ -169,7 +172,11 @@ const Home = () => {
           </aside>
           <div ref={scrollAnchorRef} className="column is-8 homepage-content">
             {!selectedPage && searchQuery && (
-              <SearchResults query={searchQuery} data={data} />
+              <SearchResults
+                query={searchQuery}
+                data={data}
+                readMore={slug => navigate(history, slug, scrollAnchorRef)}
+              />
             )}
             {selectedPage && (
               <ContentPage

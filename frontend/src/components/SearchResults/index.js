@@ -4,10 +4,11 @@ import "./styles.scss";
 import PropTypes from "prop-types";
 import Fuse from "fuse.js";
 
-const SearchResults = ({ query, data = [] }) => {
+const SearchResults = ({ query, data = [], readMore }) => {
   const docs = data.flatMap(doc => {
     doc.content.forEach(subDoc => {
       subDoc.text = subDoc.page;
+      subDoc.parentSlug = doc.slug;
     });
     return doc.content;
   });
@@ -15,7 +16,7 @@ const SearchResults = ({ query, data = [] }) => {
   let options = {
     shouldSort: true,
     includeScore: true,
-    threshold: 0.3,
+    threshold: 0.5,
     location: 0,
     distance: 10000,
     minMatchCharLength: 1,
@@ -26,16 +27,19 @@ const SearchResults = ({ query, data = [] }) => {
   const results = fuse.search(query).map(result => result.item);
 
   return (
-    <div>
-      <p>Rezultatele cautarii pentru &quot{query}&quot:</p>
+    <div className="search-results-container">
+      <h1 className="results-description">
+        Rezultatele cautarii pentru {`"${query}"`}:
+      </h1>
       {results.map(doc => {
         return (
-          <div style={{ paddingBottom: "10px" }} key={doc.title}>
+          <div className="list-item" key={doc.title}>
             <SearchResultListItem title={doc.title}>
               <span
-                onClick={() => console.log(`${doc.parentDocSlug}/${doc.slug}`)}
+                className="read-more"
+                onClick={() => readMore(`${doc.parentSlug}/${doc.slug}`)}
               >
-                Hello
+                Citește mai mult
               </span>
             </SearchResultListItem>
           </div>
