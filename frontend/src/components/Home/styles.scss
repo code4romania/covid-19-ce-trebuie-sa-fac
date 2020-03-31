@@ -2,6 +2,12 @@
   margin-top: 20px;
 }
 
+.homepage-content {
+  .message .message-body img {
+    max-width: 350px;
+  }
+}
+
 /* media queries are inclussive, so to avoid overlap, min-width query must be one pixel more than the max-width */
 @media (min-width: 769px) {
   .homepage-columns {
