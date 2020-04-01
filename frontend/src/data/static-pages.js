@@ -47,9 +47,9 @@ export default [
 
       <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
        <ul>
-        <li><a href="https://stirioficiale.ro/">Știri oficiale</a></li>
-        <li><a href="https://coronavirus.jhu.edu/map.html">Zone internaționale afectate</a></li>
-        <li><a href="https://www.insp.gov.ro">Site Institutului Național de Sănătate Publică</a></li>
+        <li><a href="https://stirioficiale.ro/" target="_blank" rel="noopener noreferrer">Știri oficiale</a></li>
+        <li><a href="https://coronavirus.jhu.edu/map.html" target="_blank" rel="noopener noreferrer">Zone internaționale afectate</a></li>
+        <li><a href="https://www.insp.gov.ro" target="_blank" rel="noopener noreferrer">Site Institutului Național de Sănătate Publică</a></li>
       </ul>
 
       <h3>Simptome</h3>
@@ -65,7 +65,7 @@ export default [
       <p/>
 
       <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
-      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul 0800.800.358. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor +4021.320.20.20.</p>
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul <a href="tel:0800800358">0800.800.358</a>. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor <a href="tel:+40213202020">+4021.320.20.20</a>.</p>
 
   `
       }
@@ -105,12 +105,12 @@ export default [
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">ATENȚIE</br>
          Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
          `
-      } ,
+      },
       {
-         title: "Ce măsuri trebuie să iei pentru a te proteja",
-         display_order: 2,
-         slug: "masuri-protejare",
-         page: `
+        title: "Ce măsuri trebuie să iei pentru a te proteja",
+        display_order: 2,
+        slug: "masuri-protejare",
+        page: `
          <h3 id="masuri-protejare">Măsuri pentru a te proteja</h3>
          <ul>
           <li>Spală-te des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, mai ales după ce ai fost într-un loc public sau după ce îți sufli nasul, tușești sau strănuți. (pentru a te șterge pe mâini folosește, de preferat, prosoape de hârtie).</li>
@@ -121,12 +121,12 @@ export default [
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
          `
-       } ,
-       {
-          title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
-          display_order: 3,
-          slug: "masuri-protejare-altii",
-          page: `
+      },
+      {
+        title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
+        display_order: 3,
+        slug: "masuri-protejare-altii",
+        page: `
          <h3 id="masuri-protejare-altii">Măsuri pentru a-i proteja pe ceilalți</h3>
          <ul>
           <li>Evită, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
@@ -142,12 +142,12 @@ export default [
            Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
          `
-         } ,
-         {
-          title: "Cum să cureți și să dezinfectezi",
-          display_order: 4,
-          slug: "sfaturi-pentru-dezinfectare",
-          page: `
+      },
+      {
+        title: "Cum să cureți și să dezinfectezi",
+        display_order: 4,
+        slug: "sfaturi-pentru-dezinfectare",
+        page: `
          <h3 id="sfaturi-pentru-dezinfectare">Sfaturi pentru dezinfectare</h3>
          <ul>
           <li>Curăță și dezinfectează frecvent suprafețele pe care le atingi cu dezinfectați pe bază de alcool sau clor. Acestea includ mese, clanțe, întrerupătoare de lumină, blaturi de bucătărie, mânere, birouri, telefoane, tastaturi, toalete, robinete și chiuvete.</li>
@@ -187,12 +187,12 @@ export default [
              </ul>
          </div>
          `
-         } ,
-         {
-          title: "Cum să îți creezi un plan de acțiune la tine acasă",
-          display_order: 5,
-          slug: "plan-actiune-acasa",
-          page: `
+      },
+      {
+        title: "Cum să îți creezi un plan de acțiune la tine acasă",
+        display_order: 5,
+        slug: "plan-actiune-acasa",
+        page: `
          <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
@@ -206,13 +206,13 @@ export default [
 
          <p style="background-color: #ffd738; padding: 10px;">Nu luați medicamente antivirale sau antibiotice fără prescripție medicală!</p>
 
-         <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde 0800 800 358) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
+         <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde <a href="tel:0800800358">0800 800 358</a>) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
 
         `
-       }
-     ]
-     ,
+      }
+    ]
+    ,
     firstNodeId: null,
     form: null,
     buttons: null
@@ -225,11 +225,11 @@ export default [
     active: false,
     display_order: 3,
     content: [
-        {
-          title: "Ai simptome?",
-          display_order: 1,
-          slug: "/",
-          page: `
+      {
+        title: "Ai simptome?",
+        display_order: 1,
+        slug: "/",
+        page: `
           <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces. Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
           </p>
           <ul>
@@ -241,7 +241,7 @@ export default [
           </p>
           <p>Folosește chestionarul de mai jos pentru a identifica gradul de risc propriu pentru a putea vedea ce pași ai de urmat mai departe, în funcție de starea ta de sănătate și de acțiunile întreprinse în ultima perioadă.</p>
           `
-        }
+      }
     ],
     firstNodeId: 0,
     form: [
@@ -489,17 +489,17 @@ export default [
           },
           {
             label:
-              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugam să suni la medicul de familie sau la TelVerde (0800 800 358) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugam să suni la medicul de familie sau la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
             value: 1
           },
           {
             label:
-              "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. ",
+              "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări, apelează la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. ",
             value: 2
           },
           {
             label:
-              "Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări sau manifești simptome, apelează la TelVerde (0800 800 358) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.",
+              "Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări sau manifești simptome, apelează la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.",
             value: 3
           }
         ]
@@ -553,12 +553,12 @@ export default [
         </ul>
         </div>
         `
-        },
-        {
-         title: "Sfaturi pentru părinți",
-         display_order: 2,
-         slug: "sfaturi-pentru-parinti",
-         page: `
+      },
+      {
+        title: "Sfaturi pentru părinți",
+        display_order: 2,
+        slug: "sfaturi-pentru-parinti",
+        page: `
         <p style="background-color: #ffd738; padding: 10px;">Copiii și adolescenții reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situația cu calm și încredere, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
 
         <p>Nu toți copiii și adolescenții răspund la stres în același fel. Câteva din schimbările frecvente pe care le poți ține sub observație includ:</p>
@@ -576,19 +576,19 @@ export default [
         </ul>
         <p><b>Sunt multe lucruri pe care le poți face pentru a-ți susține copilul:</b></p>
         <ul>
-          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
+          <li>Fă-ți timp pentru a discuta cu copilul tău despre epidemia COVID-19. Răspunde-i la întrebări și împărtășește-i informații <a href="https://www.stirioficiale.ro" target="_blank" rel="noopener noreferrer">despre COVID-19</a>, într-un mod pe care să-l poată înțelege copilul sau adolescentul.</li>
           <li>Asigură-ți copilul sau adolescentul că e în siguranță. Fă-l să conștientizeze că e ok dacă se simte supărat. Spune-i felul în care procedezi tu în momentele de stres, ca să poată să învețe de la tine cum să gestioneze situația.</li>
           <li>Limitează expunerea familiei tale la știri despre evenimente, inclusiv cele apărute pe social media. Copiii pot interpreta greșit ceea ce aud și pot fi speriați de lucruri pe care nu le înțeleg</li>
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
         `
-        },
-        {
-         title: "Ajutor pentru copii în gestionarea stărilor de urgență",
-         display_order: 3,
-         slug: "ajutor-pentru-copii",
-         page: `
+      },
+      {
+        title: "Ajutor pentru copii în gestionarea stărilor de urgență",
+        display_order: 3,
+        slug: "ajutor-pentru-copii",
+        page: `
         <p>Indiferent de vârsta copilului tău, acesta se poate supăra sau poate avea emoții puternice în cadrul unei stări de urgență. Unii copii reacționează imediat, pe când alții afișează semne de dificultate mai târziu. Felul în care un copil reacționează și semnele normale ale suferinței pot varia în funcție de vârsta copilului, de experiențele anterioare și de felul în care copilul gestionează, în mod obișnuit, perioadele stresante.  </p>
 
         <p style="background-color: #ffd738; padding: 10px;">Copiii reacționează, în mare parte, la ceea ce văd la adulții din jurul lor. Când părinții și îngrijitorii gestionează situațiile de urgență într-un mod calm și încrezător, dau dovadă de cel mai bun sprijin pentru copiii lor. Părinții pot oferi mai multă siguranță celor din jurul lor, în special copiilor, dacă sunt bine pregătiți. </p>
@@ -618,12 +618,12 @@ export default [
         </ul>
 
         `
-        } ,
-        {
-         title: "Reacții obișnuite pentru copii și adolescenți",
-         display_order: 4,
-         slug: "reactii-obisnuite",
-         page: `
+      },
+      {
+        title: "Reacții obișnuite pentru copii și adolescenți",
+        display_order: 4,
+        slug: "reactii-obisnuite",
+        page: `
         <p>Reacțiile obișnuite, ca urmare a situațiilor de stres, se vor diminua cu timpul, în cazul majorității copiilor. Copiii care au fost direct expuși la dezastre pot trece, din nou, prin stări de supărare; pot reveni comportamente legate de eveniment, dacă aceștia văd sau aud lucruri care să le reamintească de ceea ce s-a întâmplat. Dacă cei mici continuă să fie foarte afectați sau dacă reacțiile lor periclitează activitatea școlară ori relațiile cu ceilalți, părinții sunt sfătuiți să se adreseze unui specialist sau să discute cu cineva care are competențe în gestionarea nevoilor emoționale ale copiilor. Învață mai multe despre reacțiile obișnuite în condiții de stres:</p>
 
         <h4>Pentru bebeluși și copii de până la 2 ani</h4>
@@ -644,12 +644,12 @@ export default [
         </div>
 
         `
-        } ,
-        {
-         title: "Pentru cei care tocmai au ieșit din carantină",
-         display_order: 5,
-         slug: "cei-care-tocmai-au-iesit-din-carantina",
-         page: `
+      },
+      {
+        title: "Pentru cei care tocmai au ieșit din carantină",
+        display_order: 5,
+        slug: "cei-care-tocmai-au-iesit-din-carantina",
+        page: `
         <p>Separarea de ceilalți, dacă un cadru medical consideră că ai fi putut fi expus la COVID-19, poate fi o situație de stres, chiar dacă nu te îmbolnăvești. Fiecare se simte diferit după perioada de stat în carantină. O parte din stări includ:</p>
         <ul>
           <li>Emoții contradictorii, inclusiv cel de destindere de după perioada carantinei</li>
@@ -662,12 +662,12 @@ export default [
         </ul>
 
         `
-        } ,
-        {
-         title: "Diminuarea stigmatului",
-         display_order: 6,
-         slug: "diminuarea-stigmatului",
-         page: `
+      },
+      {
+        title: "Diminuarea stigmatului",
+        display_order: 6,
+        slug: "diminuarea-stigmatului",
+        page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Urgențele legate de sănătate publică, așa cum e epidemia de coronavirus 2019 (COVID-19), reprezintă momente stresante pentru toți oamenii și toate comunitățile. Frica și anxietatea legate de o pandemie pot conduce la un stigmat social vizavi de oameni, locuri sau lucruri.</p>
         <p>De exemplu, stigmatizarea și discriminarea pot avea loc atunci când oamenii asociază o epidemie, cum e COVID-19, cu o populație sau o naționalitate, chiar dacă nu toți indivizii din respectiva țară sau regiune se află în situații de risc pentru boală. Stigmatizarea mai poate fi întâlnită când o persoană tocmai a ieșit din carantina COVID-19, chiar dacă ea nu mai este considerată un factor de risc în răspândirea virusului către ceilalți. </p>
         <p>Este important să ne amintim că oamenii – inclusiv cei cu descendență asiatică – care nu locuiesc sau care nu au fost recent într-o zonă de răspândire a virusului care duce la COVID-19, ori cei care nu au fost în contact cu o persoană confirmată sau suspectă de COVID-19, nu prezintă un risc mai ridicat de răspândire a virusului COVID-19 decât indivizii din alte țări.</p>
@@ -803,17 +803,17 @@ export default [
          Fundația Estuar a lansat 4medicALL, o linie de consiliere și suport psihologic oferită de specialiști în sănătate mintală pentru cei mai încercați dintre noi în această perioadă, personalul medical, paramedical și sanitar implicat în tratarea persoanelor infectate cu virusul COVID-19, linia I de intervenție.
          </br></br>
          Cum puteți beneficia de ajutor:
-         </br>0758 119 314
-         </br>0758 119 313
-         </br>0758 119 304
+         </br><a href="tel:+40758119314">0758 119 314</a>
+         </br><a href="tel:+40758119313">0758 119 313</a>
+         </br><a href="tel:+40758119304">0758 119 304</a>
          </br></br>
-         consiliere@estuar.org
+         <a href="mailto:consiliere@estuar.org">consiliere@estuar.org</a>
          </p>
 
        `
-       }
-     ]
-     ,
+      }
+    ]
+    ,
     form: null,
     firstNodeId: null,
     buttons: null
@@ -963,7 +963,7 @@ export default [
       {
         title: `Există cazuri în România?`,
         content: `
-            <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro">aici</a></p>
+            <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro" target="_blank" rel="noopener noreferrer">aici</a></p>
         `
       },
       {
@@ -1011,7 +1011,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Ce să fac dacă am avut contact direct cu o persoană confirmată cu COVID-19?`,
         content: `
-            <p>Contactați autoritățile la linia TELVERDE 0800 800 358 Veți primi instrucțiuni punctuale. Între timp, evitați contactul cu alte persoane pe cât posibil.</p>
+            <p>Contactați autoritățile la linia TELVERDE <a href="tel:0800800358">0800 800 358</a> Veți primi instrucțiuni punctuale. Între timp, evitați contactul cu alte persoane pe cât posibil.</p>
         `
       },
       {
@@ -1109,5 +1109,623 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         `
       }
     ]
-  }
+  },
+  {
+    title: "Mituri despre coronavirus",
+    slug: "mituri-despre-coronavirus",
+    doc_type: "STATIC_PAGE",
+    doc_id: 107,
+    active: false,
+    display_order: 7,
+    content: [
+      {
+        title: "Mituri despre coronavirus",
+        display_order: 1,
+        page: `<p>GHID ÎNTREBĂRI ȘI MITURI</p>`,
+        slug: "/"
+      }
+    ],
+    firstNodeId: null,
+    form: null,
+    buttons: null,
+    accordion: [
+      {
+        title: `Este distrus coronavirusul de inhalarea de aer fierbinte ?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 26 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Nu există dovezi științifice care să arate că inhalarea de aer fierbinte ar distruge coronavirusul. Informația este fals atribuită Organizației Mondiale a Sănătății.
+            </p>
+            <p>
+              O informație fals atribuită Organizației Mondiale a Sănătății circulă pe internet în ultimele zile. Conform acesteia, inhalarea de aer cald din interiorul unei saune sau cu ajutorul unui uscător de păr poate ucide coronavirusul înainte ca acesta să producă infecția. Acest tip de informație se încadrează în categoria de știri false care oferă soluții mult simplificate pentru probleme cu o complexitate mare.
+            </p>
+            <p>
+              Nu există dovezi științifice care să confirme distrugerea coronavirusului aflat deja în căile respiratorii prin inhalarea de aer fierbinte. Practici neobișnuite, precum inhalarea de aer fierbinte cu ajutorul unui uscător de păr, pot provoca accidente sau leziuni neprevăzute.
+              Este foarte important să ne informăm doar din surse oficiale și să nu cădem pradă soluțiilor miraculoase apărute pe internet.
+            </p>
+            <p>
+            Cele mai importante măsuri de prevenție pentru infecția cu noul coronavirus sunt reducerea contactului cu alte persoane și spălatul pe mâini, cel puțin 30 de secunde, ori de câte ori este necesar.
+            </p>
+          `
+      },
+      {
+        title: `Pierderea gustului/mirosului este un simptom în COVID-19?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 26 Martie 2020 </p>
+            <p>
+              Pierderea mirosului și a gustului pot apărea în cazul infecţiei cu coronavirus. <strong> Încă nu ştim  </strong> cât de comune
+              sunt aceste simptome.
+            </p>
+            <p>
+              Datele apărute în ultimele zile arată o posibilă legătură între pierderea mirosului și infecția cu coronavirus, însă este nevoie de studii amănunțite pentru a stabili
+              cât de comun este acest simptom și în ce stadiu al infecției poate să apară. Organizația Mondială a Sănătății nu a confirmat încă aceste date,
+              însă Academia Americană de Otolaringologie recomandă ca, în cazul pierderii mirosului și în lipsa altor factori precum sinuzite,
+              rinite sau alergii, ar trebui luate în considerare autoizolarea și testarea pentru coronavirus.
+               Până la confirmarea acestor informații, trebuie să știm că cele mai comune simptome ale bolii COVID-19 sunt tusea, febra și dificultățile în respirație.
+            </p>
+            <p>
+              Pierderea temporară a mirosului (anosmia) este un simptom comun în multiple viroze respiratorii; virusurile atacă mucoasa nazală, cauzând congestie,
+              creșterea secrețiilor nazale și inflamația mucoasei, unde se găsesc receptorii olfactivi.
+              Anosmia poate fi cauzată și de diverse alergii sau de tratamentul cu antibiotice sau medicamente pentru reglarea tensiunii arteriale.
+            </p>
+            <p>
+              În ultimele zile, pierderea mirosului si a gustului au fost raportate la pacienți din întreaga lume confirmați ulterior ca fiind infectați
+              cu coronavirus, deși nu prezentau alte simptome. În Coreea de Sud, unde testarea populației este extinsă, 30% din pacienții pozitivi dar asimptomatici au prezentat pierderea mirosului și a gustului. Dovezi au apărut și în alte țări precum China, SUA, Iran, Italia și Germania. Experți recunoscuți din Marea Britanie și SUA afirmă că pierderea mirosului
+              și a gustului pot fi indicatori ai infecției asimptomatice cu coronavirus sau pot fi considerate simptome timpurii ale bolii.
+            </p>
+          `
+      },
+      {
+        title: `Fumatul este un factor de risc pentru COVID-19?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 25 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Fumatul sau vaping-ul reprezintă un factor de risc în cazul COVID-19, atât prin creșterea riscului de infectare, cât și prin evoluția spre forme severe.
+            </p>
+            <p>
+              Organizația Mondială a Sănătății avertizează că atât mâinile, cât și țigările pot fi contaminate, iar prin aducerea lor în mod repetat la nivelul gurii este
+              favorizată infectarea. În plus, fumatul conduce la creșterea numărului receptorilor pe care noul coronavirus
+              îi folosește pentru a intra în celule și a le infecta, ceea ce crește riscul de infectare la fumători.
+            </p>
+            <p>
+              Consumul de alte produse pe bază de tabac (narghilea), favorizează transmiterea de la o persoană la alta, mai ales prin folosirea de piese bucale și furtunuri nesterile.
+            </p>
+            <p>
+              Fumătorii prezintă anumite anomalii la nivelul plămânilor (inflamație, fibroză), care împiedică buna funcționare a acestora în condiții normale. În cazul unei infecții, inclusiv cu noul coronavirus, riscul de a dezvolta o
+              formă severă de boală este crescut în cazul fumătorilor din cauza anomaliilor deja existente la nivelul plămânilor.
+            </p>
+            <img src=${require("../images/mituri/fumatul.jpeg")} alt="despre riscul fumatului" > </img>
+          `
+      },
+      {
+        title: `Există o legătură între vaccinul antigripal și coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 25 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Vaccinul antigripal nu favorizează si nici nu protejează contra COVID-19 deoarece este vorba de două virusuri diferite.
+            </p>
+            <p>
+              Persoanele cu risc crescut pentru boala COVID-19 sunt în mare măsură aceleași ca în cazul gripei: persoanele în vârstă, persoane cu boli cronice, excepție făcând copiii.
+              O știre din media britanică a fost greșit citată și s-a transformat într-o știre falsă. Nu există date științifice care să facă vreo legătură între coronavirus și vaccinul antigripal.
+              Este ușor de înțeles de ce: vaccinul antigripal țintește un alt virus, cel gripal, în timp ce coronavirusul este un virus cu o structură diferită.
+              Totuși, în contextul epidemiei de coronavirus în care spitalele pot deveni suprasolicitate, vaccinarea antigripală poate
+              fi utilă pentru că reduce numărul cazurilor complicate de gripă care ar necesita spitalizare, iar pacienții cu COVID-19 pot fi detectați mai eficient.
+            </p>
+          `
+      },
+      {
+        title: `Coronavirusul se poate transmite prin tuse sau stranut?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 24 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Picaturile eliminate cand o persoana cu COVID-19 tuseste, stranuta sau vorbeste pot transmite coronavirusul persoanelor din apropiere.
+            </p>
+            <p>
+              Picaturile fine eliminate atunci cand o persoana infectata cu coronavirus tuseste, stranuta sau vorbeste contin particule viabile de coronavirus.
+              Acestea pot transmite infectia daca intra in contact cu ochii, gura sau mucoasa nazala ale altor persoane. Conform rezultatelor unui experiment de laborator publicat săptămâna trecută,
+              astfel de particule fine continand coronavirus pot transmite infectia inclusiv dupa 3 ore de la expulzare. Pentru a reduce riscul infectarii proprii
+              si a celorlalti, sunt absolut necesare respectarea normelor de igiena recomandate (spalat des pe maini, acoperirea gurii la stranut/tuse cu un servetel)
+              si pastrarea unei distante de cel putin trei pasi mari fata de ceilalti.
+            </p>
+            <img src=${require("../images/mituri/tuse-stranut.jpeg")} alt="despre tuse stranut" > </img>
+          `
+      },
+      {
+        title: `Sunt gravidele puse în pericol de coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 23 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Nu știm cu certitudine cât de afectate sunt gravidele de infecția cu coronavirus. Se recomandă precauție mărită şi distanțare socială riguroasă.
+            </p>
+            <p>
+              În general gravidele sunt mai predispuse să dezvolte complicații atunci când au boli respiratorii, indiferent de tipul acestora. Deocamdată nu știm cu siguranță dacă și în ce 
+              fel sunt afectate gravidele de infecția cu coronavirus. Datele preliminare disponibile în prezent provin din observarea unui număr redus de gravide în trimestrul 3 de sarcină
+              confirmate cu coronavirus. Pe baza acestor date preliminare se pare că manifestările coronavirusului nu sunt mai grave la gravide decât la persoanele infectate care au aceeași
+              vârstă și istoric medical. Totodată, se pare că virusul nu se transmite prin placentă de la gravida cu infecție confirmată la făt. Pentru a confirma însă cu siguranță aceste observații
+              este nevoie de mai multe studii. Lipsesc datele cu privire la efectele infecției cu coronavirus la gravidele aflate în primul trimestru de sarcină.
+              De aceea, se recomandă precauție mărită la gravide pe perioada pandemiei prin izolare la domiciliu și reducerea drastică a contactelor sociale.
+              Vă vom ține la curent pe măsură ce vor apărea date științifice noi pe acest subiect.
+            </p>
+          `
+      },
+      {
+        title: `Cât durează să te vindeci de coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 21 Martie 2020 </p>
+            <p>
+              Depinde de severitatea simptomelor: de la 2 săptămâni până la 6 săptămâni.
+            </p>
+            <p>
+              În cazul persoanelor care fac forma ușoară sau moderată a bolii, vindecarea nu apare mai devreme de 2 săptămâni de la apariția primelor simptome.
+              Pentru persoanele care fac o formă severă a bolii, vindecarea poate dura până la 6 săptămâni, dar cel mai frecvent o lună.
+              1 din 5 persoane infectate cu coronavirus vor dezvolta o formă severă a bolii. Date fiind duratele lungi necesare vindecării,
+              în cazul unui număr mare de persoane infectate cu coronavirus există riscul semnificativ al aglomerării spitalelor și chiar a depășirii capacității lor.
+              Astfel de fenomene sunt întâlnite în Italia sau în China. De aceea este esențial să încetim ritmul de infecție cu coronavirus pentru a evita suprasolicitarea medicilor și
+              asistenților noștri medicali. Cea mai eficientă metodă dovedită prin care putem face asta este micșorarea contactelor sociale. Vă rugăm evitați contactul direct cu alte persoane,
+              evitați deplasările și zonele aglomerate, păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane. Doar împreună ne putem apăra de acest virus.
+            </p>
+            <img src=${require("../images/mituri/cat-dureaza-sa-te-vindeci.jpeg")} alt="despre vindecare" > </img>
+          `
+      },
+      {
+        title: `Pot fi infectat cu coronavirus chiar dacă nu am simptome?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Chiar şi cei care nu manifestă simptome pot fi infectaţi cu coronavirus și pot transmite infecţia mai departe.
+            </p>
+            <p>
+              Perioada în care o persoană răspândește virusul poate începe cu până la 2 zile ‼️ înainte de apariția primelor semne ale bolii, aceasta fiind cea mai intensă la începutul bolii. 
+              Persoanele infectate pot răspândi virusul până la 7 - 12 zile după apariția primelor simptome.
+            </p>
+            <p>
+              În aceste condiții, este esențial să luăm măsuri pentru a limita transmiterea bolii:
+            </p>
+             <ul style="list-style-type:none;">
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">1️⃣</span>Evitați contactul direct cu alte persoane!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">2️⃣</span>Evitați deplasările și zonele aglomerate!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">3️⃣</span>Păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">4️⃣</span>Spălați-vă frecvent pe mâini timp de 20-30 de secunde (cât durează să cântăm prima strofă din Deșteaptă-te Române!).</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">5️⃣</span>Nu vă atingeți fața, ochii, nasul sau gura fără a fi riguros spălat pe mâini!</li>
+              <li><span style="margin-right:10px; font-weight: 400;
+              font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;">6️⃣</span>Dezinfectați suprafețele cu care intrați în contact în mod frecvent!</li>
+            </ul>
+            <p>
+              🔴 În caz că manifestați simptome specifice, izolați-vă și apelați medicul de familie sau Direcția de Sănătate Publică! Apelați 112 doar în caz de urgență!
+            </p>
+            <p>
+              🙏 Este necesar un efort colectiv pentru a depăși această situație cu un număr cât mai mic de îmbolnăviri. Respectați recomandările medicale pentru a vă îngriji de sănătatea dumneavoastră și a celor dragi!
+            </p>
+          `
+      },
+      {
+        title: `Sunt utile măștile textile sau cele fabricate manual?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Măștile fabricate din pânză, bumbac, tifon nu sunt eficiente în protecţia faţă de coronavirus.
+            </p>
+            <p>
+              Pentru a proteja eficient împotriva unor infecții, măștile faciale trebuie să respecte câteva reguli speciale.
+              Ele trebuie să fie o barieră eficientă împotriva microbilor prin existența unor filtre speciale și,
+              în același timp, să permită respirația corectă. Materialul din care sunt fabricate măștile care nu respectă aceste reguli speciale de
+              fabricație prezintă o rețea de fibre prea largă, care permite trecerea microorganismelor și astfel nu ne protejează eficient împotriva infecțiilor.
+            </p>
+            <ul style="list-style-type:none; margin-left:0;">
+              <li>👉 Dacă sunteți suspect sau aveți infecție cu coronavirus: purtatul unei măști faciale poate reduce riscul de a-i infecta pe cei din jur.</li>
+              <li>👉 Dacă nu sunteți infectat: nu există în prezent dovezi științifice că sunteți mai protejat în fața coronavirusului dacă purtați mască decât dacă nu purtați. </li>
+            </ul>
+            <p>
+              ‼Important: în orice situație, măștile faciale protejează doar dacă sunt însoțite de spălarea frecventă a mâinilor cu săpun sau dezinfectanți pe bază de alcool (concentrație 70%).
+            </p>
+          `
+      },
+      {
+        title: `Tratamentul homeopat vindecă sau previne coronavirusul?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Remediile homeopate nu au efect în prevenirea sau tratarea coronavirusului. Luaţi medicamente numai la recomandarea medicului!
+            </p>
+            <p>
+              Mai multe informații false despre folosirea remediilor homeopate în infecția cu coronavirus au început să circule pe internet. Aceste informații nu au nicio bază științifică. 
+            </p>
+            <p>
+              ‼️Nu vă lăsați păcăliți. Picăturile homeopate sau alte preparate similare nu sunt recomandate pentru coronavirus. Pentru prevenirea sau tratarea coronavirusului, folosirea produselor homeopate în detrimentul măsurilor indicate de medici vă pot pune viața în pericol.
+            </p>
+          `
+      },
+      {
+        title: `Este sigur să donez sânge în contextul actual?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              România are mare nevoie de donatori de sânge! Donarea de sânge se realizează în condiţii de siguranță, luându-se măsuri suplimentare pentru a împiedica transmiterea coronavirusului.
+            </p>
+            <p>
+              La nivelul centrelor de transfuzie s-au luat măsuri suplimentare pentru siguranța donatorilor, a personalului centrelor și a persoanelor la care vor ajunge 
+              produsele sanguine. Există consens la nivel internațional asupra siguranței transfuziilor sanguine în circumstanțele actuale ale pandemiei cu noul coronavirus.
+            </p>
+            <p>
+              ‼️În toate centrele de donare din țară există un punct de triere unde se măsoară temperatura, se investighează istoricul de călătorie, posibilul contact cu persoane infectate și posibilele simptome ale infecției.
+            </p>
+            <p>
+              ‼️Donatorii primesc măști, se supraveghează dezinfecția riguroasă a mâinilor, se dezinfectează regulat spațiile de donare și se asigură distanțarea optimă a donatorilor.
+            </p>
+            </p>
+            <p> 
+              ⭕ Nevoia de sânge nu se oprește odată cu declanșarea pandemiei de coronavirus. Este foarte important ca activitatea de donare de sânge să continue! Dacă nu ați călătorit în afara țării în ultimele 28 de zile, 
+              nu ați intrat în contact cu persoane infectate și nu prezentați simptome specifice infecției cu coronavirus, vă rugăm să donați sânge.
+            </p>
+            <p> 
+              ⭕ Există posibilitatea programării de la distanță pentru donarea de sânge, telefonic, prin email sau prin intermediul unor aplicații mobile precum Donorium.
+            </p>
+            <p>
+              Donează sânge! Generozitatea ta poate salva viețile altor oameni.
+            </p>
+          `
+      },
+      {
+        title: `Este (hidroxi)clorochina un tratament promițător în COVID-19?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
+            <p>
+              Acţiunea (hidroxi)clorochinei este studiată şi rezultate clare sunt așteptate peste câteva săptămâni.
+            </p>
+            <p>
+              În cazul apariției unor infecții foarte noi, cum este coronavirusul, este necesară o perioadă de timp pentru descoperirea și testarea unor terapii care să vindece infecția. Aceste terapii trebuie să facă mai mult bine decât rău și de aceea studiile clinice solide sunt foarte importante.
+            </p>
+            <p>
+              ‼️Este important ca orice medicament să fie luat doar la indicația medicului, nu în urma sfaturilor de pe internet.
+            </p>
+            <p>
+              (Hidroxi)clorochina este un medicament folosit împotriva malariei. În prezent, trei studii clinice mari sunt în desfășurare în privința eficienței acesteia în tratarea infecției cu coronavirus, dar va mai dura o perioadă până la apariția unor rezultate. Un studiu experimental a demonstrat eficiența ei asupra coronavirusului, dar în condiții de laborator. Numărul studiilor care au demonstrat impactul pozitiv al administrării (hidroxi)clorochinei la pacienți cu coronavirus este scăzut deocamdată, iar validitatea lor științifică este limitată.
+            </p>
+            <p>
+              Vă vom ține la curent în privința evoluțiilor rapide din domeniu.
+            </p>
+          `
+      },
+      {
+        title: `Pot să mă infectez cu coronavirus de două ori?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
+            <p>
+              Nu există dovezi care să ateste că o persoană poate să se re-infecteze cu noul coronavirus.
+            </p>
+            <p>
+              Oamenii de știință afirmă că, după trecerea printr-o astfel de infecție, o persoană dezvoltă imunitate la aceasta.
+              Informația a fost confirmată într-un cadru oficial de unul dintre cei mai reputați imunologi americani. 
+            </p>
+            <p>
+              Pentru a menține rigurozitatea științifică a informării: deocamdată este prea devreme în derularea epidemiei pentru ca suficiente studii
+              științifice pe acest subiect să fi fost publicate. Teoretic există posibilitatea ca unele persoane cu deficiențe imune să se re-infecteze cu coronavirus.
+            </p>
+          `
+      },
+      {
+        title: `Pot lua ibuprofen dacă am coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
+            <p>
+              Încă neclar. Nu există studii privind efectele administrării de ibuprofen asupra pacienţilor cu COVID-19. Dacă aveţi febră, luaţi medicamente doar la recomandarea medicului!
+            </p>
+            <p>
+              Specialiștii Organizației Mondiale a Sănătății sunt în proces de evaluare a efectelor administrării de ibuprofen la pacienții cu coronavirus.
+            </p>
+            <p>
+              Ipotezele emise de experți francezi au avertizat asupra unor posibile efecte adverse ale administrării de ibuprofen la pacienții cu coronavirus. 
+            </p>
+            <p>
+              Pe 17 martie 2020, Serviciul Național de Sănătate din Marea Britanie (NHS) a anunțat că nu există dovezi suficient de puternice că ibuprofen agravează COVID19. Până la apariția de noi date științifice,
+              aceștia au actualizat recomandările privind tratamentul simptomelor infecției cu coronavirus. Este recomandat paracetamolul, cu excepția cazurilor în care un
+              medic recomandă explicit altceva. Același ghid le recomandă pacienților aflați în tratament cu ibuprofen să ❗️ NU ❗️ întrerupă administrarea de ibuprofen fără consultarea medicului.
+            </p>
+          `
+      },
+      {
+        title: `Mă pot infecta de pe suprafața fructelor sau legumelor?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 18 Martie 2020 </p>
+            <p>
+              Coronavirusul poate rezista pe diferite suprafeţe, dar încă nu există dovezi care să susţină transmiterea prin intermediul fructelor şi legumelor neambalate. Chiar şi aşa, spălaţi bine fructele și legumele!
+            </p>
+            <p>
+              Nu a fost raportat nici un caz de transmitere al coronavirusului prin intermediul mâncării. Înainte de a pregăti mâncarea sau de a mânca este foarte important să ne spălăm pe mâini minimum 20 - 30 de secunde (cam cât durează să cântăm prima strofă din Deșteaptă-te Române!). 
+            </p>
+            <p>
+              Este de așteptat ca prepararea termică riguroasă a alimentelor să elimine riscul de infectare al acestora.
+            </p>
+            <p>
+              Principalul mod de transmitere al infecției cu noul coronavirus este de la persoană la persoană. Transmiterea prin contactul cu suprafețe contaminate este și ea posibilă.
+            </p>
+            <img src=${require("../images/mituri/infectare-fructe-legume.jpeg")} alt="infectare fructe legume" > </img>
+          `
+      },
+      {
+        title: `Dacă am febră sau tuse trebuie să merg la spital?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 17 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Evitaţi contactul cu alte persoane și sunaţi la medicul de familie sau la Direcţia de Sănătate Publică din judeţ. În caz de urgenţă apelaţi 112.
+            </p>
+            <p>
+              În cazul în care manifestați simptome specifice infecției cu coronavirus (tuse, febră, dificultăți în respirație) este important să nu vă deplasați la medic sau la spital/urgență.
+            </p>
+            <p>
+              ‼️Primul pas este să vă sunați medicul de familie și să solicitați indicații. În cazul în care acesta nu poate fi contactat, apelați Direcția de Sănătate Publică din județul dumneavoastră. În caz de urgență apelați 112.
+            </p>
+            <p>
+              Dacă aveți simptome specifice, efectuarea unui test pentru coronavirus nu este obligatorie și nici urgentă. Decizia de a efectua acest test aparține medicilor de specialitate în funcție de specificul fiecărui caz în parte.
+            </p>
+            <p>
+              ‼️Evitați contactul cu alte persoane pentru a nu le expune la riscul de infectare. Transmiterea infecției de la persoane asimptomatice este posibilă.
+            </p>
+            <img src=${require("../images/mituri/ce-sa-fac-daca-am-febra.jpeg")} alt="ce sa fac daca am febra"> </img>
+          `
+      },
+      {
+        title: `Coronavirusul are o variantă blândă şi una rea?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 16 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Au fost izolate două subtipuri diferite ale virusului. Nu există nicio dovadă că acestea ar produce simptome ale bolii de severităţi diferite.
+            </p>
+            <p>
+              Este normal ca orice virus să prezinte în timp diferite subtipuri. Un studiu pe un număr limitat de cazuri a identificat două subtipuri ale coronavirusului, tipul L și tipul S, dar diferențele între ele sunt mici. 
+            </p>
+            <p>
+              În prezent, nu există nicio dovadă științifică că aceste diferențe ar provoca simptome mai severe ale bolii pentru un subtip comparativ cu celălalt. 
+            </p>
+            <p>
+              În prezent, nu există nicio dovadă științifică că subtipurile prezente în România ar fi mai blânde sau mai agresive decât în alte țări.
+            </p>
+          `
+      },
+      {
+        title: `Dacă beau apă la fiecare 15 minute, mă feresc de COVID-19?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 16 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Nu există dovezi care să confirme că infecţia cu coronavirus ar putea fi prevenită prin consumul regulat de apă.
+            </p>
+            <p>       
+              O informaţie fals atribuită cercetătorilor de la Stanford, circulă online în ultimele zile. Potrivit acesteia, dacă bem apă la fiecare 
+              15 minute virusul ajunge în stomac unde este neutralizat, în loc să ajungă în căile respiratorii.
+              Acest tip de informație se încadrează în categoria de știri false care oferă soluții mult simplificate pentru probleme cu o complexitate mare. 
+            </p>
+            <p>
+              ❗️Hidratarea organismului este importantă în orice condiții, indiferent de contextul epidemiologic actual. 
+                Consumați zilnic o cantitate suficientă de apă, adaptată la greutatea dumneavoastră și la nivelul de efort fizic depus. 
+            </p>
+            <p>
+              ❗️Este important ca orice tratament să fie luat doar la indicația medicului, nu în urma sfaturilor de pe internet.
+            </p>
+            <p>
+              Cele mai importante măsuri de prevenție pentru infecția cu noul coronavirus sunt reducerea contactului cu alte persoane și spălatul pe mâini, cel puțin 30 de secunde, ori de câte ori este necesar.
+            </p> 
+            <img src=${require("../images/mituri/ajuta-sa-beau-apa.jpeg")} alt="ajuta sa beau apa"> </img>
+          `
+      },
+      {
+        title: `Există vaccin sau tratament pentru coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 15 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              În prezent nu există vaccin și încă nu a fost descoperit un tratament eficient. Este important ca orice medicament să fie luat doar la indicația medicului, nu în urma sfaturilor de pe internet.
+            </p>
+            <p>
+              Peste 11 echipe științifice din toată lumea lucrează acum la dezvoltarea unui vaccin împotriva noului coronavirus. 
+              Măsurile de igienă și limitarea deplasărilor în spații publice sunt cele mai eficiente metode pentru prevenirea răspândirii epidemiei.
+            </p>
+            <p>
+              Patru medicamente antivirale folosite deja în alte boli sunt astăzi studiate pentru a se confirma dacă sunt utile pentru tratamentul COVID-19.
+            </p>
+            <img src=${require("../images/mituri/exista-vaccin-sau-tratament.jpeg")} alt="exista vaccin sau tratament ?"> </img>
+          `
+      },
+      {
+        title: `Trebuie evitate mijloacele de transport în comun aglomerate?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 15 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Spaţiile închise și aglomerate, precum autobuzul sau metroul, favorizează transmiterea coronavirusului.
+            </p>
+            <p>
+              Folosirea mijloacelor aglomerate de transport public vă poate crește riscul de expunere la coronavirus.
+              Dacă aveţi opţiunea de a merge pe jos sau cu bicicleta, este recomandat să nu folosiţi transportul în comun.
+              Dacă sunteţi în vârstă sau aveți o boală cronică, căutați mijloace de transport alternative - prezenţa dumneavoastră într-un mijloc de 
+              transport poate crește semnificativ riscul de infecție.
+            </p>
+            <p>
+              Încercați să reduceți deplasările în această perioadă, dacă este posibil.
+            </p>
+            <p>
+              Evitaţi autobuzele / metroul în caz de aglomeraţie. Lăsaţi să treacă autobuzele aglomerate și așteptați unul mai puțin aglomerat. 
+            </p>
+            <p>
+              Staţi la minimum 1.5 metri distanţă (cât doi pași mari) de ceilalţi pasageri, dezinfectaţi-vă pe mâini înainte, în timpul şi imediat după călătorie.Folosiţi un şerveţel pentru a vă ţine de stâlp,
+              evitaţi să vă atingeţi faţa şi folosiți dezinfectant pentru mâini dacă îl aveți în timp ce mergeţi cu trenul, autobuzul, metroul sau tramvaiul.
+            </p>
+            <p>
+              Este recomandabil să vă anulați călătoriile în această perioadă.
+            </p>
+          `
+      },
+      {
+        title: `Vitamina C și coronavirusul`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 14 Martie 2020 </p>
+            <p>
+              Nu există dovezi că Vitamina C ajută la prevenirea sau tratamentul infecţiei cu coronavirus.
+            </p>
+            <p>
+              Vitamina C este un micronutrient esențial pentru buna funcționare a organismului nostru. Doza zilnică necesară de vitamina C se obține printr-o alimentație echilibrată ce include fructe și legume.
+            </p>
+            <p>
+              Studiile științifice arată că vitamina C poate reduce simptomele într-o răceală obișnuită. În special la persoanele cu carență de vitamină C, poate avea anumite efecte benefice în pneumonii. 
+            </p>
+            <p>
+              În prezent, nu există dovezi că vitamina C ajută în prevenirea sau tratamentul infecției cu coronavirus.
+            </p>
+            <p>
+              ℹ️ Supradoza de vitamina C poate cauza reacții adverse precum greață, crampe abdominale și diaree.
+            </p>
+            <img src=${require("../images/mituri/vitamina-c-si-coronavirusul.jpeg")} alt="vitamina c si coronavirusul"> </img>
+          `
+      },
+      {
+        title: `Coronavirusul provine de la animale?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Coronavirusul provine dintr-o specie de lilieci din China. Zvonurile că a fost creat în laborator pornind de la HIV sunt complet false.
+            </p>
+            <p>
+              Analiza genetică a coronavirusului arată că originea probabilă a acestuia este o specie de lilieci din China.
+              Pangolinul (furnicarul) este gazda intermediară între lilieci și oameni. Nu există nici o altă teorie validă științific în legătură cu proveniența noului virus. 
+            </p>
+            <p>
+              Există similarităţi între diverse componente structurale ale noului coronavirus și mai multe alte virusuri (inclusiv HIV).
+              Dar aceste asemănări sunt obișnuite şi nu indică faptul că virusul ar fi fost creat în laborator. 
+            </p>
+            <p>
+              ➡️ Teoriile conspiraționiste dăunează sănătății! Igiena și precauția, nu.
+            </p>
+          `
+      },
+      {
+        title: `Copiii trebuie să evite locurile de joacă aglomerate?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
+            <p>
+              <strong> DA.</strong>
+            </p>
+            <p>
+              Copiii trebuie feriţi de locurile de joacă unde obiectele / suprafeţele sunt atinse de un număr mare de copii.
+            </p>
+            <p>
+              Dovezile curente sugerează că noul coronavirus poate rămâne pe suprafețe din diferite materiale pentru ore și chiar zile. De aceea este recomandată ca măsură de precauție evitarea atingerii acelor
+              suprafețe care vin în contact cu un număr mare de persoane. Dacă totuși facem asta, atunci trebuie să ne spălăm apoi imediat pe mâini.
+            </p>
+            <img src=${require("../images/mituri/copiii-sa-evite-locurile-de-joaca.jpeg")} alt="copiii sa evite locurile de joaca"> </img>
+          `
+      },
+      {
+        title: `Spirtul poate ajuta în prevenirea COVID-19?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 13 Martie 2020 </p>
+            <p>
+              Alcoolul sanitar (etanol 70%) este dezinfectant și poate ajuta în prevenirea coronavirusului. Recomandat în special pentru dezinfectarea suprafeţelor.
+            </p>
+            <p>
+              Organizaţia Mondială a Sănătăţii recomandă folosirea alcoolului sanitar (spirt medicinal) ca măsură de prevenire a infecției cu coronavirus.
+            </p>
+            <ul style="list-style-type:none; margin-left:0;">
+              <li>
+                ➡️ Alcoolul sanitar (etanol 70%) poate fi folosit pentru dezinfectarea suprafeţelor atinse frecvent.
+              </li>
+              <li>
+                ➡️ Pentru dezinfectarea mâinilor este recomandată spălarea pe mâini cu săpun timp de minimum 30 de secunde (cam cât durează să cântăm primele 3 versuri din “Deșteaptă-te române!”) sau folosirea de dezinfectant sub formă de gel (cu etanol 70%).
+              </li>
+            </ul>
+            <p>
+              ℹ️ Alcoolul sanitar este inclus în registrul național al produselor biocide din România, actualizat în ianuarie 2020. 
+              Produsul este destinat exclusiv uzului extern, a nu se consuma.
+            </p>
+          `
+      },
+      {
+        title: `Consumul de lămâie previne infecția cu coronavirus?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 12 Martie 2020 </p>
+            <p>
+              <strong> NU.</strong>
+            </p>
+            <p>
+              Consumul de lămâie (proaspătă sau în apă fierbinte) nu previne și nu vindecă infecţia cu coronavirus.   
+            </p>
+            <p>
+              Informația potrivit căreia consumul de lămâie și apă fierbinte poate preveni diverse boli circulă pe internet de mai mulți ani, sub diverse forme. Această informație a fost preluată și adaptată infecției cu coronavirus, fără a exista însă vreo dovadă științifică.
+            </p>
+            <p>
+              Altfel, ceaiul cu lămâie are gust bun, ne place și nouă. :)
+            </p>
+            <img src=${require("../images/mituri/lamaia-si-coronovirusul.jpeg")} alt="lamaia si coronovirusul"> </img>
+          `
+      },
+      {
+        title: `Este preferabil să stăm acasă în această perioadă?`,
+        content: `
+            <p style="text-transform: uppercase; color: #828282;"> 12 Martie 2020 </p>
+            <p>
+              <strong>DA.</strong>
+            </p>
+            <p>
+              Reducerea contactului între persoane scade posibilitatea transmiterii virusului.
+            </p>
+            <p>
+              Reducerea contactului între persoane (distanţarea socială) este una din cele mai importante măsuri pe care fiecare dintre noi le poate lua în această perioadă.
+            </p>
+            <p>
+              Evităm zonele aglomerate, păstrăm cel puțin 1 metru și jumătate distanță (cât doi pași mari) în locurile publice față de persoanele din jur, evităm mijloacele de transport în comun aglomerate și, dacă e posibil, lucrăm de acasă.
+            </p>
+            <p>
+              Țările în care aceste măsuri sunt respectate reușesc să controleze mai repede epidemia de coronavirus.
+            </p>
+            <img src=${require("../images/mituri/sa-stam-acasa.jpeg")} alt="sa stam acasa"> </img>
+          `
+      }
+    ]
+  },
 ];

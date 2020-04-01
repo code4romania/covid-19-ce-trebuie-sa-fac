@@ -43,4 +43,25 @@ const renderInstrumentItem = usefulApp => {
   );
 };
 
-export { renderInstrumentItem, remapInstrumentsData };
+const scrollRefIntoView = scrollAnchorRef => {
+  try {
+    scrollAnchorRef.current.scrollIntoView({
+      block: "start",
+      behavior: "smooth"
+    });
+  } catch (e) {
+    scrollAnchorRef.current.scrollIntoView(true);
+  }
+};
+
+const navigate = (history, slug, anchor) => {
+  // Fix SecurityError of pushState on History
+  const cleanSlug = (slug || "")
+    .replace(/\/+/g, "/") // delete duplicated slashes
+    .replace(/\/$/g, "") // delete trailing slash
+    .replace(/^\//g, ""); //remove leading slash
+  history.push("/" + cleanSlug);
+  scrollRefIntoView(anchor);
+};
+
+export { renderInstrumentItem, remapInstrumentsData, navigate };
