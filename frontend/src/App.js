@@ -13,7 +13,8 @@ import {
   Header,
   DevelopedBy,
   IncubatedBy,
-  Banner
+  Banner,
+  BackToTop
 } from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo.svg";
 import "./App.scss";
@@ -105,6 +106,7 @@ const App = () => {
               <Home />
             </Route>
           </Switch>
+          <BackToTop />
         </main>
         <IncubatedBy />
         <FooterWrapper />
