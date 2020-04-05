@@ -6,6 +6,9 @@
   .message .message-body img {
     max-width: 350px;
   }
+  .search-input {
+    margin-bottom: 20px;
+  }
 }
 
 /* media queries are inclussive, so to avoid overlap, min-width query must be one pixel more than the max-width */

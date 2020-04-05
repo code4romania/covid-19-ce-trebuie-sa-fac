@@ -9,7 +9,8 @@ import {
   ListItem,
   SidebarMenu,
   SidebarMenuItem,
-  MailchimpSubscribe
+  MailchimpSubscribe,
+  SearchInput
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
@@ -19,6 +20,10 @@ import {
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
+import * as queryString from "query-string";
+import SearchResults from "../SearchResults/index";
+
+const SEARCH_SLUG = "search";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
@@ -28,6 +33,12 @@ const Home = () => {
   const scrollAnchorRef = useRef(null);
 
   useEffect(() => {
+    if (pageSlug === SEARCH_SLUG) {
+      setSelectedPage(undefined);
+      setSelectedSubPage(undefined);
+      return;
+    }
+
     // Find the page
     const page = data.find(doc => doc.slug === (pageSlug || "/"));
     let subPage = null;
@@ -50,6 +61,15 @@ const Home = () => {
     }
   }, [pageSlug, subPageSlug, history]);
 
+  const navigateToPage = slug => navigate(history, slug, scrollAnchorRef);
+
+  const triggerSearch = query => {
+    if (!query) {
+      return;
+    }
+    navigateToPage("/search?q=" + query);
+  };
+
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
   const extraInfo = (
@@ -70,6 +90,10 @@ const Home = () => {
     </>
   );
 
+  // get the search query from the url
+  const queryParams = queryString.parse(window.location.search);
+  const searchQuery = queryParams.q;
+
   return (
     <>
       <div className="container">
@@ -88,7 +112,7 @@ const Home = () => {
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
               title={doc.title}
-              onClick={() => navigate(history, doc.slug, scrollAnchorRef)}
+              onClick={() => navigateToPage(doc.slug)}
               value={doc}
             />
           ))}
@@ -99,6 +123,14 @@ const Home = () => {
         <div className="columns homepage-columns">
           <aside className="column is-4 homepage-sidebar">
             <SidebarMenu>
+              <div className="search-input">
+                <SearchInput
+                  placeholder="Caută informații aici"
+                  value={searchQuery}
+                  onEnter={triggerSearch}
+                  onClick={triggerSearch}
+                />
+              </div>
               {data.map(doc => {
                 let menuItems = null;
                 if (doc.content.length > 1) {
@@ -108,13 +140,7 @@ const Home = () => {
                     <SidebarMenuItem
                       key={`subpage-header_${page.slug}`}
                       active={page.slug === subPageSlug}
-                      onClick={() =>
-                        navigate(
-                          history,
-                          `${doc.slug}/${page.slug}`,
-                          scrollAnchorRef
-                        )
-                      }
+                      onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
                     >
                       {page.title}
                     </SidebarMenuItem>
@@ -130,9 +156,7 @@ const Home = () => {
                         (doc.slug === pageSlug ||
                           (doc.slug === "/" && !pageSlug))
                       }
-                      onClick={() =>
-                        navigate(history, doc.slug, scrollAnchorRef)
-                      }
+                      onClick={() => navigateToPage(doc.slug)}
                       isTitle
                     >
                       {doc.title}
@@ -146,6 +170,13 @@ const Home = () => {
             {extraInfo}
           </aside>
           <div ref={scrollAnchorRef} className="column is-8 homepage-content">
+            {!selectedPage && searchQuery && (
+              <SearchResults
+                query={searchQuery}
+                data={data}
+                readMore={navigateToPage}
+              />
+            )}
             {selectedPage && (
               <ContentPage
                 page={selectedPage}
