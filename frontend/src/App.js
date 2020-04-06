@@ -94,7 +94,7 @@ const App = () => {
         MenuItems={MenuItems}
       />
       <DevelopedBy
-        showParners
+        showPartners
         partnerLogos={[
           <Logo url="https://www.gov.ro" key="gov">
             <img src={gov} alt="Guvernul României" />
