@@ -53,7 +53,7 @@ const SearchResults = ({ query, data = [], readMore }) => {
   return (
     <div className="search-results-container">
       <h1 className="results-description">
-        Rezultatele cautarii pentru {`"${query}"`}:
+        Rezultatele căutării pentru {`"${query}"`}:
       </h1>
       {results.map(doc => {
         return (
