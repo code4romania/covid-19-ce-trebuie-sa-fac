@@ -9,6 +9,17 @@
   .search-input {
     margin-bottom: 20px;
   }
+
+  .content iframe {
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage-content .content iframe {
+    width: 100%;
+  }
 }
 
 /* media queries are inclussive, so to avoid overlap, min-width query must be one pixel more than the max-width */
