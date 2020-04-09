@@ -42,17 +42,6 @@ const customPartnerLogos = [
   </Logo>
 ];
 
-const MyLogo = () => (
-  <a href="/">
-    <img
-      width="178"
-      height="32"
-      alt="Covid-19. Ce trebuie să fac?"
-      src={LogoSvg}
-    />
-  </a>
-);
-
 const MenuItems = [
   <a
     href="https://datelazi.ro/"
@@ -95,7 +84,19 @@ const App = () => {
         title="15 RECOMANDĂRI privind conduita socială responsabilă în prevenirea răspândirii coronavirus. "
         link="https://stirioficiale.ro/15-recomandari-privind-conduita-sociala-responsabila-in-prevenirea-raspandirii-coronavirus"
       />
-      <Header Logo={<MyLogo />} MenuItems={MenuItems} />
+      <Header
+        Logo={
+          <Logo url="/">
+            <img
+              width="178"
+              height="32"
+              alt="Covid-19. Ce trebuie să fac?"
+              src={LogoSvg}
+            />
+          </Logo>
+        }
+        MenuItems={MenuItems}
+      />
       <DevelopedBy showPartners partnerLogos={customPartnerLogos} />
       <Suspense fallback={<div></div>}>
         <main>
