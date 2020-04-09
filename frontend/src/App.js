@@ -10,6 +10,7 @@ import { logPageView } from "./analyticsTracker";
 import Home from "./components/Home";
 
 import {
+  Logo,
   Header,
   DevelopedBy,
   IncubatedBy,
@@ -17,6 +18,8 @@ import {
   BackToTop
 } from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo.svg";
+import gov from "./images/gov.png";
+import DSU from "./images/dsu.png";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
@@ -26,7 +29,20 @@ const TermsAndConditions = lazy(() =>
 );
 const FooterWrapper = lazy(() => import("./components/Footer"));
 
-const Logo = () => (
+const customPartnerLogos = [
+  <Logo url="https://www.gov.ro" key="gov">
+    <img className="custom-size" src={gov} alt="Guvernul României" />
+  </Logo>,
+  <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
+    <img
+      className="custom-size"
+      src={DSU}
+      alt="Departamentul pentru Situații de Urgență"
+    />
+  </Logo>
+];
+
+const MyLogo = () => (
   <a href="/">
     <img
       width="178"
@@ -79,8 +95,8 @@ const App = () => {
         title="15 RECOMANDĂRI privind conduita socială responsabilă în prevenirea răspândirii coronavirus. "
         link="https://stirioficiale.ro/15-recomandari-privind-conduita-sociala-responsabila-in-prevenirea-raspandirii-coronavirus"
       />
-      <Header Logo={<Logo />} MenuItems={MenuItems} />
-      <DevelopedBy showSecondLine />
+      <Header Logo={<MyLogo />} MenuItems={MenuItems} />
+      <DevelopedBy showPartners partnerLogos={customPartnerLogos} />
       <Suspense fallback={<div></div>}>
         <main>
           <Switch>
