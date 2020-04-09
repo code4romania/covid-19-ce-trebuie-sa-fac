@@ -39,6 +39,10 @@ const Home = () => {
       return;
     }
 
+    data.sort((a, b) => {
+      return a.display_order - b.display_order;
+    });
+
     // Find the page
     const page = data.find(doc => doc.slug === (pageSlug || "/"));
     let subPage = null;

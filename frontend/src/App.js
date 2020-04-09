@@ -31,6 +31,14 @@ const FooterWrapper = lazy(() => import("./components/Footer"));
 
 const MenuItems = [
   <a
+    href="https://datelazi.ro/"
+    target="_blank"
+    rel="noopener noreferrer"
+    key={"datelazi"}
+  >
+    Date la zi
+  </a>,
+  <a
     href="https://stirioficiale.ro"
     target="_blank"
     rel="noopener noreferrer"
