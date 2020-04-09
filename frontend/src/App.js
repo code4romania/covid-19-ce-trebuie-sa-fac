@@ -10,7 +10,6 @@ import { logPageView } from "./analyticsTracker";
 import Home from "./components/Home";
 
 import {
-  Logo,
   Header,
   DevelopedBy,
   IncubatedBy,
@@ -18,8 +17,6 @@ import {
   BackToTop
 } from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo.svg";
-import gov from "./images/gov.png";
-import DSU from "./images/dsu.png";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
@@ -28,6 +25,17 @@ const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
 );
 const FooterWrapper = lazy(() => import("./components/Footer"));
+
+const Logo = () => (
+  <a href="/">
+    <img
+      width="178"
+      height="32"
+      alt="Covid-19. Ce trebuie să fac?"
+      src={LogoSvg}
+    />
+  </a>
+);
 
 const MenuItems = [
   <a
@@ -49,23 +57,6 @@ const MenuItems = [
   <Link to="/despre" key={"des"}>
     Despre
   </Link>
-  /*,
-  <a
-    href="https://code4.ro/ro/apps/"
-    target="_blank"
-    rel="noopener noreferrer"
-    key={"eco"}
-  >
-    Ecosistemul Covid-19
-  </a>,
-  <a
-    href="https://code4.ro/ro/doneaza/"
-    target="_blank"
-    rel="noopener noreferrer"
-    key={"don"}
-  >
-    Sprijină proiectul
-  </a> */
 ];
 
 const AppWrapper = () => {
@@ -88,30 +79,8 @@ const App = () => {
         title="15 RECOMANDĂRI privind conduita socială responsabilă în prevenirea răspândirii coronavirus. "
         link="https://stirioficiale.ro/15-recomandari-privind-conduita-sociala-responsabila-in-prevenirea-raspandirii-coronavirus"
       />
-      <Header
-        Logo={
-          <Logo url="/">
-            <img
-              width="178"
-              height="32"
-              alt="Covid-19. Ce trebuie să fac?"
-              src={LogoSvg}
-            />
-          </Logo>
-        }
-        MenuItems={MenuItems}
-      />
-      <DevelopedBy
-        showPartners
-        partnerLogos={[
-          <Logo url="https://www.gov.ro" key="gov">
-            <img src={gov} alt="Guvernul României" />
-          </Logo>,
-          <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
-            <img src={DSU} alt="Departamentul pentru Situații de Urgență" />
-          </Logo>
-        ]}
-      />
+      <Header Logo={<Logo />} MenuItems={MenuItems} />
+      <DevelopedBy showSecondLine />
       <Suspense fallback={<div></div>}>
         <main>
           <Switch>
