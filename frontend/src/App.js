@@ -29,6 +29,15 @@ const TermsAndConditions = lazy(() =>
 );
 const FooterWrapper = lazy(() => import("./components/Footer"));
 
+const customPartnerLogos = [
+  <Logo url="https://www.gov.ro" key="gov">
+    <img src={gov} alt="Guvernul României" />
+  </Logo>,
+  <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
+    <img src={DSU} alt="Departamentul pentru Situații de Urgență" />
+  </Logo>
+];
+
 const MenuItems = [
   <a
     href="https://datelazi.ro/"
@@ -49,23 +58,6 @@ const MenuItems = [
   <Link to="/despre" key={"des"}>
     Despre
   </Link>
-  /*,
-  <a
-    href="https://code4.ro/ro/apps/"
-    target="_blank"
-    rel="noopener noreferrer"
-    key={"eco"}
-  >
-    Ecosistemul Covid-19
-  </a>,
-  <a
-    href="https://code4.ro/ro/doneaza/"
-    target="_blank"
-    rel="noopener noreferrer"
-    key={"don"}
-  >
-    Sprijină proiectul
-  </a> */
 ];
 
 const AppWrapper = () => {
@@ -101,17 +93,7 @@ const App = () => {
         }
         MenuItems={MenuItems}
       />
-      <DevelopedBy
-        showPartners
-        partnerLogos={[
-          <Logo url="https://www.gov.ro" key="gov">
-            <img src={gov} alt="Guvernul României" />
-          </Logo>,
-          <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
-            <img src={DSU} alt="Departamentul pentru Situații de Urgență" />
-          </Logo>
-        ]}
-      />
+      <DevelopedBy showPartners partnerLogos={customPartnerLogos} />
       <Suspense fallback={<div></div>}>
         <main>
           <Switch>
