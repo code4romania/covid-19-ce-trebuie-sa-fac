@@ -31,14 +31,10 @@ const FooterWrapper = lazy(() => import("./components/Footer"));
 
 const customPartnerLogos = [
   <Logo url="https://www.gov.ro" key="gov">
-    <img className="custom-size" src={gov} alt="Guvernul României" />
+    <img src={gov} alt="Guvernul României" />
   </Logo>,
   <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
-    <img
-      className="custom-size"
-      src={DSU}
-      alt="Departamentul pentru Situații de Urgență"
-    />
+    <img src={DSU} alt="Departamentul pentru Situații de Urgență" />
   </Logo>
 ];
 

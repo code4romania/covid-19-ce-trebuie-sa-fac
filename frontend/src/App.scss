@@ -13,27 +13,8 @@
   margin-bottom: 1.6rem;
 }
 
-.incubated-by-wrapper {
-  margin-top: 2rem;
-}
-
 @media (max-width: 768px) {
   .banner-wrapper {
     text-align: center;
   }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .developed-by .custom-size {
-    height: 1.5rem;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .developed-by .custom-size {
-    height: 2rem;
-  }
-}
-
-.incubated-by-wrapper {
-  margin-top: 2rem;
 }
