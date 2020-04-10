@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import ContentPage from "../ContentPage";
-import data from "../../data/static-pages";
 import {
   Hero,
   Instruments,
@@ -24,13 +23,28 @@ import * as queryString from "query-string";
 import SearchResults from "../SearchResults/index";
 
 const SEARCH_SLUG = "search";
+const API_URL = "https://ce-ma-fac-cms.herokuapp.com";
 
 const Home = () => {
   const [selectedPage, setSelectedPage] = useState(null);
   const [selectedSubPage, setSelectedSubPage] = useState(null);
+  const [data, setData] = useState([]);
   const { pageSlug, subPageSlug } = useParams();
   const history = useHistory();
   const scrollAnchorRef = useRef(null);
+
+  useEffect(() => {
+    fetch(`${API_URL}/static-pages`)
+      .then(response => {
+        return response.json();
+      })
+      .then(rawData => {
+        rawData.sort((a, b) => {
+          return a.display_order - b.display_order;
+        });
+        setData(rawData);
+      });
+  }, []);
 
   useEffect(() => {
     if (pageSlug === SEARCH_SLUG) {
@@ -39,12 +53,10 @@ const Home = () => {
       return;
     }
 
-    data.sort((a, b) => {
-      return a.display_order - b.display_order;
-    });
+    if (!data.length) return;
 
     // Find the page
-    const page = data.find(doc => doc.slug === (pageSlug || "/"));
+    const page = data.find(doc => doc.slug === (pageSlug || ""));
     let subPage = null;
 
     if (page) {
@@ -63,7 +75,7 @@ const Home = () => {
       const destinationSlug = (firstPage && firstPage.slug) || "/";
       navigate(history, destinationSlug, scrollAnchorRef);
     }
-  }, [pageSlug, subPageSlug, history]);
+  }, [pageSlug, subPageSlug, history, data]);
 
   const navigateToPage = slug => navigate(history, slug, scrollAnchorRef);
 
@@ -110,17 +122,19 @@ const Home = () => {
         />
       </div>
       <div className="container pages-list">
-        <List columns={3}>
-          {data.map(doc => (
-            <ListItem
-              key={doc.doc_id}
-              active={selectedPage && selectedPage.doc_id === doc.doc_id}
-              title={doc.title}
-              onClick={() => navigateToPage(doc.slug)}
-              value={doc}
-            />
-          ))}
-        </List>
+        {data && (
+          <List columns={3}>
+            {data.map(doc => (
+              <ListItem
+                key={doc.id}
+                active={selectedPage && selectedPage.id === doc.id}
+                title={doc.title}
+                onClick={() => navigateToPage(doc.slug)}
+                value={doc}
+              />
+            ))}
+          </List>
+        )}
       </div>
 
       <div className="container">

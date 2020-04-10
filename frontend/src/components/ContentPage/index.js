@@ -58,7 +58,7 @@ function ContentPage({ page, subPage }) {
       <SocialsShare currentPage={window.location.href} />
       {renderContent()}
       {renderSubPages()}
-      {page.form && <Form data={page} />}
+      {page.form.length > 0 && <Form data={page} />}
       {page.accordion &&
         page.accordion.map((accordion, index) => (
           <Accordion
@@ -90,7 +90,7 @@ ContentPage.propTypes = {
     first_node_id: PropTypes.number,
     form: PropTypes.arrayOf(
       PropTypes.shape({
-        questionId: PropTypes.number.isRequired,
+        id: PropTypes.string.isRequired,
         questionText: PropTypes.string.isRequired,
         type: PropTypes.oneOf(["FINAL", "SINGLE_CHOICE", "MULTIPLE_CHOICE"]),
         options: PropTypes.arrayOf(

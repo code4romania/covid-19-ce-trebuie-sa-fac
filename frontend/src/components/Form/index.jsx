@@ -22,7 +22,7 @@ function Form({ data }) {
   const answerCurrentQuestion = answer => {
     setFormState({
       ...formState,
-      [answer.questionId]: answer.value
+      [answer.id]: answer.value
     });
   };
 
@@ -34,7 +34,7 @@ function Form({ data }) {
         return (
           <SingleChoice
             question={currentQuestion}
-            currentResponse={formState[currentQuestion.questionId]}
+            currentResponse={formState[currentQuestion.id]}
             onAnswer={answerCurrentQuestion}
           />
         );
@@ -43,7 +43,7 @@ function Form({ data }) {
         return (
           <MultipleChoice
             question={currentQuestion}
-            currentResponse={formState[currentQuestion.questionId]}
+            currentResponse={formState[currentQuestion.id]}
             onAnswer={answerCurrentQuestion}
           />
         );
@@ -58,7 +58,7 @@ function Form({ data }) {
 
   const goToNextQuestion = () => {
     // TODO use the disabled prop once the Button component implements it
-    if (formState[data.form[currentNode].questionId] !== undefined) {
+    if (formState[data.form[currentNode].id] !== undefined) {
       setCurrentNode(currentNode + 1);
     }
   };
@@ -108,7 +108,7 @@ Form.propTypes = {
     firstNodeId: PropTypes.number.isRequired,
     form: PropTypes.arrayOf(
       PropTypes.shape({
-        questionId: PropTypes.number.isRequired,
+        id: PropTypes.string.isRequired,
         questionText: PropTypes.string.isRequired,
         type: PropTypes.oneOf(["FINAL", "SINGLE_CHOICE", "MULTIPLE_CHOICE"]),
         options: PropTypes.arrayOf(
