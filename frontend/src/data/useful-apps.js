@@ -72,7 +72,7 @@ export default [
     content: null,
     buttons: [
       {
-        title: "Centrul de sprijin",
+        title: "Donează prin RoHelp",
         link: "https://rohelp.ro/"
       }
     ]
