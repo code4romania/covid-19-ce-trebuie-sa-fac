@@ -100,7 +100,7 @@ const App = () => {
             <Route path="/despre">
               <About />
             </Route>
-            <Route path="/politica-confidentialitate">
+            <Route path="/politica-de-confidentialitate">
               <PrivacyPolicy />
             </Route>
             <Route path="/termeni-si-conditii">

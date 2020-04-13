@@ -51,6 +51,14 @@ const FooterWrapper = () => {
             Code for Romania
           </a>
         </FooterLinkItem>
+        <FooterLinkItem>
+          <Link to="/termeni-si-conditii">Termeni și condiții</Link>
+        </FooterLinkItem>
+        <FooterLinkItem>
+          <Link to="/politica-de-confidentialitate">
+            Politică de confidențialitate
+          </Link>
+        </FooterLinkItem>
       </FooterLinks>
     </Footer>
   );
