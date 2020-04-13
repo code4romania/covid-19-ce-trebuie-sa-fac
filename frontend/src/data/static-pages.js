@@ -139,7 +139,7 @@ export default [
          </p>
 
          <p style="background-color: #E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
-           Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
+           Trebuie să porți o mască atunci când ești în preajma altor persoane. Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
          `
       },
@@ -984,6 +984,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Evitați să vă atingeți fața, în special gura nasul sau ochii cu mâinile murdare.</li>
                 <li>Evitați contactul apropiat cu persoane care prezintă simptome respiratorii</li>
                 <li>Distanțați-vă social de alte persoane, mai ales dacă COVID-19 se răspândește în comunitatea dumneavoastră. Acest lucru e în special important pentru persoane cu risc ridicat de îmbolnăvire gravă.</li>
+                <li>Purtați mască în preajma altor persoane.</li>
             </ul>
             <p>Luați măsuri pentru a îi proteja pe alții:</p>
             <ul>
@@ -991,9 +992,8 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Dacă prezentați simptome specifice (tuse seacă repetată, febră, dificultăți în respirare),  contactați-vă medicul de familie pentru stabilirea posibilității infecției și pentru stabilirea testării pentru noul coronavirus la domiciliu. Pentru urgențe apelați numărul de urgență 112 și menționați simptomele dumneavoastră.</li>
                 <li>Acoperiți-vă gura și nasul când strănutați sau tușiți cu un șervețel de unică folosință. Aruncați șervețelele folosite. Dacă nu aveți un șervețel la îndemână acoperiți-vă fața cu interiorul cotului.</li>
                 <li>Spălați-vă imediat pe mâini cu apă și săpun pentru cel puțin 20 de secunde. Dacă nu vă puteți spăla folosiți dezinfectant cu cel puțin 60% alcool.</li>
-                <li>Purtați mască dacă sunteți bolnav.</li>
+                <li>Purtați mască în preajma altor persoane indiferent dacă sunteți sau nu bolnav.</li>
                 <li>Dacă sunteți bolnav cu simptome respiratorii purtați o mască în preajma altor persoane, inclusiv înainte de prezentarea într-un cabinet medical. Dacă nu puteți purta mască (de exemplu dacă aveți dificultăți de respirație) faceți tot posibilul pentru a vă acoperi tusea sau strănutul. Persoanele care vă îngrijesc trebuie să poarte o mască atunci când intră în camera în care vă aflați.</li>
-                <li>Dacă nu sunteți bolnav nu este necesar să purtați mască, decât dacă aveți grijă de o persoană bolnavă (care nu poate purta mască). Măștile protectoare s-ar putea să fie în numere limitate și trebuiesc păstrate pentru personalul medical și persoanele ce îngrijesc persoanele bolnave.</li>
                 <li>Dacă sunteți bolnav sau îngrijiți o persoană bolnavă, curățați și dezinfectați suprafețele atinse frecvent. Acestea includ mese, clanțe, comutatoare, blaturi mânere, birouri, telefoane, tastaturi, toalete, robineți și chiuvete.</li>
                 <li>Curățați suprafețele murdare vizibil cu apă și săpun înainte de dezinfectare.</li>
             </ul>
@@ -1318,31 +1318,6 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             </p>
             <p>
               🙏 Este necesar un efort colectiv pentru a depăși această situație cu un număr cât mai mic de îmbolnăviri. Respectați recomandările medicale pentru a vă îngriji de sănătatea dumneavoastră și a celor dragi!
-            </p>
-          `
-      },
-      {
-        title: `Sunt utile măștile textile sau cele fabricate manual?`,
-        content: `
-            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
-            <p>
-              <strong> NU.</strong>
-            </p>
-            <p>
-              Măștile fabricate din pânză, bumbac, tifon nu sunt eficiente în protecţia faţă de coronavirus.
-            </p>
-            <p>
-              Pentru a proteja eficient împotriva unor infecții, măștile faciale trebuie să respecte câteva reguli speciale.
-              Ele trebuie să fie o barieră eficientă împotriva microbilor prin existența unor filtre speciale și,
-              în același timp, să permită respirația corectă. Materialul din care sunt fabricate măștile care nu respectă aceste reguli speciale de
-              fabricație prezintă o rețea de fibre prea largă, care permite trecerea microorganismelor și astfel nu ne protejează eficient împotriva infecțiilor.
-            </p>
-            <ul style="list-style-type:none; margin-left:0;">
-              <li>👉 Dacă sunteți suspect sau aveți infecție cu coronavirus: purtatul unei măști faciale poate reduce riscul de a-i infecta pe cei din jur.</li>
-              <li>👉 Dacă nu sunteți infectat: nu există în prezent dovezi științifice că sunteți mai protejat în fața coronavirusului dacă purtați mască decât dacă nu purtați. </li>
-            </ul>
-            <p>
-              ‼Important: în orice situație, măștile faciale protejează doar dacă sunt însoțite de spălarea frecventă a mâinilor cu săpun sau dezinfectanți pe bază de alcool (concentrație 70%).
             </p>
           `
       },
