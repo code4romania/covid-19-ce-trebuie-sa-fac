@@ -42,6 +42,9 @@ const FooterWrapper = () => {
             Departamentul pentru Situații de Urgență
           </a>
         </FooterLinkItem>
+      </FooterLinks>
+      <FooterLinks>
+        <FooterLinkHeader></FooterLinkHeader>
         <FooterLinkItem>
           <a
             href="http://www.code4.ro/"
@@ -49,6 +52,15 @@ const FooterWrapper = () => {
             rel="noopener noreferrer"
           >
             Code for Romania
+          </a>
+        </FooterLinkItem>
+        <FooterLinkItem>
+          <a
+            href="https://github.com/code4romania/ce-ma-fac"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Codul sursă în GitHub
           </a>
         </FooterLinkItem>
       </FooterLinks>
