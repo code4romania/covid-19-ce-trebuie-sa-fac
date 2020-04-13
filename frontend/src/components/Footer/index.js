@@ -44,7 +44,6 @@ const FooterWrapper = () => {
         </FooterLinkItem>
       </FooterLinks>
       <FooterLinks>
-        <FooterLinkHeader></FooterLinkHeader>
         <FooterLinkItem>
           <a
             href="http://www.code4.ro/"
