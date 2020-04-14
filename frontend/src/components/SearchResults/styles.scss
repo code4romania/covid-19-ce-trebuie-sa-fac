@@ -1,0 +1,22 @@
+.search-results-container {
+  padding-top: 10px;
+  .results-description {
+    font-size: 1.3rem;
+    color: #000;
+    margin: 1rem 0;
+    line-height: 1.2;
+  }
+  .list-item {
+    padding-bottom: 10px;
+    .read-more {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #00478f;
+
+      &:hover {
+        color: #363636;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,11 +1,11 @@
 export default [
   {
     title: "Transmitere și simptome",
-    slug: "/",
+    slug: "transmitere-si-simptome",
     doc_type: "STATIC_PAGE",
     doc_id: 101,
     active: true,
-    display_order: 1,
+    display_order: 2,
     firstNodeId: null,
     content: [
       {
@@ -80,7 +80,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 102,
     active: false,
-    display_order: 2,
+    display_order: 3,
     content: [
       {
         title: "Cum ne protejăm?",
@@ -139,7 +139,7 @@ export default [
          </p>
 
          <p style="background-color: #E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
-           Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
+           Trebuie să porți o mască atunci când ești în preajma altor persoane. Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
          `
       },
@@ -223,7 +223,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 103,
     active: false,
-    display_order: 3,
+    display_order: 4,
     content: [
       {
         title: "Ai simptome?",
@@ -512,7 +512,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 104,
     active: false,
-    display_order: 4,
+    display_order: 5,
     content: [
       {
         title: "Adaptare și rezistență",
@@ -716,7 +716,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 105,
     active: false,
-    display_order: 5,
+    display_order: 6,
     content: [
       {
         title: "Pentru cei care oferă ajutor",
@@ -820,11 +820,11 @@ export default [
   },
   {
     title: "Întrebări frecvente",
-    slug: "intrebari-frecvente",
+    slug: "/",
     doc_type: "STATIC_PAGE",
     doc_id: 106,
     active: false,
-    display_order: 6,
+    display_order: 1,
     content: [
       {
         title: "Întrebări frecvente",
@@ -984,6 +984,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Evitați să vă atingeți fața, în special gura nasul sau ochii cu mâinile murdare.</li>
                 <li>Evitați contactul apropiat cu persoane care prezintă simptome respiratorii</li>
                 <li>Distanțați-vă social de alte persoane, mai ales dacă COVID-19 se răspândește în comunitatea dumneavoastră. Acest lucru e în special important pentru persoane cu risc ridicat de îmbolnăvire gravă.</li>
+                <li>Purtați mască în preajma altor persoane.</li>
             </ul>
             <p>Luați măsuri pentru a îi proteja pe alții:</p>
             <ul>
@@ -991,9 +992,8 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Dacă prezentați simptome specifice (tuse seacă repetată, febră, dificultăți în respirare),  contactați-vă medicul de familie pentru stabilirea posibilității infecției și pentru stabilirea testării pentru noul coronavirus la domiciliu. Pentru urgențe apelați numărul de urgență 112 și menționați simptomele dumneavoastră.</li>
                 <li>Acoperiți-vă gura și nasul când strănutați sau tușiți cu un șervețel de unică folosință. Aruncați șervețelele folosite. Dacă nu aveți un șervețel la îndemână acoperiți-vă fața cu interiorul cotului.</li>
                 <li>Spălați-vă imediat pe mâini cu apă și săpun pentru cel puțin 20 de secunde. Dacă nu vă puteți spăla folosiți dezinfectant cu cel puțin 60% alcool.</li>
-                <li>Purtați mască dacă sunteți bolnav.</li>
+                <li>Purtați mască în preajma altor persoane indiferent dacă sunteți sau nu bolnav.</li>
                 <li>Dacă sunteți bolnav cu simptome respiratorii purtați o mască în preajma altor persoane, inclusiv înainte de prezentarea într-un cabinet medical. Dacă nu puteți purta mască (de exemplu dacă aveți dificultăți de respirație) faceți tot posibilul pentru a vă acoperi tusea sau strănutul. Persoanele care vă îngrijesc trebuie să poarte o mască atunci când intră în camera în care vă aflați.</li>
-                <li>Dacă nu sunteți bolnav nu este necesar să purtați mască, decât dacă aveți grijă de o persoană bolnavă (care nu poate purta mască). Măștile protectoare s-ar putea să fie în numere limitate și trebuiesc păstrate pentru personalul medical și persoanele ce îngrijesc persoanele bolnave.</li>
                 <li>Dacă sunteți bolnav sau îngrijiți o persoană bolnavă, curățați și dezinfectați suprafețele atinse frecvent. Acestea includ mese, clanțe, comutatoare, blaturi mânere, birouri, telefoane, tastaturi, toalete, robineți și chiuvete.</li>
                 <li>Curățați suprafețele murdare vizibil cu apă și săpun înainte de dezinfectare.</li>
             </ul>
@@ -1253,7 +1253,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Nu știm cu certitudine cât de afectate sunt gravidele de infecția cu coronavirus. Se recomandă precauție mărită şi distanțare socială riguroasă.
             </p>
             <p>
-              În general gravidele sunt mai predispuse să dezvolte complicații atunci când au boli respiratorii, indiferent de tipul acestora. Deocamdată nu știm cu siguranță dacă și în ce 
+              În general gravidele sunt mai predispuse să dezvolte complicații atunci când au boli respiratorii, indiferent de tipul acestora. Deocamdată nu știm cu siguranță dacă și în ce
               fel sunt afectate gravidele de infecția cu coronavirus. Datele preliminare disponibile în prezent provin din observarea unui număr redus de gravide în trimestrul 3 de sarcină
               confirmate cu coronavirus. Pe baza acestor date preliminare se pare că manifestările coronavirusului nu sunt mai grave la gravide decât la persoanele infectate care au aceeași
               vârstă și istoric medical. Totodată, se pare că virusul nu se transmite prin placentă de la gravida cu infecție confirmată la făt. Pentru a confirma însă cu siguranță aceste observații
@@ -1293,7 +1293,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Chiar şi cei care nu manifestă simptome pot fi infectaţi cu coronavirus și pot transmite infecţia mai departe.
             </p>
             <p>
-              Perioada în care o persoană răspândește virusul poate începe cu până la 2 zile ‼️ înainte de apariția primelor semne ale bolii, aceasta fiind cea mai intensă la începutul bolii. 
+              Perioada în care o persoană răspândește virusul poate începe cu până la 2 zile ‼️ înainte de apariția primelor semne ale bolii, aceasta fiind cea mai intensă la începutul bolii.
               Persoanele infectate pot răspândi virusul până la 7 - 12 zile după apariția primelor simptome.
             </p>
             <p>
@@ -1322,31 +1322,6 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
           `
       },
       {
-        title: `Sunt utile măștile textile sau cele fabricate manual?`,
-        content: `
-            <p style="text-transform: uppercase; color: #828282;"> 20 Martie 2020 </p>
-            <p>
-              <strong> NU.</strong>
-            </p>
-            <p>
-              Măștile fabricate din pânză, bumbac, tifon nu sunt eficiente în protecţia faţă de coronavirus.
-            </p>
-            <p>
-              Pentru a proteja eficient împotriva unor infecții, măștile faciale trebuie să respecte câteva reguli speciale.
-              Ele trebuie să fie o barieră eficientă împotriva microbilor prin existența unor filtre speciale și,
-              în același timp, să permită respirația corectă. Materialul din care sunt fabricate măștile care nu respectă aceste reguli speciale de
-              fabricație prezintă o rețea de fibre prea largă, care permite trecerea microorganismelor și astfel nu ne protejează eficient împotriva infecțiilor.
-            </p>
-            <ul style="list-style-type:none; margin-left:0;">
-              <li>👉 Dacă sunteți suspect sau aveți infecție cu coronavirus: purtatul unei măști faciale poate reduce riscul de a-i infecta pe cei din jur.</li>
-              <li>👉 Dacă nu sunteți infectat: nu există în prezent dovezi științifice că sunteți mai protejat în fața coronavirusului dacă purtați mască decât dacă nu purtați. </li>
-            </ul>
-            <p>
-              ‼Important: în orice situație, măștile faciale protejează doar dacă sunt însoțite de spălarea frecventă a mâinilor cu săpun sau dezinfectanți pe bază de alcool (concentrație 70%).
-            </p>
-          `
-      },
-      {
         title: `Tratamentul homeopat vindecă sau previne coronavirusul?`,
         content: `
             <p style="text-transform: uppercase; color: #828282;"> 19 Martie 2020 </p>
@@ -1357,7 +1332,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Remediile homeopate nu au efect în prevenirea sau tratarea coronavirusului. Luaţi medicamente numai la recomandarea medicului!
             </p>
             <p>
-              Mai multe informații false despre folosirea remediilor homeopate în infecția cu coronavirus au început să circule pe internet. Aceste informații nu au nicio bază științifică. 
+              Mai multe informații false despre folosirea remediilor homeopate în infecția cu coronavirus au început să circule pe internet. Aceste informații nu au nicio bază științifică.
             </p>
             <p>
               ‼️Nu vă lăsați păcăliți. Picăturile homeopate sau alte preparate similare nu sunt recomandate pentru coronavirus. Pentru prevenirea sau tratarea coronavirusului, folosirea produselor homeopate în detrimentul măsurilor indicate de medici vă pot pune viața în pericol.
@@ -1375,7 +1350,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               România are mare nevoie de donatori de sânge! Donarea de sânge se realizează în condiţii de siguranță, luându-se măsuri suplimentare pentru a împiedica transmiterea coronavirusului.
             </p>
             <p>
-              La nivelul centrelor de transfuzie s-au luat măsuri suplimentare pentru siguranța donatorilor, a personalului centrelor și a persoanelor la care vor ajunge 
+              La nivelul centrelor de transfuzie s-au luat măsuri suplimentare pentru siguranța donatorilor, a personalului centrelor și a persoanelor la care vor ajunge
               produsele sanguine. Există consens la nivel internațional asupra siguranței transfuziilor sanguine în circumstanțele actuale ale pandemiei cu noul coronavirus.
             </p>
             <p>
@@ -1385,11 +1360,11 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               ‼️Donatorii primesc măști, se supraveghează dezinfecția riguroasă a mâinilor, se dezinfectează regulat spațiile de donare și se asigură distanțarea optimă a donatorilor.
             </p>
             </p>
-            <p> 
-              ⭕ Nevoia de sânge nu se oprește odată cu declanșarea pandemiei de coronavirus. Este foarte important ca activitatea de donare de sânge să continue! Dacă nu ați călătorit în afara țării în ultimele 28 de zile, 
+            <p>
+              ⭕ Nevoia de sânge nu se oprește odată cu declanșarea pandemiei de coronavirus. Este foarte important ca activitatea de donare de sânge să continue! Dacă nu ați călătorit în afara țării în ultimele 28 de zile,
               nu ați intrat în contact cu persoane infectate și nu prezentați simptome specifice infecției cu coronavirus, vă rugăm să donați sânge.
             </p>
-            <p> 
+            <p>
               ⭕ Există posibilitatea programării de la distanță pentru donarea de sânge, telefonic, prin email sau prin intermediul unor aplicații mobile precum Donorium.
             </p>
             <p>
@@ -1427,7 +1402,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             </p>
             <p>
               Oamenii de știință afirmă că, după trecerea printr-o astfel de infecție, o persoană dezvoltă imunitate la aceasta.
-              Informația a fost confirmată într-un cadru oficial de unul dintre cei mai reputați imunologi americani. 
+              Informația a fost confirmată într-un cadru oficial de unul dintre cei mai reputați imunologi americani.
             </p>
             <p>
               Pentru a menține rigurozitatea științifică a informării: deocamdată este prea devreme în derularea epidemiei pentru ca suficiente studii
@@ -1446,7 +1421,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Specialiștii Organizației Mondiale a Sănătății sunt în proces de evaluare a efectelor administrării de ibuprofen la pacienții cu coronavirus.
             </p>
             <p>
-              Ipotezele emise de experți francezi au avertizat asupra unor posibile efecte adverse ale administrării de ibuprofen la pacienții cu coronavirus. 
+              Ipotezele emise de experți francezi au avertizat asupra unor posibile efecte adverse ale administrării de ibuprofen la pacienții cu coronavirus.
             </p>
             <p>
               Pe 17 martie 2020, Serviciul Național de Sănătate din Marea Britanie (NHS) a anunțat că nu există dovezi suficient de puternice că ibuprofen agravează COVID19. Până la apariția de noi date științifice,
@@ -1463,7 +1438,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Coronavirusul poate rezista pe diferite suprafeţe, dar încă nu există dovezi care să susţină transmiterea prin intermediul fructelor şi legumelor neambalate. Chiar şi aşa, spălaţi bine fructele și legumele!
             </p>
             <p>
-              Nu a fost raportat nici un caz de transmitere al coronavirusului prin intermediul mâncării. Înainte de a pregăti mâncarea sau de a mânca este foarte important să ne spălăm pe mâini minimum 20 - 30 de secunde (cam cât durează să cântăm prima strofă din Deșteaptă-te Române!). 
+              Nu a fost raportat nici un caz de transmitere al coronavirusului prin intermediul mâncării. Înainte de a pregăti mâncarea sau de a mânca este foarte important să ne spălăm pe mâini minimum 20 - 30 de secunde (cam cât durează să cântăm prima strofă din Deșteaptă-te Române!).
             </p>
             <p>
               Este de așteptat ca prepararea termică riguroasă a alimentelor să elimine riscul de infectare al acestora.
@@ -1510,10 +1485,10 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Au fost izolate două subtipuri diferite ale virusului. Nu există nicio dovadă că acestea ar produce simptome ale bolii de severităţi diferite.
             </p>
             <p>
-              Este normal ca orice virus să prezinte în timp diferite subtipuri. Un studiu pe un număr limitat de cazuri a identificat două subtipuri ale coronavirusului, tipul L și tipul S, dar diferențele între ele sunt mici. 
+              Este normal ca orice virus să prezinte în timp diferite subtipuri. Un studiu pe un număr limitat de cazuri a identificat două subtipuri ale coronavirusului, tipul L și tipul S, dar diferențele între ele sunt mici.
             </p>
             <p>
-              În prezent, nu există nicio dovadă științifică că aceste diferențe ar provoca simptome mai severe ale bolii pentru un subtip comparativ cu celălalt. 
+              În prezent, nu există nicio dovadă științifică că aceste diferențe ar provoca simptome mai severe ale bolii pentru un subtip comparativ cu celălalt.
             </p>
             <p>
               În prezent, nu există nicio dovadă științifică că subtipurile prezente în România ar fi mai blânde sau mai agresive decât în alte țări.
@@ -1530,21 +1505,21 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             <p>
               Nu există dovezi care să confirme că infecţia cu coronavirus ar putea fi prevenită prin consumul regulat de apă.
             </p>
-            <p>       
-              O informaţie fals atribuită cercetătorilor de la Stanford, circulă online în ultimele zile. Potrivit acesteia, dacă bem apă la fiecare 
+            <p>
+              O informaţie fals atribuită cercetătorilor de la Stanford, circulă online în ultimele zile. Potrivit acesteia, dacă bem apă la fiecare
               15 minute virusul ajunge în stomac unde este neutralizat, în loc să ajungă în căile respiratorii.
-              Acest tip de informație se încadrează în categoria de știri false care oferă soluții mult simplificate pentru probleme cu o complexitate mare. 
+              Acest tip de informație se încadrează în categoria de știri false care oferă soluții mult simplificate pentru probleme cu o complexitate mare.
             </p>
             <p>
-              ❗️Hidratarea organismului este importantă în orice condiții, indiferent de contextul epidemiologic actual. 
-                Consumați zilnic o cantitate suficientă de apă, adaptată la greutatea dumneavoastră și la nivelul de efort fizic depus. 
+              ❗️Hidratarea organismului este importantă în orice condiții, indiferent de contextul epidemiologic actual.
+                Consumați zilnic o cantitate suficientă de apă, adaptată la greutatea dumneavoastră și la nivelul de efort fizic depus.
             </p>
             <p>
               ❗️Este important ca orice tratament să fie luat doar la indicația medicului, nu în urma sfaturilor de pe internet.
             </p>
             <p>
               Cele mai importante măsuri de prevenție pentru infecția cu noul coronavirus sunt reducerea contactului cu alte persoane și spălatul pe mâini, cel puțin 30 de secunde, ori de câte ori este necesar.
-            </p> 
+            </p>
             <img src=${require("../images/mituri/ajuta-sa-beau-apa.jpeg")} alt="ajuta sa beau apa"> </img>
           `
       },
@@ -1559,7 +1534,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               În prezent nu există vaccin și încă nu a fost descoperit un tratament eficient. Este important ca orice medicament să fie luat doar la indicația medicului, nu în urma sfaturilor de pe internet.
             </p>
             <p>
-              Peste 11 echipe științifice din toată lumea lucrează acum la dezvoltarea unui vaccin împotriva noului coronavirus. 
+              Peste 11 echipe științifice din toată lumea lucrează acum la dezvoltarea unui vaccin împotriva noului coronavirus.
               Măsurile de igienă și limitarea deplasărilor în spații publice sunt cele mai eficiente metode pentru prevenirea răspândirii epidemiei.
             </p>
             <p>
@@ -1581,14 +1556,14 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             <p>
               Folosirea mijloacelor aglomerate de transport public vă poate crește riscul de expunere la coronavirus.
               Dacă aveţi opţiunea de a merge pe jos sau cu bicicleta, este recomandat să nu folosiţi transportul în comun.
-              Dacă sunteţi în vârstă sau aveți o boală cronică, căutați mijloace de transport alternative - prezenţa dumneavoastră într-un mijloc de 
+              Dacă sunteţi în vârstă sau aveți o boală cronică, căutați mijloace de transport alternative - prezenţa dumneavoastră într-un mijloc de
               transport poate crește semnificativ riscul de infecție.
             </p>
             <p>
               Încercați să reduceți deplasările în această perioadă, dacă este posibil.
             </p>
             <p>
-              Evitaţi autobuzele / metroul în caz de aglomeraţie. Lăsaţi să treacă autobuzele aglomerate și așteptați unul mai puțin aglomerat. 
+              Evitaţi autobuzele / metroul în caz de aglomeraţie. Lăsaţi să treacă autobuzele aglomerate și așteptați unul mai puțin aglomerat.
             </p>
             <p>
               Staţi la minimum 1.5 metri distanţă (cât doi pași mari) de ceilalţi pasageri, dezinfectaţi-vă pe mâini înainte, în timpul şi imediat după călătorie.Folosiţi un şerveţel pentru a vă ţine de stâlp,
@@ -1610,7 +1585,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               Vitamina C este un micronutrient esențial pentru buna funcționare a organismului nostru. Doza zilnică necesară de vitamina C se obține printr-o alimentație echilibrată ce include fructe și legume.
             </p>
             <p>
-              Studiile științifice arată că vitamina C poate reduce simptomele într-o răceală obișnuită. În special la persoanele cu carență de vitamină C, poate avea anumite efecte benefice în pneumonii. 
+              Studiile științifice arată că vitamina C poate reduce simptomele într-o răceală obișnuită. În special la persoanele cu carență de vitamină C, poate avea anumite efecte benefice în pneumonii.
             </p>
             <p>
               În prezent, nu există dovezi că vitamina C ajută în prevenirea sau tratamentul infecției cu coronavirus.
@@ -1633,11 +1608,11 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             </p>
             <p>
               Analiza genetică a coronavirusului arată că originea probabilă a acestuia este o specie de lilieci din China.
-              Pangolinul (furnicarul) este gazda intermediară între lilieci și oameni. Nu există nici o altă teorie validă științific în legătură cu proveniența noului virus. 
+              Pangolinul (furnicarul) este gazda intermediară între lilieci și oameni. Nu există nici o altă teorie validă științific în legătură cu proveniența noului virus.
             </p>
             <p>
               Există similarităţi între diverse componente structurale ale noului coronavirus și mai multe alte virusuri (inclusiv HIV).
-              Dar aceste asemănări sunt obișnuite şi nu indică faptul că virusul ar fi fost creat în laborator. 
+              Dar aceste asemănări sunt obișnuite şi nu indică faptul că virusul ar fi fost creat în laborator.
             </p>
             <p>
               ➡️ Teoriile conspiraționiste dăunează sănătății! Igiena și precauția, nu.
@@ -1680,7 +1655,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               </li>
             </ul>
             <p>
-              ℹ️ Alcoolul sanitar este inclus în registrul național al produselor biocide din România, actualizat în ianuarie 2020. 
+              ℹ️ Alcoolul sanitar este inclus în registrul național al produselor biocide din România, actualizat în ianuarie 2020.
               Produsul este destinat exclusiv uzului extern, a nu se consuma.
             </p>
           `
@@ -1693,7 +1668,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
               <strong> NU.</strong>
             </p>
             <p>
-              Consumul de lămâie (proaspătă sau în apă fierbinte) nu previne și nu vindecă infecţia cu coronavirus.   
+              Consumul de lămâie (proaspătă sau în apă fierbinte) nu previne și nu vindecă infecţia cu coronavirus.
             </p>
             <p>
               Informația potrivit căreia consumul de lămâie și apă fierbinte poate preveni diverse boli circulă pe internet de mai mulți ani, sub diverse forme. Această informație a fost preluată și adaptată infecției cu coronavirus, fără a exista însă vreo dovadă științifică.

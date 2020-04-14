@@ -84,7 +84,7 @@ ContentPage.propTypes = {
       PropTypes.shape({
         title: PropTypes.string.isRequired,
         page: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired
+        slug: PropTypes.string
       })
     ),
     first_node_id: PropTypes.number,
@@ -111,7 +111,7 @@ ContentPage.propTypes = {
   subPage: PropTypes.shape({
     title: PropTypes.string.isRequired,
     page: PropTypes.string.isRequired,
-    slug: PropTypes.string.isRequired
+    slug: PropTypes.string
   })
 };
 
