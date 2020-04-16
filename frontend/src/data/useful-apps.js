@@ -91,5 +91,20 @@ export default [
         link: "https://datelazi.ro/"
       }
     ]
+  },
+  {
+    title: "Ești în afara țării și ai nevoie de ajutor?",
+    doc_type: "USEFUL_APP",
+    doc_id: 7,
+    active: true,
+    display_order: 7,
+    app_type: "DIASPORA",
+    content: null,
+    buttons: [
+      {
+        title: "Intră pe DiasporaHub",
+        link: "https://diasporahub.ro"
+      }
+    ]
   }
 ];
