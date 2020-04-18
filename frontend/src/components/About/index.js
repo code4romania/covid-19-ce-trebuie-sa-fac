@@ -125,6 +125,9 @@ const About = () => {
             {instrumentsData.data.map(usefulApp =>
               renderInstrumentItem(usefulApp)
             )}
+            {instrumentsData.diaspora.map(usefulApp =>
+              renderInstrumentItem(usefulApp)
+            )}
           </Instruments>
         </aside>
       </div>
