@@ -82,7 +82,7 @@ const App = () => {
       />
       <Header
         Logo={
-          <Logo url="/">
+          <Logo url="/" target="_self">
             <img
               width="178"
               height="32"
