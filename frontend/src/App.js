@@ -14,7 +14,6 @@ import {
   Header,
   DevelopedBy,
   IncubatedBy,
-  Banner,
   BackToTop
 } from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo.svg";
