@@ -76,10 +76,6 @@ const App = () => {
 
   return (
     <>
-      <Banner
-        title="15 RECOMANDĂRI privind conduita socială responsabilă în prevenirea răspândirii coronavirus. "
-        link="https://stirioficiale.ro/15-recomandari-privind-conduita-sociala-responsabila-in-prevenirea-raspandirii-coronavirus"
-      />
       <Header
         Logo={
           <Logo url="/" target="_self">
