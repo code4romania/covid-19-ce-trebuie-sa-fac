@@ -44,7 +44,7 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 - And then follow [these](/frontend/README.md#Development) instructions
 
 ## Development
-### Backend
+### CMS
 - WIP
 
 ### Frontend
@@ -52,11 +52,8 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 
 ## Deployment
 
-`API`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-api?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=30&branchName=azure-pipelines)
-`Frontend`: [![Build Status](https://dev.azure.com/code4romania/monitorizare-vot-ci/_apis/build/status/ce-ma-fac/cmf-frontend?branchName=azure-pipelines)](https://dev.azure.com/code4romania/monitorizare-vot-ci/_build/latest?definitionId=31&branchName=azure-pipelines)
-
-- automatically deployed using https://zeit.co/ from PRs for testing; preview environment: https://ce-ma-fac.now.sh/
-- uses github actions for deploying in prod
+- preview environments available automatically on each PR powered by [ZEIT Now](https://zeit.co/). Preview environment for `develop` branch: https://ce-ma-fac.now.sh/
+- uses [github actions](https://github.com/features/actions) for deploying in prod
 
 ## Feedback
 
