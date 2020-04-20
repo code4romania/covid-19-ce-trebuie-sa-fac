@@ -16,7 +16,8 @@ const remapInstrumentsData = data => {
     info: getCategoryItems(sortedData, "INFO"),
     news: getCategoryItems(sortedData, "NEWS"),
     data: getCategoryItems(sortedData, "DATA"),
-    offer_help: getCategoryItems(sortedData, "OFFER_HELP")
+    offer_help: getCategoryItems(sortedData, "OFFER_HELP"),
+    diaspora: getCategoryItems(sortedData, "DIASPORA")
   };
 };
 
@@ -25,7 +26,8 @@ const renderInstrumentItem = usefulApp => {
     NEWS: "green",
     OFFER_HELP: "red",
     DATA: "pink",
-    INFO: "yellow"
+    INFO: "yellow",
+    DIASPORA: "blue"
   };
   return (
     <InstrumentsItem
