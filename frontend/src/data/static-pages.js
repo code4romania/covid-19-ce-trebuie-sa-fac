@@ -247,7 +247,7 @@ export default [
           <li> Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus(COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație).</li>
           <li> Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</li>
           <li> Informați-vă despre noul coronavirus numai din surse oficiale!</li>
-          <li> Puteți obține detalii dacă sunați la <a href=\"tel:0800800358\">0800.800.358</a>, care este un număr de informare, nu este un număr de urgență.</li>
+          <li> Puteți obține detalii dacă sunați la <a href="tel:0800800358">0800.800.358</a>, care este un număr de informare, nu este un număr de urgență.</li>
           <li> Doar în cazul urgențelor sunați la 112!</li>
           <li> Evitați, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
           <li> Potrivit statisticilor, persoanele cele mai vulnerabile în cazul infectării cu noul coronavirus sunt vârstinicii cu multiple afecțiuni asociate (ex: diabet zaharat, boli pulmonare cronice, boli cardiovasculare, cancer).</li>
