@@ -210,6 +210,60 @@ export default [
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
 
         `
+      },
+      {
+        title: "15 recomandări privind conduita socială responsabilă în prevenirea răspândirii coronavirus",
+        display_order: 5,
+        slug: "recomandari-privind-conduita-sociala-responsabila",
+        page: `
+         <h3 id="plan-actiune">Protejați-vă, evitați contactul direct!</h3>
+         <ul>
+          <li> Evitați zonele aglomerate unde sunteți expuși la contact direct și/sau interacțiune cu un număr mare de persoane, de tipul adunărilor publice, cozi, zone de trafic intens, zone de recreere.</li>
+          <li> Feriți copiii de acele locuri de joacă care presupun atingerea unor suprafețe/obiecte comune de către un număr mare de copii. </li>
+          <li> Limitați la maximum orice contact direct cu alte persoane, în afara celor care fac parte din familia restrânsă, prin gesturi cum ar fi: strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile. </li>
+          <li> Se recomandă, inclusiv în privința persoanelor împreună cu care locuiți, să NU intrați în contact direct decât după igienizarea mâinilor atunci când reveniți la domiciliu. </li>
+          <li> Evitați atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces.  În cazul în care sunteți totuși nevoiți să atingeți aceste suprafețe, protejați-vă folosind șervețele de unică folosință. </li>
+          <li> Păstrați o distanță semnificativă, de 2 metri, față de celelalte persoane pe care le întâlniți. În cazul în care vă aflați în transportul în comun încercați să NU stați față în față cu alte persoane. </li>
+          <li> Asigurați-vă, după folosirea transportului în comun, că v-ați igienizat mâinile înainte de a vă atinge fața, nasul sau gura.</li>
+          <li> Folosiți, pe cât posibil, rute sau modalități alternative de transport pentru a evita zonele aglomerate de trafic de persoane. În cazul în care programul vă permite, folosiți intervalele orare cu nivel scăzut de trafic de persoane. </li>
+          <li> Limitați la maximum orice contact direct cu alte persoane, în afara celor care fac parte din familia restrânsă, prin gesturi cum ar fi: strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile. </li>
+          <li> În zonele urbane, pentru distanțe mici, se recomandă folosirea modalităților alternative de deplasare, fie cu bicicleta/trotineta electrică, fie mersul pe jos. </li>
+          <li> Limitați folosirea bancnotelor și a monedelor, optând pentru plăți cu cardul/telefonul sau plăți on-line. </li>
+          <li> Transmiterea virușilor se realizează într-o pondere semnificativă prin intermediul banilor, cu care ia contact, statistic, un număr foarte mare de persoane. </li>
+          <li> Optați pentru munca de acasă, în măsura în care aveți această posibilitate oferită de angajator. </li>
+          <li>Există recomandări din partea Ministerului Muncii, în atenția angajatorilor, pentru flexibilizarea programului de lucru pentru angajați și prezentarea eventualelor opțiuni legale pe care le au la dispoziție. Guvernul a adoptat un nou cadrul legal. Mai multe <a href ="http://www.mmuncii.ro/">detalii aici.</a> </li>
+          <li>Respectați cu strictețe regulile de igienă personală recomandate de autorități, pentru a vă proteja atât pe dumneavoastră cât și pe cei apropiați. Folosiți masca de protecție pentru a-i proteja pe ceilalți.</li>
+          <li> Spălați-vă pe mâini cu apă și săpun, minimum 20 de secunde, după orice contact cu o suprafață potențial contaminată.</li>
+          <li> Folosiți prosoape de hârtie, de preferat, pentru a vă șterge mâinile.</li>
+          <li> Nu vă atingeți ochii, nasul sau gura cu mâinile neigienizate</li>
+          <li> Dacă strănutați sau tușiți acoperiți-vă gura și nasul cu un șervețel de unică folosință, pe care aveți grijă să-l aruncați imediat la coșul de gunoi.</li>
+          <li> Dezinfectați frecvent, cu soluție pe bază de alcool sau clor, suprafețele cu care intrați în contact, atât acasă cât și la locul de muncă.</li>
+          <li> Aerisiți de mai multe ori pe zi încăperile în care desfășurați activități.</li>
+          <li> Luați medicamente antivirale sau antibiotice numai la prescripția medicului.</li>
+          <li> NU beți lichide din aceeași sticlă/pahar cu alte persoane și nu folosiți aceleași tacâmuri.</li>
+          <li> NU intrați în contact direct cu persoanele aflate în autoizolare la domiciliu, indiferent dacă prezintă sau nu simptome specifice coronavirus.</li>
+          <li> Masca de protecție/masca chirurgicală îi protejează pe cei din jurul dumneavoastră, în cazul în care aveți simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie.</li>
+          <li> Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.</li>
+          <li> Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus(COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație).</li>
+          <li> Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</li>
+          <li> Informați-vă despre noul coronavirus numai din surse oficiale!</li>
+          <li> Puteți obține detalii dacă sunați la 0800.800.358, care este un număr de informare, nu este un număr de urgență.</li>
+          <li> Doar în cazul urgențelor sunați la 112!</li>
+          <li> Evitați, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
+          <li> Potrivit statisticilor, persoanele cele mai vulnerabile în cazul infectării cu noul coronavirus sunt vârstinicii cu multiple afecțiuni asociate (ex: diabet zaharat, boli pulmonare cronice, boli cardiovasculare, cancer).</li>
+          <li> În Italia, cele mai multe decese sunt înregistrate la persoanele peste 63 de ani!</li>
+          <li> Tinerii și copiii sunt mai puțin vulnerabili în cazul noului coronavirus, dar nu sunt pe deplin feriți de riscul îmbolnăvirii. Chiar și atunci când nu manifestă simptome specifice, ei pot transmite virusul celorlalte persoane fără să știe acest lucru.</li>
+          <li> Semnalați autorităților orice caz despre care aveți cunoștință că ar fi putut intra în contact cu o persoană confirmată cu noul coronavirus sau ar fi venit dintr-o țară afectată (zona roșie sau zona galbenă) și care nu se află în izolare.</li>
+          <li> Manifestați o atitudine preventivă față de orice caz, întrucât răspândirea virusului este posibilă și din partea persoanelor care nu manifestă simptome specifice.</li>
+          <li> Semnalați imediat medicului de familie dacă ați călătorit în zonele afectate de coronavirus (COVID-19), chiar dacă la momentul respectiv NU se aflau pe lista zonelor aflate sub alertă. Detalii pot fi obținute accesând <a href="http://www.cnscbt.ro/">acest link</a>, respectiv „Lista regiunilor și localităților din zona roșie și zona galbenă cu transmitere a COVID-19”, actualizată periodic.</li>
+          <li>  În cazul în care nu puteți contacta medicul de familie, apelați la Direcția de Sănătate Publică din județul dumneavoastră și în ultimă instanță la 112.</li>
+          <li> Rămâneți acasă dacă aveți simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sunați medicul de familie pentru a solicita sfaturi, NU mergeți din primul moment la unitățile de urgență.</li>
+          <li> Există riscul, în cazul în care sunteți purtător al virusului, să transmiteți și altor persoane noul coronavirus.</li>
+          <li> Este de preferat să rămâneți la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare.</li>
+          <li> Dacă vă aflați în autoizolare la domiciliu respectați cu strictețe recomandările autorităților, NU părăsiți sub nicio formă domiciliul pe perioada celor 14 zile, NU primiți vizitatori și NU intrați în contact apropiat cu eventualele persoane care vă furnizează alimente sau produse.</li>
+          <li> În cazul în care încălcați regimul autoizolării la domiciliu riscați amendă de până la 20.000 de lei, precum și dosar penal în cazul în care contribuiți la răspândirea virusului.</li>
+          </ul>
+        `
       }
     ]
     ,
@@ -703,7 +757,19 @@ export default [
         </ul>
 
       `
-      }
+      },
+      {
+        title: "Modele de declarații pe proprie răspundere",
+        display_order: 7,
+        slug: "modele-de-declaratii",
+        page: `
+        <p> Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza în perioada stării de urgență.  </p>
+
+        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/28MODEL%20Declaratie%20proprie%20raspundere%202503.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
+        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/MODEL%20Adeverinta%20pentru%20angajatori.pdf"> Descarcă de aici </a> modelul de adeverință de angajator </p>
+
+        `
+      } 
     ]
     ,
     buttons: null,
