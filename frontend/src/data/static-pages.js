@@ -1196,7 +1196,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     buttons: null,
     accordion: [
       {
-        title: `Este distrus coronavirusul de inhalarea de aer fierbinte ?`,
+        title: `Este distrus coronavirusul de inhalarea de aer fierbinte?`,
         content: `
             <p style="text-transform: uppercase; color: #828282;"> 26 Martie 2020 </p>
             <p>

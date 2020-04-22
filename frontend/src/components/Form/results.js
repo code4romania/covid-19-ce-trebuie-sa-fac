@@ -105,7 +105,7 @@ function Results({ question, answers }) {
 
 Results.propTypes = {
   question: PropTypes.shape({
-    questionId: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
     questionText: PropTypes.string.isRequired,
     type: PropTypes.oneOf(["FINAL", "SINGLE_CHOICE", "MULTIPLE_CHOICE"]),
     options: PropTypes.arrayOf(

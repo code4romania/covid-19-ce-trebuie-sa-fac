@@ -18,7 +18,7 @@ function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
     }
     setAnswers(newAnswers);
     onAnswer({
-      questionId: question.questionId,
+      id: question.id,
       value: newAnswers
     });
   };
@@ -30,7 +30,7 @@ function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
         <List>
           {question.options.map(option => (
             <ListItem
-              key={`answer_${question.questionId}_${option.value}`}
+              key={`answer_${question.id}_${option.value}`}
               title={option.label}
               active={isSelected(option)}
               onClick={() => handleClick(option)}
@@ -44,7 +44,7 @@ function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
 
 MultipleChoice.propTypes = {
   question: PropTypes.shape({
-    questionId: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     questionText: PropTypes.string.isRequired,
     type: PropTypes.oneOf(["FINAL", "SINGLE_CHOICE", "MULTIPLE_CHOICE"]),
     options: PropTypes.arrayOf(
