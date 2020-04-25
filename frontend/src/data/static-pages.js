@@ -213,7 +213,7 @@ export default [
       },
       {
         title: "15 recomandări privind conduita socială responsabilă în prevenirea răspândirii coronavirus",
-        display_order: 5,
+        display_order: 6,
         slug: "recomandari-privind-conduita-sociala-responsabila",
         page: `
          <h3 id="recomandari">Protejați-vă, evitați contactul direct!</h3>
