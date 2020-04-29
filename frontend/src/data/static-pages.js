@@ -134,6 +134,7 @@ export default [
           <li>Acoperă-ți gura și nasul cu un șervețel atunci când tușești sau strănuți, sau folosește interiorul cotului. Aruncă apoi șervețelele folosite la gunoi imediat. Spală-te imediat pe mâini cu apă și săpun, timp de cel puțin 20 de secunde. Dacă nu sunt disponibile apa și săpunul, utilizează un produs de dezinfectare a mâinilor care conține cel puțin 60% alcool.</li>
           <li>Dacă strănuți sau tușești acoperă-ți gura și nasul cu un șervețel de unică folosință, pe care ai grijă să îl arunci imediat la coșul de gunoi.</li>
          </ul>
+
          <p style="background-color: #ffd738; padding: 10px;"><b>Dacă ești bolnav</b></br>
            Trebuie să porți o mască atunci când ești în preajma altor persoane (de exemplu, atunci când ești în aceeași cameră sau mașină), precum și înainte de a intra într-un cabinet medical. Persoanele care te îngrijesc ar trebui să poarte masca de protecție atunci când intră în spațiul în care ești.
          </p>
@@ -141,6 +142,9 @@ export default [
          <p style="background-color: #E5F9FE; padding: 10px;"><b>Dacă nu ești bolnav</b></br>
            Trebuie să porți o mască atunci când ești în preajma altor persoane. Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
+
+         <div align="center" style="margin: 1.5em auto;"><img src=${require("../images/pages/7_cumsefolosestamasca.jpg")} alt="Cum se folosește masca"></img></div>
+
          `
       },
       {
