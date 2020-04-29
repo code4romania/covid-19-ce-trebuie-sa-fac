@@ -799,6 +799,9 @@ export default [
           <li>Ia o pauză de la știrile sau relatările legate de COVID-19</li>
           <li>Cere ajutor dacă te simți copleșit sau îngrijorat de faptul că COVID-19 îți afectează capacitatea de a avea grijă de familia și pacienții tăi, așa cum o făceai înainte de răspândirea virusului.</li>
          </ul>
+
+         <div align="center" style="margin: 1.5em auto;"><img src=${require("../images/pages/covid_ro_ceicareneoferajutor.svg")} width="80%" alt="Cei care ne oferă ajutor"></img></div>
+
          <h4>Semne că suferi de epuizare profesională (Burnout):</h4>
          <ul>
           <li>Tristețe, depresie sau apatie </li>
