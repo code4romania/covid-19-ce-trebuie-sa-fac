@@ -769,7 +769,7 @@ export default [
         page: `
         <p> Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza în perioada stării de urgență.  </p>
 
-        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/28MODEL%20Declaratie%20proprie%20raspundere%202503.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
+        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/nou26Model%20Declaratie%20proprie%20Raspundere%202503.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
         <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/MODEL%20Adeverinta%20pentru%20angajatori.pdf"> Descarcă de aici </a> modelul de adeverință de angajator </p>
 
         `
