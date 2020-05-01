@@ -143,7 +143,7 @@ export default [
            Trebuie să porți o mască atunci când ești în preajma altor persoane. Masca de protecție/masca chirurgicală îi protejează pe cei din jurul tău, în cazul în care ai simptome de gripă sau răceală, întrucât previne răspândirea virusului pe cale respiratorie. Masca de protecție trebuie să acopere complet nasul și gura persoanei care o poartă.
          </p>
 
-         <div align="center" style="margin: 1.5em auto;"><img src=${require("../images/pages/7_cumsefolosestamasca.jpg")} alt="Cum se folosește masca"></img></div>
+         <div style="margin: 1.5em auto; text-align: center"><img src=${require("../images/pages/7_cumsefolosestamasca.jpg")} alt="Cum se folosește masca"></img></div>
 
          `
       },
@@ -804,7 +804,7 @@ export default [
           <li>Cere ajutor dacă te simți copleșit sau îngrijorat de faptul că COVID-19 îți afectează capacitatea de a avea grijă de familia și pacienții tăi, așa cum o făceai înainte de răspândirea virusului.</li>
          </ul>
 
-         <div align="center" style="margin: 1.5em auto;"><img src=${require("../images/pages/covid_ro_ceicareneoferajutor.svg")} width="80%" alt="Cei care ne oferă ajutor"></img></div>
+         <div style="margin: 1.5em auto; text-align: center"><img src=${require("../images/pages/covid_ro_ceicareneoferajutor.svg")} width="80%" alt="Cei care ne oferă ajutor"></img></div>
 
          <h4>Semne că suferi de epuizare profesională (Burnout):</h4>
          <ul>
