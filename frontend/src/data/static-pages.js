@@ -541,23 +541,22 @@ export default [
         options: [
           {
             label:
-              "Conform răspunsurilor tale ai un grad ridicat de risc să fii infectat cu COVID-19. Te rugăm să suni la 112 și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.\n" +
-              "Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+              "Înțelegem că există un grad de risc ridicat să fii infectat cu COVID-19. Haide să căutăm soluții împreună! 112 te va prelua cu prioritate și sigur există și alte persoane care vor putea fi alături de tine. Concentrează-te să dai datele cât mai clar și corect și să indici și numele unui membru din familie sau cunoscut care poate fi alături de tine în această perioadă. Limitează contactul fizic cu celelalte persoane, dar rămâi conectat cu ei prin telefon. Poți suna și la Direcția de Sănătate Publică din județul în care te afli. Păstrează-ți încrederea până când vei fi preluat de către medici! După ce ai intrat în îngrijirea medicilor, dar și înainte, ai posibilitatea să suni la Telverde pentru informații Covid 19 , <a href=\"tel:0800800358\">0800 800 358</a> și/sau la Telverde pentru suport psihologic, <a href=\"tel:0800070030\">0800 070 030</a>. Nu ești singur.",
             value: 0
           },
           {
             label:
-              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugam să suni la medicul de familie sau la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și să aștepți ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol. ",
+              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugăm să suni la medicul de familie sau la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și să aștepți ca cineva să te preia dacă vrei să te informezi în detaliu despre simptome si prevenție. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol și continuă să îți monitorizezi starea. Nu ești singur! Dacă simți ca emoțiile tale sunt mai greu de controlat până când vine rezultatul sau pur și simplu vrei să împărtășești starea ta, ai posibilitatea să suni și la Telverde pentru suport psihologic <a href=\"tel:0800070030\">0800 070 030</a>.",
             value: 1
           },
           {
             label:
-              "Nu manifești niciun simptom de infecție. Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări, apelează la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. ",
+              "Nu manifești niciun simptom de infecție. Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href=\"tel:0800070030\">0800 070 030</a> pentru suport psihologic și sprijin social!",
             value: 2
           },
           {
             label:
-              "Te rugăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea. Dacă nu poți lucra de acasă și trebuie să ieși din casă atunci consultă secțiunea de sfaturi și bune practici pentru cei care nu pot sta în auto-izolare de pe acest website. Dacă ai întrebări sau manifești simptome, apelează la TelVerde (<a href=\"tel:0800800358\">0800 800 358</a>) și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare.",
+              "Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href=\"tel:0800070030\">0800 070 030</a> pentru suport psihologic și sprijin social!",
             value: 3
           }
         ]
