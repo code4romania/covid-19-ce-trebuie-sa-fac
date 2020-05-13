@@ -538,8 +538,6 @@ export default [
         questionId: 17,
         questionText: "Ce ai de făcut",
         type: "FINAL",
-        <a href=\"tel:0800800358\">0800 800 358</a>
-        
         options: [
           {
             label:
