@@ -782,11 +782,11 @@ export default [
 
         <h3>Bugetul tău are nevoie de o rutină</h3>
 
-        <p>Rutina este esențială pentru un buget bine calculat. Notează-ți cheltuielile pe un carnetel sau pe laptop și, la sfarsitul lunii vei avea tapetată situația reala a banilor – pe ce se duc și cum poti schimba lucrurile care te afectează. Învață să planifici pe termen lung și să ai imaginea reală a bugetului tău.</p>
+        <p>Rutina este esențială pentru un buget bine calculat. Notează-ți cheltuielile pe un carnetel sau pe laptop și, la sfârșitul lunii vei avea tapetată situația reală a banilor – pe ce se duc și cum poți schimba lucrurile care te afectează. Învață să planifici pe termen lung și să ai imaginea reală a bugetului tău.</p>
 
         <h3>În cuplu</h3>
 
-        <p>Cine ce plătește? Hotărâți împreună, ce și când cumpărați. Cumparați lucrurile importante pentru voi, nu ce i-ar impresiona pe alții. Deși tentația e să vă bazați pe memorie, în loc să notați cheltuielile, e bine să știi că lipsa de planificare și monitorizare a cheltuielilor duce la confuzii. Dacă nu planificați, nu știți unde veți ajunge. Iar dacă nu măsurați, nu știti ce puteti îmbunătăți.</p>
+        <p>Cine ce plătește? Hotărâți împreună, ce și când cumpărați. Cumpărați lucrurile importante pentru voi, nu ce i-ar impresiona pe alții. Deși tentația e să vă bazați pe memorie, în loc să notați cheltuielile, e bine să știi că lipsa de planificare și monitorizare a cheltuielilor duce la confuzii. Dacă nu planificați, nu știți unde veți ajunge. Iar dacă nu măsurați, nu știți ce puteți îmbunătăți.</p>
 
         <h3>Nesiguranța financiară – când începi să intri în panică?</h3>
 
@@ -802,7 +802,7 @@ export default [
 
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Îți recomandăm să apelezi la consultanța financiară, dar să iei în calcul și FAPTUL că poți fi consiliat și de către alți specialiști (psihologi, consilieri de carieră) pentru a-ți găsi alte oportunități și soluții creative. Perioadele de criză pot naște oportunități.</p>
 
-        <p>În cazul în care, din oricare motiv te afli într-o situația limită din punct de vedere financiar există posibilitatea de a apela la asistența socială - nu este o situație care te caracterizează, este o situație temporară. Importantă este viața ta și siguranța ei. Exista soluții!</p>
+        <p>În cazul în care, din oricare motiv te afli într-o situație limită din punct de vedere financiar există posibilitatea de a apela la asistența socială - nu este o situație care te caracterizează, este o situație temporară. Importantă este viața ta și siguranța ei. Există soluții!</p>
 
         `
       }
