@@ -772,6 +772,39 @@ export default [
         <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/MODEL%20Adeverinta%20pentru%20angajatori.pdf"> Descarcă de aici </a> modelul de adeverință de angajator </p>
 
         `
+      },
+      {
+        title: "Cum să îți planifici mai bine finanțele proprii",
+        display_order: 8,
+        slug: "planificare-finante",
+        page: `
+        <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Statul în casă poate fi eficient pentru tine și pentru bugetul tău. Nu mai ieși așa des în oraș, nu te mai plimbi prin magazine, nu mai pleci în excursii. Toate aceste NU-uri sunt ca o gură de aer pentru cheltuielile tale sau, altfel spus, un DA pentru economii. Totuși, la polul opus, te pândește cheltuitul impulsiv sau un venit mai mic. Să ai grijă de bugetul tău poate părea complicat acum și, totuși, sunt câteva sfaturi financiare pe care e bine să le iei în considerare în această perioadă.</p>
+
+        <h3>Bugetul tău are nevoie de o rutină</h3>
+
+        <p>Rutina este esențială pentru un buget bine calculat. Notează-ți cheltuielile pe un carnetel sau pe laptop și, la sfarsitul lunii vei avea tapetată situația reala a banilor – pe ce se duc și cum poti schimba lucrurile care te afectează. Învață să planifici pe termen lung și să ai imaginea reală a bugetului tău.</p>
+
+        <h3>În cuplu</h3>
+
+        <p>Cine ce plătește? Hotărâți împreună, ce și când cumpărați. Cumparați lucrurile importante pentru voi, nu ce i-ar impresiona pe alții. Deși tentația e să vă bazați pe memorie, în loc să notați cheltuielile, e bine să știi că lipsa de planificare și monitorizare a cheltuielilor duce la confuzii. Dacă nu planificați, nu știți unde veți ajunge. Iar dacă nu măsurați, nu știti ce puteti îmbunătăți.</p>
+
+        <h3>Nesiguranța financiară – când începi să intri în panică?</h3>
+
+        <p>Panica nu este bună. Panica n-a ajutat pe nimeni și nici nu îți va rezolva problemele. În schimb, una dintre abilitățile esențiale acum este capacitatea de adaptare. E nevoie să te schimbi? Să îți schimbi obiceiurile? E momentul să fii deschis către oportunitate, să exersezi noi abilități, să fii pregătit pentru orice schimbare.</p>
+
+        <p>Nimeni nu știe ce domenii vor fi afectate de această pandemie, dar, cu siguranță, cei care nu se panichează se pot adapta ușor și vor fi cei care vor face față schimbărilor. Poate te înscrii la un curs online sau poate aprofundezi un domeniu care îți place, dar de care nu ai avut timp niciodată. Sau, cine știe, poate înveți ceva cu totul nou. </p>
+
+        <h3>De unde începi?</h3>
+
+        <p>Sunt numeroase programe de educație financiară la care poți apela online. Unul dintre ele e Banometru, un program gratuit şi flexibil prin care descoperi un nou mod de a privi încercările tale financiare. Peste 2000 de oameni au parcurs deja programul, peste 79% îl recomandă și spun că i-a ajutat să ia decizii financiare mai bune. Tocmai a lansat varianta exclusiv online și poți folosi sprijinul unui profesionist pentru creionarea unui plan care chiar funcţionează. </p>
+
+        <p>Există de asemenea și alte cursuri de management financiar, asigură-te că ele sunt recomandate de cât mai multe persoane și că au rating bun înainte de a implementa sfaturile din ele.</p>
+
+        <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Îți recomandăm să apelezi la consultanța financiară, dar să iei în calcul și FAPTUL că poți fi consiliat și de către alți specialiști (psihologi, consilieri de carieră) pentru a-ți găsi alte oportunități și soluții creative. Perioadele de criză pot naște oportunități.</p>
+
+        <p>În cazul în care, din oricare motiv te afli într-o situația limită din punct de vedere financiar există posibilitatea de a apela la asistența socială - nu este o situație care te caracterizează, este o situație temporară. Importantă este viața ta și siguranța ei. Exista soluții!</p>
+
+        `
       }
     ]
     ,
