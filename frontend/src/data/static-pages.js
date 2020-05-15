@@ -768,7 +768,7 @@ export default [
         page: `
         <p> Descarcă de aici modelul de declarație pe proprie răspundere pe care o poți utiliza în perioada stării de alertă.  </p>
 
-        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratii%2014%20mai/Edit_Declaratie%20proprie%20raspundere.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
+        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratii%2014%20mai/Declaratie%20proprie%20raspundere_starealerta.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
 
         `
       },
