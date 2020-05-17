@@ -143,29 +143,35 @@ const Home = () => {
                   // Ignore the first subpage title
                   // It's shown as page title
                   menuItems = doc.content.slice(1).map(page => {
-                      if (page.highlighted) {
-                        return (
-                          <SidebarMenuItem
-                            key={`subpage-header_${page.slug}`}
-                            active={page.slug === subPageSlug}
-                            onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
-                            theme={{ highlightColor: "#F6DD62", backgroundColor: "#F6F9FC" }}
-                          >
-                            {page.title}
-                          </SidebarMenuItem>
-                        )
-                      }
-                      return(
+                    if (page.highlighted) {
+                      return (
                         <SidebarMenuItem
                           key={`subpage-header_${page.slug}`}
                           active={page.slug === subPageSlug}
-                          onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
+                          onClick={() =>
+                            navigateToPage(`${doc.slug}/${page.slug}`)
+                          }
+                          theme={{
+                            highlightColor: "#F6DD62",
+                            backgroundColor: "#F6F9FC"
+                          }}
                         >
                           {page.title}
                         </SidebarMenuItem>
-                      )
+                      );
                     }
-                  );
+                    return (
+                      <SidebarMenuItem
+                        key={`subpage-header_${page.slug}`}
+                        active={page.slug === subPageSlug}
+                        onClick={() =>
+                          navigateToPage(`${doc.slug}/${page.slug}`)
+                        }
+                      >
+                        {page.title}
+                      </SidebarMenuItem>
+                    );
+                  });
                 }
 
                 return (
