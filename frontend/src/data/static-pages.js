@@ -768,6 +768,7 @@ export default [
       {
         title: "Model declarație pe proprie răspundere",
         display_order: 7,
+        highlighted: true,
         slug: "modele-de-declaratii",
         page: `
         <p> Descarcă de aici modelul de declarație pe proprie răspundere pe care o poți utiliza în perioada stării de alertă.  </p>
