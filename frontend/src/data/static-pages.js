@@ -6,6 +6,7 @@ export default [
     doc_id: 101,
     active: true,
     display_order: 2,
+    showInTopMenu: true,
     firstNodeId: null,
     content: [
       {
@@ -79,6 +80,7 @@ export default [
     slug: "cum-ne-protejam",
     doc_type: "STATIC_PAGE",
     doc_id: 102,
+    showInTopMenu: true,
     active: false,
     display_order: 3,
     content: [
@@ -281,6 +283,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 103,
     active: false,
+    showInTopMenu: true,
     display_order: 4,
     content: [
       {
@@ -570,6 +573,7 @@ export default [
     doc_id: 104,
     active: false,
     display_order: 5,
+    showInTopMenu: true,
     content: [
       {
         title: "Adaptare și rezistență",
@@ -818,6 +822,7 @@ export default [
     doc_id: 105,
     active: false,
     display_order: 6,
+    showInTopMenu: true,
     content: [
       {
         title: "Pentru cei care oferă ajutor",
@@ -923,15 +928,16 @@ export default [
     buttons: null
   },
   {
-    title: "Întrebări frecvente",
-    slug: "/",
+    title: "Întrebări frecvente - COVID-19",
+    slug: "intrebari-frecvente-covid19",
     doc_type: "STATIC_PAGE",
     doc_id: 106,
     active: false,
-    display_order: 1,
+    display_order: 8,
+    showInTopMenu: false,
     content: [
       {
-        title: "Întrebări frecvente",
+        title: "Întrebări frecvente - COVID-19",
         display_order: 1,
         page: `<p>Întrebări frecvente despre COVID-19</p>`
       }
@@ -1215,12 +1221,117 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     ]
   },
   {
+    title: "Întrebări frecvente - stare de alertă",
+    slug: "/",
+    doc_type: "STATIC_PAGE",
+    doc_id: 108,
+    active: false,
+    display_order: 1,
+    showInTopMenu: true,
+    content: [
+      {
+        title: "Întrebări frecvente - stare de alertă",
+        display_order: 1,
+        page: `<p>Întrebări frecvente despre starea de alertă</p>`,
+        slug: "/"
+      }
+    ],
+    firstNodeId: null,
+    form: null,
+    buttons: null,
+    accordion: [
+      {
+        title: `Cum se definește zona metropolitană în interiorul căreia cetățenii nu au nevoie de declarație pe propria răspundere pentru a se deplasa?`,
+        content: `
+            <p>Sunt considerate ca făcând parte din zona metropolitană localitățile aflate pe o rază de până la 30 de kilometri față de principalul oraș  (conform art.11 din Legea nr. 351/2001 privind aprobarea Planului de amenajare a teritoriului naţional - Secţiunea a IV-a Reţeaua de localităţi).
+Totodată, se va considera zonă metropolitană Municipiul București și întreg teritoriul județului Ilfov.</p>
+        `
+      },
+      {
+        title: `Persoanele peste 65 de ani au vreo restricție de a ieși din casă sau vreun interval orar pe care trebuie să îl respecte?`,
+        content: `
+            <p>Hotărârea CNSSU nr. 24 cu privire la declararea stării de alertă nu restricționează deplasarea persoanelor de peste 65 de ani. Acestea pot părăsi domiciliul în orice interval orar doresc. Rămâne însă valabilă recomandarea de a limita pe cât de mult posibil deplasările și de a evita locurile aglomerate mai ales pentru persoanele din categoriile vulnerabile pentru a reduce riscul infectării cu noul Coronavirus.</p>
+        `
+      },
+      {
+        title: `Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână?`,
+        content: `
+            <p>DA. Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână cu respectarea elementelor din formularul tip dat publicității. În cazul în care o nouă deplasare respectă același traseu menționat în declarația pe propria răspundere, atunci aceasta poate fi refolosită și în alte zile, tăind cu o linie data precizată inițial și completând noua dată aferentă zilei în care are loc deplasarea.</p>
+        `
+      },
+      {
+        title: `Vor fi sancționate persoanele care nu poartă mască?`,
+        content: `
+            <p>Purtarea măștii care acoperă nasul și gura este obligatorie începând cu 15 mai 2020 în spațiile comerciale, mijloacele de transport în comun, la locul de muncă și în alte spații închise, potrivit anexei “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU.  Persoanele care nu respectă obligația de a purta mască în spațiile menționate pot fi sancționate contravențional în baza Legii nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) raportat la art.65 lit.h, respectiv “nerespectarea de către persoane fizice a măsurilor individuale de protecție a vieții“ se sancționează cu amendă între 500 de lei și 2500 de lei. </p>
+        `
+      },
+      {
+        title: `Ce opțiune din declarația pe propria răspundere bifează un locuitor al zonei rurale care se deplasează în altă localitate pentru cumpărături la supermarket, farmacie sau pentru asigurarea unor bunuri pe care nu le poate achiziționa din sat/comună?`,
+        content: `
+            <p>În situația în care cetățeanul se deplasează între localități din interiorul zonei metropolitane, nu are nevoie de declarație pe propria răspundere. Dacă asigurarea bunurilor necesare nu poate fi făcută în zona metropolitană, este nevoie de declarația pe propria răspundere, bifată la punctul 11 “alte motive justificate”.</p>
+        `
+      },
+      {
+        title: `Vor mai fi date amenzi pentru nerespectarea deciziilor autorităților cu privire la starea de alertă?`,
+        content: `
+            <p>Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) definește la Capitolul III “Răspunderi și sancțiuni”, art. 64-70 contravențiile și cuantumul amenzilor pentru nerespectarea actului normativ.</p>
+            <p>De asemenea, polițiștii aplică legislația în vigoare. Scopul autorităților nu este de a sancționa cetățenii, ci de a limita răspândirea virusului COVID-19. În contextul trecerii la starea de alertă, polițiștii vor acționa în principal pentru îndrumarea cetățenilor cu privire la noile reguli.</p>
+        `
+      },
+      {
+        title: `Se redeschid sălile de lectură din biblioteci?`,
+        content: `
+            <p>Această variantă este în prezent în analiza autorităților, urmând ca o decizie să fie comunicată în perioada următoare. Activitățile bibliotecilor sunt permise în perioada stării de alertă, potrivit Hotărârii CNSSU nr.24 și anexei atașate, în condițiile respectării normelor de prevenție și protecție și cu respectarea recomandărilor INSP.</p>
+        `
+      },
+      {
+        title: `Se redeschid clinicile private?`,
+        content: `
+            <p>Clinicile private au avut în timpul stării de urgență și vor continua să aibă și în timpul stării de alertă același statut cu spitalele/clinicile de stat.</p>
+        `
+      },
+      {
+        title: `Dacă un cetățean trebuie să ajungă urgent la bancă în altă localitate, ce bifează pe declarația pe propria răspundere?`,
+        content: `
+            <p>În cazul în care tranzacția bancară nu poate fi efectuată on-line, deplasarea în afara localității se poate face în baza declarației pe propria răspundere, bifând punctul 11 – “alte motive justificate”.</p>
+        `
+      },
+      {
+        title: `Rămâne vreo interdicție valabilă după ora 22:00?`,
+        content: `
+            <p>Interdicțiile emise prin hotărârea CNSSU sunt valabile indiferent de intervalul orar și nu sunt diferite pentru intervalul post 22.00.</p>
+        `
+      },
+      {
+        title: `Persoanele care vor sta în aceeași locuință cu cineva venit din afara țării vor trebui să intre și ele în izolare 14 zile?`,
+        content: `
+            <p>Potrivit Hotărârii CNSSU nr.24 și anexei atașate, pentru toate persoanele care au călătorit în străinătate și intră pe teritoriul României, se instituie măsura carantinării/izolării la domiciliu împreună cu familia/aparținătorii cu care locuiesc. Există opțiunea carantinei instituționalizate pentru persoanele care au călătorit singure și care nu doresc să-și expună familia.</p>
+        `
+      },
+      {
+        title: `Câte persoane pot participa la evenimentele familiale cu număr limitat de persoane, opțiune care se regăsește la punctul numărul 9 în declarația pe propria răspundere necesară pentru justificarea deplasărilor între localități?`,
+        content: `
+            <p>Dacă evenimentul familial implică o slujbă religioasă în interiorul bisericii (ex: nuntă, botez, înmormântare), numărul maxim de persoane care pot participa este de 16 (punctul 5 (2), lit. a din anexa “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU). </p>
+            <p>Dacă slujba se ține în curtea bisericii, numărul participanților NU este limitat, însă se vor respecta măsurile de prevenire și protecție stabilite.</p>
+            <p>Pentru evenimentele familiale private (ex: aniversări, petreceri, reuniuni de pomenire etc.) desfășurate în spații închise, va fi avut în vedere același număr de persoane (maximum 16 persoane) cu respectarea normelor de igienă și pe cât de mult posibil respectarea distanței fizice.</p>
+        `
+      },
+      {
+        title: `În legea aprobată de Parlament există o prevedere care permite redeschiderea teraselor. Se deschid terasele în perioada stării de alertă?`,
+        content: `
+            <p>NU. Terasele rămân închise în perioada stării de alertă, potrivit Hotărârii nr. 24 a CNSSU și anexei atașate. Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) prevede la articolul 8, alin. 2 posibilitatea deschiderii teraselor, nu obligația.</p>
+        `
+      }
+    ]
+  },
+  {
     title: "Mituri despre coronavirus",
     slug: "mituri-despre-coronavirus",
     doc_type: "STATIC_PAGE",
     doc_id: 107,
     active: false,
     display_order: 7,
+    showInTopMenu: true,
     content: [
       {
         title: "Mituri despre coronavirus",
