@@ -74,6 +74,8 @@ const Home = () => {
     navigateToPage("/search?q=" + query);
   };
 
+  const topMenuData = data.filter(doc => doc.showInTopMenu);
+
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
   const extraInfo = (
@@ -111,7 +113,7 @@ const Home = () => {
       </div>
       <div className="container pages-list">
         <List columns={3}>
-          {data.map(doc => (
+          {topMenuData.map(doc => (
             <ListItem
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
@@ -143,6 +145,7 @@ const Home = () => {
                   menuItems = doc.content.slice(1).map(page => (
                     <SidebarMenuItem
                       key={`subpage-header_${page.slug}`}
+                      theme={page.theme}
                       active={page.slug === subPageSlug}
                       onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
                     >
@@ -155,6 +158,7 @@ const Home = () => {
                   <div key={`page-wrapper_${doc.slug}`}>
                     <SidebarMenuItem
                       key={`page-header_${doc.slug}`}
+                      theme={doc.theme}
                       active={
                         !subPageSlug &&
                         (doc.slug === pageSlug ||
