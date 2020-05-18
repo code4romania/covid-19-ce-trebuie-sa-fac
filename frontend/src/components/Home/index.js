@@ -143,6 +143,7 @@ const Home = () => {
                   menuItems = doc.content.slice(1).map(page => (
                     <SidebarMenuItem
                       key={`subpage-header_${page.slug}`}
+                      theme={page.theme}
                       active={page.slug === subPageSlug}
                       onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
                     >
@@ -155,6 +156,7 @@ const Home = () => {
                   <div key={`page-wrapper_${doc.slug}`}>
                     <SidebarMenuItem
                       key={`page-header_${doc.slug}`}
+                      theme={doc.theme}
                       active={
                         !subPageSlug &&
                         (doc.slug === pageSlug ||

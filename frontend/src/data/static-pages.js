@@ -763,6 +763,7 @@ export default [
       },
       {
         title: "Model declarație pe proprie răspundere",
+        theme: { highlightColor: '#ffde59'},
         display_order: 7,
         slug: "modele-de-declaratii",
         page: `
