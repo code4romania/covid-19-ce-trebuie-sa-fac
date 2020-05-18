@@ -74,6 +74,8 @@ const Home = () => {
     navigateToPage("/search?q=" + query);
   };
 
+  const topMenuData = data.filter(doc => doc.showInTopMenu);
+
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
   const extraInfo = (
@@ -111,7 +113,7 @@ const Home = () => {
       </div>
       <div className="container pages-list">
         <List columns={3}>
-          {data.map(doc => (
+          {topMenuData.map(doc => (
             <ListItem
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
