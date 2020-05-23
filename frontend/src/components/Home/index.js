@@ -10,13 +10,13 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   MailchimpSubscribe,
-  SearchInput
+  SearchInput,
 } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import {
   renderInstrumentItem,
   remapInstrumentsData,
-  navigate
+  navigate,
 } from "../../utils/instruments.utils";
 import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
@@ -44,13 +44,13 @@ const Home = () => {
     });
 
     // Find the page
-    const page = data.find(doc => doc.slug === (pageSlug || "/"));
+    const page = data.find((doc) => doc.slug === (pageSlug || "/"));
     let subPage = null;
 
     if (page) {
       // Find the subPage
       if (subPageSlug) {
-        subPage = page.content.find(page => page.slug === subPageSlug);
+        subPage = page.content.find((page) => page.slug === subPageSlug);
       } else if (page.content.length) {
         [subPage] = page.content;
       }
@@ -65,16 +65,16 @@ const Home = () => {
     }
   }, [pageSlug, subPageSlug, history]);
 
-  const navigateToPage = slug => navigate(history, slug, scrollAnchorRef);
+  const navigateToPage = (slug) => navigate(history, slug, scrollAnchorRef);
 
-  const triggerSearch = query => {
+  const triggerSearch = (query) => {
     if (!query) {
       return;
     }
     navigateToPage("/search?q=" + query);
   };
 
-  const topMenuData = data.filter(doc => doc.showInTopMenu);
+  const topMenuData = data.filter((doc) => doc.showInTopMenu);
 
   const instrumentsData = remapInstrumentsData(UsefulApps);
 
@@ -83,8 +83,8 @@ const Home = () => {
       <div className="instruments-wrapper">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
         <Instruments layout="column">
-          {Object.keys(instrumentsData).map(category => {
-            return instrumentsData[category].map(usefulApp =>
+          {Object.keys(instrumentsData).map((category) => {
+            return instrumentsData[category].map((usefulApp) =>
               renderInstrumentItem(usefulApp)
             );
           })}
@@ -113,7 +113,7 @@ const Home = () => {
       </div>
       <div className="container pages-list">
         <List columns={3}>
-          {topMenuData.map(doc => (
+          {topMenuData.map((doc) => (
             <ListItem
               key={doc.doc_id}
               active={selectedPage && selectedPage.doc_id === doc.doc_id}
@@ -137,12 +137,12 @@ const Home = () => {
                   onClick={triggerSearch}
                 />
               </div>
-              {data.map(doc => {
+              {data.map((doc) => {
                 let menuItems = null;
                 if (doc.content.length > 1) {
                   // Ignore the first subpage title
                   // It's shown as page title
-                  menuItems = doc.content.slice(1).map(page => (
+                  menuItems = doc.content.slice(1).map((page) => (
                     <SidebarMenuItem
                       key={`subpage-header_${page.slug}`}
                       theme={page.theme}
