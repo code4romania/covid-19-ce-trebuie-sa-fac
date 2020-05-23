@@ -4,7 +4,7 @@ import {
   Link,
   Route,
   Switch,
-  useHistory
+  useHistory,
 } from "react-router-dom";
 import { logPageView } from "./analyticsTracker";
 import Home from "./components/Home";
@@ -14,7 +14,7 @@ import {
   Header,
   DevelopedBy,
   IncubatedBy,
-  BackToTop
+  BackToTop,
 } from "@code4ro/taskforce-fe-components";
 import LogoSvg from "./images/logo.svg";
 import gov from "./images/gov.png";
@@ -34,7 +34,7 @@ const customPartnerLogos = [
   </Logo>,
   <Logo url="http://www.dsu.mai.gov.ro" key="dsu">
     <img src={DSU} alt="Departamentul pentru Situații de Urgență" />
-  </Logo>
+  </Logo>,
 ];
 
 const MenuItems = [
@@ -56,7 +56,7 @@ const MenuItems = [
   </a>,
   <Link to="/despre" key={"des"}>
     Despre
-  </Link>
+  </Link>,
 ];
 
 const AppWrapper = () => {

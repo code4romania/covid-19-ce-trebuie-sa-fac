@@ -5,15 +5,15 @@
   "description": "Arbore decizional pentru informarea publicului",
   "private": true,
   "dependencies": {
-    "@code4ro/taskforce-fe-components": "^1.0.27",
+    "@code4ro/taskforce-fe-components": "^1.0.28",
     "bulma": "^0.8.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "fuse.js": "^3.6.1",
-    "query-string": "^6.11.1"
+    "fuse.js": "^6.0.0",
+    "query-string": "^6.12.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -69,13 +69,13 @@
     "url": "https://github.com/code4romania/ce-ma-fac/issues"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.2.3",
-    "node-sass": "^4.13.1",
-    "prettier": "^1.19.1"
+    "@testing-library/jest-dom": "^5.8.0",
+    "@testing-library/react": "^10.0.4",
+    "@testing-library/user-event": "^10.3.5",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5"
   }
 }

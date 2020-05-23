@@ -5,21 +5,21 @@ import { ListHeader, List, ListItem } from "@code4ro/taskforce-fe-components";
 
 function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
   const [answers, setAnswers] = useState([]);
-  const isSelected = option => {
+  const isSelected = (option) => {
     return currentResponse.includes(option.value);
   };
 
-  const handleClick = option => {
+  const handleClick = (option) => {
     let newAnswers;
     if (answers.includes(option.value)) {
-      newAnswers = answers.filter(item => item !== option.value);
+      newAnswers = answers.filter((item) => item !== option.value);
     } else {
       newAnswers = [...answers, option.value];
     }
     setAnswers(newAnswers);
     onAnswer({
       questionId: question.questionId,
-      value: newAnswers
+      value: newAnswers,
     });
   };
 
@@ -28,7 +28,7 @@ function MultipleChoice({ question, onAnswer, currentResponse = [] }) {
       <ListHeader title={question.questionText} />
       <div>
         <List>
-          {question.options.map(option => (
+          {question.options.map((option) => (
             <ListItem
               key={`answer_${question.questionId}_${option.value}`}
               title={option.label}
@@ -50,12 +50,12 @@ MultipleChoice.propTypes = {
     options: PropTypes.arrayOf(
       PropTypes.shape({
         label: PropTypes.string.isRequired,
-        value: PropTypes.number.isRequired
+        value: PropTypes.number.isRequired,
       })
-    )
+    ),
   }),
   onAnswer: PropTypes.func,
-  currentResponse: PropTypes.arrayOf(PropTypes.number)
+  currentResponse: PropTypes.arrayOf(PropTypes.number),
 };
 
 export default MultipleChoice;
