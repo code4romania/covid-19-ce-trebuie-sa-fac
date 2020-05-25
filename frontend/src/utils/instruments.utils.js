@@ -1,14 +1,14 @@
 import React from "react";
 import { InstrumentsItem } from "@code4ro/taskforce-fe-components";
 
-const hasButtons = buttons => {
+const hasButtons = (buttons) => {
   return buttons && buttons.length;
 };
 
 const getCategoryItems = (usefulApps, category) => {
-  return usefulApps.filter(usefulApp => usefulApp.app_type === category);
+  return usefulApps.filter((usefulApp) => usefulApp.app_type === category);
 };
-const remapInstrumentsData = data => {
+const remapInstrumentsData = (data) => {
   const sortedData = data.sort((a, b) => {
     return a.display_order - b.display_order;
   });
@@ -17,17 +17,17 @@ const remapInstrumentsData = data => {
     news: getCategoryItems(sortedData, "NEWS"),
     data: getCategoryItems(sortedData, "DATA"),
     offer_help: getCategoryItems(sortedData, "OFFER_HELP"),
-    diaspora: getCategoryItems(sortedData, "DIASPORA")
+    diaspora: getCategoryItems(sortedData, "DIASPORA"),
   };
 };
 
-const renderInstrumentItem = usefulApp => {
+const renderInstrumentItem = (usefulApp) => {
   const cartegoryMap = {
     NEWS: "green",
     OFFER_HELP: "red",
     DATA: "pink",
     INFO: "yellow",
-    DIASPORA: "blue"
+    DIASPORA: "blue",
   };
   return (
     <InstrumentsItem
@@ -45,11 +45,11 @@ const renderInstrumentItem = usefulApp => {
   );
 };
 
-const scrollRefIntoView = scrollAnchorRef => {
+const scrollRefIntoView = (scrollAnchorRef) => {
   try {
     scrollAnchorRef.current.scrollIntoView({
       block: "start",
-      behavior: "smooth"
+      behavior: "smooth",
     });
   } catch (e) {
     scrollAnchorRef.current.scrollIntoView(true);

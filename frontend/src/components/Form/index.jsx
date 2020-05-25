@@ -19,10 +19,10 @@ function Form({ data }) {
     init();
   }, [data.form]); // eslint-disable-line
 
-  const answerCurrentQuestion = answer => {
+  const answerCurrentQuestion = (answer) => {
     setFormState({
       ...formState,
-      [answer.questionId]: answer.value
+      [answer.questionId]: answer.value,
     });
   };
 
@@ -102,7 +102,7 @@ Form.propTypes = {
     content: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
-        page: PropTypes.string.isRequired
+        page: PropTypes.string.isRequired,
       })
     ),
     firstNodeId: PropTypes.number.isRequired,
@@ -114,12 +114,12 @@ Form.propTypes = {
         options: PropTypes.arrayOf(
           PropTypes.shape({
             label: PropTypes.string.isRequired,
-            value: PropTypes.number.isRequired
+            value: PropTypes.number.isRequired,
           })
-        )
+        ),
       })
-    )
-  })
+    ),
+  }),
 };
 
 export default Form;

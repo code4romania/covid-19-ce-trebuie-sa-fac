@@ -8,15 +8,15 @@ const SearchResults = ({ query, data = [], readMore }) => {
   /**
    * remove diacritics and turn all to lowercase
    */
-  const normalize = text => {
+  const normalize = (text) => {
     return text
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase();
   };
 
-  const docs = data.flatMap(parentDoc => {
-    parentDoc.content.forEach(doc => {
+  const docs = data.flatMap((parentDoc) => {
+    parentDoc.content.forEach((doc) => {
       doc.fullSlug = `${parentDoc.slug}/${doc.slug}`;
       doc.searchText = normalize(doc.page);
     });
@@ -43,25 +43,24 @@ const SearchResults = ({ query, data = [], readMore }) => {
     threshold,
     distance: 100000,
     minMatchCharLength: 1,
-    keys: ["title", "searchText"]
+    keys: ["title", "searchText"],
   };
 
   const searchQuery = normalize(query);
   const fuse = new Fuse(docs, options);
   const results = fuse.search(searchQuery);
-
   return (
     <div className="search-results-container">
       <h1 className="results-description">
         Rezultatele căutării pentru {`"${query}"`}:
       </h1>
-      {results.map(doc => {
+      {results.map((doc) => {
         return (
-          <div className="list-item" key={doc.title}>
-            <SearchResultListItem title={doc.title}>
+          <div className="list-item" key={doc.item.title}>
+            <SearchResultListItem title={doc.item.title}>
               <span
                 className="read-more"
-                onClick={() => readMore(doc.fullSlug)}
+                onClick={() => readMore(doc.item.fullSlug)}
               >
                 Citește mai mult
               </span>
@@ -76,7 +75,7 @@ const SearchResults = ({ query, data = [], readMore }) => {
 SearchResults.propTypes = {
   query: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
-  readMore: PropTypes.func
+  readMore: PropTypes.func,
 };
 
 export default SearchResults;

@@ -6,7 +6,7 @@ import { List, ListItem } from "@code4ro/taskforce-fe-components";
 import {
   Hero,
   Accordion,
-  SocialsShare
+  SocialsShare,
 } from "@code4ro/taskforce-fe-components";
 
 import { navigate } from "../../utils/instruments.utils";
@@ -33,8 +33,8 @@ function ContentPage({ page, subPage }) {
       return;
     }
     const items = page.content
-      .filter(item => item.slug !== subPage.slug)
-      .map(item => (
+      .filter((item) => item.slug !== subPage.slug)
+      .map((item) => (
         <ListItem
           key={item.display_order}
           title={item.title}
@@ -84,7 +84,7 @@ ContentPage.propTypes = {
       PropTypes.shape({
         title: PropTypes.string.isRequired,
         page: PropTypes.string.isRequired,
-        slug: PropTypes.string
+        slug: PropTypes.string,
       })
     ),
     first_node_id: PropTypes.number,
@@ -96,23 +96,23 @@ ContentPage.propTypes = {
         options: PropTypes.arrayOf(
           PropTypes.shape({
             label: PropTypes.string.isRequired,
-            value: PropTypes.number.isRequired
+            value: PropTypes.number.isRequired,
           })
-        )
+        ),
       })
     ),
     accordion: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
-        content: PropTypes.string.isRequired
+        content: PropTypes.string.isRequired,
       })
-    )
+    ),
   }),
   subPage: PropTypes.shape({
     title: PropTypes.string.isRequired,
     page: PropTypes.string.isRequired,
-    slug: PropTypes.string
-  })
+    slug: PropTypes.string,
+  }),
 };
 
 export default ContentPage;
