@@ -22,6 +22,7 @@ import DSU from "./images/dsu.png";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
+const Conduita = lazy(() => import("./components/Conduita"));
 const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
@@ -94,6 +95,9 @@ const App = () => {
           <Switch>
             <Route path="/despre">
               <About />
+            </Route>
+            <Route path="/conduita">
+              <Conduita />
             </Route>
             <Route path="/politica-de-confidentialitate">
               <PrivacyPolicy />
