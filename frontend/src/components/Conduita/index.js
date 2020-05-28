@@ -1,8 +1,7 @@
 import React from "react";
 import { Hero, Instruments } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
-import Card from "./Card";
-import "./Conduita.scss";
+import Card from "./../Card";
 import conduitaImge1 from "../../images/conduita/1.png";
 import conduitaImge2 from "../../images/conduita/2.png";
 import conduitaImge3 from "../../images/conduita/3.png";
