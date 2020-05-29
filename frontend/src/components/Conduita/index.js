@@ -72,7 +72,7 @@ const Conduita = () => {
                   Ții masca folosită la distanță de tine și de suprafețe.
                 </Card>
                 <Card image={conduitaImge9}>
-                  Arunc întotdeauna masca la un coș de gunoi, preferabil cu
+                  Arunci întotdeauna masca la un coș de gunoi, preferabil cu
                   capac.
                 </Card>
                 <Card image={conduitaImge10}>
