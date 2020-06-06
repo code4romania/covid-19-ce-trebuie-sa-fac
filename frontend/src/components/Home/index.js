@@ -137,42 +137,46 @@ const Home = () => {
                   onClick={triggerSearch}
                 />
               </div>
-              {data.filter((doc) => doc.showInSideMenu).map((doc) => {
-                let menuItems = null;
-                if (doc.content.length > 1) {
-                  // Ignore the first subpage title
-                  // It's shown as page title
-                  menuItems = doc.content.slice(1).map((page) => (
-                    <SidebarMenuItem
-                      key={`subpage-header_${page.slug}`}
-                      theme={page.theme}
-                      active={page.slug === subPageSlug}
-                      onClick={() => navigateToPage(`${doc.slug}/${page.slug}`)}
-                    >
-                      {page.title}
-                    </SidebarMenuItem>
-                  ));
-                }
+              {data
+                .filter((doc) => doc.showInSideMenu)
+                .map((doc) => {
+                  let menuItems = null;
+                  if (doc.content.length > 1) {
+                    // Ignore the first subpage title
+                    // It's shown as page title
+                    menuItems = doc.content.slice(1).map((page) => (
+                      <SidebarMenuItem
+                        key={`subpage-header_${page.slug}`}
+                        theme={page.theme}
+                        active={page.slug === subPageSlug}
+                        onClick={() =>
+                          navigateToPage(`${doc.slug}/${page.slug}`)
+                        }
+                      >
+                        {page.title}
+                      </SidebarMenuItem>
+                    ));
+                  }
 
-                return (
-                  <div key={`page-wrapper_${doc.slug}`}>
-                    <SidebarMenuItem
-                      key={`page-header_${doc.slug}`}
-                      theme={doc.theme}
-                      active={
-                        !subPageSlug &&
-                        (doc.slug === pageSlug ||
-                          (doc.slug === "/" && !pageSlug))
-                      }
-                      onClick={() => navigateToPage(doc.slug)}
-                      isTitle
-                    >
-                      {doc.title}
-                    </SidebarMenuItem>
-                    {menuItems}
-                  </div>
-                );
-              })}
+                  return (
+                    <div key={`page-wrapper_${doc.slug}`}>
+                      <SidebarMenuItem
+                        key={`page-header_${doc.slug}`}
+                        theme={doc.theme}
+                        active={
+                          !subPageSlug &&
+                          (doc.slug === pageSlug ||
+                            (doc.slug === "/" && !pageSlug))
+                        }
+                        onClick={() => navigateToPage(doc.slug)}
+                        isTitle
+                      >
+                        {doc.title}
+                      </SidebarMenuItem>
+                      {menuItems}
+                    </div>
+                  );
+                })}
             </SidebarMenu>
 
             {extraInfo}
