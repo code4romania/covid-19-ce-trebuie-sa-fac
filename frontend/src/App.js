@@ -22,6 +22,7 @@ import DSU from "./images/dsu.png";
 import "./App.scss";
 
 const About = lazy(() => import("./components/About"));
+const Conduita = lazy(() => import("./components/Conduita"));
 const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
@@ -54,6 +55,9 @@ const MenuItems = [
   >
     Știri oficiale
   </a>,
+  <Link to="/conduita" key={"cond"}>
+    Conduită
+  </Link>,
   <Link to="/despre" key={"des"}>
     Despre
   </Link>,
@@ -94,6 +98,9 @@ const App = () => {
           <Switch>
             <Route path="/despre">
               <About />
+            </Route>
+            <Route path="/conduita">
+              <Conduita />
             </Route>
             <Route path="/politica-de-confidentialitate">
               <PrivacyPolicy />
