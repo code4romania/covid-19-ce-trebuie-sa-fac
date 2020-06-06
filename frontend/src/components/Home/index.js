@@ -137,7 +137,7 @@ const Home = () => {
                   onClick={triggerSearch}
                 />
               </div>
-              {data.map((doc) => {
+              {data.filter((doc) => doc.showInSideMenu).map((doc) => {
                 let menuItems = null;
                 if (doc.content.length > 1) {
                   // Ignore the first subpage title

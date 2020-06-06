@@ -7,6 +7,7 @@ export default [
     active: true,
     display_order: 2,
     showInTopMenu: true,
+    showInSideMenu: true,
     firstNodeId: null,
     content: [
       {
@@ -81,6 +82,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 102,
     showInTopMenu: true,
+    showInSideMenu: true,
     active: false,
     display_order: 3,
     content: [
@@ -283,7 +285,8 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 103,
     active: false,
-    showInTopMenu: true,
+    showInTopMenu: false,
+    showInSideMenu: false,
     display_order: 4,
     content: [
       {
@@ -574,6 +577,7 @@ export default [
     active: false,
     display_order: 5,
     showInTopMenu: true,
+    showInSideMenu: true,
     content: [
       {
         title: "Adaptare și rezistență",
@@ -766,20 +770,8 @@ export default [
       `
       },
       {
-        title: "Model declarație pe proprie răspundere",
-        theme: { highlightColor: '#ffde59'},
-        display_order: 7,
-        slug: "modele-de-declaratii",
-        page: `
-        <p> Descarcă de aici modelul de declarație pe proprie răspundere pe care o poți utiliza în perioada stării de alertă.  </p>
-
-        <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratii%2014%20mai/Declaratie%20proprie%20raspundere_starealerta.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
-
-        `
-      },
-      {
         title: "Cum să îți planifici mai bine finanțele proprii",
-        display_order: 8,
+        display_order: 7,
         slug: "planificare-finante",
         page: `
         <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Statul în casă poate fi eficient pentru tine și pentru bugetul tău. Nu mai ieși așa des în oraș, nu te mai plimbi prin magazine, nu mai pleci în excursii. Toate aceste NU-uri sunt ca o gură de aer pentru cheltuielile tale sau, altfel spus, un DA pentru economii. Totuși, la polul opus, te pândește cheltuitul impulsiv sau un venit mai mic. Să ai grijă de bugetul tău poate părea complicat acum și, totuși, sunt câteva sfaturi financiare pe care e bine să le iei în considerare în această perioadă.</p>
@@ -824,6 +816,7 @@ export default [
     active: false,
     display_order: 6,
     showInTopMenu: true,
+    showInSideMenu: true,
     content: [
       {
         title: "Pentru cei care oferă ajutor",
@@ -936,6 +929,7 @@ export default [
     active: false,
     display_order: 8,
     showInTopMenu: false,
+    showInSideMenu: true,
     content: [
       {
         title: "Întrebări frecvente - COVID-19",
@@ -1229,6 +1223,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     active: false,
     display_order: 1,
     showInTopMenu: true,
+    showInSideMenu: true,
     content: [
       {
         title: "Întrebări frecvente - stare de alertă",
@@ -1333,6 +1328,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
     active: false,
     display_order: 7,
     showInTopMenu: true,
+    showInSideMenu: true,
     content: [
       {
         title: "Mituri despre coronavirus",
