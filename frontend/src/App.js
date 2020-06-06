@@ -55,6 +55,9 @@ const MenuItems = [
   >
     Știri oficiale
   </a>,
+  <Link to="/conduita" key={"cond"}>
+    Conduită
+  </Link>,
   <Link to="/despre" key={"des"}>
     Despre
   </Link>,

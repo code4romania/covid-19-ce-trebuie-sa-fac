@@ -97,7 +97,7 @@ const Conduita = () => {
                   Atingi masca cu mâinile în timpul folosirii.
                 </Card>
                 <Card image={conduitaImge15}>
-                  Porți o mască care nu stă fixă pe față.
+                  Porți o masca nepotrivită, care nu stă fixă pe față.
                 </Card>
               </div>
               <div className="column">
