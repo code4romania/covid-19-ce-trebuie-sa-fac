@@ -82,8 +82,17 @@ const Conduita = () => {
               </div>
             </div>
 
-            <h3 className="has-text-info">Ai grijă să porți corect masca de protecție!</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EHePCW5fyJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 className="has-text-info">
+              Ai grijă să porți corect masca de protecție!
+            </h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EHePCW5fyJs"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
 
             <h3 className="has-text-danger">Ai grijă să NU:</h3>
             <div className="columns  is-desktop has-text-centered-mobile">
@@ -121,14 +130,30 @@ const Conduita = () => {
               </div>
             </div>
 
-            <h3 className="has-text-danger">Ce nu trebuie să faci atunci când porți mască!</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-dsQiqAUTMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 className="has-text-danger">
+              Ce nu trebuie să faci atunci când porți mască!
+            </h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-dsQiqAUTMU"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
 
-            <h3 className="has-text-info">Masca de protecție îți poate salva viața! </h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/A8D81ON0psc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            <h3 className="has-text-info">
+              Masca de protecție îți poate salva viața!{" "}
+            </h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/A8D81ON0psc"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </section>
-
         </div>
         <aside className="column is-4">
           <Hero title={"Instrumente utile"} useFallbackIcon={true} />
