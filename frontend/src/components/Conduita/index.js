@@ -2,6 +2,7 @@ import React from "react";
 import { Hero, Instruments } from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import Card from "./../Card";
+import "./styles.scss";
 import conduitaImge1 from "../../images/conduita/1.png";
 import conduitaImge2 from "../../images/conduita/2.png";
 import conduitaImge3 from "../../images/conduita/3.png";
@@ -81,6 +82,19 @@ const Conduita = () => {
               </div>
             </div>
 
+            <h3 className="has-text-info">
+              Ai grijă să porți corect masca de protecție!
+            </h3>
+            <iframe
+              title="Ai grijă să porți corect masca de protecție"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EHePCW5fyJs"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
             <h3 className="has-text-danger">Ai grijă să NU:</h3>
             <div className="columns  is-desktop has-text-centered-mobile">
               <div className="column">
@@ -116,6 +130,32 @@ const Conduita = () => {
                 </Card>
               </div>
             </div>
+
+            <h3 className="has-text-danger">
+              Ce nu trebuie să faci atunci când porți mască!
+            </h3>
+            <iframe
+              title="Ce nu trebuie să faci atunci când porți mască"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-dsQiqAUTMU"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
+            <h3 className="has-text-info">
+              Masca de protecție îți poate salva viața!
+            </h3>
+            <iframe
+              title="Masca de protecție îți poate salva viața"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/A8D81ON0psc"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </section>
         </div>
         <aside className="column is-4">
