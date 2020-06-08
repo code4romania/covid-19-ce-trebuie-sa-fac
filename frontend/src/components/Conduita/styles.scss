@@ -1,0 +1,11 @@
+.content iframe {
+  margin: 20px auto;
+  display: block;
+}
+
+
+@media (max-width: 1024px) {
+  .content iframe {
+    width: 100%;
+  }
+}
