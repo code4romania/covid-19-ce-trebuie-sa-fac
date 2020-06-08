@@ -86,6 +86,7 @@ const Conduita = () => {
               Ai grijă să porți corect masca de protecție!
             </h3>
             <iframe
+              title="Ai grijă să porți corect masca de protecție"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/EHePCW5fyJs"
@@ -134,6 +135,7 @@ const Conduita = () => {
               Ce nu trebuie să faci atunci când porți mască!
             </h3>
             <iframe
+              title="Ce nu trebuie să faci atunci când porți mască"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/-dsQiqAUTMU"
@@ -146,6 +148,7 @@ const Conduita = () => {
               Masca de protecție îți poate salva viața!
             </h3>
             <iframe
+              title="Masca de protecție îți poate salva viața"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/A8D81ON0psc"
