@@ -143,7 +143,7 @@ const Conduita = () => {
             ></iframe>
 
             <h3 className="has-text-info">
-              Masca de protecție îți poate salva viața!{" "}
+              Masca de protecție îți poate salva viața!
             </h3>
             <iframe
               width="560"
