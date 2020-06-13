@@ -202,6 +202,9 @@ export default [
         slug: "plan-actiune-acasa",
         page: `
          <h3 id="plan-actiune">Ce poți face în această perioadă și cum să construiești un plan de acțiune</h3>
+
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/4wxxFfvAVLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
          <p>Discută cu oamenii care trebuie să fie incluși în planul tău de acțiune. Discută cu membrii gospodăriei, ce trebuie să faceți dacă va apărea un focar COVID-19 în propria comunitate.</p>
          <p>Evită întânirea cu rude și cu prieteni. De preferat ar fi întâlnirile on-line.</p>
          <p>Fă un plan pentru modalitățile de îngrijire a celor care ar putea avea un risc mai mare de complicații grave. Există informații limitate despre cine poate fi expus riscului de complicații severe cauzate de COVID-19. Din datele care sunt disponibile pentru pacienții cu COVID-19, precum și din datele pentru coronavirusuri asociate, cum ar fi SARS-CoV și MERS-CoV, este posibil ca vârstnicii și persoanele care au afecțiuni medicale cronice să fie expuși riscului de complicații severe. Nu intrați în contact direct sau indirect cu ei. Datele de la începutul acestei boli sugerează că persoanele în vârstă sunt mai susceptibile să aibă o formă mai gravă a COVID-19. </p>
