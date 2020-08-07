@@ -18,6 +18,7 @@ const remapInstrumentsData = (data) => {
     data: getCategoryItems(sortedData, "DATA"),
     offer_help: getCategoryItems(sortedData, "OFFER_HELP"),
     diaspora: getCategoryItems(sortedData, "DIASPORA"),
+    medical: getCategoryItems(sortedData, "MEDICAL"),
   };
 };
 
@@ -28,6 +29,7 @@ const renderInstrumentItem = (usefulApp) => {
     DATA: "pink",
     INFO: "yellow",
     DIASPORA: "blue",
+    MEDICAL: "orange",
   };
   return (
     <InstrumentsItem
