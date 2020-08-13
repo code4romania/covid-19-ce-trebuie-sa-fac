@@ -16,9 +16,9 @@ This project is built by amazing volunteers and you can be one of them! Here's a
 
 Help us out by testing this project in the [staging environment](https://ce-ma-fac.now.sh/). If you see something that doesn't quite work the way you expect it to, open an Issue. Make sure to describe what you _expect to happen_ and _what is actually happening_ in detail.
 
-If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements. 
+If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements.
 
-Also, this is [the workflow we follow](.github/WORKFLOW.md). 
+Also, this is [the workflow we follow](.github/WORKFLOW.md).
 
 ## Built With
 
@@ -38,21 +38,37 @@ Uses reusable components from: https://www.npmjs.com/package/@code4ro/taskforce-
 
 ## Development
 
+### Repo setup
+
 - Fork this repo
 - Clone your fork
 - Open the directory where you have cloned the repo
-- And then follow [these](/frontend/README.md#Development) instructions
 
-## Development
-### CMS
-- WIP
+### Install node dependencies
 
-### Frontend
-- Please follow [these](/frontend/README.md#Development) instructions
+```sh
+$ npm install
+```
+
+### Run the app in the development mode
+
+```sh
+$ npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
+
+### Run the tests
+
+```sh
+$ npm test
+```
+
+Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Deployment
 
-- preview environments available automatically on each PR powered by [ZEIT Now](https://zeit.co/). Preview environment for `develop` branch: https://ce-ma-fac.now.sh/
+- preview environments available automatically on each PR powered by [Vercel](https://vercel.com/). Preview environment for `develop` branch: https://ce-ma-fac.now.sh/
 - uses [github actions](https://github.com/features/actions) for deploying in prod
 
 ## Feedback
