@@ -6,7 +6,6 @@
   "private": true,
   "dependencies": {
     "@code4ro/taskforce-fe-components": "^1.0.28",
-    "bulma": "^0.8.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-ga": "^2.7.0",
