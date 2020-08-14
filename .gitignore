@@ -1,6 +1,7 @@
 .vscode
 /api/Decisions.Api/staticPages
 */node_modules/
-frontend/build
+/node_modules
+build
 
 /.idea
