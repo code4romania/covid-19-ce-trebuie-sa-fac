@@ -128,6 +128,9 @@ const About = () => {
             {instrumentsData.diaspora.map((usefulApp) =>
               renderInstrumentItem(usefulApp)
             )}
+            {instrumentsData.medical.map((usefulApp) =>
+              renderInstrumentItem(usefulApp)
+            )}
           </Instruments>
         </aside>
       </div>

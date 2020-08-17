@@ -106,5 +106,20 @@ export default [
         link: "https://diasporahub.ro"
       }
     ]
+  },
+  {
+    title: "Monitorizează-ți starea de sănătate",
+    doc_type: "USEFUL_APP",
+    doc_id: 8,
+    active: true,
+    display_order: 8,
+    app_type: "MEDICAL",
+    content: null,
+    buttons: [
+      {
+        title: "Fă-ți cont pe Jurnal Medical",
+        link: "https://jurnalmedical.ro/"
+      }
+    ]
   }
 ];
