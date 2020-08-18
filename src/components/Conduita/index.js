@@ -156,6 +156,32 @@ const Conduita = () => {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
+
+            <h3 className="has-text-info">
+              Păstrează distanța! Păstrează-ți sănătatea!
+            </h3>
+            <iframe
+              title="Păstrează distanța! Păstrează-ți sănătatea!"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/NjTkFo5DTvQ"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
+            <h3 className="has-text-info">
+              Dezinfectează-ți mâinile și obiectele pe care le folosești!
+            </h3>
+            <iframe
+              title="Dezinfectează-ți mâinile și obiectele pe care le folosești!"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/rn_HNFdUL1o"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </section>
         </div>
         <aside className="column is-4">
