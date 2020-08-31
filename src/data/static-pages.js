@@ -69,12 +69,11 @@ export default [
       <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
       <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul <a href="tel:0800800358">0800.800.358</a>. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor <a href="tel:+40213202020">+4021.320.20.20</a>.</p>
 
-  `
-      }
-    ]
-    ,
+  `,
+      },
+    ],
     form: null,
-    buttons: null
+    buttons: null,
   },
   {
     title: "Cum ne protejăm?",
@@ -108,7 +107,7 @@ export default [
 
          <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">ATENȚIE</br>
          Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus (COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație). Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</p>
-         `
+         `,
       },
       {
         title: "Ce măsuri trebuie să iei pentru a te proteja",
@@ -124,7 +123,7 @@ export default [
           <li>Evită să îți atingi ochii, nasul și gura cu mâinile neigienizate.</li>
           <li>Distanțează-te de ceilalți în cazul în care COVID-19 se răspândește în propria comunitate. Acest lucru este cu atât mai important pentru persoanele care prezintă un risc mai mare de îmbolnăvire.</li>
          </ul>
-         `
+         `,
       },
       {
         title: "Ce măsuri trebuie să iei pentru a-i proteja pe ceilalți",
@@ -149,7 +148,7 @@ export default [
 
          <div style="margin: 1.5em auto; text-align: center"><img src=${require("../images/pages/7_cumsefolosestamasca.jpg")} alt="Cum se folosește masca"></img></div>
 
-         `
+         `,
       },
       {
         title: "Cum să cureți și să dezinfectezi",
@@ -194,7 +193,7 @@ export default [
                <li>Înainte și după ce acorzi îngrijiri de rutină unei alte persoane care are nevoie de asistență (de exemplu, un copil).</li>
              </ul>
          </div>
-         `
+         `,
       },
       {
         title: "Cum să îți creezi un plan de acțiune la tine acasă",
@@ -217,10 +216,11 @@ export default [
          <p>Rămâi în legătură cu ceilalți prin telefon, e-mail sau social media. Dacă locuiești singur și te îmbolnăvești în timpul extinderii unui focar de COVID-19, este posibil să ai nevoie de ajutor. Dacă ai o afecțiune medicală cronică și locuiești singur, roagă familia, prietenii și furnizorii de servicii medicale (medicul de familie sau Directia de Sanatate Publică din județul tău sau apelează TelVerde <a href="tel:0800800358">0800 800 358</a>) să te ia în evidență și să te verifice. Rămâi în legătură cu familia și prietenii cu afecțiuni medicale cronice.</p>
          <p>Ai grijă de sănătatea emoțională a membrilor gospodăriei tale. Răspândirea epidemiei poate genera situații stresante atât pentru adulți cat și pentru copii. Copiii răspund diferit la situații stresante comparativ cu adulții. Vorbește cu ei despre epidemie, încearcă să rămâi calm și asigură-i că sunt în siguranță. Descurajează copiii și adolescenții să se adune în locuri publice în timp ce cursurile de școală sunt suspendate, pentru a ajuta la încetinirea răspândirii COVID-19 în propria comunitate.</p>
 
-        `
+        `,
       },
       {
-        title: "15 recomandări privind conduita socială responsabilă în prevenirea răspândirii coronavirus",
+        title:
+          "15 recomandări privind conduita socială responsabilă în prevenirea răspândirii coronavirus",
         display_order: 6,
         slug: "recomandari-privind-conduita-sociala-responsabila",
         page: `
@@ -271,13 +271,12 @@ export default [
           <li> Dacă vă aflați în autoizolare la domiciliu respectați cu strictețe recomandările autorităților, NU părăsiți sub nicio formă domiciliul pe perioada celor 14 zile, NU primiți vizitatori și NU intrați în contact apropiat cu eventualele persoane care vă furnizează alimente sau produse.</li>
           <li> În cazul în care încălcați regimul autoizolării la domiciliu riscați amendă de până la 20.000 de lei, precum și dosar penal în cazul în care contribuiți la răspândirea virusului.</li>
           </ul>
-        `
-      }
-    ]
-    ,
+        `,
+      },
+    ],
     firstNodeId: null,
     form: null,
-    buttons: null
+    buttons: null,
   },
   {
     title: "Ai simptome?",
@@ -304,8 +303,8 @@ export default [
           <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.
           </p>
           <p>Folosește chestionarul de mai jos pentru a identifica gradul de risc propriu pentru a putea vedea ce pași ai de urmat mai departe, în funcție de starea ta de sănătate și de acțiunile întreprinse în ultima perioadă.</p>
-          `
-      }
+          `,
+      },
     ],
     firstNodeId: 0,
     form: [
@@ -316,13 +315,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 2,
@@ -331,13 +330,13 @@ export default [
         options: [
           {
             label: "Masculin",
-            value: 1
+            value: 1,
           },
           {
             label: "Feminin",
-            value: 2
-          }
-        ]
+            value: 2,
+          },
+        ],
       },
       {
         questionId: 3,
@@ -346,13 +345,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 4,
@@ -362,13 +361,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 5,
@@ -377,13 +376,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 6,
@@ -393,13 +392,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 7,
@@ -408,13 +407,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 8,
@@ -423,13 +422,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 10,
@@ -439,13 +438,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 11,
@@ -455,13 +454,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 12,
@@ -470,13 +469,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 13,
@@ -485,13 +484,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 14,
@@ -500,13 +499,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 15,
@@ -516,13 +515,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 16,
@@ -532,13 +531,13 @@ export default [
         options: [
           {
             label: "Da",
-            value: 1
+            value: 1,
           },
           {
             label: "Nu",
-            value: 0
-          }
-        ]
+            value: 0,
+          },
+        ],
       },
       {
         questionId: 17,
@@ -547,27 +546,27 @@ export default [
         options: [
           {
             label:
-              "Înțelegem că există un grad de risc ridicat să fii infectat cu COVID-19. Haide să căutăm soluții împreună! 112 te va prelua cu prioritate și sigur există și alte persoane care vor putea fi alături de tine. Concentrează-te să dai datele cât mai clar și corect și să indici și numele unui membru din familie sau cunoscut care poate fi alături de tine în această perioadă. Limitează contactul fizic cu celelalte persoane, dar rămâi conectat cu ei prin telefon. Poți suna și la Direcția de Sănătate Publică din județul în care te afli. Păstrează-ți încrederea până când vei fi preluat de către medici! După ce ai intrat în îngrijirea medicilor, dar și înainte, ai posibilitatea să suni la Telverde pentru informații Covid 19 , <a href=\"tel:0800800358\">0800 800 358</a> și/sau la Telverde pentru suport psihologic, <a href=\"tel:0800070030\">0800 070 030</a>. Nu ești singur.",
-            value: 0
+              '<span>Înțelegem că există un grad de risc ridicat să fii infectat cu COVID-19. Haide să căutăm soluții împreună! 112 te va prelua cu prioritate și sigur există și alte persoane care vor putea fi alături de tine. Concentrează-te să dai datele cât mai clar și corect și să indici și numele unui membru din familie sau cunoscut care poate fi alături de tine în această perioadă. Limitează contactul fizic cu celelalte persoane, dar rămâi conectat cu ei prin telefon. Poți suna și la Direcția de Sănătate Publică din județul în care te afli. Păstrează-ți încrederea până când vei fi preluat de către medici! După ce ai intrat în îngrijirea medicilor, dar și înainte, ai posibilitatea să suni la Telverde pentru informații Covid 19 , <a href="tel:0800800358">0800 800 358</a> și/sau la Telverde pentru suport psihologic, <a href="tel:0800070030">0800 070 030</a>. Nu ești singur.</span>',
+            value: 0,
           },
           {
             label:
-              "Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugăm să suni la medicul de familie sau la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și să aștepți ca cineva să te preia dacă vrei să te informezi în detaliu despre simptome si prevenție. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol și continuă să îți monitorizezi starea. Nu ești singur! Dacă simți ca emoțiile tale sunt mai greu de controlat până când vine rezultatul sau pur și simplu vrei să împărtășești starea ta, ai posibilitatea să suni și la Telverde pentru suport psihologic <a href=\"tel:0800070030\">0800 070 030</a>.",
-            value: 1
+              '<span>Infecția cu SARS-COV-2 (coronavirus) și răceala puternică au uneori simptome similare. Conform răspunsurilor tale, pentru siguranță te rugăm să suni la medicul de familie sau la TelVerde <a href="tel:0800800358">0800 800 358</a> și să aștepți ca cineva să te preia dacă vrei să te informezi în detaliu despre simptome si prevenție. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. Între timp, nu ieși din casă și limitează contactul cu familia pentru a nu îi pune în pericol și continuă să îți monitorizezi starea. Nu ești singur! Dacă simți ca emoțiile tale sunt mai greu de controlat până când vine rezultatul sau pur și simplu vrei să împărtășești starea ta, ai posibilitatea să suni și la Telverde pentru suport psihologic <a href="tel:0800070030">0800 070 030</a>.</span>',
+            value: 1,
           },
           {
             label:
-              "Nu manifești niciun simptom de infecție. Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href=\"tel:0800070030\">0800 070 030</a> pentru suport psihologic și sprijin social!",
-            value: 2
+              '<span>Nu manifești niciun simptom de infecție. Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href="tel:0800800358">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href="tel:0800070030">0800 070 030</a> pentru suport psihologic și sprijin social!</span>',
+            value: 2,
           },
           {
             label:
-              "Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href=\"tel:0800800358\">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href=\"tel:0800070030\">0800 070 030</a> pentru suport psihologic și sprijin social!",
-            value: 3
-          }
-        ]
-      }
-    ]
+              '<span>Îți recomandăm să rămâi în siguranță la domiciliu și să limitezi la maximum orice ieșire nerelevantă dacă ai posibilitatea și continuă să îți monitorizezi starea în fiecare zi. Dacă ai întrebări LEGATE de COVID 19 apelează la TelVerde <a href="tel:0800800358">0800 800 358</a> și așteaptă ca cineva să te preia. Liniile sunt foarte ocupate acum, te rugăm să ai răbdare. De asemenea, îți amintim că poți suna și la TelVerde <a href="tel:0800070030">0800 070 030</a> pentru suport psihologic și sprijin social!</span>',
+            value: 3,
+          },
+        ],
+      },
+    ],
   },
   {
     title: "Adaptare și rezistență",
@@ -617,7 +616,7 @@ export default [
           <li>Sună-ți medicul de familie dacă stresul intervine în activitățile tale curente, mai multe zile la rând.</li>
         </ul>
         </div>
-        `
+        `,
       },
       {
         title: "Sfaturi pentru părinți",
@@ -647,7 +646,7 @@ export default [
           <li>Încearcă să ții pasul cu ritualurile zilnice. Dacă școlile sunt închise, creează un program dedicat activităților de învățare, celor de relaxare sau de divertisment. </li>
           <li>Fii un model pentru ei. Ia pauze, încearcă să dormi suficient, să faci mișcare și să mănânci echilibrat. Ia legătura cu prietenii și cu membrii familiei. </li>
         </ul>
-        `
+        `,
       },
       {
         title: "Ajutor pentru copii în gestionarea stărilor de urgență",
@@ -682,7 +681,7 @@ export default [
           <li>Este dificil să prezici modul în care unii copiii vor reacționa la dezastre sau la evenimente traumatizante. Pentru că părinții, profesorii și alți adulți cunosc comportamentul copilului în diferite situații, e important ca aceștia să lucreze împreună și să împărtășească informații despre cum reușește fiecare copil să depășească un eveniment traumatizant. </li>
         </ul>
 
-        `
+        `,
       },
       {
         title: "Reacții obișnuite pentru copii și adolescenți",
@@ -708,7 +707,7 @@ export default [
           Copiii care au nevoie permanentă de aparate care să le susțină sistemul respirator sau cei care sunt imobilizați într-un scaun cu rotile sau la pat, pot avea reacții mai puternice în fața unui dezastru iminent sau în desfășurare. Ar putea să resimtă mai intens momentele de stres, îngrijorare sau furie, în comparație cu ceilalți copii, pentru că au mai puțin control asupra stării lor generale. Același lucru este valabil pentru copii cu alte tipuri de limitări de natură fizică, emoțională sau intelectuală. Copiii cu nevoi speciale pot avea nevoie de încurajări suplimentare, de mai multe explicații legate de eveniment, de mai mult confort și de alte forme de contact fizic, precum îmbrățișări din partea celor dragi.
         </div>
 
-        `
+        `,
       },
       {
         title: "Pentru cei care tocmai au ieșit din carantină",
@@ -726,7 +725,7 @@ export default [
           <li>Copiii mai pot simți supărare emoții puternice dacă ei sau cineva cunoscut a ieșit din carantină.</li>
         </ul>
 
-        `
+        `,
       },
       {
         title: "Diminuarea stigmatului",
@@ -767,7 +766,7 @@ export default [
           <li>Să împărtășească nevoia de sprijin social pentru cei care s-au întors din China sau care sunt îngrijorați cu privire la prietenii sau la rudele rămase în zonele afectate. </li>
         </ul>
 
-      `
+      `,
       },
       {
         title: "Cum să îți planifici mai bine finanțele proprii",
@@ -800,13 +799,12 @@ export default [
 
         <p>În cazul în care, din oricare motiv te afli într-o situație limită din punct de vedere financiar există posibilitatea de a apela la asistența socială - nu este o situație care te caracterizează, este o situație temporară. Importantă este viața ta și siguranța ei. Există soluții!</p>
 
-        `
-      }
-    ]
-    ,
+        `,
+      },
+    ],
     buttons: null,
     firstNodeId: 0,
-    form: null
+    form: null,
   },
   {
     title: "Pentru cei care oferă ajutor",
@@ -913,13 +911,12 @@ export default [
          <a href="mailto:consiliere@estuar.org">consiliere@estuar.org</a>
          </p>
 
-       `
-      }
-    ]
-    ,
+       `,
+      },
+    ],
     form: null,
     firstNodeId: null,
-    buttons: null
+    buttons: null,
   },
   {
     title: "Întrebări frecvente - COVID-19",
@@ -934,8 +931,8 @@ export default [
       {
         title: "Întrebări frecvente - COVID-19",
         display_order: 1,
-        page: `<p>Întrebări frecvente despre COVID-19</p>`
-      }
+        page: `<p>Întrebări frecvente despre COVID-19</p>`,
+      },
     ],
     firstNodeId: null,
     form: null,
@@ -946,14 +943,14 @@ export default [
         content: `
             <p>Noul coronavirus care provoacă COVID-19 este o nouă infecție virală din categoria coronavirusurilor, care nu era identificată anterior. Virusul care cauzează infecția cu COVID-19 nu este același cu coronavirusurile care circulă în mod comun în populație (Coronavirusurile comunitare), care cauzează boli ușoare ca răceala.</p>
             <p>Un diagnostic cu coronavirus comunitari (229E, NL63 sau HKU1) nu este același lucru cu un diagnostic cu COVID-19. Pacienții cu COVID-19 vor fi evaluați și tratați diferit decât cei cu coronavirusuri comunitare.</p>
-        `
+        `,
       },
       {
         title: `De ce este boala numită “Coronavirus Disease 2019”, COVID-19?`,
         content: `
             <p>Pe data de 11 Februarie 2019, Organizația Mondială a Sănătății a anunțat un nume oficial pentru boala virală care cauzează epidemia de coronavirus nou din 2019, identificat prima dată în orașul Wuhan din China. Noul nume al bolii este “Coronavirus disease 2019 - care se traduce “boală coronavirus 2019”- abreviată COVID-19. În COVID ‘CO’ vine de la corona, ‘VI’ vine de la virus și ‘D’ de la disease (boală). Înainte, boala era numită “noul coronavirus - 2019” sau “2019-nCoV”.</p>
             <p>Există mai multe tipuri de coronavirusuri umane, inclusiv unele care cauzează în mod curent infecții ușoare ale tractului respirator superior. COVID-19 e o boală nouă, cauzată de un coronavirus nou, care nu a fost descoperit anterior la oameni. Numele a fost selectat folosind Ghidul OMS (Organizația Mondială a Sănătății) de bune practici pentru numirea noilor boli infecțioase umane.</p>
-        `
+        `,
       },
       {
         title: `De ce ar dori cineva să dea vina pe/ sau să evite anumiți indivizi și anumite grupuri din cauza epidemiei?`,
@@ -961,33 +958,33 @@ export default [
             <p>Cetățeni din România ar putea fi îngrijorați sau anxioși despre prieteni și rude care locuiesc în, se întorc din, sau vizitează zone afectate puternic de COVID-19. Unii oameni sunt îngrijorați de răspândirea bolii. Frica și anxietatea pot duce la stigmă socială, de exemplu față de persoane din China sau Italia sau față de persoane care au fost în carantină sau izolare.</p>
             <p>Stigmatizarea e discriminarea unui grup de oameni, un loc sau o națiune. Stigma e asociată cu o lipsă de cunoștințe despre COVID-19 și felurile în care se răspândește, cu o nevoie de a găsi pe cineva vinovat, cu frica de îmbolnăvire și moarte sau cu știri false care împrăștie mituri și zvonuri.</p>
             <p>Stigma afectează pe toată lumea deoarece creează mai multă frică sau furie față de oameni obișnuiți care ajung să fie învinuiți în locul bolii care cauzează problema.</p>
-        `
+        `,
       },
       {
         title: `Cum putem opri stigma asociată COVID-19?`,
         content: `
             <p>Putem lupta împotriva stigmatizării și să îi ajutăm pe ceilalți, nu să îi rănim, oferind suport social. Trebuie să ne opunem stigmatizării prin stăpânirea bună a datelor exacte. Comunicând strict cunoștințe legate de virus, cum se  răspândește și despre efectele acestuia fără a învinovăți categorii largi de persoane pe bază de rasă, etnicitate sau proveniență, putem să oprim stigmatizarea.</p>
-        `
+        `,
       },
       {
         title: `Ar trebui să fiu îngrijorat(ă) de COVID-19?`,
         content: `
             <p>Îmbolnăvirile datorită infecției cu noul coronavirus sunt în general ușoare, în special în rândul copiilor și al tinerilor adulți. Cu toate acestea, COVID-19 poate cauza îmbolnăviri serioase: aproximativ 1 din 5 persoane care contactează această boală au nevoie de îngrijiri medicale spitalicești. Este așadar normal ca oamenii să se îngrijoreze de cum îi va afecta epidemia COVID-19 pe ei și pe cei dragi.</p>
             <p>Ne concentrăm îngrijorările în acțiuni pentru a ne proteja pe noi, pe cei dragi și comunitatea în care trăim. Prima dintre aceste acțiuni este spălarea frecventă și riguroasă a mâinilor cât și menținerea unei igiene respiratorii bune. În același timp, informați-vă și urmați recomandările autorităților locale și naționale privind orice restricții de călătorie, mobilitate și izolare.</p>
-        `
+        `,
       },
       {
         title: `Care e sursa virusului?`,
         content: `
             <p>Coronavirusurile sunt o familie virală numeroasă. Unele pot cauza boli la om pe când altele, precum coronavirusurile canine sau feline infectează doar animalele. Rareori unele coronavirusuri care infectează animalele au făcut tranziția la om, putând fi transmise de către acesta. Asta se suspectează că s-a întâmplat în cazul virusului care cauzează COVID-19. Sindromul Respirator din Orientul Mijlociu (MERS) și Sindromul Respirator Sever Acut (SARS) sunt alte două exemple de coronavirusuri care au trecut de la animal la om.</p>
-        `
+        `,
       },
       {
         title: `Cum se răspândește virusul?`,
         content: `
             <p>Virusul a fost detectat pentru prima dată în orașul Wuhan, provincia Hubei, China. Primele infecții au fost conectate, în urma anchetei epidemiologice, de o piață de animale vii. Însă acum virusul se răspândește de la om la om. E important să ținem cont de faptul că răspândirea de la om la om poate continua fără gazde animale.</p>
             <p>Unele virusuri sunt extrem de contagioase (precum pojarul) iar altele mai puțin.Virusul care cauzează COVID-19 pare să fie unul care se răspândește ușor și în mod susținut în comunități (“răspândire comunitară”) în unele zone geografice afectate. Răspândirea comunitară înseamnă că populația dintr-o zona a fost infectată cu virusul, inclusiv un număr de persoane despre care nu se știe unde au contactat boala (nu se cunoaște originea bolii).</p>
-        `
+        `,
       },
       {
         title: `Poate cineva care are COVID-19 să răspândească boala?`,
@@ -999,26 +996,26 @@ export default [
                 <li>Prin picături respiratorii produse de o persoană infectată care strănută sau care tușește.</li>
             </ul>
             <p>Aceste picături microscopice pot ajunge în gura sau nasul persoanelor aflate în apropiere sau pot fi inhalate direct în plămâni.</p>
-        `
+        `,
       },
       {
         title: `Poate cineva care nu pare bolnav să răspândească virusul?`,
         content: `
             <p>Se crede că persoanele sunt contagioase mai ales atunci când sunt simptomatice (vizibil bolnave). Este însă posibil ca unele persoane să răspândească virusul înainte sau fără să manifeste simptome; există cazuri în care se pare că acest lucru s-a întâmplat cu noul coronavirus dar aceasta nu pare să fie principala modalitate de răspândire.</p>
-        `
+        `,
       },
       {
         title: `Pot lua virusul de pe o suprafață sau un obiect contaminat?`,
         content: `
             <p>Este posibil ca o persoană să se îmbolnăvească de COVID-19 prin atingerea unei suprafețe sau al unui obiect care are virusul pe el, apoi atingându-și gura, nasul sau ochii, dar aceasta nu pare să fie principala modalitate de răspândire.</p>
-        `
+        `,
       },
       {
         title: `Cât timp poate supraviețui noul coronavirus pe suprafețe contaminate? `,
         content: `
             <p>Deși încă nu este sigur cât timp supraviețui virusul care cauzează COVID-19 pe suprafețe, Organizația Mondială a Sănătății sugerează că acesta pare să se comporte ca și celălalte tipuri de coronavirus. Studiile făcute pe acestea sugerează că pot persista pe suprafețe între câteva ore și câteva zile (informație susținută și de datele preliminare despre noul coronavirus). Acest timp poate varia în funcție de condiții (ex. tipul de suprafață, temperatura sau umiditatea din mediu). </p>
             <p>Dacă considerați că o suprafață ar putea fi infectată, curățați-o cu un dezinfectant pentru a omorâ virusul și pentru a vă proteja pe dumneavoastră și pe cei din jur. Curățați-vă apoi mainile cu o soluție pe bază de alcool sau spălați-vă pe mâini cu apă și săpun. Evitați să vă atingeți ochii, nasul și gura.</p>
-        `
+        `,
       },
       {
         title: `Care este durata de infecție cu COVID-19?`,
@@ -1031,13 +1028,13 @@ export default [
                 <li>Pacientul a ieșit negativ la cel puțin două teste de exudat faringian consecutive, luate la distanță de 24 de ore.</li>
             </ul>
             <p>O persoană eliberată din izolare e considerată ca fiind necontagioasă, neprezentând risc de infecție pentru alții.</p>
-        `
+        `,
       },
       {
         title: `Poate o persoană care a fost în carantină să îi infecteze pe alții?`,
         content: `
             <p>Carantină înseamnă separarea unei persoane sau a unui grup de persoane care a fost expus unei boli contagioase (dar nu a dezvoltat simptome de boală) de populația care nu a fost expusă, pentru a limita posibilitățile de răspândire ale bolii. La fel ca autoizolarea, carantina este de obicei stabilită pentru perioada de incubație a bolii comunicabile, adică durata de timp în care oamenii dezvoltă boala după expunere. Pentru COVID-19, perioada de carantinare e de 14 zile de la data expunerii, deoarece 14 zile este cea mai lungă perioadă de incubație descoperită la coronavirusuri similare. O persoană eliberată din carantină e considerată ca fiind necontagioasă, neprezentând risc de infecție pentru alții.</p>
-        `
+        `,
       },
       {
         title: `Poate virusul care cauzează COVID-19 să fie răspândit  prin mâncare, inclusiv mâncare congelată sau refrigerată?`,
@@ -1045,31 +1042,31 @@ export default [
             <p>De regulă coronavirusurile se răspândesc de la persoană la persoană prin picături respiratorii. În prezent nu există dovezi care să susțină transmisia CIVID-19 prin mâncare. Înainte de a pregăti mâncare sau de a mânca e important să vă spălați pe mâini cu apă și săpun timp de 20 de secunde pentru siguranța alimentară generală. Pe toată durata zilei spălați-vă pe mâini de fiecare dată când tușiți strănutați, vă suflați nasul sau mergeți la toaletă.</p>
             <p>Ar putea fi posibil ca o persoană să se îmbolnăvească de COVID-19 prin atingerea unei suprafețe sau a unui obiect care are virusul pe el, apoi atingându-și gura, nasul sau chiar ochii, dar aceasta nu pare să fie principala modalitate de răspândire.</p>
             <p>În general, deoarece coronavirusurile supraviețuiesc puțin timp pe suprafețe, riscul de îmbolnăvire de la ambalaje sau produse alimentare e foarte scăzut, acestea călătorind timp de zile sau chiar săptămâni la temperaturi ambientale, refrigerate sau congelate.</p>
-        `
+        `,
       },
       {
         title: `Va opri vremea caldă epidemia de COVID-19?`,
         content: `
             <p>Nu se știe încă sigur dacă vremea și temperatura influențează răspândirea COVID-19. Alte virusuri, precum răceala sau gripa se răspândesc mai mult când vremea e rece dar asta nu înseamnă că e imposibil să te îmbolnăvești cu aceste virusuri în lunile calde. În acest moment nu știm dacă răspândirea COVID-19 va scădea când vremea se va încălzi. </p>
-        `
+        `,
       },
       {
         title: `Ce e răspândirea comunitară?`,
         content: `
             <p>Răspândirea comunitară e când mai multe persoane au fost infectate într-o zonă, inclusiv unele persoane care nu sunt sigure de metoda prin care au fost infectate (nu se cunoaște sursa infectării).</p>
-        `
+        `,
       },
       {
         title: `Pot să mă infectez în România?`,
         content: `
             <p>Situația evoluează foarte repede și riscul de infecție poate evolua zilnic. Consultați sursele oficiale la zi pentru a stabili riscul pentru dumneavoastră.</p>
-        `
+        `,
       },
       {
         title: `Există cazuri în România?`,
         content: `
             <p>Da, există cazuri de COVID-19 în România, atât cazuri de persoane ce s-au întors în țară cu virusul cât și de persoane infectate local. Numărul oficial de infecții poate fi văzut <a href="http://www.datelazi.ro" target="_blank" rel="noopener noreferrer">aici</a></p>
-        `
+        `,
       },
       {
         title: `Cum mă pot proteja?`,
@@ -1111,19 +1108,19 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Consultați medicul de familie pentru mai multe detalii despre cum să vă monitorizați starea de sănătate pentru simptome.</li>
                 <li>Țineți contactul cu prieteni sau membri familiei prin telefon sau internet - e posibil să aveți nevoie de ajutor cu cumpărături sau asistență medicală, mai ales dacă sunteți în grupele de risc ridicat.</li>
             </ul>
-        `
+        `,
       },
       {
         title: `Ce să fac dacă am avut contact direct cu o persoană confirmată cu COVID-19?`,
         content: `
             <p>Contactați autoritățile la linia TELVERDE <a href="tel:0800800358">0800 800 358</a> Veți primi instrucțiuni punctuale. Între timp, evitați contactul cu alte persoane pe cât posibil.</p>
-        `
+        `,
       },
       {
         title: `Cine e expus mai mult riscului de îmbolnăvire gravă cu COVID-19?`,
         content: `
             <p>Din datele disponibile până acum, persoanele cele mai expuse la o îmbolnăvire gravă cu COVID-19 sunt persoanele în vârstă și persoanele bolnave cronic de diabet, boli pulmonare, boli cardiace inclusiv hipertensiune.</p>
-        `
+        `,
       },
       {
         title: `Ce pot face persoanele ce prezintă risc ridicat de îmbolnăvire?`,
@@ -1135,13 +1132,13 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Dacă trebuie să ieșiți din casă luați măsuri de precauție uzuale, stați departe de persoane bolnave, limitați contactul apropiat, spălați-vă des pe mâini, evitați orice fel de călătorie neesențială și evitați mulțimile. </li>
                 <li>Fiți atenți la simptome, mai ales la cele grave. Dacă vă îmbolnăviți, contactați 112.</li>
             </ul>
-        `
+        `,
       },
       {
         title: `Sunt expus la risc de îmbolnăvire cu COVID-19 dacă deschid pachete provenite din țări afectate ca China sau Italia?`,
         content: `
             <p>Momentan nu știm destule despre rata de supraviețuire a coronavirusului ce provoacă COVID-19 dar coronavirusurile au o rată scăzută de supraviețuire pe supraafețe iar pachetele stau zile dacă nu săptămâni pe traseu. Riscul de contaminare de la un pachet este foarte redus și nu avem dovezi de nici un caz la nivel mondial contaminat prin colete poștale.</p>
-        `
+        `,
       },
       {
         title: `Care sunt simptomele COVID-19?`,
@@ -1162,25 +1159,25 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Față sau buze albastre</li>
             </ul>
             <p>Această listă este doar una provizorie. Contactați-vă medicul de familie dacă prezentați orice tip de simptome asociate COVID-19. Pe baza simptomatologiei se poate dispune testarea pentru COVID-19 și spitalizarea într-unul din centrele specializate dacă se consideră necesar de către cadrele medicale. Contactați  numărul de urgență 112 doar în caz de simptome grave. O persoană trebuie să fie testată de două ori consecutiv cu un rezultat negativ, pentru a fi considerată vindecată.</p>
-        `
+        `,
       },
       {
         title: `Poate o persoană ce a primit un diagnostic negativ la test să fie apoi testată și să fie identificată ca bolnavă cu COVID-19?`,
         content: `
             <p>Un test negativ înseamnă că virusul care cauzează COVD-19 nu a fost descoperit în mostra prelevată de la persoana testată. Un test “fals negativ” este posibil mai ales în perioada timpurie a infecției. În cazul COVID-19 un test negativ prelevat de la o persoană cu simptome înseamnă că persoana respectivă probabil suferă de o altă afecțiune respiratorie cum ar fi gripa sau răceala.</p>
-        `
+        `,
       },
       {
         title: `Există orice medicamente sau terapii care previn sau tratează COVID-19?`,
         content: `
             <p>În timp ce unele tratamente medicamentoase sau remedii casnice pot oferi confort și ameliorează simptomele de COVID-19, nu există până în momentul de față dovezi clare că medicamentele existente pot preveni sau trata boala. Organizația Mondială a Sănătății <strong>nu</strong> recomanda auto-medicația, inclusiv administrarea de antibiotice, pentru prevenirea și tratarea COVID-19. Cu toate acestea, există studii clinice care evaluează diferite tratamente pentru COVD-19 și vom actualiza informațiile când acestea devin disponibile. </p>
-        `
+        `,
       },
       {
         title: `Sunt antibioticele eficiente în prevenirea și tratarea COVID-19?`,
         content: `
             <p>Nu. Antibioticele nu funcționează împotriva virusurilor, acestea funcționează doar pentru infecții bacteriene. COVID-19 este cauzată de un virus, așadar antibioticele nu au rezultat. Antibioticele nu ar trebui folosite ca mijloc de prevenție sau tratament pentru COVID-19. Acestea ar trebui folosite doar la indicația medicului pentru a trata o infecție bacteriană.</p>
-        `
+        `,
       },
       {
         title: `Există un vaccin, medicament sau tratament specific pentru COVID-19?`,
@@ -1188,19 +1185,19 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
             <p>Încă nu. Până în acest moment, nu există niciun vaccin și niciun medicament specific antiviral pentru a preveni sau trata COVID-19. Cu toate acestea, cei afectați trebuie să primească îngrijiri pentru a le ameliora (reduce) simptomele. Persoanele cu forme grave trebuie spitalizate. Majoritatea pacienților se recuperează în urma îngrijirilor.</p>
             <p>Posibile vaccinuri și tratamente specifice medicamentoase sunt în investigație. Acestea sunt testate prin studii clinice controlate. Organizația Mondială a Sănătății coordonează eforturile de a se dezvolta un vaccin și un tratament medicamentos pentru a preveni și trata COVID-19.</p>
             <p>Cea mai eficientă metodă de a vă proteja pe dumneavoastră și pe cei din jur împotriva COVID-19 este de a vă curăța frecvent mâinile, să vă acoperiți gura atunci când tușiți cu un șervețel sau cu interiorul cotului și să păstrați o distanță de minim 1m de persoane care tușesc sau strănută.</p>
-        `
+        `,
       },
       {
         title: `Pot animalele să răspândească virusul ce cauzează COVID-19?`,
         content: `
             <p>Deși boala a apărut prin transferul de la animal la om nu există nicio dovadă că animalele de curte sau animalele de companie prezintă vreun risc de transmisie al bolii. Animalele pot însă transmite alte boli virale sau bacteriene așa că se recomandă spălatul pe mâini după contactul cu animale.</p>
-        `
+        `,
       },
       {
         title: `Dacă sunt infectat cu COVID-19 să evit contactul cu animalele de companie sau alte animale?`,
         content: `
             <p>Deși boala nu se transmite prin animale sau animale de companie din ce se cunoaște ar trebui să evitați contactul pe durata bolii nu doar cu alte persoane ci și cu animalele până cunoaștem mai multe despre evoluția acestei boli.</p>
-        `
+        `,
       },
       {
         title: `Ar mai fi alte lucruri care nu ar fi recomandat să le fac?`,
@@ -1211,9 +1208,9 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
                 <li>Utilizarea măștilor chirurgicale multiple</li>
                 <li>Folosirea antibioticelor</li>
             </ul>
-        `
-      }
-    ]
+        `,
+      },
+    ],
   },
   {
     title: "Întrebări frecvente - stare de alertă",
@@ -1229,8 +1226,8 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         title: "Întrebări frecvente - stare de alertă",
         display_order: 1,
         page: `<p>Întrebări frecvente despre starea de alertă</p>`,
-        slug: "/"
-      }
+        slug: "/",
+      },
     ],
     firstNodeId: null,
     form: null,
@@ -1241,68 +1238,68 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         content: `
             <p>Sunt considerate ca făcând parte din zona metropolitană localitățile aflate pe o rază de până la 30 de kilometri față de principalul oraș  (conform art.11 din Legea nr. 351/2001 privind aprobarea Planului de amenajare a teritoriului naţional - Secţiunea a IV-a Reţeaua de localităţi).
 Totodată, se va considera zonă metropolitană Municipiul București și întreg teritoriul județului Ilfov.</p>
-        `
+        `,
       },
       {
         title: `Persoanele peste 65 de ani au vreo restricție de a ieși din casă sau vreun interval orar pe care trebuie să îl respecte?`,
         content: `
             <p>Hotărârea CNSSU nr. 24 cu privire la declararea stării de alertă nu restricționează deplasarea persoanelor de peste 65 de ani. Acestea pot părăsi domiciliul în orice interval orar doresc. Rămâne însă valabilă recomandarea de a limita pe cât de mult posibil deplasările și de a evita locurile aglomerate mai ales pentru persoanele din categoriile vulnerabile pentru a reduce riscul infectării cu noul Coronavirus.</p>
-        `
+        `,
       },
       {
         title: `Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână?`,
         content: `
             <p>DA. Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână cu respectarea elementelor din formularul tip dat publicității. În cazul în care o nouă deplasare respectă același traseu menționat în declarația pe propria răspundere, atunci aceasta poate fi refolosită și în alte zile, tăind cu o linie data precizată inițial și completând noua dată aferentă zilei în care are loc deplasarea.</p>
-        `
+        `,
       },
       {
         title: `Vor fi sancționate persoanele care nu poartă mască?`,
         content: `
             <p>Purtarea măștii care acoperă nasul și gura este obligatorie începând cu 15 mai 2020 în spațiile comerciale, mijloacele de transport în comun, la locul de muncă și în alte spații închise, potrivit anexei “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU.  Persoanele care nu respectă obligația de a purta mască în spațiile menționate pot fi sancționate contravențional în baza Legii nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) raportat la art.65 lit.h, respectiv “nerespectarea de către persoane fizice a măsurilor individuale de protecție a vieții“ se sancționează cu amendă între 500 de lei și 2500 de lei. </p>
-        `
+        `,
       },
       {
         title: `Ce opțiune din declarația pe propria răspundere bifează un locuitor al zonei rurale care se deplasează în altă localitate pentru cumpărături la supermarket, farmacie sau pentru asigurarea unor bunuri pe care nu le poate achiziționa din sat/comună?`,
         content: `
             <p>În situația în care cetățeanul se deplasează între localități din interiorul zonei metropolitane, nu are nevoie de declarație pe propria răspundere. Dacă asigurarea bunurilor necesare nu poate fi făcută în zona metropolitană, este nevoie de declarația pe propria răspundere, bifată la punctul 11 “alte motive justificate”.</p>
-        `
+        `,
       },
       {
         title: `Vor mai fi date amenzi pentru nerespectarea deciziilor autorităților cu privire la starea de alertă?`,
         content: `
             <p>Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) definește la Capitolul III “Răspunderi și sancțiuni”, art. 64-70 contravențiile și cuantumul amenzilor pentru nerespectarea actului normativ.</p>
             <p>De asemenea, polițiștii aplică legislația în vigoare. Scopul autorităților nu este de a sancționa cetățenii, ci de a limita răspândirea virusului COVID-19. În contextul trecerii la starea de alertă, polițiștii vor acționa în principal pentru îndrumarea cetățenilor cu privire la noile reguli.</p>
-        `
+        `,
       },
       {
         title: `Se redeschid sălile de lectură din biblioteci?`,
         content: `
             <p>Această variantă este în prezent în analiza autorităților, urmând ca o decizie să fie comunicată în perioada următoare. Activitățile bibliotecilor sunt permise în perioada stării de alertă, potrivit Hotărârii CNSSU nr.24 și anexei atașate, în condițiile respectării normelor de prevenție și protecție și cu respectarea recomandărilor INSP.</p>
-        `
+        `,
       },
       {
         title: `Se redeschid clinicile private?`,
         content: `
             <p>Clinicile private au avut în timpul stării de urgență și vor continua să aibă și în timpul stării de alertă același statut cu spitalele/clinicile de stat.</p>
-        `
+        `,
       },
       {
         title: `Dacă un cetățean trebuie să ajungă urgent la bancă în altă localitate, ce bifează pe declarația pe propria răspundere?`,
         content: `
             <p>În cazul în care tranzacția bancară nu poate fi efectuată on-line, deplasarea în afara localității se poate face în baza declarației pe propria răspundere, bifând punctul 11 – “alte motive justificate”.</p>
-        `
+        `,
       },
       {
         title: `Rămâne vreo interdicție valabilă după ora 22:00?`,
         content: `
             <p>Interdicțiile emise prin hotărârea CNSSU sunt valabile indiferent de intervalul orar și nu sunt diferite pentru intervalul post 22.00.</p>
-        `
+        `,
       },
       {
         title: `Persoanele care vor sta în aceeași locuință cu cineva venit din afara țării vor trebui să intre și ele în izolare 14 zile?`,
         content: `
             <p>Potrivit Hotărârii CNSSU nr.24 și anexei atașate, pentru toate persoanele care au călătorit în străinătate și intră pe teritoriul României, se instituie măsura carantinării/izolării la domiciliu împreună cu familia/aparținătorii cu care locuiesc. Există opțiunea carantinei instituționalizate pentru persoanele care au călătorit singure și care nu doresc să-și expună familia.</p>
-        `
+        `,
       },
       {
         title: `Câte persoane pot participa la evenimentele familiale cu număr limitat de persoane, opțiune care se regăsește la punctul numărul 9 în declarația pe propria răspundere necesară pentru justificarea deplasărilor între localități?`,
@@ -1310,15 +1307,15 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>Dacă evenimentul familial implică o slujbă religioasă în interiorul bisericii (ex: nuntă, botez, înmormântare), numărul maxim de persoane care pot participa este de 16 (punctul 5 (2), lit. a din anexa “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU). </p>
             <p>Dacă slujba se ține în curtea bisericii, numărul participanților NU este limitat, însă se vor respecta măsurile de prevenire și protecție stabilite.</p>
             <p>Pentru evenimentele familiale private (ex: aniversări, petreceri, reuniuni de pomenire etc.) desfășurate în spații închise, va fi avut în vedere același număr de persoane (maximum 16 persoane) cu respectarea normelor de igienă și pe cât de mult posibil respectarea distanței fizice.</p>
-        `
+        `,
       },
       {
         title: `În legea aprobată de Parlament există o prevedere care permite redeschiderea teraselor. Se deschid terasele în perioada stării de alertă?`,
         content: `
             <p>NU. Terasele rămân închise în perioada stării de alertă, potrivit Hotărârii nr. 24 a CNSSU și anexei atașate. Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) prevede la articolul 8, alin. 2 posibilitatea deschiderii teraselor, nu obligația.</p>
-        `
-      }
-    ]
+        `,
+      },
+    ],
   },
   {
     title: "Mituri despre coronavirus",
@@ -1334,8 +1331,8 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
         title: "Mituri despre coronavirus",
         display_order: 1,
         page: `<p>GHID ÎNTREBĂRI ȘI MITURI</p>`,
-        slug: "/"
-      }
+        slug: "/",
+      },
     ],
     firstNodeId: null,
     form: null,
@@ -1361,7 +1358,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
             Cele mai importante măsuri de prevenție pentru infecția cu noul coronavirus sunt reducerea contactului cu alte persoane și spălatul pe mâini, cel puțin 30 de secunde, ori de câte ori este necesar.
             </p>
-          `
+          `,
       },
       {
         title: `Pierderea gustului/mirosului este un simptom în COVID-19?`,
@@ -1388,7 +1385,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               cu coronavirus, deși nu prezentau alte simptome. În Coreea de Sud, unde testarea populației este extinsă, 30% din pacienții pozitivi dar asimptomatici au prezentat pierderea mirosului și a gustului. Dovezi au apărut și în alte țări precum China, SUA, Iran, Italia și Germania. Experți recunoscuți din Marea Britanie și SUA afirmă că pierderea mirosului
               și a gustului pot fi indicatori ai infecției asimptomatice cu coronavirus sau pot fi considerate simptome timpurii ale bolii.
             </p>
-          `
+          `,
       },
       {
         title: `Fumatul este un factor de risc pentru COVID-19?`,
@@ -1413,7 +1410,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               formă severă de boală este crescut în cazul fumătorilor din cauza anomaliilor deja existente la nivelul plămânilor.
             </p>
             <img src=${require("../images/mituri/fumatul.jpeg")} alt="despre riscul fumatului" > </img>
-          `
+          `,
       },
       {
         title: `Există o legătură între vaccinul antigripal și coronavirus?`,
@@ -1432,7 +1429,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Totuși, în contextul epidemiei de coronavirus în care spitalele pot deveni suprasolicitate, vaccinarea antigripală poate
               fi utilă pentru că reduce numărul cazurilor complicate de gripă care ar necesita spitalizare, iar pacienții cu COVID-19 pot fi detectați mai eficient.
             </p>
-          `
+          `,
       },
       {
         title: `Coronavirusul se poate transmite prin tuse sau stranut?`,
@@ -1452,7 +1449,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               si pastrarea unei distante de cel putin trei pasi mari fata de ceilalti.
             </p>
             <img src=${require("../images/mituri/tuse-stranut.jpeg")} alt="despre tuse stranut" > </img>
-          `
+          `,
       },
       {
         title: `Sunt gravidele puse în pericol de coronavirus?`,
@@ -1473,7 +1470,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               De aceea, se recomandă precauție mărită la gravide pe perioada pandemiei prin izolare la domiciliu și reducerea drastică a contactelor sociale.
               Vă vom ține la curent pe măsură ce vor apărea date științifice noi pe acest subiect.
             </p>
-          `
+          `,
       },
       {
         title: `Cât durează să te vindeci de coronavirus?`,
@@ -1492,7 +1489,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               evitați deplasările și zonele aglomerate, păstrați o distanță de cel puțin 1,5 metri (cât 3 pași) față de alte persoane. Doar împreună ne putem apăra de acest virus.
             </p>
             <img src=${require("../images/mituri/cat-dureaza-sa-te-vindeci.jpeg")} alt="despre vindecare" > </img>
-          `
+          `,
       },
       {
         title: `Pot fi infectat cu coronavirus chiar dacă nu am simptome?`,
@@ -1531,7 +1528,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               🙏 Este necesar un efort colectiv pentru a depăși această situație cu un număr cât mai mic de îmbolnăviri. Respectați recomandările medicale pentru a vă îngriji de sănătatea dumneavoastră și a celor dragi!
             </p>
-          `
+          `,
       },
       {
         title: `Tratamentul homeopat vindecă sau previne coronavirusul?`,
@@ -1549,7 +1546,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               ‼️Nu vă lăsați păcăliți. Picăturile homeopate sau alte preparate similare nu sunt recomandate pentru coronavirus. Pentru prevenirea sau tratarea coronavirusului, folosirea produselor homeopate în detrimentul măsurilor indicate de medici vă pot pune viața în pericol.
             </p>
-          `
+          `,
       },
       {
         title: `Este sigur să donez sânge în contextul actual?`,
@@ -1582,7 +1579,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               Donează sânge! Generozitatea ta poate salva viețile altor oameni.
             </p>
-          `
+          `,
       },
       {
         title: `Este (hidroxi)clorochina un tratament promițător în COVID-19?`,
@@ -1603,7 +1600,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               Vă vom ține la curent în privința evoluțiilor rapide din domeniu.
             </p>
-          `
+          `,
       },
       {
         title: `Pot să mă infectez cu coronavirus de două ori?`,
@@ -1620,7 +1617,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Pentru a menține rigurozitatea științifică a informării: deocamdată este prea devreme în derularea epidemiei pentru ca suficiente studii
               științifice pe acest subiect să fi fost publicate. Teoretic există posibilitatea ca unele persoane cu deficiențe imune să se re-infecteze cu coronavirus.
             </p>
-          `
+          `,
       },
       {
         title: `Pot lua ibuprofen dacă am coronavirus?`,
@@ -1640,7 +1637,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               aceștia au actualizat recomandările privind tratamentul simptomelor infecției cu coronavirus. Este recomandat paracetamolul, cu excepția cazurilor în care un
               medic recomandă explicit altceva. Același ghid le recomandă pacienților aflați în tratament cu ibuprofen să ❗️ NU ❗️ întrerupă administrarea de ibuprofen fără consultarea medicului.
             </p>
-          `
+          `,
       },
       {
         title: `Mă pot infecta de pe suprafața fructelor sau legumelor?`,
@@ -1659,7 +1656,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Principalul mod de transmitere al infecției cu noul coronavirus este de la persoană la persoană. Transmiterea prin contactul cu suprafețe contaminate este și ea posibilă.
             </p>
             <img src=${require("../images/mituri/infectare-fructe-legume.jpeg")} alt="infectare fructe legume" > </img>
-          `
+          `,
       },
       {
         title: `Dacă am febră sau tuse trebuie să merg la spital?`,
@@ -1684,7 +1681,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               ‼️Evitați contactul cu alte persoane pentru a nu le expune la riscul de infectare. Transmiterea infecției de la persoane asimptomatice este posibilă.
             </p>
             <img src=${require("../images/mituri/ce-sa-fac-daca-am-febra.jpeg")} alt="ce sa fac daca am febra"> </img>
-          `
+          `,
       },
       {
         title: `Coronavirusul are o variantă blândă şi una rea?`,
@@ -1705,7 +1702,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               În prezent, nu există nicio dovadă științifică că subtipurile prezente în România ar fi mai blânde sau mai agresive decât în alte țări.
             </p>
-          `
+          `,
       },
       {
         title: `Dacă beau apă la fiecare 15 minute, mă feresc de COVID-19?`,
@@ -1733,7 +1730,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Cele mai importante măsuri de prevenție pentru infecția cu noul coronavirus sunt reducerea contactului cu alte persoane și spălatul pe mâini, cel puțin 30 de secunde, ori de câte ori este necesar.
             </p>
             <img src=${require("../images/mituri/ajuta-sa-beau-apa.jpeg")} alt="ajuta sa beau apa"> </img>
-          `
+          `,
       },
       {
         title: `Există vaccin sau tratament pentru coronavirus?`,
@@ -1753,7 +1750,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Patru medicamente antivirale folosite deja în alte boli sunt astăzi studiate pentru a se confirma dacă sunt utile pentru tratamentul COVID-19.
             </p>
             <img src=${require("../images/mituri/exista-vaccin-sau-tratament.jpeg")} alt="exista vaccin sau tratament ?"> </img>
-          `
+          `,
       },
       {
         title: `Trebuie evitate mijloacele de transport în comun aglomerate?`,
@@ -1784,7 +1781,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               Este recomandabil să vă anulați călătoriile în această perioadă.
             </p>
-          `
+          `,
       },
       {
         title: `Vitamina C și coronavirusul`,
@@ -1806,7 +1803,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               ℹ️ Supradoza de vitamina C poate cauza reacții adverse precum greață, crampe abdominale și diaree.
             </p>
             <img src=${require("../images/mituri/vitamina-c-si-coronavirusul.jpeg")} alt="vitamina c si coronavirusul"> </img>
-          `
+          `,
       },
       {
         title: `Coronavirusul provine de la animale?`,
@@ -1829,7 +1826,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
             <p>
               ➡️ Teoriile conspiraționiste dăunează sănătății! Igiena și precauția, nu.
             </p>
-          `
+          `,
       },
       {
         title: `Copiii trebuie să evite locurile de joacă aglomerate?`,
@@ -1846,7 +1843,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               suprafețe care vin în contact cu un număr mare de persoane. Dacă totuși facem asta, atunci trebuie să ne spălăm apoi imediat pe mâini.
             </p>
             <img src=${require("../images/mituri/copiii-sa-evite-locurile-de-joaca.jpeg")} alt="copiii sa evite locurile de joaca"> </img>
-          `
+          `,
       },
       {
         title: `Spirtul poate ajuta în prevenirea COVID-19?`,
@@ -1870,7 +1867,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               ℹ️ Alcoolul sanitar este inclus în registrul național al produselor biocide din România, actualizat în ianuarie 2020.
               Produsul este destinat exclusiv uzului extern, a nu se consuma.
             </p>
-          `
+          `,
       },
       {
         title: `Consumul de lămâie previne infecția cu coronavirus?`,
@@ -1889,7 +1886,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Altfel, ceaiul cu lămâie are gust bun, ne place și nouă. :)
             </p>
             <img src=${require("../images/mituri/lamaia-si-coronovirusul.jpeg")} alt="lamaia si coronovirusul"> </img>
-          `
+          `,
       },
       {
         title: `Este preferabil să stăm acasă în această perioadă?`,
@@ -1911,8 +1908,8 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
               Țările în care aceste măsuri sunt respectate reușesc să controleze mai repede epidemia de coronavirus.
             </p>
             <img src=${require("../images/mituri/sa-stam-acasa.jpeg")} alt="sa stam acasa"> </img>
-          `
-      }
-    ]
+          `,
+      },
+    ],
   },
 ];
