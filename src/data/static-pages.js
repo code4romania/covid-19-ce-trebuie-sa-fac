@@ -1,11 +1,58 @@
 export default [
   {
+    title: "VOT 2020 - Ghid pentru alegători",
+    slug: "ghid-alegatori",
+    doc_type: "STATIC_PAGE",
+    doc_id: 110,
+    active: true,
+    display_order: 1,
+    showInTopMenu: false,
+    showInSideMenu: true,
+    style: { "--highlightColor": "#F6DD62" },
+    firstNodeId: null,
+    content: [
+      {
+        title: "VOT 2020 - Ghid pentru alegători",
+        display_order: 1,
+        slug: "/",
+        page: `
+      <p>
+        Cetățenii care doresc să participe la alegerile locale din data de 27 septembrie 2020 trebuie să respecte următoarele reguli de protecție sanitară:
+        <ul>
+          <li>La sosirea în fața secției de votare trebuie să aibă poziționată corect masca de protecție, astfel încât să acopere atât nasul cât și gura. Purtarea măștii este obligatorie în spațiul închis și în secția de votare. </li>
+          <li>Este recomandat ca masca să fie purtată inclusiv în perioada de așteptare în spațiul exterior (deschis), înainte de intrarea în secția de vot. Dacă această zonă, de așteptare, este aglomerată personalul de pază va solicita alegătorilor să poarte masca, în mod obligatoriu, în perioada în care așteaptă să intre în sediul secției de votare.</li>
+          <li>În sala de vot este permis accesul a maximum 5 alegători care pot fi prezenți simultan în secția de votare. </li>
+          <li>În timp ce așteaptă pentru a intra în secția de vot trebuie să respecte distanța recomandată față de celelalte persoane (minimum 1 metru).</li>
+          <li>La intrarea în secția de votare, cetățenii își vor dezinfecta mâinile folosind dispozitivele special instalate în acest scop și personalul specializat le va măsura temperatura corporală.</li>
+        </ul>
+        <b>Notă:</b> În cazul în care temperatura corporală măsurată depășește valoarea de 37,3 grade Celsius, alegătorii vor putea intra în sediul secției de vot purtând masca de protecție sanitară, evitând contactul cu suprafețele și păstrând distanța față de celelalte persoane. Alegătorii cu temperatura corporală peste 37,3 vor fi însoțiți de un membru din cadrul biroului electoral și vor vota în cabina de vot indicată de această persoană, respectând traseul de intrare și de ieșire stabilit de personalul tehnic.
+        <ul>
+          <li>După intrarea în secția de votare vor merge, menținând distanța față de celelalte persoane, spre biroul unde este instalată tableta conectată la Sistemul informatic de monitorizare a prezenței la vot și de prevenire a votului ilegal. Alegătorii vor poziționa cartea de identitate pentru a fi scanată, conform recomandărilor personalului tehnic de specialitate care operează echipamentul IT. </li>
+          <li>Menținând o distanța de minimum 1,5 metri față de operatorul tehnic al tabletei, își vor îndepărta parțial masca, pentru scurt timp, astfel încât să fie identificați ca fiind persoanele din actul de identitate. Apoi își vor repoziționa masca astfel încât să acopere gura și nasul.</li>
+          <li>După realizarea acestei proceduri, alegătorii se vor îndrepta către biroul/masa/banca la care se află membrul secției de votare pentru a semna în lista electorală. Alegătorii vor poziționa actul de identitate pe birou/masă/bancă astfel încât să nu fie necesar ca reprezentantul secției să atingă respectivul document.</li>
+          <li>Ulterior, alegătorii vor prelua singuri, conform indicațiilor primite de la membrii biroului electoral, ștampila și buletinele de vot și vor intra în cabina de vot.</li>
+          <li>După exercitarea dreptului la vot, prin introducerea buletinelor în urne,  alegătorii se vor întoarce la biroul/masa/banca la care se află membrul secției de votare, vor preda ștampila folosită, își vor recupera actul de identitate și își vor aplica singuri pe acesta, conform indicațiilor primite, timbrul autocolant mențiunea votat.</li>
+          <li>După aplicarea timbrului autocolant cu mențiunea votat pe documentul de identitate, alegătorii vor părăsi secția de votare urmărind culoarul special creat. Fluxul de ieșire va fi separat de cel de intrare.</li>
+          <li>La ieșirea din secția de votare, alegătorii își vor dezinfecta mâinile folosind dispozitivele special instalate în acest scop.</li>
+        </ul>
+        <b>Notă:</b> Sălile în care se desfășoară procesul electoral sunt dezinfectate înainte de începerea votului și după finalizarea scrutinului. De asemenea, se va asigura aerisirea sălii prin menținerea deschisă a ferestrei sau ferestrelor pe toată durata votării și a desfășurării activității, iar acolo unde acest lucru nu este posibil sala se va aerisi la fiecare două ore pentru cel puțin 10 minute.
+        <ul>
+          <li>Prezența la vot, conform statisticilor alegerilor precedente, este cea mai ridicată în intervalele orare 10.00-14.00 și 16.00-19.00. Astfel, se recomandă ca alegătorii să se prezinte la urne în intervalele 7.00-10.00 și 19.00-21.00, în care prezența la urne este mai scăzută, pentru a evita eventualele aglomerații. Secțiile de votare se vor deschide duminică, 27 septembrie, la ora 7.00 și se vor închide la ora 21.00. </li>
+        </ul>
+      </p>
+  `,
+      },
+    ],
+    form: null,
+    buttons: null,
+  },
+  {
     title: "Transmitere și simptome",
     slug: "transmitere-si-simptome",
     doc_type: "STATIC_PAGE",
     doc_id: 101,
     active: true,
-    display_order: 2,
+    display_order: 3,
     showInTopMenu: true,
     showInSideMenu: true,
     firstNodeId: null,
@@ -83,7 +130,7 @@ export default [
     showInTopMenu: true,
     showInSideMenu: true,
     active: false,
-    display_order: 3,
+    display_order: 4,
     content: [
       {
         title: "Cum ne protejăm?",
@@ -286,7 +333,7 @@ export default [
     active: false,
     showInTopMenu: false,
     showInSideMenu: false,
-    display_order: 4,
+    display_order: 5,
     content: [
       {
         title: "Ai simptome?",
@@ -574,7 +621,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 104,
     active: false,
-    display_order: 5,
+    display_order: 6,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
@@ -812,7 +859,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 105,
     active: false,
-    display_order: 6,
+    display_order: 7,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
@@ -924,7 +971,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 106,
     active: false,
-    display_order: 8,
+    display_order: 9,
     showInTopMenu: false,
     showInSideMenu: true,
     content: [
@@ -1218,7 +1265,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     doc_type: "STATIC_PAGE",
     doc_id: 108,
     active: false,
-    display_order: 1,
+    display_order: 2,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
@@ -1323,7 +1370,7 @@ Totodată, se va considera zonă metropolitană Municipiul București și între
     doc_type: "STATIC_PAGE",
     doc_id: 107,
     active: false,
-    display_order: 7,
+    display_order: 8,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
