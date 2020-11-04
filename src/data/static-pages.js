@@ -1260,7 +1260,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     ],
   },
   {
-    title: "Întrebări frecvente - stare de alertă",
+    title: "Ghid - Q&A",
     slug: "/",
     doc_type: "STATIC_PAGE",
     doc_id: 108,
@@ -1270,9 +1270,9 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     showInSideMenu: true,
     content: [
       {
-        title: "Întrebări frecvente - stare de alertă",
+        title: "Cum acționez dacă am simptome sau sunt confirmat cu COVID-19",
         display_order: 1,
-        page: `<p>Întrebări frecvente despre starea de alertă</p>`,
+        page: `<p>Cum acționez dacă am simptome sau sunt confirmat cu COVID-19</p>`,
         slug: "/",
       },
     ],
@@ -1281,85 +1281,135 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     buttons: null,
     accordion: [
       {
-        title: `Cum se definește zona metropolitană în interiorul căreia cetățenii nu au nevoie de declarație pe propria răspundere pentru a se deplasa?`,
+        title: `Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
         content: `
-            <p>Sunt considerate ca făcând parte din zona metropolitană localitățile aflate pe o rază de până la 30 de kilometri față de principalul oraș  (conform art.11 din Legea nr. 351/2001 privind aprobarea Planului de amenajare a teritoriului naţional - Secţiunea a IV-a Reţeaua de localităţi).
-Totodată, se va considera zonă metropolitană Municipiul București și întreg teritoriul județului Ilfov.</p>
+            <p>Recomandarea generală este să evitați interacțiunea cu alte persoane și să rămâneți acasă. Prezența acestor simptome nu presupune automat infectarea cu noul Coronavirus (COVID-19). Asigurați-vă că aveți la îndemână un termometru pentru a vă măsura regulat temperatura corporală. Primul pas este să sunați medicul de familie și să-i descrieți simptomele. Medicul dvs. vă va ghida spre următorul pas: aplicarea unui tratament clasic fie pentru răceală, fie pentru gripa sezonieră sau, în funcție de simptome și activitățile pe care le-ați desfășurat recent, vă va îndruma pentru realizarea unui test pentru COVID-19.</p>
+            <p>(NOTĂ: Simptomele specifice, cel mai des întâlnite în cazul infecției COVID-19, sunt: febră, pierderea gustului și mirosului, dureri de cap și dureri musculare, tuse seacă)</p>
         `,
       },
       {
-        title: `Persoanele peste 65 de ani au vreo restricție de a ieși din casă sau vreun interval orar pe care trebuie să îl respecte?`,
+        title: `Starea mea de sănătate s-a alterat brusc, am dureri musculare, febră, tușesc, am rămas fără gust și miros, am diaree și dureri de cap. Nu am călătorit în ultima vreme în afara țării, nu am fost în zone aglomerate, nu am mers la restaurant sau la vreo petrecere, am purtat masca la serviciu, în mijloacele de transport în comun și nu am cunoștință să fi intrat în contact cu vreo persoană depistată pozitiv cu noul Coronavirus (COVID-19). Ce fac? Cum aflu dacă sunt sau nu infectat?`,
         content: `
-            <p>Hotărârea CNSSU nr. 24 cu privire la declararea stării de alertă nu restricționează deplasarea persoanelor de peste 65 de ani. Acestea pot părăsi domiciliul în orice interval orar doresc. Rămâne însă valabilă recomandarea de a limita pe cât de mult posibil deplasările și de a evita locurile aglomerate mai ales pentru persoanele din categoriile vulnerabile pentru a reduce riscul infectării cu noul Coronavirus.</p>
+            <p>Și în acest caz, primul la care trebuie să apelați este medicul de familie care va face o evaluare telefonică a stării dvs. și va decide calea de urmat. Medicul poate decide, în această situație, că trebuie să vă testați pentru COVID-19 și, ca atare, vă îndruma să sunați la Direcția de Sănătate Publică și să menționați toate simptomele. În tot acest timp, încercați pe cât de mult posibil să stați departe sau chiar să vă izolați de restul familiei, dacă vă permite spațiul locuinței. Rămâneți în casă și așteptați serviciul de ambulanță, ce vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital.</p>
+            <p>În cazul persoanelor simptomatice, precum dumneavoastră, testarea se face conform protocolului, gratuit. </p>
+            <p>De asemenea, există posibilitatea să vă testați „la cerere”, însă această opțiune este contra cost. Dacă mergeți la un centru de testare pentru a efectua testul „la cerere”, optați pe cât posibil pentru un mijloc de transport individual și respectați cu strictețe toate măsurile sanitare (mască, distanță, igiena mâinilor).</p>
         `,
       },
       {
-        title: `Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână?`,
+        title: `Sunt în situația de la întrebarea numărul 2, dar în urma discuției cu medicul de familie și cu cei de la Direcția de Sănătate Publică nu a venit nimeni să mă testeze timp de 24h. Între timp, starea mea s-a înrăutățit, iar febra nu scade. Ce fac?`,
         content: `
-            <p>DA. Declarația pe propria răspundere necesară pentru justificarea deplasării între localități poate fi scrisă și de mână cu respectarea elementelor din formularul tip dat publicității. În cazul în care o nouă deplasare respectă același traseu menționat în declarația pe propria răspundere, atunci aceasta poate fi refolosită și în alte zile, tăind cu o linie data precizată inițial și completând noua dată aferentă zilei în care are loc deplasarea.</p>
+            <p>Sunați la 112 și descrieți întreaga situație. Vi se va comunica ora la care va sosi serviciul de ambulanță, care vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital unde veți fi testat.</p>
         `,
       },
       {
-        title: `Vor fi sancționate persoanele care nu poartă mască?`,
+        title: `Mă simt foarte rău de câteva zile, nu știu să fi intrat în contact cu vreo persoană bolnavă de Coronavirus, dar totuși mi-e teamă că am COVID-19. Sun la DSP și nu răspunde nimeni la telefon. `,
         content: `
-            <p>Purtarea măștii care acoperă nasul și gura este obligatorie începând cu 15 mai 2020 în spațiile comerciale, mijloacele de transport în comun, la locul de muncă și în alte spații închise, potrivit anexei “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU.  Persoanele care nu respectă obligația de a purta mască în spațiile menționate pot fi sancționate contravențional în baza Legii nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) raportat la art.65 lit.h, respectiv “nerespectarea de către persoane fizice a măsurilor individuale de protecție a vieții“ se sancționează cu amendă între 500 de lei și 2500 de lei. </p>
+            <p>În această perioadă medicii de la DSP sunt extrem de aglomerați, motiv pentru care liniile telefonice sunt suprasolicitate. Sunați medicul de familie pentru orice problemă de sănătate. Doar dacă, în cazul puțin probabil, medicul dvs. nu răspunde la telefon și starea dvs. de sănătate se înrăutățește, atunci sunați la 112.</p>
         `,
       },
       {
-        title: `Ce opțiune din declarația pe propria răspundere bifează un locuitor al zonei rurale care se deplasează în altă localitate pentru cumpărături la supermarket, farmacie sau pentru asigurarea unor bunuri pe care nu le poate achiziționa din sat/comună?`,
+        title: `Copilul meu de 4 ani a mers la grădiniță, iar educatoarea a fost diagnosticată cu COVID-19. Copilul nu a purtat mască, însă educatoarea a purtat masca. Copilul nu are nici un simptom și se spune că cei mici sunt mai degrabă asimptomatici decât adulții. Mă tem că este purtător, iar noi părinții am putea să luăm de la el. Cum procedez?`,
         content: `
-            <p>În situația în care cetățeanul se deplasează între localități din interiorul zonei metropolitane, nu are nevoie de declarație pe propria răspundere. Dacă asigurarea bunurilor necesare nu poate fi făcută în zona metropolitană, este nevoie de declarația pe propria răspundere, bifată la punctul 11 “alte motive justificate”.</p>
+            <p>Cel mai probabil în acest caz, educatoarea a stat în aceeași sală de clasă cu copilul mai mult de 15 minute, iar copilul nepurtând mască este contact direct. Educatoarea are obligația să declare la DSP toți contacții direcți pentru desfășurarea anchetei epidemiologice. </p>
+            <p>Întreaga grupă își va suspenda activitatea timp de 14 zile. Copilul dvs. are indicația de carantină timp de 14 zile. În această situație, unul dintre părinți va rămâne acasă împreună cu copilul, urmând să beneficieze de zile libere conform OUG 147/2020. Copilul și părintele ce rămâne acasă se vor izola pe cât posibil de restul familiei.</p>
+            <p>În cazul în care copilul manifestă simptome, contactați medicul de familie și urmați indicațiile acestuia. În cazul în care, copilul va fi testat la domiciliu, până la aflarea rezultatului testului copilului, este recomandat să rămâneți împreună la domiciliu. Dacă cel mic este pozitiv, atunci toți membrii familiei care locuiesc în aceeași casă vor fi considerați la rândul lor contacți direcți și se va dispune carantina pentru 14 zile. </p>
         `,
       },
       {
-        title: `Vor mai fi date amenzi pentru nerespectarea deciziilor autorităților cu privire la starea de alertă?`,
+        title: `Am petrecut câteva ore la terasă cu un amic, nici unul nu a purtat mască. La două zile distanță, el a fost diagnosticat cu COVID-19, însă eu nu am nici un simptom. Ce trebuie să fac? `,
         content: `
-            <p>Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) definește la Capitolul III “Răspunderi și sancțiuni”, art. 64-70 contravențiile și cuantumul amenzilor pentru nerespectarea actului normativ.</p>
-            <p>De asemenea, polițiștii aplică legislația în vigoare. Scopul autorităților nu este de a sancționa cetățenii, ci de a limita răspândirea virusului COVID-19. În contextul trecerii la starea de alertă, polițiștii vor acționa în principal pentru îndrumarea cetățenilor cu privire la noile reguli.</p>
+            <p>În acest caz sunteți contact direct și trebuie să rămâneți la domiciliu pentru următoarele 14 zile. Sunați medicul de familie care va anunța Direcția de Sănătate Publică cu faptul că vă are sub observație, iar DSP va dispune carantina în cazul dv. Având în vedere că nu ați dezvoltat simptome, iar starea de sănătate este bună, nu este necesară testarea. Medicul de familie va păstra legătura cu dvs. până la epuizarea celor 14 zile. Trebuie să știți că în acest caz aveți dreptul legal la concediu medical de carantină.</p>
         `,
       },
       {
-        title: `Se redeschid sălile de lectură din biblioteci?`,
+        title: `Mă număr printre persoanele care au luat contact direct cu o persoană confirmată cu COVID-19, dar Direcția de Sănătate Publică nu mi-a comunicat când voi fi testat. Pot alege să realizez un test „la cerere”, contra cost, la un centru de testare ales de mine?`,
         content: `
-            <p>Această variantă este în prezent în analiza autorităților, urmând ca o decizie să fie comunicată în perioada următoare. Activitățile bibliotecilor sunt permise în perioada stării de alertă, potrivit Hotărârii CNSSU nr.24 și anexei atașate, în condițiile respectării normelor de prevenție și protecție și cu respectarea recomandărilor INSP.</p>
+            <p>Sunteți considerat contact direct dacă ați avut contact apropiat, conform definiției INSP, în ultimele 3 zile înainte ca persoana confirmată să dezvolte simptome, sau în ultimele 3 zile de la data prelevării probei persoanei confirmate. Din moment ce vă numărați printre contacții direcți ai unei persoane confirmată pozitiv cu noul Coronavirus (COVID-19), Direcția de Sănătate Publică emite o decizie de carantinare de 14 zile de la data ultimului contact cu persoana confirmată, prin care vă este interzis să părăsiți domiciliul. Testarea dumneavoastră se va face doar în cazul în care manifestați simptome specifice. Chiar în cazul în care v-ați testa la cerere, un eventual test negativ nu reduce perioada de carantinare. </p>
         `,
       },
       {
-        title: `Se redeschid clinicile private?`,
+        title: `Sunt contact direct al unei persoane diagnosticate pozitiv cu Coronavirus, am anunțat DSP și m-am carantinat. În cât timp va veni cineva să mă testeze?`,
         content: `
-            <p>Clinicile private au avut în timpul stării de urgență și vor continua să aibă și în timpul stării de alertă același statut cu spitalele/clinicile de stat.</p>
+            <p>În cazul în care nu manifestați simptome testarea dumneavoastră nu este necesară. Nu părăsiți locuința, respectați regimul de carantină. Sunați medicul de familie, pentru a vă lua în evidență. Este recomandat să vă monitorizați temperatura corporală și să semnalați medicului de familie în cazul în care manifestați simptome specifice - situație în care veți fi testat. Realizați o listă a persoanelor cu care ați intrat în contact direct în ultimele 3 zile, de la debutul simptomelor, pentru a-i ajuta pe medici să realizeze o eventuală anchetă epidemiologică în cazul în care rezultatul testului dv. va fi unul pozitiv. </p>
         `,
       },
       {
-        title: `Dacă un cetățean trebuie să ajungă urgent la bancă în altă localitate, ce bifează pe declarația pe propria răspundere?`,
+        title: `Soția mea a stat jumătate de oră de vorbă la serviciu în același birou cu o colegă care ulterior a fost diagnosticată pozitiv. Amândouă au purtat mască și nu au stat la mai puțin de 2 metri una de cealaltă. Ce trebuie să facă? `,
         content: `
-            <p>În cazul în care tranzacția bancară nu poate fi efectuată on-line, deplasarea în afara localității se poate face în baza declarației pe propria răspundere, bifând punctul 11 – “alte motive justificate”.</p>
+            <p>Potrivit definiției de caz dată de INSP, dacă persoanele care au interacționat au purtat mască, și au respectat distanța fizică de 2 metri nu se consideră contacți direcți chiar dacă ulterior una dintre ele a fost depistată pozitiv cu COVID-19. Astfel, nu se impune carantina pentru soția dvs. Așadar nu se impune nici testarea. Totuși, pentru siguranță, este necesar ca soția dvs să respecte cu strictețe regulile de igienă și protecție și să-și monitorizeze starea de sănătate zilnic. În cazul apariției simptomelor va contacta medicul de familie și va respecta indicațiile acestuia. </p>
         `,
       },
       {
-        title: `Rămâne vreo interdicție valabilă după ora 22:00?`,
+        title: `Am fost diagnosticat pozitiv cu COVID-19, dar nu am simptome specifice. Sunt obligat să mă internez sau să rămân în spital?`,
         content: `
-            <p>Interdicțiile emise prin hotărârea CNSSU sunt valabile indiferent de intervalul orar și nu sunt diferite pentru intervalul post 22.00.</p>
+            <p>Nu sunteți obligat să vă internați. În cazul în care nu aveți simptome, sau aveți simptome ușoare, puteți alege să rămâneți la domiciliu și să țineți legătura cu medicul de familie, care vă va ține sub monitorizare pentru următoarele 14 zile. Dacă sunteți singura persoană din casă infectată, trebuie să vă izolați de restul membrilor de familie. Trebuie să știți că aveți obligația legală să nu părăsiți domiciliul până la epuizarea celor două săptămâni. Medicul de familie vă va elibera concediul medical de boală la finalul celor 14 zile.</p>
         `,
       },
       {
-        title: `Persoanele care vor sta în aceeași locuință cu cineva venit din afara țării vor trebui să intre și ele în izolare 14 zile?`,
+        title: `Sunt în situația descrisă la întrebarea nr. 10. Am obligația să-mi anunț vecinii că sunt COVID-19 pozitiv?`,
         content: `
-            <p>Potrivit Hotărârii CNSSU nr.24 și anexei atașate, pentru toate persoanele care au călătorit în străinătate și intră pe teritoriul României, se instituie măsura carantinării/izolării la domiciliu împreună cu familia/aparținătorii cu care locuiesc. Există opțiunea carantinei instituționalizate pentru persoanele care au călătorit singure și care nu doresc să-și expună familia.</p>
+            <p>NU. Din punct de vedere legal, nu aveți obligația să anunțați vecinii sau Asociația de proprietari despre starea dvs. Dacă, însă, vreunul dintre vecinii dvs. a fost contact direct cu dvs., sunteți obligat să anunțați la DSP sau la medicul de familie și desigur ar trebui să-l informați pe cel în cauză. </p>
         `,
       },
       {
-        title: `Câte persoane pot participa la evenimentele familiale cu număr limitat de persoane, opțiune care se regăsește la punctul numărul 9 în declarația pe propria răspundere necesară pentru justificarea deplasărilor între localități?`,
+        title: `Sunt COVID-19 pozitiv, am ales să mă tratez acasă, dar la câteva zile de la pozitivare m-am speriat și cred că am făcut o alegere greșită. M-aș simți mai în siguranță în spital. Ce trebuie să fac ca să fiu internat?`,
         content: `
-            <p>Dacă evenimentul familial implică o slujbă religioasă în interiorul bisericii (ex: nuntă, botez, înmormântare), numărul maxim de persoane care pot participa este de 16 (punctul 5 (2), lit. a din anexa “Măsuri de prevenire și control a infecțiilor aplicabile pe durata stării de alertă”, atașată Hotărârii nr. 24 a CNSSU). </p>
-            <p>Dacă slujba se ține în curtea bisericii, numărul participanților NU este limitat, însă se vor respecta măsurile de prevenire și protecție stabilite.</p>
-            <p>Pentru evenimentele familiale private (ex: aniversări, petreceri, reuniuni de pomenire etc.) desfășurate în spații închise, va fi avut în vedere același număr de persoane (maximum 16 persoane) cu respectarea normelor de igienă și pe cât de mult posibil respectarea distanței fizice.</p>
+            <p>Dacă doar teama este motivul, iar starea dvs. de sănătate nu este alterată, consultați-vă întâi cu medicul dvs. de familie. În cazul în care, în continuare doriți să ajungeți la spital, apelați 112, care vă va programa pentru a fi transportat la un spital pentru evaluare. Decizia de internare aparține însă medicului curant, iar dacă starea dvs. nu impune internarea, veți fi îndrumat înapoi la domiciliu pentru a a continua perioada de izolare sub monitorizarea medicului de familie. Țineți cont însă că serviciile de ambulanță și spitalele sunt suprasolicitate și cazurile grave trebuie să aibă prioritate.</p>
         `,
       },
       {
-        title: `În legea aprobată de Parlament există o prevedere care permite redeschiderea teraselor. Se deschid terasele în perioada stării de alertă?`,
+        title: `Am făcut un test „la cerere”, dar nu mă sună nimeni să-mi dea rezultatul. Cum procedez?`,
         content: `
-            <p>NU. Terasele rămân închise în perioada stării de alertă, potrivit Hotărârii nr. 24 a CNSSU și anexei atașate. Legea nr. 55/2020 privind unele măsuri pentru prevenirea și combaterea efectelor pandemiei de COVID-19 (publicată în Monitorul Oficial nr.396 din 15 mai 2020) prevede la articolul 8, alin. 2 posibilitatea deschiderii teraselor, nu obligația.</p>
+            <p>În medie, rezultatul unui test de tip PCR este disponibil după 24 de ore, iar obligația comunicării rezultatului revine centrului de testare la care ați realizat testul „la cerere”. Așadar, contactați reprezentanții centrului de testare în cauză. Orice rezultat pozitiv este transmis obligatoriu de către centrul de testare către INSP și DSP. În cazul în care testul este pozitiv, DSP va emite decizia de izolare pentru 14 zile. Rămâneți în casă și contactați medicul de familie.</p>
+        `,
+      },
+      {
+        title: `Au trecut cele 14 zile de când m-am izolat la domiciliu cu diagnostic pozitiv de COVID-19. Mă simt foarte bine, nu mai am simptome, dar nu mă sună nimeni să-mi spună ce să fac. Cum procedez ? Pot să ies din casă?`,
+        content: `
+            <p>În cazul în care ați epuizat perioada de 14 zile, dispusă prin decizia DSP, puteți părăsi locuința. Contactați medicul de familie, care v-a monitorizat în toată această perioadă pentru a vă confirma vindecarea către DSP și pentru a primi sfaturi în ceea ce privește conduita dvs. ulterioară.</p>
+        `,
+      },
+      {
+        title: `Am fost confirmat cu COVID-19 și am fost internat 14 zile, însă și la ultimul test înainte de externare am rămas pozitiv. În acest caz este nevoie să continui izolarea la domiciliu, dacă nici spitalul și nici DSP nu mi-a comunicat că este necesar? `,
+        content: `
+            <p>Dacă nu ați primit indicație de izolare (de la spital sau DSP) suplimentar celor 14 zile în care ați fost internat, nu este necesar să vă izolați. Dacă ați fost externat mai devreme de 14 zile, va trebui să vă izolați pe perioada restantă de 14 zile de la data prelevării primei probe pozitive. Testele pot rămâne pozitive pe o perioadă mai lungă, însă se consideră că dacă au trecut 14 zile de la primul test pozitiv și aveți cel puțin 72 de ore de când nu mai aveți simptome, nu mai sunteți contagios. În prezent, nu se recomandă repetarea testului în primele 90 de zile de la diagnostic. Puteți să vă reluați activitatea, iar angajatorul nu vă poate impune prezentarea unui rezultat negativ al testului pentru a vă reîntoarce la lucru.</p>
+        `,
+      },
+      {
+        title: `În ce condiții pot obține concediul medical, doar atunci când sunt confirmat pozitiv cu COVID-19, sau se acceptă concediul medical și în cazul în care am fost în contact direct cu o persoană confirmată pozitiv? Concediul medical pentru ce perioadă se poate acorda?`,
+        content: `
+            <p>În cazul în care sunteți confirmat pozitiv veți primi concediu medical de boală cel puțin pentru întreaga perioadă de izolare (14 zile) dar și suplimentar dacă medicul curant din spital sau medicul de familie consideră necesar acest lucru. În cazul în care sunteți contact al unui caz confirmat, DSP vă va emite decizia de carantinare pe o perioadă egală cu numărul de zile rămase până la împlinirea a 14 zile de la data ultimului contact. În baza acestui document, medicul de familie vă va elibera concediul medical pe perioada în care ați fost carantinat.</p>
+        `,
+      },
+      {
+        title: `Concediul medical se acordă și părinților care rămân în regim de izolare/carantină împreună cu un minor confirmat pozitiv? Este valabil și pentru cei care rămân acasă, în izolare/carantină, sau doar pentru cei care rămân în spital?`,
+        content: `
+            <p>În cazul unui minor confirmat pozitiv, toți membrii familiei (din aceeași locuință) care au avut contact cu 3 zile înaintea debutului simptomelor sau a datei prelevării probei în cazul în care minorul nu are simptome sunt considerați contacți direcți și au indicația de carantinare. Cele 14 zile se calculează de la data prelevării probei minorului. În cazul în care, pe perioada celor 14 zile, membrii familiei nu dezvoltă simptome și nu sunt testați, vor beneficia de concediu medical de carantină. În cazul în care sunt testați și confirmați pozitiv, vor beneficia de concediu medical de boală pe perioada indicată de medicul curant sau a medicului de familie în funcție de evoluția pacientului. </p>
+        `,
+      },
+      {
+        title: `Sunt însărcinată și am COVID-19 cu simptome ușoare. Sunt obligată să mă internez?`,
+        content: `
+            <p>Nu sunteți obligată să vă internați, dar în acest caz medicii recomandă cu tărie să fiți permanent sub supraveghere medicală, preferabil în spital.</p>
+        `,
+      },
+      {
+        title: `Sunt bolnav oncologic și am nevoie de test negativ COVID-19 ca să pot merge în spital la tratament. Cum procedez? Trebuie să plătesc pentru test?`,
+        content: `
+            <p>Conform algoritmului de testare elaborat de INSP pacienții ocologici vor fi testați conform definiției de caz ori de câte ori este nevoie dacă sunt simptomatici, dar și în plus (periodic) după cum urmează:
+            <ul>
+            <li>Pacienți oncologici asimptomatici aflați în curs de chimioterapie – tastare cu maximum 48 de ore inainte de fiecare cura, respectiv de fiecare prezentare la spital pentru monitorizare;</li>
+            <li>Pacienți oncologici asimptomatici aflați în curs de radioterapie – testare înainte de prima ședință și apoi la 14 zile, până la terminarea curei;</li>
+            <li>Pacienți oncologici asimptomatici – testare înainte de intervenții operatorii sau manevre invazive, cu maxim 48 de ore înaintea intervenției/manoperei;</li>
+            </ul>
+            </p>
+        <p>Fiecare unitate sanitară care tratează pacienți oncologici își stabilește propriul protocol de testare și programează pacienții pentru prelevarea probelor conform algoritmului. Toate aceste teste sunt gratuite pentru pacient și decontate unității sanitare din Programul național de testare. </p>
+        `,
+      },
+      {
+        title: `Am fost testat pozitiv și sunt izolat la locuința proprie, împreună cu ceilalți membri ai familiei. Între timp au fost testați și ei și testele lor sunt negative. Pentru a-i proteja vreau să schimb locația în care să îmi continui perioada de izolare, într-o altă locuință aflată tot în proprietatea mea. Pot face acest lucru? Dacă da, care este procedura pe care o urmez?`,
+        content: `
+            <p>Este recomandat să faceți acest lucru dacă aveți posibilitatea chiar din prima zi în care ați fost confirmat pozitiv, ba chiar de la data debutului simptomelor. Dacă ați fost deja luat în evidența DSP cu o anumită adresă de izolare și doriți să o schimbați , contactați DSP și în măsura în care transportul până la locuință se poate face în siguranță, vi se poate permite schimbarea locației de izolare pentru dvs. sau a celei de carantină pentru restul familiei.  </p>
         `,
       },
     ],
