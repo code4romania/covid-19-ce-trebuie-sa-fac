@@ -1,11 +1,38 @@
 export default [
   {
+    title: "Modele declarații pe proprie răspundere",
+    slug: "modele-declaratii",
+    doc_type: "STATIC_PAGE",
+    doc_id: 210,
+    active: true,
+    display_order: 2,
+    showInTopMenu: false,
+    showInSideMenu: true,
+    style: { "--highlightColor": "#F6DD62" },
+    firstNodeId: null,
+    content: [
+      {
+        title: "Modele declarații pe proprie răspundere",
+        display_order: 1,
+        slug: "/",
+        page: `
+      <p>Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza în această perioadă.</p>
+ 
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Model%20Declaratie%20proprie%20Raspundere.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Adeverinta%20pentru%20angajatori.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
+  `,
+      },
+    ],
+    form: null,
+    buttons: null,
+  },
+  {
     title: "VOT 2020 - Ghid pentru alegători",
     slug: "ghid-alegatori",
     doc_type: "STATIC_PAGE",
     doc_id: 110,
     active: true,
-    display_order: 1,
+    display_order: 10,
     showInTopMenu: false,
     showInSideMenu: false,
     style: { "--highlightColor": "#F6DD62" },
@@ -1265,7 +1292,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     doc_type: "STATIC_PAGE",
     doc_id: 108,
     active: false,
-    display_order: 2,
+    display_order: 1,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
