@@ -32,9 +32,9 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 110,
     active: true,
-    display_order: 10,
+    display_order: 0,
     showInTopMenu: false,
-    showInSideMenu: false,
+    showInSideMenu: true,
     style: { "--highlightColor": "#F6DD62" },
     firstNodeId: null,
     content: [
@@ -43,31 +43,52 @@ export default [
         display_order: 1,
         slug: "/",
         page: `
-	<div style="background-color: #E5F9FE; padding: 10px;">
-	Guvernul României a prelungit starea de alertă pe teritoriul României. Mai jos puteți citi regulile de conduită sanitară aplicate la alegerile locale din septembrie 2020. Regulile pentru alegerile parlamentare vor fi actualizate în curând.
-	</div>
       <p>
-        Cetățenii care doresc să participe la alegerile locale din data de 27 septembrie 2020 trebuie să respecte următoarele reguli de protecție sanitară:
+      În data de 6 decembrie 2020 vor avea loc alegeri pentru Camera Deputaților și Senatul României.
+      </p>
+      <p>
+      Având în vedere contextul în care se desfășoară procesul electoral, au fost stabilite o serie de măsuri de prevenție pentru a reduce la minim riscul de contractare a noului tip de coronavirus , COVID – 19.
+      </p>
+      <p>
+      Astfel, vă prezentăm setul de măsuri și un îndrumar despre lucrurile pe care trebuie să le faceți pentru a vota în siguranță.
+      </p>
+      <p>
+        <b>ÎN EXTERIORUL SECȚIEI DE VOTARE</b>
         <ul>
-          <li>La sosirea în fața secției de votare trebuie să aibă poziționată corect masca de protecție, astfel încât să acopere atât nasul cât și gura. Purtarea măștii este obligatorie în spațiul închis și în secția de votare. </li>
-          <li>Este recomandat ca masca să fie purtată inclusiv în perioada de așteptare în spațiul exterior (deschis), înainte de intrarea în secția de vot. Dacă această zonă, de așteptare, este aglomerată personalul de pază va solicita alegătorilor să poarte masca, în mod obligatoriu, în perioada în care așteaptă să intre în sediul secției de votare.</li>
-          <li>În sala de vot este permis accesul a maximum 5 alegători care pot fi prezenți simultan în secția de votare. </li>
-          <li>În timp ce așteaptă pentru a intra în secția de vot trebuie să respecte distanța recomandată față de celelalte persoane (minimum 1 metru).</li>
-          <li>La intrarea în secția de votare, cetățenii își vor dezinfecta mâinile folosind dispozitivele special instalate în acest scop și personalul specializat le va măsura temperatura corporală.</li>
+          <li>În drum spre secția de votare purtați masca de protecție astfel încât să vă acopere nasul și gura, evitați să atingeți suprafețele comune.</li>
+          <li>În sala de vot este permis accesul a maximum 5 alegători care pot fi prezenți simultan în secția de votare.</li>
+          <li>În timp ce așteptați pentru a intra în secția de vot trebuie să respectați distanța recomandată față de celelalte persoane (minimum 1 metru).</li>
+          <li>Respectați indicațiile personalului de pază și purtați masca de protecție întreaga perioadă în care așteptați pentru acces.</li>
         </ul>
-        <b>Notă:</b> În cazul în care temperatura corporală măsurată depășește valoarea de 37,3 grade Celsius, alegătorii vor putea intra în sediul secției de vot purtând masca de protecție sanitară, evitând contactul cu suprafețele și păstrând distanța față de celelalte persoane. Alegătorii cu temperatura corporală peste 37,3 vor fi însoțiți de un membru din cadrul biroului electoral și vor vota în cabina de vot indicată de această persoană, respectând traseul de intrare și de ieșire stabilit de personalul tehnic.
+      </p>
+      <p>
+      <b>ÎN INTERIORUL SECȚIEI DE VOTARE</b>
         <ul>
-          <li>După intrarea în secția de votare vor merge, menținând distanța față de celelalte persoane, spre biroul unde este instalată tableta conectată la Sistemul informatic de monitorizare a prezenței la vot și de prevenire a votului ilegal. Alegătorii vor poziționa cartea de identitate pentru a fi scanată, conform recomandărilor personalului tehnic de specialitate care operează echipamentul IT. </li>
-          <li>Menținând o distanța de minimum 1,5 metri față de operatorul tehnic al tabletei, își vor îndepărta parțial masca, pentru scurt timp, astfel încât să fie identificați ca fiind persoanele din actul de identitate. Apoi își vor repoziționa masca astfel încât să acopere gura și nasul.</li>
+          <li>La intrarea în secția de votare, dezinfectați-vă mâinile folosind dispozitivele special instalate în acest scop. Personalul specializat va măsura temperatura corporală.</li>
+        </ul>
+        <b>Notă:</b> În cazul în care temperatura corporală măsurată depășește valoarea de 37,3 grade Celsius, alegătorii vor putea intra în sediul secției de vot purtând masca de protecție sanitară, evitând contactul cu suprafețele și păstrând distanța față de celelalte persoane. Alegătorii cu temperatura corporală peste 37,3 vor fi însoțiți de un membru din cadrul biroului
+        electoral și vor vota în cabina de vot indicată de această persoană, respectând traseul de intrare și de ieșire stabilit de personalul tehnic.
+        <ul>
+          <li>După intrarea în secția de votare mergeți, menținând distanța față de celelalte persoane, spre biroul unde este instalată tableta conectată la Sistemul informatic de monitorizare a prezenței la vot și de prevenire a votului ilegal. Poziționați cartea de identitate pentru a fi scanată, conform recomandărilor personalului tehnic de specialitate care operează echipamentul IT.</li>
+          <li>Menținând o distanța de minimum 1,5 metri față de operatorul tehnic al tabletei, îndepărtați parțial masca, pentru scurt timp, astfel încât să puteți fi identificați ca fiind persoana din actul de identitate. Apoi repoziționați masca astfel încât să acopere gura și nasul.</li>
           <li>După realizarea acestei proceduri, alegătorii se vor îndrepta către biroul/masa/banca la care se află membrul secției de votare pentru a semna în lista electorală. Alegătorii vor poziționa actul de identitate pe birou/masă/bancă astfel încât să nu fie necesar ca reprezentantul secției să atingă respectivul document.</li>
           <li>Ulterior, alegătorii vor prelua singuri, conform indicațiilor primite de la membrii biroului electoral, ștampila și buletinele de vot și vor intra în cabina de vot.</li>
-          <li>După exercitarea dreptului la vot, prin introducerea buletinelor în urne,  alegătorii se vor întoarce la biroul/masa/banca la care se află membrul secției de votare, vor preda ștampila folosită, își vor recupera actul de identitate și își vor aplica singuri pe acesta, conform indicațiilor primite, timbrul autocolant mențiunea votat.</li>
+          <li>După exercitarea dreptului la vot, prin introducerea buletinelor în urne, alegătorii se vor întoarce la biroul/masa/banca la care se află membrul secției de votare, vor preda ștampila folosită, își vor recupera actul de identitate și își vor aplica singuri pe acesta, conform indicațiilor primite, timbrul autocolant mențiunea votat.</li>
           <li>După aplicarea timbrului autocolant cu mențiunea votat pe documentul de identitate, alegătorii vor părăsi secția de votare urmărind culoarul special creat. Fluxul de ieșire va fi separat de cel de intrare.</li>
           <li>La ieșirea din secția de votare, alegătorii își vor dezinfecta mâinile folosind dispozitivele special instalate în acest scop.</li>
         </ul>
         <b>Notă:</b> Sălile în care se desfășoară procesul electoral sunt dezinfectate înainte de începerea votului și după finalizarea scrutinului. De asemenea, se va asigura aerisirea sălii prin menținerea deschisă a ferestrei sau ferestrelor pe toată durata votării și a desfășurării activității, iar acolo unde acest lucru nu este posibil sala se va aerisi la fiecare două ore pentru cel puțin 10 minute.
+      </p>
+      <p>
+      <b>IMPORTANT</b>
         <ul>
-          <li>Prezența la vot, conform statisticilor alegerilor precedente, este cea mai ridicată în intervalele orare 10.00-14.00 și 16.00-19.00. Astfel, se recomandă ca alegătorii să se prezinte la urne în intervalele 7.00-10.00 și 19.00-21.00, în care prezența la urne este mai scăzută, pentru a evita eventualele aglomerații. Secțiile de votare se vor deschide duminică, 27 septembrie, la ora 7.00 și se vor închide la ora 21.00. </li>
+          <li>Persoanele aflate în izolare sau carantină, la domiciliu sau instituționalizată, nu se pot deplasa la sediul unei secții de votare însă, în cazul în care doresc să voteze, pot solicita urna mobilă.</li>
+          <li>Cererea de vot prin intermediul urnei speciale poate fi depusă prin intermediul oricărei persoane, trebuie să fie datată şi semnată olograf de către alegătorul care solicită urna specială şi cuprinde, în mod obligatoriu: numele, prenumele, codul numeric personal, domiciliul sau reşedinţa, conform menţiunilor din actul de identitate ori dovada de reşedinţă, după caz, adresa imobilului unde se solicită deplasarea echipei, seria şi numărul actului de identitate, precum şi numărul de telefon.</li>
+          <li>Cetăţenii cu drept de vot aflaţi în carantină sau izolare pot transmite, prin mijloace electronice, biroului electoral de circumscripţie sau oficiului electoral cererile de vot prin
+          intermediul urnei speciale şi copiile actelor necesare, <u>până cel mai târziu în data de 4 decembrie 2020</u>.</li>
+          <li>Cererea pentru urna specială va fi însoțită de copia deciziei de carantină emisă de direcţia de sănătate publică sau biletul de externare din unitatea sanitară care confirmă diagnosticul şi indicaţia de izolare, decizia de izolare emisă de direcţia de sănătate publică, rezultatul testării COVID-19 RT-PCR (pozitiv) din ultimele 14 zile.</li>
+          <li>Cetăţenii cu drept de vot aflaţi în izolare sau carantină cărora nu li s-au eliberat documentele prevăzute mai sus, pot transmite, prin orice mijloace, birourilor electorale de
+          circumscripţie sau oficiilor electorale, după caz, cereri privind emiterea documentelor necesare exercitării votului prin intermediul urnei speciale. Birourile electorale de circumscripţie şi oficiile electorale asigură transmiterea către direcţiile de sănătate publică a listei persoanelor care au transmis cereri, în vederea luării măsurilor necesare pentru emiterea urgentă a documentelor necesare exercitării dreptului de vot prin intermediul urnei speciale.</li>
         </ul>
       </p>
   `,
