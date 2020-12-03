@@ -45,13 +45,13 @@ export default [
         page: `
       <p>
       În data de 6 decembrie 2020 vor avea loc alegeri pentru Camera Deputaților și Senatul României.
-      </>
+      </p>
       <p>
       Având în vedere contextul în care se desfășoară procesul electoral, au fost stabilite o serie de măsuri de prevenție pentru a reduce la minim riscul de contractare a noului tip de coronavirus , COVID – 19.
-      </>
+      </p>
       <p>
       Astfel, vă prezentăm setul de măsuri și un îndrumar despre lucrurile pe care trebuie să le faceți pentru a vota în siguranță.
-      </>
+      </p>
       <p>
         <b>ÎN EXTERIORUL SECȚIEI DE VOTARE</b>
         <ul>
