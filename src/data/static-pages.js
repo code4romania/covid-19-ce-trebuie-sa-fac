@@ -43,9 +43,6 @@ export default [
         display_order: 1,
         slug: "/",
         page: `
-	<div style="background-color: #E5F9FE; padding: 10px;">
-	Guvernul României a prelungit starea de alertă pe teritoriul României. Mai jos puteți citi regulile de conduită sanitară aplicate la alegerile locale din septembrie 2020. Regulile pentru alegerile parlamentare vor fi actualizate în curând.
-	</div>
       <p>
       În data de 6 decembrie 2020 vor avea loc alegeri pentru Camera Deputaților și Senatul României.
       </>
