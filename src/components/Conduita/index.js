@@ -1,5 +1,9 @@
 import React from "react";
-import { Hero, Instruments } from "@code4ro/taskforce-fe-components";
+import {
+  Hero,
+  BannerImage,
+  Instruments,
+} from "@code4ro/taskforce-fe-components";
 import UsefulApps from "../../data/useful-apps";
 import Card from "./../Card";
 import "./styles.scss";
@@ -27,6 +31,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData,
 } from "../../utils/instruments.utils";
+import rovaccinareImage from "../../images/rovaccinare.jpg";
 
 const Conduita = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -188,6 +193,14 @@ const Conduita = () => {
           <Hero title={"Instrumente utile"} useFallbackIcon={true} />
 
           <Instruments layout="list">
+            <BannerImage
+              link="https://vaccinare-covid.gov.ro/"
+              image={{
+                src: rovaccinareImage,
+                alt: "#ROVACCINARE",
+                title: "#ROVACCINARE",
+              }}
+            />
             {instrumentsData.info.map((usefulApp) =>
               renderInstrumentItem(usefulApp)
             )}
