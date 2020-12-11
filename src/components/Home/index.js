@@ -4,6 +4,7 @@ import ContentPage from "../ContentPage";
 import data from "../../data/static-pages";
 import {
   Hero,
+  BannerImage,
   Instruments,
   List,
   ListItem,
@@ -83,6 +84,15 @@ const Home = () => {
       <div className="instruments-wrapper">
         <Hero title={"Instrumente utile"} useFallbackIcon={true} />
         <Instruments layout="column">
+          <BannerImage
+            link="https://vaccinare-covid.gov.ro/"
+            image={{
+              src:
+                "https://stirioficiale.ro/storage/imagine principala_ROVACCINARE.png",
+              alt: "#ROVACCINARE",
+              title: "#ROVACCINARE",
+            }}
+          />
           {Object.keys(instrumentsData).map((category) => {
             return instrumentsData[category].map((usefulApp) =>
               renderInstrumentItem(usefulApp)

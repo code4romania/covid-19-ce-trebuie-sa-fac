@@ -3,6 +3,7 @@ import logo from "../../images/logo.svg";
 import bandaSponsori from "../../images/banda_sponsori.png";
 import {
   Hero,
+  BannerImage,
   Instruments,
   SocialsShare,
   MailchimpSubscribe,
@@ -113,6 +114,15 @@ const About = () => {
           <Hero title={"Instrumente utile"} useFallbackIcon={true} />
 
           <Instruments layout="grid">
+            <BannerImage
+              link="https://vaccinare-covid.gov.ro/"
+              image={{
+                src:
+                  "https://stirioficiale.ro/storage/imagine principala_ROVACCINARE.png",
+                alt: "#ROVACCINARE",
+                title: "#ROVACCINARE",
+              }}
+            />
             {instrumentsData.info.map((usefulApp) =>
               renderInstrumentItem(usefulApp)
             )}
