@@ -31,6 +31,7 @@ import {
   renderInstrumentItem,
   remapInstrumentsData,
 } from "../../utils/instruments.utils";
+import rovaccinareImage from "../../images/rovaccinare.jpg";
 
 const Conduita = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -195,8 +196,7 @@ const Conduita = () => {
             <BannerImage
               link="https://vaccinare-covid.gov.ro/"
               image={{
-                src:
-                  "https://stirioficiale.ro/storage/imagine principala_ROVACCINARE.png",
+                src: rovaccinareImage,
                 alt: "#ROVACCINARE",
                 title: "#ROVACCINARE",
               }}

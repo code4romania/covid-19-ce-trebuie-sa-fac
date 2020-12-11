@@ -23,6 +23,7 @@ import "./styles.scss";
 import { mailchimpURL } from "../../config/mailchimp";
 import * as queryString from "query-string";
 import SearchResults from "../SearchResults/index";
+import rovaccinareImage from "../../images/rovaccinare.jpg";
 
 const SEARCH_SLUG = "search";
 
@@ -87,8 +88,7 @@ const Home = () => {
           <BannerImage
             link="https://vaccinare-covid.gov.ro/"
             image={{
-              src:
-                "https://stirioficiale.ro/storage/imagine principala_ROVACCINARE.png",
+              src: rovaccinareImage,
               alt: "#ROVACCINARE",
               title: "#ROVACCINARE",
             }}

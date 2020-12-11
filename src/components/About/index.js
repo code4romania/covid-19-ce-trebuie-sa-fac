@@ -15,6 +15,7 @@ import {
   remapInstrumentsData,
 } from "../../utils/instruments.utils";
 import { mailchimpURL } from "../../config/mailchimp";
+import rovaccinareImage from "../../images/rovaccinare.jpg";
 
 const About = () => {
   const instrumentsData = remapInstrumentsData(UsefulApps);
@@ -117,8 +118,7 @@ const About = () => {
             <BannerImage
               link="https://vaccinare-covid.gov.ro/"
               image={{
-                src:
-                  "https://stirioficiale.ro/storage/imagine principala_ROVACCINARE.png",
+                src: rovaccinareImage,
                 alt: "#ROVACCINARE",
                 title: "#ROVACCINARE",
               }}
