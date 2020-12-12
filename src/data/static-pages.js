@@ -34,7 +34,7 @@ export default [
     active: true,
     display_order: 0,
     showInTopMenu: false,
-    showInSideMenu: false,
+    showInSideMenu: true,
     style: { "--highlightColor": "#F6DD62" },
     firstNodeId: null,
     content: [
