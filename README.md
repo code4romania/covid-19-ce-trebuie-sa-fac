@@ -14,23 +14,26 @@ How: Web platform with guides, questionnaires, and decision trees which can help
 
 This project is built by amazing volunteers and you can be one of them! Here's a list of ways in [which you can contribute to this project](https://github.com/code4romania/.github/blob/master/CONTRIBUTING.md). If you want to make any change to this repository, please **make a fork first**.
 
-Help us out by testing this project in the [staging environment](https://ce-ma-fac.now.sh/). If you see something that doesn't quite work the way you expect it to, open an Issue. Make sure to describe what you _expect to happen_ and _what is actually happening_ in detail.
+Help us out by testing this project in the [staging environment](https://ce-ma-fac-git-develop.code4romania.now.sh). If you see something that doesn't quite work the way you expect it to, open an Issue. Make sure to describe what you _expect to happen_ and _what is actually happening_ in detail.
 
-If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements.
+If you would like to suggest new functionality, open an Issue and mark it as a **[Feature request]**. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements.
 
 Also, this is [the workflow we follow](https://github.com/code4romania/.github/blob/master/WORKFLOW.md).
 
 ## Built With
 
 ### Programming languages
- - Javascript
+
+- Javascript
 
 ### Frontend frameworks
- - [React (16.13.*)](https://reactjs.org/)
- - [Bulma (0.8.*)](https://bulma.io/)
+
+- [React (16.13.\*)](https://reactjs.org/)
+- [Bulma (0.8.\*)](https://bulma.io/)
 
 ### Package managers
- - Frontend - [NPM](https://docs.npmjs.com/)
+
+- Frontend - [NPM](https://docs.npmjs.com/)
 
 ## Repos and projects
 
@@ -73,10 +76,10 @@ Launches the test runner in the interactive watch mode. See the section about [r
 
 ## Feedback
 
-* Request a new feature on GitHub.
-* Vote for popular feature requests.
-* File a bug in GitHub Issues.
-* Email us with other feedback contact@code4.ro
+- Request a new feature on GitHub.
+- Vote for popular feature requests.
+- File a bug in GitHub Issues.
+- Email us with other feedback contact@code4.ro
 
 ## License
 
