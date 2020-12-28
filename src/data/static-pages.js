@@ -1609,6 +1609,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     display_order: 3,
     showInTopMenu: true,
     showInSideMenu: true,
+    style: { "--highlightColor": "#F6DD62" },
     content: [
       {
         title: "Procesul de vaccinare în România",
