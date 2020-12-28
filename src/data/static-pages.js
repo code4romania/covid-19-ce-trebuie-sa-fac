@@ -5,7 +5,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 210,
     active: true,
-    display_order: 2,
+    display_order: 4,
     showInTopMenu: false,
     showInSideMenu: true,
     style: { "--highlightColor": "#F6DD62" },
@@ -32,7 +32,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 110,
     active: true,
-    display_order: 0,
+    display_order: 100,
     showInTopMenu: false,
     showInSideMenu: false,
     style: { "--highlightColor": "#F6DD62" },
@@ -103,7 +103,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 101,
     active: true,
-    display_order: 3,
+    display_order: 5,
     showInTopMenu: true,
     showInSideMenu: true,
     firstNodeId: null,
@@ -181,7 +181,7 @@ export default [
     showInTopMenu: true,
     showInSideMenu: true,
     active: false,
-    display_order: 4,
+    display_order: 6,
     content: [
       {
         title: "Cum ne protejăm?",
@@ -384,7 +384,7 @@ export default [
     active: false,
     showInTopMenu: false,
     showInSideMenu: false,
-    display_order: 5,
+    display_order: 101,
     content: [
       {
         title: "Ai simptome?",
@@ -672,7 +672,7 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 104,
     active: false,
-    display_order: 6,
+    display_order: 7,
     showInTopMenu: true,
     showInSideMenu: true,
     content: [
@@ -910,8 +910,8 @@ export default [
     doc_type: "STATIC_PAGE",
     doc_id: 105,
     active: false,
-    display_order: 7,
-    showInTopMenu: true,
+    display_order: 8,
+    showInTopMenu: false,
     showInSideMenu: true,
     content: [
       {
@@ -1311,7 +1311,7 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     ],
   },
   {
-    title: "Ghid - Q&A",
+    title: "Întrebări frecvente",
     slug: "/",
     doc_type: "STATIC_PAGE",
     doc_id: 108,
@@ -1466,14 +1466,304 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     ],
   },
   {
+    title: "Întrebări despre vaccinare",
+    slug: "intrebari-despre-vaccinare",
+    doc_type: "STATIC_PAGE",
+    doc_id: 301,
+    active: true,
+    display_order: 2,
+    showInTopMenu: true,
+    showInSideMenu: true,
+    content: [
+      {
+        title: "Întrebări și răspunsuri despre vaccinare",
+        display_order: 1,
+        page: `<p>Întrebări și răspunsuri despre vaccinare. Sursa: <a href="https://vaccinare-covid.gov.ro/" target="_blank">https://vaccinare-covid.gov.ro/</a></p>`,
+        slug: "/",
+      },
+    ],
+    firstNodeId: null,
+    form: null,
+    buttons: null,
+    accordion: [
+      {
+        title: `De ce să mă vaccinez împotriva COVID-19?`,
+        content: `
+            <p>Vaccinarea împotriva COVID-19 este importantă pentru că reduce riscul de îmbolnăvire și riscul de a dezvolta o formă severă de boală. Vaccinarea este un instrument important pentru a opri răspândirea pandemiei, scădea supraîncărcarea unităților sanitare, permițând, astfel, redeschiderea unităților sanitare pentru pacienții non-COVID. Astfel, vor fi create condițiile pentru redeschiderea activităților socio-economice și înlesnirea liberei circulații.</p>
+        `,
+      },
+      {
+        title: `Cum sunt protejate datele cu caracter personal privind vaccinarea împotriva COVID-19?`,
+        content: `
+            <p>Monitorizarea nivelului de acoperire vaccinală, a siguranței și eficacității vaccinurilor împotriva COVID-19 se realizează cu ajutorul platformelor electronice, respectându-se legislația cu privire la protecția datelor cu caracter personal. Conform strategiei privind vaccinarea împotriva COVID-19 în România se va dezvolta un modul dedicat vaccinării împotriva COVID-19 în cadrul Registrului Electronic Național de Vaccinare (RENV), care va constitui baza de date electronică referitoare la vaccinare, cu respectarea prevederilor legale privind protecția datelor cu caracter personal.</p>
+        `,
+      },
+      {
+        title: `Ce document se va elibera în momentul vaccinării?`,
+        content: `
+            <p>Fiecare persoană care se va vaccina va primi o adeverință doveditoare de vaccinare care va cuprinde următoarele informații: numele și prenumele persoanei vaccinate, data nașterii, vârsta, județul de domiciliu, număr și serie CI, date despre vaccin: doza 1 (tip vaccin, produs, serie/lot, data expirării), doza 2 (tip vaccin, produs, serie/lot, data expirării), date despre centrul de vaccinare (nume centru de vaccinare, județ, medic coordonator/vaccinator), semnătura electronică a Registrului Electronic Național al Vaccinărilor.</p>
+            <p>Dovada vaccinării este pusă la dispoziția persoanei vaccinate fie electronic, fie pe suport de hârtie pentru a-i permite acesteia să își țină evidența între cele două vizite la centrul de vaccinare (doză inițială și rapel) și pentru a-i pune la dispoziție informațiile esențiale despre caracteristicile vaccinului administrat. Precizăm că vaccinarea este gratuită, voluntară/ neobligatorie, iar adeverința doveditoare nu este eliberată cu scopul de  a condiționa sau restricționa ulterior drepturile persoanelor vaccinate.</p>
+        `,
+      },
+      {
+        title: `Dacă am fost infectat cu SARS-CoV-2, mai este necesară vaccinarea?`,
+        content: `
+            <p>În studiile clinice, vaccinul a fost administrat și unor persoane care prezentau un nivel detectabil de anticorpi anti SARS-CoV-2 și nu s-au detectat efecte adverse, ci doar o creștere a nivelului de răspuns imun.  Vaccinarea este disponibilă, pe baza consimțământului, indiferent dacă a existat sau nu infectarea.</p>
+        `,
+      },
+      {
+        title: `Persoanele nevaccinate le pot infecta pe cele vaccinate?`,
+        content: `
+            <p>O persoană nevaccinată se poate infecta cu virusul SARS-CoV-2 și-l poate transmite celor cu care intră în contact. Contacții vaccinați (vaccin Pfizer/BioNTech, aprobat condiționat în Uniunea Europeană) ai persoanei nevaccinate sunt protejați față de de dezvoltarea bolii Covid-19 – chiar dacă virusul ar putea ajunge în căile respiratorii, transmis de la un purtător, nu va produce efecte, fiind inactivat de anticorpii protectori dezvoltați după vaccinare.</p>
+        `,
+      },
+      {
+        title: `Persoanele vaccinate le pot infecta pe cele nevaccinate?`,
+        content: `
+            <p>Obiectivul principal al studiului de faza 3 pentru vaccinul Pfizer/BioNTech, aprobat condiționat în Uniunea Europeană, nu a presupus măsurarea transmisibilității SARS-CoV-2 după vaccinare, ci demonstrarea eficacității pentru prevenirea bolii Covid-19. Date despre măsura în care o persoană vaccinată mai poate transmite virusul urmează a fi generate, colectate și analizate în perioada următoare. Experiența cu alte vaccinuri arată că în general o persoană vaccinată transmite într-o mai mică măsură agentul patogen, dar această ipoteză trebuie validată și pentru SARS-CoV-2.</p>
+        `,
+      },
+      {
+        title: `De unde mă pot informa cu privire la vaccinurile candidate?`,
+        content: `
+            <p>La nivelul Uniunii Europene, vaccinurile care vor fi folosite în campaniile de vaccinare împotriva COVID-19 sunt cele care au primit aprobarea din partea Agenției Europene a Medicamentului. Toate detaliile cu privire la procesul de evaluare și aprobare sunt disponibile și actualizate constant pe site-ul <a target="_blank" href="https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/covid-19-vaccines-development-evaluation-approval-monitoring">Agenției Europene a Medicamentului</a>.</p>
+        `,
+      },
+      {
+        title: `Cu cine iau legătura dacă vreau să mă vaccinez?`,
+        content: `
+            <p>Conform Strategiei pentru vaccinarea împotriva COVID-19 în România, vaccinarea se va realiza în etape, respectând grupele populaționale. Pentru etapa I, vaccinarea se va organiza la locul de muncă și prin centrele de vaccinare fixe și mobile, iar pentru etapele II și III vaccinarea se va organiza prin centre de vaccinare fixe și mobile, echipe mobile, rețeaua de medicină de familie, centre drive-through.</p>
+        `,
+      },
+      {
+        title: `Pot refuza să mă vaccinez?`,
+        content: `
+            <p>Da, conform strategiei pentru vaccinarea împotriva COVID-19 în România vaccinarea este voluntară și ne-obligatorie.</p>
+        `,
+      },
+      {
+        title: `Vaccinarea este gratuită?`,
+        content: `
+            <p>Da, conform strategiei pentru vaccinarea împotriva COVID-19 în România vaccinarea este gratuită.</p>
+        `,
+      },
+      {
+        title: `Dacă mă vaccinez, mai este necesar să respect celelalte măsuri igienico-sanitare?`,
+        content: `
+            <p>Administrarea unui vaccin împotriva COVID-19 reprezintă unul dintre instrumentele critice pentru limitarea efectelor pandemiei, alături de celelalte instrumente: respectarea restricțiilor și a măsurilor igienico-sanitare (purtarea măștii, spălatul pe mâini și distanțarea fizică).</p>
+        `,
+      },
+      {
+        title: `Persoanele cu condiții medicale preexistente sunt eligibile pentru vaccinare?`,
+        content: `
+            <p>Conform strategiei naționale de vaccinare împotriva COVID-19, persoanele aflate în evidență cu boli cronice, indiferent de vârstă, sunt prioritare în vederea vaccinării, luându-se în considerație indicațiile și contraindicațiile vaccinurilor utilizate.</p>
+        `,
+      },
+      {
+        title: `O persoană care a fost infectată cu SARS-CoV-2 se poate vaccina?`,
+        content: `
+            <p>Da, o persoana care a fost infectată cu SARS-CoV-2 poate fi vaccinată în mod voluntar, atunci când întrunește criteriile legate de prioritizare. Nu se are în vedere excluderea de la vaccinare a persoanelor cu infecție anterioară cunoscută și nici testarea persoanelor înaintea vaccinării.</p>
+            <p>În momentul de față nu se știe pentru cât timp după infecție suntem protejați și nici nivelul de anticorpi necesar pentru a fi protejați. <a target="_blank" href="https://science.sciencemag.org/content/370/6521/1227">Studii recente</a> arată că la majoritatea persoanelor, anticorpii neutralizanți (cei care pot bloca infectarea celulelor) persistă cel puțin câteva luni de la infecția inițială. De asemenea, studiile arată că răspunsul imun în urma infecției naturale poate varia foarte mult în funcție de individ și de severitatea bolii.</p>
+            <p><a target="_blank" href="https://www.fda.gov/media/139638/download">Autoritățile de reglementare</a> nu recomandă excluderea participanților la studiile clinice din Faza 3 pe baza dovezilor despre o infecție anterioară astfel încât majoritatea producătorilor <a target="_blank" href="https://www.bmj.com/content/bmj/371/bmj.m4058.full.pdf">au vaccinat deja și persoane care au trecut prin boală</a>, fără a fi raportate reacții adverse severe.</p>
+        `,
+      },
+      {
+        title: `Ce sunt centrele de vaccinare drive-through?`,
+        content: `
+            <p>Centrele de vaccinare drive-through sunt centre de vaccinare fixe amenajate în mod special pentru etapa a III-a a procesului de vaccinare care este adresată populației generale. Conform recomandărilor Organizației Mondiale a Sănătății, organizarea și amenajarea  acestor centre se vor face în marile aglomerări urbane, în zone care permit accesul persoanelor cu mijloace auto proprii. Organizarea și amenajarea centrelor de vaccinare drive-through se vor face cu respectarea tuturor normelor de siguranță și a normelor igienico-sanitare, pentru a facilita accesul persoanelor la vaccinare, a eficientiza procesul de vaccinare, a evita supraaglomerarea sau sacrificarea dozelor de vaccin. Organizarea unor astfel de centre drive-through este propusă prin strategia <a target="_blank" href="https://apps.who.int/iris/handle/10665/335940">Organizației Mondiale a Sănătății.</a></p>
+        `,
+      },
+      {
+        title: `Ce sunt centrele mobile de vaccinare?`,
+        content: `
+            <p>Centrele mobile de vaccinare sunt centre de vaccinare/caravane mobile organizate în diferite etape ale procesului de vaccinare. Organizarea și amenajarea  acestor centre mobile de vaccinare se vor face, atunci când este necesar, pentru a facilita accesul la vaccinare al persoanelor ce deservesc activități esențiale, al persoanelor aflate în centre rezidențiale și medico-sociale și, după caz, al persoanelor din rândul populației generale pentru care accesul la vaccinare este limitat. Organizarea și amenajarea centrelor mobile de vaccinare se vor face cu respectarea tuturor normelor de siguranță și a normelor igienico-sanitare, pentru a facilita accesul persoanelor la vaccinare, a eficientiza procesul de vaccinare, a evita supraaglomerarea sau sacrificarea dozelor de vaccin.</p>
+        `,
+      },
+      {
+        title: `Ce  este o autorizație condiționată  de punere pe piață (CMA)?`,
+        content: `
+            <p>În cadrul Uniunii Europene, o autorizație condiționată de punere pe piață permite autorizarea unor medicamente care se adresează unei nevoi neacoperite încă, pe baza unor date mai puțin complete decât cele solicitate în mod uzual. Acest lucru se întâmplă în condiții de urgență de sănătate publică, precum pandemia de Covid-19, doar dacă beneficiile cântăresc mult mai mult decât posibilele riscuri create de faptul că nu sunt disponibile încă toate datele. Autorizațiile condiționate sunt utilizate în cazul pandemiei de Covid-19 pentru a răspunde urgenței legate de sănătatea publică. Chiar și așa, datele furnizate trebuie să indice în mod clar faptul că beneficiile medicamentului sau ale vaccinului prevalează în fața posibilelor riscuri. Cerința ca beneficiile să fie mult mai mari în raport cu posibilele riscuri este cu atât mai explicită în cazul vaccinurilor ce se vor administra persoanelor sănătoase. O dată ce o astfel de autorizație condiționată a fost emisă, companiile trebuie să furnizeze mai multe date, din studii aflate în desfășurare sau din studii noi, la termene prestabilite, pentru a demonstra, în continuare, că beneficiile sunt mai mari decât riscurile.</p>
+        `,
+      },
+      {
+        title: `Ce se întâmplă după ce o companie depune cererea de autorizare de punere pe piață a unui vaccin? `,
+        content: `
+            <p>În cazul în care Agenția Europeană a Medicamentului va ajunge la concluzia că beneficiile vaccinului sunt mai mari decât riscurile, va recomanda Comisiei Europene acordarea autorizației condiționate de punere pe piață. Comisia va accelera apoi procedurile de decizie și, în câteva zile, autorizația ar putea fi adoptată la nivelul statelor membre UE și al statelor EEA.</p>
+            <p>Ca și pentru alte medicamente, autoritățile de reglementare ale UE vor continua să adune și să evalueze noi informații și după punerea pe piață și să ia măsuri dacă și atunci când este nevoie. Respectând planul european pentru monitorizarea siguranței vaccinurilor împotriva COVID-19, monitorizarea se va face mai des și va include activități specifice pentru aceste vaccinuri. De exemplu, în plus față de actualizările periodice cerute de legislație, companiile vor furniza rapoarte lunare care monitorizează siguranța și vor realiza studii pentru monitorizarea siguranței și eficacității vaccinurilor COVID-10, chiar și după autorizarea lor.  Aceste măsuri le vor permite autorităților de reglementare să evalueze date care provin din surse diferite și să ia măsurile care se impun pentru protejarea sănătății publice, dacă este cazul.</p>
+        `,
+      },
+      {
+        title: `Cum funcționează vaccinurile pentru care au fost depuse cereri de obținere a autorizațiilor de punere pe piață?  (BNT162b2 și RNA1273)`,
+        content: `
+            <p>Vaccinurile vor pregăti organismul uman să se apere împotriva COVID-19. Pentru a pătrunde în organism și pentru a cauza boala, virusul SARS-CoV-2 utilizează o proteină aflată pe învelișul său, proteină denumită proteina S (spike). Vaccinurile conțin instrucțiunile genetice (ARN mesager) necesare pentru generarea proteinei S. Când o persoană este vaccinată, celulele sale vor ”citi” instrucțiunile genetice din ARN-ul mesager și vor sintetiza proteina S. Sistemul imun al persoanei respective va recunoaște această proteină ca fiind străină și va declanșa mecanismele de apărare imună, producând anticorpi  și celule T specifice. Dacă mai târziu, persoana vaccinată va intra în contact cu virusul SARS-CoV-2, sistemul său imun va recunoaște virusul și, prin intermediul anticorpilor și al celulelor T specifice, va neutraliza virusul, prevenind, astfel, intrarea în celulele sănătoase ale corpului și distrugând eventualele celule infectate. Astfel, se va asigura protecția împotriva COVID-19.</p>
+        `,
+      },
+    ],
+  },
+  {
+    title: "Programul de vaccinare",
+    slug: "programul-de-vaccinare",
+    doc_type: "STATIC_PAGE",
+    doc_id: 302,
+    active: true,
+    display_order: 3,
+    showInTopMenu: true,
+    showInSideMenu: true,
+    content: [
+      {
+        title: "Cum acționez dacă am simptome sau sunt confirmat cu COVID-19",
+        display_order: 1,
+        page: `<p>Cum acționez dacă am simptome sau sunt confirmat cu COVID-19</p>`,
+        slug: "/",
+      },
+    ],
+    firstNodeId: null,
+    form: null,
+    buttons: null,
+    accordion: [
+      {
+        title: `1. Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
+        content: `
+            <p>Recomandarea generală este să evitați interacțiunea cu alte persoane și să rămâneți acasă. Prezența acestor simptome nu presupune automat infectarea cu noul Coronavirus (COVID-19). Asigurați-vă că aveți la îndemână un termometru pentru a vă măsura regulat temperatura corporală. Primul pas este să sunați medicul de familie și să-i descrieți simptomele. Medicul dvs. vă va ghida spre următorul pas: aplicarea unui tratament clasic fie pentru răceală, fie pentru gripa sezonieră sau, în funcție de simptome și activitățile pe care le-ați desfășurat recent, vă va îndruma pentru realizarea unui test pentru COVID-19.</p>
+            <p>(NOTĂ: Simptomele specifice, cel mai des întâlnite în cazul infecției COVID-19, sunt: febră, pierderea gustului și mirosului, dureri de cap și dureri musculare, tuse seacă)</p>
+        `,
+      },
+      {
+        title: `2. Starea mea de sănătate s-a alterat brusc, am dureri musculare, febră, tușesc, am rămas fără gust și miros, am diaree și dureri de cap. Nu am călătorit în ultima vreme în afara țării, nu am fost în zone aglomerate, nu am mers la restaurant sau la vreo petrecere, am purtat masca la serviciu, în mijloacele de transport în comun și nu am cunoștință să fi intrat în contact cu vreo persoană depistată pozitiv cu noul Coronavirus (COVID-19). Ce fac? Cum aflu dacă sunt sau nu infectat?`,
+        content: `
+            <p>Și în acest caz, primul la care trebuie să apelați este medicul de familie care va face o evaluare telefonică a stării dvs. și va decide calea de urmat. Medicul poate decide, în această situație, că trebuie să vă testați pentru COVID-19 și, ca atare, vă îndruma să sunați la Direcția de Sănătate Publică și să menționați toate simptomele. În tot acest timp, încercați pe cât de mult posibil să stați departe sau chiar să vă izolați de restul familiei, dacă vă permite spațiul locuinței. Rămâneți în casă și așteptați serviciul de ambulanță, ce vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital.</p>
+            <p>În cazul persoanelor simptomatice, precum dumneavoastră, testarea se face conform protocolului, gratuit. </p>
+            <p>De asemenea, există posibilitatea să vă testați „la cerere”, însă această opțiune este contra cost. Dacă mergeți la un centru de testare pentru a efectua testul „la cerere”, optați pe cât posibil pentru un mijloc de transport individual și respectați cu strictețe toate măsurile sanitare (mască, distanță, igiena mâinilor).</p>
+        `,
+      },
+      {
+        title: `3. Sunt în situația de la întrebarea numărul 2, dar în urma discuției cu medicul de familie și cu cei de la Direcția de Sănătate Publică nu a venit nimeni să mă testeze timp de 24h. Între timp, starea mea s-a înrăutățit, iar febra nu scade. Ce fac?`,
+        content: `
+            <p>Sunați la 112 și descrieți întreaga situație. Vi se va comunica ora la care va sosi serviciul de ambulanță, care vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital unde veți fi testat.</p>
+        `,
+      },
+      {
+        title: `4. Mă simt foarte rău de câteva zile, nu știu să fi intrat în contact cu vreo persoană bolnavă de Coronavirus, dar totuși mi-e teamă că am COVID-19. Sun la DSP și nu răspunde nimeni la telefon. `,
+        content: `
+            <p>În această perioadă medicii de la DSP sunt extrem de aglomerați, motiv pentru care liniile telefonice sunt suprasolicitate. Sunați medicul de familie pentru orice problemă de sănătate. Doar dacă, în cazul puțin probabil, medicul dvs. nu răspunde la telefon și starea dvs. de sănătate se înrăutățește, atunci sunați la 112.</p>
+        `,
+      },
+      {
+        title: `5. Copilul meu de 4 ani a mers la grădiniță, iar educatoarea a fost diagnosticată cu COVID-19. Copilul nu a purtat mască, însă educatoarea a purtat masca. Copilul nu are nici un simptom și se spune că cei mici sunt mai degrabă asimptomatici decât adulții. Mă tem că este purtător, iar noi părinții am putea să luăm de la el. Cum procedez?`,
+        content: `
+            <p>Cel mai probabil în acest caz, educatoarea a stat în aceeași sală de clasă cu copilul mai mult de 15 minute, iar copilul nepurtând mască este contact direct. Educatoarea are obligația să declare la DSP toți contacții direcți pentru desfășurarea anchetei epidemiologice. </p>
+            <p>Întreaga grupă își va suspenda activitatea timp de 14 zile. Copilul dvs. are indicația de carantină timp de 14 zile. În această situație, unul dintre părinți va rămâne acasă împreună cu copilul, urmând să beneficieze de zile libere conform OUG 147/2020. Copilul și părintele ce rămâne acasă se vor izola pe cât posibil de restul familiei.</p>
+            <p>În cazul în care copilul manifestă simptome, contactați medicul de familie și urmați indicațiile acestuia. În cazul în care, copilul va fi testat la domiciliu, până la aflarea rezultatului testului copilului, este recomandat să rămâneți împreună la domiciliu. Dacă cel mic este pozitiv, atunci toți membrii familiei care locuiesc în aceeași casă vor fi considerați la rândul lor contacți direcți și se va dispune carantina pentru 14 zile. </p>
+        `,
+      },
+      {
+        title: `6. Am petrecut câteva ore la terasă cu un amic, nici unul nu a purtat mască. La două zile distanță, el a fost diagnosticat cu COVID-19, însă eu nu am nici un simptom. Ce trebuie să fac? `,
+        content: `
+            <p>În acest caz sunteți contact direct și trebuie să rămâneți la domiciliu pentru următoarele 14 zile. Sunați medicul de familie care va anunța Direcția de Sănătate Publică cu faptul că vă are sub observație, iar DSP va dispune carantina în cazul dv. Având în vedere că nu ați dezvoltat simptome, iar starea de sănătate este bună, nu este necesară testarea. Medicul de familie va păstra legătura cu dvs. până la epuizarea celor 14 zile. Trebuie să știți că în acest caz aveți dreptul legal la concediu medical de carantină.</p>
+        `,
+      },
+      {
+        title: `7. Mă număr printre persoanele care au luat contact direct cu o persoană confirmată cu COVID-19, dar Direcția de Sănătate Publică nu mi-a comunicat când voi fi testat. Pot alege să realizez un test „la cerere”, contra cost, la un centru de testare ales de mine?`,
+        content: `
+            <p>Sunteți considerat contact direct dacă ați avut contact apropiat, conform definiției INSP, în ultimele 3 zile înainte ca persoana confirmată să dezvolte simptome, sau în ultimele 3 zile de la data prelevării probei persoanei confirmate. Din moment ce vă numărați printre contacții direcți ai unei persoane confirmată pozitiv cu noul Coronavirus (COVID-19), Direcția de Sănătate Publică emite o decizie de carantinare de 14 zile de la data ultimului contact cu persoana confirmată, prin care vă este interzis să părăsiți domiciliul. Testarea dumneavoastră se va face doar în cazul în care manifestați simptome specifice. Chiar în cazul în care v-ați testa la cerere, un eventual test negativ nu reduce perioada de carantinare. </p>
+        `,
+      },
+      {
+        title: `8. Sunt contact direct al unei persoane diagnosticate pozitiv cu Coronavirus, am anunțat DSP și m-am carantinat. În cât timp va veni cineva să mă testeze?`,
+        content: `
+            <p>În cazul în care nu manifestați simptome testarea dumneavoastră nu este necesară. Nu părăsiți locuința, respectați regimul de carantină. Sunați medicul de familie, pentru a vă lua în evidență. Este recomandat să vă monitorizați temperatura corporală și să semnalați medicului de familie în cazul în care manifestați simptome specifice - situație în care veți fi testat. Realizați o listă a persoanelor cu care ați intrat în contact direct în ultimele 3 zile, de la debutul simptomelor, pentru a-i ajuta pe medici să realizeze o eventuală anchetă epidemiologică în cazul în care rezultatul testului dv. va fi unul pozitiv. </p>
+        `,
+      },
+      {
+        title: `9. Soția mea a stat jumătate de oră de vorbă la serviciu în același birou cu o colegă care ulterior a fost diagnosticată pozitiv. Amândouă au purtat mască și nu au stat la mai puțin de 2 metri una de cealaltă. Ce trebuie să facă? `,
+        content: `
+            <p>Potrivit definiției de caz dată de INSP, dacă persoanele care au interacționat au purtat mască, și au respectat distanța fizică de 2 metri nu se consideră contacți direcți chiar dacă ulterior una dintre ele a fost depistată pozitiv cu COVID-19. Astfel, nu se impune carantina pentru soția dvs. Așadar nu se impune nici testarea. Totuși, pentru siguranță, este necesar ca soția dvs să respecte cu strictețe regulile de igienă și protecție și să-și monitorizeze starea de sănătate zilnic. În cazul apariției simptomelor va contacta medicul de familie și va respecta indicațiile acestuia. </p>
+        `,
+      },
+      {
+        title: `10. Am fost diagnosticat pozitiv cu COVID-19, dar nu am simptome specifice. Sunt obligat să mă internez sau să rămân în spital?`,
+        content: `
+            <p>Nu sunteți obligat să vă internați. În cazul în care nu aveți simptome, sau aveți simptome ușoare, puteți alege să rămâneți la domiciliu și să țineți legătura cu medicul de familie, care vă va ține sub monitorizare pentru următoarele 14 zile. Dacă sunteți singura persoană din casă infectată, trebuie să vă izolați de restul membrilor de familie. Trebuie să știți că aveți obligația legală să nu părăsiți domiciliul până la epuizarea celor două săptămâni. Medicul de familie vă va elibera concediul medical de boală la finalul celor 14 zile.</p>
+        `,
+      },
+      {
+        title: `11. Sunt în situația descrisă la întrebarea nr. 10. Am obligația să-mi anunț vecinii că sunt COVID-19 pozitiv?`,
+        content: `
+            <p>NU. Din punct de vedere legal, nu aveți obligația să anunțați vecinii sau Asociația de proprietari despre starea dvs. Dacă, însă, vreunul dintre vecinii dvs. a fost contact direct cu dvs., sunteți obligat să anunțați la DSP sau la medicul de familie și desigur ar trebui să-l informați pe cel în cauză. </p>
+        `,
+      },
+      {
+        title: `12. Sunt COVID-19 pozitiv, am ales să mă tratez acasă, dar la câteva zile de la pozitivare m-am speriat și cred că am făcut o alegere greșită. M-aș simți mai în siguranță în spital. Ce trebuie să fac ca să fiu internat?`,
+        content: `
+            <p>Dacă doar teama este motivul, iar starea dvs. de sănătate nu este alterată, consultați-vă întâi cu medicul dvs. de familie. În cazul în care, în continuare doriți să ajungeți la spital, apelați 112, care vă va programa pentru a fi transportat la un spital pentru evaluare. Decizia de internare aparține însă medicului curant, iar dacă starea dvs. nu impune internarea, veți fi îndrumat înapoi la domiciliu pentru a a continua perioada de izolare sub monitorizarea medicului de familie. Țineți cont însă că serviciile de ambulanță și spitalele sunt suprasolicitate și cazurile grave trebuie să aibă prioritate.</p>
+        `,
+      },
+      {
+        title: `13. Am făcut un test „la cerere”, dar nu mă sună nimeni să-mi dea rezultatul. Cum procedez?`,
+        content: `
+            <p>În medie, rezultatul unui test de tip PCR este disponibil după 24 de ore, iar obligația comunicării rezultatului revine centrului de testare la care ați realizat testul „la cerere”. Așadar, contactați reprezentanții centrului de testare în cauză. Orice rezultat pozitiv este transmis obligatoriu de către centrul de testare către INSP și DSP. În cazul în care testul este pozitiv, DSP va emite decizia de izolare pentru 14 zile. Rămâneți în casă și contactați medicul de familie.</p>
+        `,
+      },
+      {
+        title: `14. Au trecut cele 14 zile de când m-am izolat la domiciliu cu diagnostic pozitiv de COVID-19. Mă simt foarte bine, nu mai am simptome, dar nu mă sună nimeni să-mi spună ce să fac. Cum procedez ? Pot să ies din casă?`,
+        content: `
+            <p>În cazul în care ați epuizat perioada de 14 zile, dispusă prin decizia DSP, puteți părăsi locuința. Contactați medicul de familie, care v-a monitorizat în toată această perioadă pentru a vă confirma vindecarea către DSP și pentru a primi sfaturi în ceea ce privește conduita dvs. ulterioară.</p>
+        `,
+      },
+      {
+        title: `15. Am fost confirmat cu COVID-19 și am fost internat 14 zile, însă și la ultimul test înainte de externare am rămas pozitiv. În acest caz este nevoie să continui izolarea la domiciliu, dacă nici spitalul și nici DSP nu mi-a comunicat că este necesar? `,
+        content: `
+            <p>Dacă nu ați primit indicație de izolare (de la spital sau DSP) suplimentar celor 14 zile în care ați fost internat, nu este necesar să vă izolați. Dacă ați fost externat mai devreme de 14 zile, va trebui să vă izolați pe perioada restantă de 14 zile de la data prelevării primei probe pozitive. Testele pot rămâne pozitive pe o perioadă mai lungă, însă se consideră că dacă au trecut 14 zile de la primul test pozitiv și aveți cel puțin 72 de ore de când nu mai aveți simptome, nu mai sunteți contagios. În prezent, nu se recomandă repetarea testului în primele 90 de zile de la diagnostic. Puteți să vă reluați activitatea, iar angajatorul nu vă poate impune prezentarea unui rezultat negativ al testului pentru a vă reîntoarce la lucru.</p>
+        `,
+      },
+      {
+        title: `16. În ce condiții pot obține concediul medical, doar atunci când sunt confirmat pozitiv cu COVID-19, sau se acceptă concediul medical și în cazul în care am fost în contact direct cu o persoană confirmată pozitiv? Concediul medical pentru ce perioadă se poate acorda?`,
+        content: `
+            <p>În cazul în care sunteți confirmat pozitiv veți primi concediu medical de boală cel puțin pentru întreaga perioadă de izolare (14 zile) dar și suplimentar dacă medicul curant din spital sau medicul de familie consideră necesar acest lucru. În cazul în care sunteți contact al unui caz confirmat, DSP vă va emite decizia de carantinare pe o perioadă egală cu numărul de zile rămase până la împlinirea a 14 zile de la data ultimului contact. În baza acestui document, medicul de familie vă va elibera concediul medical pe perioada în care ați fost carantinat.</p>
+        `,
+      },
+      {
+        title: `17. Concediul medical se acordă și părinților care rămân în regim de izolare/carantină împreună cu un minor confirmat pozitiv? Este valabil și pentru cei care rămân acasă, în izolare/carantină, sau doar pentru cei care rămân în spital?`,
+        content: `
+            <p>În cazul unui minor confirmat pozitiv, toți membrii familiei (din aceeași locuință) care au avut contact cu 3 zile înaintea debutului simptomelor sau a datei prelevării probei în cazul în care minorul nu are simptome sunt considerați contacți direcți și au indicația de carantinare. Cele 14 zile se calculează de la data prelevării probei minorului. În cazul în care, pe perioada celor 14 zile, membrii familiei nu dezvoltă simptome și nu sunt testați, vor beneficia de concediu medical de carantină. În cazul în care sunt testați și confirmați pozitiv, vor beneficia de concediu medical de boală pe perioada indicată de medicul curant sau a medicului de familie în funcție de evoluția pacientului. </p>
+        `,
+      },
+      {
+        title: `18. Sunt însărcinată și am COVID-19 cu simptome ușoare. Sunt obligată să mă internez?`,
+        content: `
+            <p>Nu sunteți obligată să vă internați, dar în acest caz medicii recomandă cu tărie să fiți permanent sub supraveghere medicală, preferabil în spital.</p>
+        `,
+      },
+      {
+        title: `19. Sunt bolnav oncologic și am nevoie de test negativ COVID-19 ca să pot merge în spital la tratament. Cum procedez? Trebuie să plătesc pentru test?`,
+        content: `
+            <p>Conform algoritmului de testare elaborat de INSP pacienții ocologici vor fi testați conform definiției de caz ori de câte ori este nevoie dacă sunt simptomatici, dar și în plus (periodic) după cum urmează:
+            <ul>
+            <li>Pacienți oncologici asimptomatici aflați în curs de chimioterapie – tastare cu maximum 48 de ore inainte de fiecare cura, respectiv de fiecare prezentare la spital pentru monitorizare;</li>
+            <li>Pacienți oncologici asimptomatici aflați în curs de radioterapie – testare înainte de prima ședință și apoi la 14 zile, până la terminarea curei;</li>
+            <li>Pacienți oncologici asimptomatici – testare înainte de intervenții operatorii sau manevre invazive, cu maxim 48 de ore înaintea intervenției/manoperei;</li>
+            </ul>
+            </p>
+        <p>Fiecare unitate sanitară care tratează pacienți oncologici își stabilește propriul protocol de testare și programează pacienții pentru prelevarea probelor conform algoritmului. Toate aceste teste sunt gratuite pentru pacient și decontate unității sanitare din Programul național de testare. </p>
+        `,
+      },
+      {
+        title: `20. Am fost testat pozitiv și sunt izolat la locuința proprie, împreună cu ceilalți membri ai familiei. Între timp au fost testați și ei și testele lor sunt negative. Pentru a-i proteja vreau să schimb locația în care să îmi continui perioada de izolare, într-o altă locuință aflată tot în proprietatea mea. Pot face acest lucru? Dacă da, care este procedura pe care o urmez?`,
+        content: `
+            <p>Este recomandat să faceți acest lucru dacă aveți posibilitatea chiar din prima zi în care ați fost confirmat pozitiv, ba chiar de la data debutului simptomelor. Dacă ați fost deja luat în evidența DSP cu o anumită adresă de izolare și doriți să o schimbați , contactați DSP și în măsura în care transportul până la locuință se poate face în siguranță, vi se poate permite schimbarea locației de izolare pentru dvs. sau a celei de carantină pentru restul familiei.  </p>
+        `,
+      },
+    ],
+  },
+  {
     title: "Mituri despre coronavirus",
     slug: "mituri-despre-coronavirus",
     doc_type: "STATIC_PAGE",
     doc_id: 107,
     active: false,
-    display_order: 8,
-    showInTopMenu: true,
-    showInSideMenu: true,
+    display_order: 102,
+    showInTopMenu: false,
+    showInSideMenu: false,
     content: [
       {
         title: "Mituri despre coronavirus",
