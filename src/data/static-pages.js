@@ -21,7 +21,7 @@ export default [
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Model%20Declaratie%20proprie%20Raspundere.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Adeverinta%20pentru%20angajatori.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
 
-      <p>TIMIȘOARA: Orașul Țimișoara se află în carantină în intervalul 08.-22.03.2021, implicit locuitorii săi vor avea nevoie de modele distincte de declarații în această perioadă. Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza dacă te afli în Timișoara.</p>
+      <p>TIMIȘOARA: Orașul Timișoara se află în carantină în intervalul 08.-22.03.2021, implicit locuitorii săi vor avea nevoie de modele distincte de declarații în această perioadă. Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza dacă te afli în Timișoara.</p>
  
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator pentru perioada de carantină </p>
@@ -1337,14 +1337,14 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     buttons: null,
     accordion: [
       {
-        title: `1. CARANTINĂ TIMIȘOARA: Restricții, reguli, declarații, informații utile`,
+        title: `CARANTINĂ TIMIȘOARA: Restricții, reguli, declarații, informații utile`,
         content: `
             <p>Orașele carantinate în perioada <b>8-22 martie 2021</b>: </p>
             <p>Timișoara, Moșnița Nouă, Ghiroda, Giroc și Dumbrăvița</p>
             <p>Restricțiile care se aplică:</p>
             <p>În perioada <b>8-22 martie 2021</b> circulația și staționarea persoanelor în orice spațiu public din interiorul zonelor declarate în carantină sunt interzise cu excepția unor motive justificate, dovedite prin declarațiile pe proprie răspundere sau prin adeverințele de angajator, respectiv legitimațiile de serviciu</p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator pentru perioada de carantină </p>
+            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici</a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
+            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici</a> modelul de adeverință de angajator pentru perioada de carantină </p>
             <p>Este obligatorie purtarea măștii în spațiile publice închise sau deschise, în transportul în comun sau la locul de muncă pentru toate persoanele peste 5 ani.</p>
             <p>Toate instituțiile de învățământ vor funcționa exclusiv online.</p>
             <p>Persoanele peste 65 de ani se pot deplasa pentru cumpărăturile de bază doar în intervalul 10.00-13.00</p>
