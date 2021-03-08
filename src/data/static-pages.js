@@ -105,6 +105,53 @@ export default [
     buttons: null,
   },
   {
+    title: "Carantină Timișoara",
+    slug: "carantina-timisoara",
+    doc_type: "STATIC_PAGE",
+    doc_id: 111,
+    active: true,
+    display_order: 0,
+    showInTopMenu: false,
+    showInSideMenu: true,
+    style: { "--highlightColor": "#F6DD62" },
+    firstNodeId: null,
+    content: [
+      {
+        title: "CARANTINĂ TIMIȘOARA: Restricții, reguli, declarații, informații utile",
+        display_order: 1,
+        slug: "/",
+        page: `
+      <p>Orașele carantinate în perioada <b>8-22 martie 2021</b>: </p>
+      <p>
+        <ul>
+          <li>Timișoara</li>
+          <li>Moșnița Nouă</li>
+          <li>Ghiroda</li>
+          <li>Giroc</li>
+          <li>Dumbrăvița</li>
+        </ul>
+      </p>
+      <p><h3>Restricțiile care se aplică</h3></p>
+      <p>În perioada <b>8-22 martie 2021</b> circulația și staționarea persoanelor în orice spațiu public din interiorul zonelor declarate în carantină sunt interzise cu excepția unor motive justificate, dovedite prin declarațiile pe proprie răspundere sau prin adeverințele de angajator, respectiv legitimațiile de serviciu</p>
+      <p style="background-color: #FFD738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici</a> modelul de declarație pe proprie răspundere pentru perioada de carantină - pe timp de zi</p>
+      <p style="background-color: #FFD738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici</a> modelul de adeverință de angajator pentru perioada de carantină - pe timp de zi </p>
+      <p style="background-color: #FFD738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Model Declaratie proprie Raspundere_noapte_timisoara.pdf">Descarcă de aici</a> modelul de declarație pe proprie răspundere pentru perioada de carantină - pe timp de noapte</p>
+      <p style="background-color: #FFD738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Adeverinta pentru angajatori_noapte_timisoara.pdf">Descarcă de aici</a> modelul de adeverință de angajator pentru perioada de carantină - pe timp de noapte </p>
+      <p>Este obligatorie purtarea măștii în spațiile publice închise sau deschise, în transportul în comun sau la locul de muncă pentru toate persoanele peste 5 ani.</p>
+      <p>Toate instituțiile de învățământ vor funcționa exclusiv online.</p>
+      <p>Persoanele peste 65 de ani se pot deplasa pentru cumpărăturile de bază doar în intervalul 10.00-13.00</p>
+      <p>Persoanele sub 65 de ani se pot deplasa pentru cumpărăturile de bază între 06.00-10.00 și 13.00-20.00</p>
+      <p>Circulația persoanelor în grupuri pietonale mai mari de 6 persoane care nu aparțin aceleiași familii în interiorul localităților este interzisă.</p>
+      <p>Toate centrele comerciale și mall-urile vor fi închise în weekend cu excepția magazinelor alimentare, a farmaciilor, a curățătoriilor și magazinelor care vând mâncare pentru animale de companie.</p>
+      <p>Conform <a target="_blank" href="covid19.primariatm.ro">covid19.primariatm.ro</a>: ”Conform excepțiilor din <a target="_blank" href="https://stirioficiale.ro/storage/HOTARAREA-32-din-data-de-06.03.2021.pdf"> Hotărârea 32/06.03.2021 </a>, sunt permise deplasările scurte în apropierea locuinței legate de activitatea fizică individuală a persoanelor (cu excluderea oricăror activități sportive de echipă). Sunt interzise toate activităţile şi competiţiile sportive, individuale sau colective, care se desfăşoară în spații închise sau deschise, inclusiv săli de fitness, cu excepţia evenimentelor profesioniste organizate de federaţiile de profil.”</p>
+       <p>Persoanele care nu au domiciliul în Timișoara pot să tranziteze zona carantinată, dar nu au voie să se oprească între localități iar autoritățile locale și Inspectoratul Județean de Poliție stabilesc care sunt căile de circulație pentru tranzit.</p>
+      `,
+      },
+    ],
+    form: null,
+    buttons: null,
+  },
+  {
     title: "Transmitere și simptome",
     slug: "transmitere-si-simptome",
     doc_type: "STATIC_PAGE",
@@ -1338,25 +1385,6 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     form: null,
     buttons: null,
     accordion: [
-      {
-        title: `CARANTINĂ TIMIȘOARA: Restricții, reguli, declarații, informații utile`,
-        content: `
-            <p>Orașele carantinate în perioada <b>8-22 martie 2021</b>: </p>
-            <p>Timișoara, Moșnița Nouă, Ghiroda, Giroc și Dumbrăvița</p>
-            <p>Restricțiile care se aplică:</p>
-            <p>În perioada <b>8-22 martie 2021</b> circulația și staționarea persoanelor în orice spațiu public din interiorul zonelor declarate în carantină sunt interzise cu excepția unor motive justificate, dovedite prin declarațiile pe proprie răspundere sau prin adeverințele de angajator, respectiv legitimațiile de serviciu</p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici</a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici</a> modelul de adeverință de angajator pentru perioada de carantină </p>
-            <p>Este obligatorie purtarea măștii în spațiile publice închise sau deschise, în transportul în comun sau la locul de muncă pentru toate persoanele peste 5 ani.</p>
-            <p>Toate instituțiile de învățământ vor funcționa exclusiv online.</p>
-            <p>Persoanele peste 65 de ani se pot deplasa pentru cumpărăturile de bază doar în intervalul 10.00-13.00</p>
-            <p>Persoanele sub 65 de ani se pot deplasa pentru cumpărăturile de bază între 06.00-10.00 și 13.00-20.00</p>
-            <p>Circulația persoanelor în grupuri pietonale mai mari de 6 persoane care nu aparțin aceleiași familii în interiorul localităților este interzisă.</p>
-            <p>Toate centrele comerciale și mall-urile vor fi închise în weekend cu excepția magazinelor alimentare, a farmaciilor, a curățătoriilor și magazinelor care vând mâncare pentru animale de companie.</p>
-            <p>Conform covid19.primariatm.ro: ”Conform excepțiilor din <a target="_blank" href="https://stirioficiale.ro/storage/HOTARAREA-32-din-data-de-06.03.2021.pdf"> Hotărârea 32/06.03.2021 </a>, sunt permise deplasările scurte în apropierea locuinței legate de activitatea fizică individuală a persoanelor (cu excluderea oricăror activități sportive de echipă). Sunt interzise toate activităţile şi competiţiile sportive, individuale sau colective, care se desfăşoară în spații închise sau deschise, inclusiv săli de fitness, cu excepţia evenimentelor profesioniste organizate de federaţiile de profil.”</p>
-            <p>Persoanele care nu au domiciliul în Timișoara pot să tranziteze zona carantinată, dar nu au voie să se oprească între localități iar autoritățile locale și Inspectoratul Județean de Poliție stabilesc care sunt căile de circulație pentru tranzit.</p>
-        `,
-      },
       {
         title: `1. Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
         content: `
