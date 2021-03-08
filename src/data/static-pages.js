@@ -23,9 +23,11 @@ export default [
 
       <p>TIMIȘOARA: Orașul Timișoara se află în carantină în intervalul 08.-22.03.2021, implicit locuitorii săi vor avea nevoie de modele distincte de declarații în această perioadă. Descarcă de aici cele două modele de declarații pe proprie răspundere pe care le poți utiliza dacă te afli în Timișoara.</p>
  
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator pentru perioada de carantină </p>
-  `,
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere pentru perioada de carantină - pe timp de zi</p>
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator pentru perioada de carantină - pe timp de zi </p>
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Model Declaratie proprie Raspundere_noapte_timisoara.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere pentru perioada de carantină - pe timp de noapte</p>
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0611_Adeverinta pentru angajatori_noapte_timisoara.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator pentru perioada de carantină - pe timp de noapte </p>  
+`,
       },
     ],
     form: null,
