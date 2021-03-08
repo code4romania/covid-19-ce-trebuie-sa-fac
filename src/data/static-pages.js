@@ -1386,25 +1386,6 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     buttons: null,
     accordion: [
       {
-        title: `CARANTINĂ TIMIȘOARA: Restricții, reguli, declarații, informații utile`,
-        content: `
-            <p>Orașele carantinate în perioada <b>8-22 martie 2021</b>: </p>
-            <p>Timișoara, Moșnița Nouă, Ghiroda, Giroc și Dumbrăvița</p>
-            <p>Restricțiile care se aplică:</p>
-            <p>În perioada <b>8-22 martie 2021</b> circulația și staționarea persoanelor în orice spațiu public din interiorul zonelor declarate în carantină sunt interzise cu excepția unor motive justificate, dovedite prin declarațiile pe proprie răspundere sau prin adeverințele de angajator, respectiv legitimațiile de serviciu</p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/declaratie-proprie-raspundere-carantina-timisoara.pdf"> Descarcă de aici</a> modelul de declarație pe proprie răspundere pentru perioada de carantină </p>
-            <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/adeverinta-angajator-timisoara.pdf"> Descarcă de aici</a> modelul de adeverință de angajator pentru perioada de carantină </p>
-            <p>Este obligatorie purtarea măștii în spațiile publice închise sau deschise, în transportul în comun sau la locul de muncă pentru toate persoanele peste 5 ani.</p>
-            <p>Toate instituțiile de învățământ vor funcționa exclusiv online.</p>
-            <p>Persoanele peste 65 de ani se pot deplasa pentru cumpărăturile de bază doar în intervalul 10.00-13.00</p>
-            <p>Persoanele sub 65 de ani se pot deplasa pentru cumpărăturile de bază între 06.00-10.00 și 13.00-20.00</p>
-            <p>Circulația persoanelor în grupuri pietonale mai mari de 6 persoane care nu aparțin aceleiași familii în interiorul localităților este interzisă.</p>
-            <p>Toate centrele comerciale și mall-urile vor fi închise în weekend cu excepția magazinelor alimentare, a farmaciilor, a curățătoriilor și magazinelor care vând mâncare pentru animale de companie.</p>
-            <p>Conform covid19.primariatm.ro: ”Conform excepțiilor din <a target="_blank" href="https://stirioficiale.ro/storage/HOTARAREA-32-din-data-de-06.03.2021.pdf"> Hotărârea 32/06.03.2021 </a>, sunt permise deplasările scurte în apropierea locuinței legate de activitatea fizică individuală a persoanelor (cu excluderea oricăror activități sportive de echipă). Sunt interzise toate activităţile şi competiţiile sportive, individuale sau colective, care se desfăşoară în spații închise sau deschise, inclusiv săli de fitness, cu excepţia evenimentelor profesioniste organizate de federaţiile de profil.”</p>
-            <p>Persoanele care nu au domiciliul în Timișoara pot să tranziteze zona carantinată, dar nu au voie să se oprească între localități iar autoritățile locale și Inspectoratul Județean de Poliție stabilesc care sunt căile de circulație pentru tranzit.</p>
-        `,
-      },
-      {
         title: `1. Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
         content: `
             <p>Recomandarea generală este să evitați interacțiunea cu alte persoane și să rămâneți acasă. Prezența acestor simptome nu presupune automat infectarea cu noul Coronavirus (COVID-19). Asigurați-vă că aveți la îndemână un termometru pentru a vă măsura regulat temperatura corporală. Primul pas este să sunați medicul de familie și să-i descrieți simptomele. Medicul dvs. vă va ghida spre următorul pas: aplicarea unui tratament clasic fie pentru răceală, fie pentru gripa sezonieră sau, în funcție de simptome și activitățile pe care le-ați desfășurat recent, vă va îndruma pentru realizarea unui test pentru COVID-19.</p>
