@@ -21,15 +21,17 @@ export default [
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Model Declaratie proprie Raspundere_22.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Adeverinta pentru angajatori_noapte_22.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
       <p>&nbsp;</p>
+
       <p>Modelul declarației pe propria răspundere și al adeverinței de la angajator pentru localitățile care depășesc rata de incidență de 4 ‰ (necesar a fi folosite pentru zilele de vineri, sâmbătă și duminică), respectiv 7,5 ‰ (necesar a fi folosite în toate zilele săptămânii)</p>
  
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Model Declaratie proprie Raspundere_20.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Adeverinta pentru angajatori_noapte_20.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
+
      <p>&nbsp;</p>
       <p>Modelul declarației pe propria răspundere pentru tranzitarea unei localități carantinate</p>
  
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Declaratie pentru tranzitare localitate.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
-      
+
 `,
       },
     ],
