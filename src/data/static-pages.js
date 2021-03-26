@@ -16,7 +16,7 @@ export default [
         display_order: 1,
         slug: "/",
         page: `
-      <p>MModelul declarației pe propria răspundere și al adeverinței de la angajator pentru toate localitățile, indiferent de rata de incidență (nivelul de răspândire a virusului)</p>
+      <p>Modelul declarației pe propria răspundere și al adeverinței de la angajator pentru toate localitățile, indiferent de rata de incidență (nivelul de răspândire a virusului)</p>
  
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Model Declaratie proprie Raspundere_22.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Adeverinta pentru angajatori_noapte_22.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
