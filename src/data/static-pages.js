@@ -16,23 +16,11 @@ export default [
         display_order: 1,
         slug: "/",
         page: `
-      <p>Modelul declarației pe propria răspundere și al adeverinței de la angajator pentru toate localitățile, indiferent de rata de incidență (nivelul de răspândire a virusului)</p>
- 
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Model Declaratie proprie Raspundere_22.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Adeverinta pentru angajatori_noapte_22.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
-      <p>&nbsp;</p>
+      <p>Pentru a veni în spijinul persoanelor care vin în România vă punem la dispoziție modelul de formular de triaj care trebuie înmânat reprezentantului DSP, la intrarea în țară.</p>
+      <p>De asemenea, acest formular poate fi completat <a target="_blank" href="https://chestionar.stsisp.ro">on-line</a>.</p>
 
-      <p>Modelul declarației pe propria răspundere și al adeverinței de la angajator pentru localitățile care depășesc rata de incidență de 4 ‰ (necesar a fi folosite pentru zilele de vineri, sâmbătă și duminică), respectiv 7,5 ‰ (necesar a fi folosite în toate zilele săptămânii)</p>
- 
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Model Declaratie proprie Raspundere_20.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Adeverinta pentru angajatori_noapte_20.pdf"> Descarcă de aici </a>  modelul de adeverință de angajator </p>
-
-     <p>&nbsp;</p>
-      <p>Modelul declarației pe propria răspundere pentru tranzitarea unei localități carantinate</p>
- 
-      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/0Adeverinte/2603-Declaratie pentru tranzitare localitate.pdf"> Descarcă de aici </a> modelul de declarație pe proprie răspundere </p>
-
-`,
+      <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/Declaratie romana si engleza.pdf"> Descarcă de aici </a> modelul de formular de triaj </p>
+      `,
       },
     ],
     form: null,
