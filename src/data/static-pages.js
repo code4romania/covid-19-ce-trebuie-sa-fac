@@ -20,6 +20,7 @@ export default [
       <p>De asemenea, acest formular poate fi completat <a target="_blank" href="https://chestionar.stsisp.ro">on-line</a>.</p>
 
       <p style="background-color: #ffd738; padding: 10px;"> <a target="_blank" href="https://stirioficiale.ro/storage/Declaratie romana si engleza.pdf"> Descarcă de aici </a> modelul de formular de triaj </p>
+      <p> Certificatele digitale care atestă vaccinarea, rezultatul negativ al testului RT –PCR și trecerea prin boală poate fi descărcat accesând următorul link: <a href="https://certificat-covid.gov.ro">https://certificat-covid.gov.ro</a> sau <a href="https://vaccinare-covid.gov.ro/">https://vaccinare-covid.gov.ro/</a>. </p>
       `,
       },
     ],
@@ -105,7 +106,7 @@ export default [
     active: true,
     display_order: 0,
     showInTopMenu: false,
-    showInSideMenu: true,
+    showInSideMenu: false,
     style: { "--highlightColor": "#F6DD62" },
     firstNodeId: null,
     content: [
@@ -163,57 +164,53 @@ export default [
 
       <h3>Cum se transmite COVID-19</h3>
 
-      <h4>Transmiterea de la persoană la persoană</h4>
+      <p>Transmiterea virusului SARS-CoV-2 se face pe cale respiratorie, prin picături de secreţie, produse când o persoană infectată tuşeşte, strănută, vorbește sau respiră și se află în imediata apropiere a altor persoane.</p>
+      <p>Virusul a fost, de asemenea, izolat din materiile fecale ale cazurilor infectate, indicând că transmiterea fecală-orală ar putea fi, de asemenea, o cale de infecție. </p>
+      <p>Transmiterea indirectă prin obiecte contaminate este de asemenea posibilă. Picăturile de secreție pot ateriza pe suprafețe cu care alții intră în contact și sunt apoi infectați atunci când își ating nasul, gura sau ochii. Virusul poate supraviețui pe suprafețe, între câteva ore (cupru, carton) până la câteva zile (plastic și oțel inoxidabil). Cu toate acestea, cantitatea de virus viabil scade în timp și este posibil să nu fie întotdeauna prezentă în cantități suficiente pentru a provoca infecția.</p>
+      <p>Dovezile actuale privind transmiterea în uter a virusului SARS-CoV-2 sunt neconcludente. Un număr limitat de cazuri au fost raportate, cu stare generală bună și fără boală severă pentru nou-născut.</p>
+      <p>Perioada de incubație pentru COVID-19 (adică timpul dintre expunerea la virus și apariția simptomelor) este în prezent estimată a fi între 2 și 14 zile.</p>
+      
+      <h4>Poate fi cineva contagios chiar daca nu are niciun simptom?</h4>
 
-      <p>
-        Se crede că virusul se transmite în principal de la persoană la persoană:
+      <p>Perioada de contagiozitate poate începe cu aproximativ două zile înainte de apariția simptomelor, dar persoanele sunt cel mai infecțioase în timpul perioadei simptomatice, chiar dacă simptomele sunt ușoare și nespecifice. Perioada infecțioasă este estimată să dureze opt până la 10 zile în cazurile moderate și până la două săptămâni în medie în cazurile severe. </p>
+      <p>Virusul poate fi transmis atunci când persoanele infectate prezintă simptome precum tuse. O persoană care este infectată poate transmite, de asemenea, virusul cu până la două zile înainte de a prezenta simptome; măsura în care astfel de infecții asimptomatice contribuie la transmiterea generală nu este clară în prezent.</p>
+
+      <h4>Simptomatologie</h4>
+      <p>Simptomele infecției cu virusul SARS-CoV-2 variază în severitate, de la forme asimptomatice până la forme grave, soldate cu deces.</p>
+      <p>Cele mai frecvente simptome sunt: febră, tuse, durere în gât, slăbiciune generală, oboseală și durere musculară. Anosmia (pierderea simțului mirosului) și ageuzia (pierderea simțului gustului) au fost recunoscute ca simptome in cadrul infecției cu virusul SARS-CoV-2.</p>
+      <p>Cele mai severe cazuri pot dezvolta pneumonie, sindrom de detresă respiratorie acută și alte complicații, toate putând duce la deces.</p>
+      <p>Riscul de a dezvolta forme severe il au persoanele cu vârsta înaintată. Persoanele cu vârsta peste 60 de ani și cele cu multiple condiții de sănătate subiacente (de exemplu, hipertensiune arterială, diabet, boli cardiovasculare, boli respiratorii cronice și imunosupresie) sunt considerate a fi mai expuse riscului de a dezvolta simptome severe. Bărbații din aceste grupuri par, de asemenea, să prezinte un risc mai mare decât femeile.</p>
+
+      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Datele existente pâna acum indică faptul că femeile însărcinate care s-au infectat cu virusul SARS-CoV-2 prezintă simptome similare cu cele care nu sunt gravide. Femeile gravide care au diabet zaharat și / sau sunt obeze pot prezenta forme clinice severe de boala.</p>
+
+      <h4>Există vreun tratament?</h4>
+
+      <p>Nu exista un tratament specific, acesta este in general simptomatic.Tratamentul pentru persoanele care sunt spitalizate cu infectie SARS-CoV-2 severă este în mare măsură de susținere (de exemplu, oxigenoterapie, gestionarea fluidelor), utilizând în principal o abordare simptomatică, vizând mai degrabă simptomele decât virusul.</p>
+      <p>Mai multe produse farmaceutice au fost studiate sau sunt în prezent studiate în cadrul studiilor clinice pentru a evalua siguranța și eficacitatea acestora ca tratamente potențiale pentru COVID-19. Există dovezi că utilizarea corticoterapiei este benefică pentru boala severă. Mai multe medicamente și preparate de anticorpi sunt în curs de evaluare.</p>
+
+
+      <h4>Măsuri de prevenire a infecției cu SARS-CoV-2</h4>
+      <h4>A.	Măsuri nespecifice</h4>
+
+      <p>Principalele modalități prin care puteți evita infectarea sunt păstrarea distanței față de ceilalți (1,5-2 m), purtarea unei măști în situații în care distanța fizică nu este posibilă și menținerea mâinilor curate.
         <ul>
-          <li>Între oameni care sunt în contact apropiat unul cu celălalt (la o distanță de cca. 1,5 - 2 m).</li>
-          <li>Prin stropi respiratorii produși atunci când o persoană infectată tușește sau strănută. Acești stropi pot ajunge ușor în gura sau nasul celor din preajmă sau chiar pot fi inhalați în plămâni.</li>
+          <li>1. Evitați locurile aglomerate;</li>
+          <li>2. Evitați contactul apropiat cu persoanele care tușesc și au febră; </li>
+          <li>3. Utilizați măștile de protecție, atât în interior (de exemplu, supermarketuri, magazine și transport public), cât și în exterior în situații aglomerate (piețe publice, târguri), mai ales în zonele cu incidență crescută a infecției și când distanța fizică nu poate fi garantată;</li>
+          <li>4. Spălați-vă des pe mâini cu apă și săpun timp de cel puțin 20 de secunde, sau cu soluții pe bază de alcool; </li>
+          <li>5. Evitați să vă atingeți fața cu mâinile nespălate, virusul pătrunde în corp prin nas, gură și / sau ochi</li>
+          <li>6. Tușiți sau strănutați în cot sau folosiți un șervețel de unică folosință. Dacă utilizați un șervețel, aruncați-l cu atenție după o singură utilizare și apoi spălați-vă pe mâini. </li>
+          <li>7. Dacă vă simțiți rău, rămâneți acasă. Dacă dezvoltați orice simptom care sugerează infecția cu virusul SARS-CoV-2, contactați imediat medicul dumneavoastra pentru sfaturi.</li>
+          <li>8. Autoizolați-vă dacă știți că sunteți infectat cu virusul SARS-CoV-2 sau dacă aveți simptome ale unei infecții respiratorii acute, cum ar fi tuse, febră, dureri în gât sau secreții nazale.</li>
         </ul>
       </p>
-      <p>
-        Poate fi cineva contagios chiar dacă nu are niciun simptom aferent COVID-19?
-        <ul>
-          <li>Cei mai contagioși se consideră a fi cei care au cele mai puternice simptome (cei în starea cea mai gravă).</li>
-          <li>Unii pot fi contagioși și înainte să manifeste simptomele bolii. În cazul COVID-19 s-au raportat o serie de astfel de cazuri, însă se consideră că nu aceasta este metoda principală de contagiune.</li>
-        </ul>
-      </p>
 
-      <h4>Infectarea prin atingerea unor suprafețe contaminate</h4>
+    <h4>B. Măsuri specifice- Vaccinarea</h4>
 
-      <p>E posibil ca o persoană să devină purtătoare de COVID-19 în urma atingerii unei suprafețe sau a unui obiect care a fost contaminat și apoi să-și atingă gura, nasul sau chiar ochii, dar se consideră că nu acesta este modul principal de transmitere.</p>
-      <p><i>“Nu se știe cu exactitate cât timp supraviețuiește în general pe suprafețe virusul care cauzează COVID-19, dar se pare că se comportă similar cu alte coronavirusuri. Studiile sugerează că durata de supraviețuire pe suprafețe a coronavirusurilor (inclusiv COVID-19 așa cum a fost studiat inițial) este de câteva ore până la câteva zile. Această durată poate varia în condiții diferite (de exemplu, în funcție de tipul suprafeței, de temperatură sau de gradul de umiditate al mediului). Dacă ai bănuieli că o suprafață ar putea fi contaminată, curăță cu un dezinfectant simplu pentru a distruge virusul și pentru a te proteja pe tine și pe ceilalți”.</i></p>
-
-      <h3>Cât de ușor se transmite virusul?</h3>
-      <p>Ușurința cu care un virus trece de la o persoană la alta poate varia mult. Unele virusuri sunt puternic contagioase (se transmit foarte ușor), precum pojarul, în timp ce alte virusuri se transmit în ritm mai lent. Un alt factor de control îl constituie posibilitatea de a opri sau încetini contagiunea unei mase mari de oameni. Virusul care cauzează COVID-19 pare a se transmite extrem de rapid și îndelungat în comunitate în anumite zone geografice.</p>
-
-      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Transmiterea în cadrul comunității reprezintă situația în care mai mulți oameni sunt infectați într-un anumit areal geografic, inclusiv persoane pentru care nu putem afla nici când și nici cum au luat virusul.</p>
-
-      <h3>Situația din România</h3>
-
-      <p>Se înregistrează niveluri diferite de activitate a acestui virus pe teritoriul României, aflându-ne în scenariul 3 al epidemiei.</p>
-       <ul>
-        <li><a href="https://stirioficiale.ro/" target="_blank" rel="noopener noreferrer">Știri oficiale</a></li>
-        <li><a href="https://coronavirus.jhu.edu/map.html" target="_blank" rel="noopener noreferrer">Zone internaționale afectate</a></li>
-        <li><a href="https://www.insp.gov.ro" target="_blank" rel="noopener noreferrer">Site Institutului Național de Sănătate Publică</a></li>
-      </ul>
-
-      <h3>Simptome</h3>
-
-      <p>Simptomele de mai jos au fost raportate în cazul persoanelor confirmate cu infecția COVID-19, având intensitate diferită, de la cele ale unei simple răceli, până la stări grave care au condus la deces.</p>
-      <p>
-        Simptomele menționate mai jos se pot instala în cca. 2-14 zile de la data expunerii la virus:
-        <ul>
-          <li>Febră.</li>
-          <li>Tuse seacă.</li>
-          <li>Insuficiență respiratorie (dificultate în respirare/senzație de sufocare).</li>
-        </ul>
-      <p/>
-
-      <p>Unele persoane pot să fie infectate, dar nu dezvoltă niciun simptom și nu se simt bolnave. Majoritatea oamenilor (aproximativ 80%) își revin după ce au fost afectați de boală fără a avea nevoie de tratament special. Circa 1 din 6 persoane care au COVID-19 dezvoltă forme severe ale bolii și au dificultăți în respirație. Persoanele în vârstă și cei cu probleme medicale anterioare, precum tensiune arterială mare, probleme cu inima sau diabet au șanse mai mari să dezvolte o formă severă a bolii.</p>
-      <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Dacă ai simptome, sau dacă ai nevoie de informații cu privire la transmiterea și răspândirea virusului, te rugăm să apelezi TelVerde la numărul <a href="tel:0800800358">0800.800.358</a>. Numărul TELVERDE nu este un număr de urgență, este o linie telefonică alocată strict pentru informarea cetățenilor. De asemenea, românii aflați în străinătate pot solicita informații despre prevenirea și combaterea virusului la linia special dedicată lor <a href="tel:+40213202020">+4021.320.20.20</a>.</p>
-
+      <p>Vaccinurile COVID-19 își propun să prevină infecția prin declanșarea unui răspuns imun. Vaccinurile sigure și eficiente sunt un instrument puternic în asigurarea sănătății publice, iar disponibilitatea lor reprezintă un moment important în eforturile de control al pandemiei.</p>
+      <p>Vaccinurile COVID-19 sunt dezvoltate urmând aceleași cerințe legale pentru calitate, siguranță și eficacitate ca și pentru toate celelalte vaccinuri. </p>
+      <p>Agenția Europeană pentru Medicamente (EMA) evaluează vaccinurile COVID-19 în raport cu aceleași standarde înalte ca și pentru toate celelalte vaccinuri înainte ca acestea să fie autorizate pentru utilizare în UE de către Comisia Europeană.</p>
+      <p>Informații despre vaccinurile COVID-19 aprobate și utilizate in Romania precum si raspunsuri la întrebarile dvs despre vaccinare gasiti pe <a href="https://vaccinare-covid.gov.ro/vaccinuri-autorizate/">site-ul Comitetului Național de Coodonare a Activitătii de Vaccinare (CNCAV)</a></p>
   `,
       },
     ],
@@ -375,7 +372,7 @@ export default [
           <li> Feriți copiii de acele locuri de joacă care presupun atingerea unor suprafețe/obiecte comune de către un număr mare de copii. </li>
           <li> Limitați la maximum orice contact direct cu alte persoane, în afara celor care fac parte din familia restrânsă, prin gesturi cum ar fi: strângerea mâinilor, îmbrățișările, sărutul obrajilor sau al mâinilor, atingerea fețelor cu mâinile. </li>
           <li> Se recomandă, inclusiv în privința persoanelor împreună cu care locuiți, să NU intrați în contact direct decât după igienizarea mâinilor atunci când reveniți la domiciliu. </li>
-          <li> Evitați atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces.  În cazul în care sunteți totuși nevoiți să atingeți aceste suprafețe, protejați-vă folosind șervețele de unică folosință. </li>
+          <li> Evitați atingerea suprafețelor care sunt atinse în mod frecvent și de alte persoane, precum: balustrade, clanțe, mânere, butoane de lift sau de acces. În cazul în care sunteți totuși nevoiți să atingeți aceste suprafețe, protejați-vă folosind șervețele de unică folosință. </li>
           <li> Păstrați o distanță semnificativă, de 2 metri, față de celelalte persoane pe care le întâlniți. În cazul în care vă aflați în transportul în comun încercați să NU stați față în față cu alte persoane. </li>
           <li> Asigurați-vă, după folosirea transportului în comun, că v-ați igienizat mâinile înainte de a vă atinge fața, nasul sau gura.</li>
           <li> Folosiți, pe cât posibil, rute sau modalități alternative de transport pentru a evita zonele aglomerate de trafic de persoane. În cazul în care programul vă permite, folosiți intervalele orare cu nivel scăzut de trafic de persoane. </li>
@@ -400,7 +397,7 @@ export default [
           <li> Țineți cont de faptul că nu în toate cazurile infectarea cu noul coronavirus(COVID-19) este vizibilă prin simptome specifice (tuse, febră, dificultăți în respirație).</li>
           <li> Virusul poate fi răspândit inclusiv de persoane aparent sănătoase, care nu au cunoștință de faptul că sunt purtători ai noului coronavirus.</li>
           <li> Informați-vă despre noul coronavirus numai din surse oficiale!</li>
-          <li> Puteți obține detalii dacă sunați la <a href="tel:0800800358">0800.800.358</a>, care este un număr de informare, nu este un număr de urgență.</li>
+          <li> Puteți obține detalii dacă sunați la <b>0800.800.358</b>, care este un număr de informare, nu este un număr de urgență.</li>
           <li> Doar în cazul urgențelor sunați la 112!</li>
           <li> Evitați, cu prioritate, expunerea persoanelor în vârstă (peste 65 de ani) și a celor cu imunitate scăzută/boli asociate către alte persoane cu simptome de gripă sau răceală, în zone aglomerate sau zone cu trafic intens de persoane.</li>
           <li> Potrivit statisticilor, persoanele cele mai vulnerabile în cazul infectării cu noul coronavirus sunt vârstinicii cu multiple afecțiuni asociate (ex: diabet zaharat, boli pulmonare cronice, boli cardiovasculare, cancer).</li>
@@ -408,13 +405,11 @@ export default [
           <li> Tinerii și copiii sunt mai puțin vulnerabili în cazul noului coronavirus, dar nu sunt pe deplin feriți de riscul îmbolnăvirii. Chiar și atunci când nu manifestă simptome specifice, ei pot transmite virusul celorlalte persoane fără să știe acest lucru.</li>
           <li> Semnalați autorităților orice caz despre care aveți cunoștință că ar fi putut intra în contact cu o persoană confirmată cu noul coronavirus sau ar fi venit dintr-o țară afectată (zona roșie sau zona galbenă) și care nu se află în izolare.</li>
           <li> Manifestați o atitudine preventivă față de orice caz, întrucât răspândirea virusului este posibilă și din partea persoanelor care nu manifestă simptome specifice.</li>
-          <li> Semnalați imediat medicului de familie dacă ați călătorit în zonele afectate de coronavirus (COVID-19), chiar dacă la momentul respectiv NU se aflau pe lista zonelor aflate sub alertă. Detalii pot fi obținute accesând <a target="_blank" href="http://www.cnscbt.ro/">acest link</a>, respectiv „Lista regiunilor și localităților din zona roșie și zona galbenă cu transmitere a COVID-19”, actualizată periodic.</li>
+          <li> Semnalați imediat medicului de familie dacă ați călătorit în zonele afectate de coronavirus (COVID-19), chiar dacă la momentul respectiv NU se aflau pe lista zonelor aflate sub alertă. Detalii pot fi obținute accesând acest link, respectiv „Lista regiunilor și localităților din zona roșie și zona galbenă cu transmitere a COVID-19”, actualizată periodic.</li>
           <li> În cazul în care nu puteți contacta medicul de familie, apelați la Direcția de Sănătate Publică din județul dumneavoastră și în ultimă instanță la 112.</li>
           <li> Rămâneți acasă dacă aveți simptome de gripă sau răceală (tuse, febră, dificultăți în respirație) și sunați medicul de familie pentru a solicita sfaturi, NU mergeți din primul moment la unitățile de urgență.</li>
           <li> Există riscul, în cazul în care sunteți purtător al virusului, să transmiteți și altor persoane noul coronavirus.</li>
           <li> Este de preferat să rămâneți la domiciliu, iar transferul către spital să se realizeze în mod organizat, respectând toate măsurile de izolare.</li>
-          <li> Dacă vă aflați în autoizolare la domiciliu respectați cu strictețe recomandările autorităților, NU părăsiți sub nicio formă domiciliul pe perioada celor 14 zile, NU primiți vizitatori și NU intrați în contact apropiat cu eventualele persoane care vă furnizează alimente sau produse.</li>
-          <li> În cazul în care încălcați regimul autoizolării la domiciliu riscați amendă de până la 20.000 de lei, precum și dosar penal în cazul în care contribuiți la răspândirea virusului.</li>
           </ul>
         `,
       },
@@ -912,40 +907,7 @@ export default [
         </ul>
 
       `,
-      },
-      {
-        title: "Cum să îți planifici mai bine finanțele proprii",
-        display_order: 7,
-        slug: "planificare-finante",
-        page: `
-        <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Statul în casă poate fi eficient pentru tine și pentru bugetul tău. Nu mai ieși așa des în oraș, nu te mai plimbi prin magazine, nu mai pleci în excursii. Toate aceste NU-uri sunt ca o gură de aer pentru cheltuielile tale sau, altfel spus, un DA pentru economii. Totuși, la polul opus, te pândește cheltuitul impulsiv sau un venit mai mic. Să ai grijă de bugetul tău poate părea complicat acum și, totuși, sunt câteva sfaturi financiare pe care e bine să le iei în considerare în această perioadă.</p>
-
-        <h3>Bugetul tău are nevoie de o rutină</h3>
-
-        <p>Rutina este esențială pentru un buget bine calculat. Notează-ți cheltuielile pe un carnetel sau pe laptop și, la sfârșitul lunii vei avea tapetată situația reală a banilor – pe ce se duc și cum poți schimba lucrurile care te afectează. Învață să planifici pe termen lung și să ai imaginea reală a bugetului tău.</p>
-
-        <h3>În cuplu</h3>
-
-        <p>Cine ce plătește? Hotărâți împreună, ce și când cumpărați. Cumpărați lucrurile importante pentru voi, nu ce i-ar impresiona pe alții. Deși tentația e să vă bazați pe memorie, în loc să notați cheltuielile, e bine să știi că lipsa de planificare și monitorizare a cheltuielilor duce la confuzii. Dacă nu planificați, nu știți unde veți ajunge. Iar dacă nu măsurați, nu știți ce puteți îmbunătăți.</p>
-
-        <h3>Nesiguranța financiară – când începi să intri în panică?</h3>
-
-        <p>Panica nu este bună. Panica n-a ajutat pe nimeni și nici nu îți va rezolva problemele. În schimb, una dintre abilitățile esențiale acum este capacitatea de adaptare. E nevoie să te schimbi? Să îți schimbi obiceiurile? E momentul să fii deschis către oportunitate, să exersezi noi abilități, să fii pregătit pentru orice schimbare.</p>
-
-        <p>Nimeni nu știe ce domenii vor fi afectate de această pandemie, dar, cu siguranță, cei care nu se panichează se pot adapta ușor și vor fi cei care vor face față schimbărilor. Poate te înscrii la un curs online sau poate aprofundezi un domeniu care îți place, dar de care nu ai avut timp niciodată. Sau, cine știe, poate înveți ceva cu totul nou. </p>
-
-        <h3>De unde începi?</h3>
-
-        <p>Sunt numeroase programe de educație financiară la care poți apela online. Unul dintre ele e Banometru, un program gratuit şi flexibil prin care descoperi un nou mod de a privi încercările tale financiare. Peste 2000 de oameni au parcurs deja programul, peste 79% îl recomandă și spun că i-a ajutat să ia decizii financiare mai bune. Tocmai a lansat varianta exclusiv online și poți folosi sprijinul unui profesionist pentru creionarea unui plan care chiar funcţionează. </p>
-
-        <p>Există de asemenea și alte cursuri de management financiar, asigură-te că ele sunt recomandate de cât mai multe persoane și că au rating bun înainte de a implementa sfaturile din ele.</p>
-
-        <p style="background-color: #ffd738; padding: 10px; font-weight: bold;">Îți recomandăm să apelezi la consultanța financiară, dar să iei în calcul și FAPTUL că poți fi consiliat și de către alți specialiști (psihologi, consilieri de carieră) pentru a-ți găsi alte oportunități și soluții creative. Perioadele de criză pot naște oportunități.</p>
-
-        <p>În cazul în care, din oricare motiv te afli într-o situație limită din punct de vedere financiar există posibilitatea de a apela la asistența socială - nu este o situație care te caracterizează, este o situație temporară. Importantă este viața ta și siguranța ei. Există soluții!</p>
-
-        `,
-      },
+      }
     ],
     buttons: null,
     firstNodeId: 0,
@@ -1327,9 +1289,8 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
       {
         title: `Există un vaccin, medicament sau tratament specific pentru COVID-19?`,
         content: `
-            <p>Încă nu. Până în acest moment, nu există niciun vaccin și niciun medicament specific antiviral pentru a preveni sau trata COVID-19. Cu toate acestea, cei afectați trebuie să primească îngrijiri pentru a le ameliora (reduce) simptomele. Persoanele cu forme grave trebuie spitalizate. Majoritatea pacienților se recuperează în urma îngrijirilor.</p>
-            <p>Posibile vaccinuri și tratamente specifice medicamentoase sunt în investigație. Acestea sunt testate prin studii clinice controlate. Organizația Mondială a Sănătății coordonează eforturile de a se dezvolta un vaccin și un tratament medicamentos pentru a preveni și trata COVID-19.</p>
-            <p>Cea mai eficientă metodă de a vă proteja pe dumneavoastră și pe cei din jur împotriva COVID-19 este de a vă curăța frecvent mâinile, să vă acoperiți gura atunci când tușiți cu un șervețel sau cu interiorul cotului și să păstrați o distanță de minim 1m de persoane care tușesc sau strănută.</p>
+            <p>Da! Au fost realizate mai multe vaccinuri care și-au dovedit eficiența până în prezent.</p>
+            <p>Nu este recomandat să vă administrați singuri medicamente pentru tratarea COVID – 19, medicamentația poate fi administrată doar la recomandarea medicului și doar dacă este necesar.</p>
         `,
       },
       {
@@ -1378,15 +1339,18 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
     form: null,
     buttons: null,
     accordion: [
-      {
-        title: `1. Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
+       {
+        title: `Sunt răcit și resimt dureri în gât, nas înfundat, etc. Cum îmi dau seama dacă e grav, dacă e doar o simplă viroză, gripă sau dacă sunt infectat cu noul Coronavirus?`,
         content: `
-            <p>Recomandarea generală este să evitați interacțiunea cu alte persoane și să rămâneți acasă. Prezența acestor simptome nu presupune automat infectarea cu noul Coronavirus (COVID-19). Asigurați-vă că aveți la îndemână un termometru pentru a vă măsura regulat temperatura corporală. Primul pas este să sunați medicul de familie și să-i descrieți simptomele. Medicul dvs. vă va ghida spre următorul pas: aplicarea unui tratament clasic fie pentru răceală, fie pentru gripa sezonieră sau, în funcție de simptome și activitățile pe care le-ați desfășurat recent, vă va îndruma pentru realizarea unui test pentru COVID-19.</p>
-            <p>(NOTĂ: Simptomele specifice, cel mai des întâlnite în cazul infecției COVID-19, sunt: febră, pierderea gustului și mirosului, dureri de cap și dureri musculare, tuse seacă)</p>
+            <p>Recomandarea generală este să evitați interacțiunea cu alte persoane și să rămâneți acasă. De asemenea, dacă evitarea interacțiunii cu alte persoane este imposibilă, vă recomandăm să purtați mască atunci când interacționați cu alte persoane, inclusiv cu membrii familiei.</p>
+            <p>Prezența acestor simptome nu presupune automat infectarea cu noul Coronavirus (COVID-19).</p>
+            <p>Asigurați-vă că aveți la îndemână un termometru pentru a vă măsura regulat temperatura corporală.</p>
+            <p>Primul pas este sa sunați medicul de familie și să-i descrieți simptomele. Medicul dumneavoastră vă va îndruma dacă este necesar sau nu să efectuați un test pentru COVID-19 și care este medicația care trebuie să o administrați.</p>
+            <p>(NOTĂ: Simptomele cel mai des intalnite in cazul infectiei COVID-19 sunt: tuse seacă, febră, scurtarea respirației, pierderea  bruscă a mirosului, a gustului, sau a ambelor. La aceste simptome se pot asocia dureri de cap, dureri musculare. Copiii cu vârsta până în 16 ani pot prezenta manifestări gastro-intestinale (vărsături, diaree) neasociate cu alimentația.)</p>
         `,
       },
       {
-        title: `2. Starea mea de sănătate s-a alterat brusc, am dureri musculare, febră, tușesc, am rămas fără gust și miros, am diaree și dureri de cap. Nu am călătorit în ultima vreme în afara țării, nu am fost în zone aglomerate, nu am mers la restaurant sau la vreo petrecere, am purtat masca la serviciu, în mijloacele de transport în comun și nu am cunoștință să fi intrat în contact cu vreo persoană depistată pozitiv cu noul Coronavirus (COVID-19). Ce fac? Cum aflu dacă sunt sau nu infectat?`,
+        title: `Starea mea de sănătate s-a alterat brusc, am dureri musculare, febră, tușesc, am rămas fără gust și miros, am diaree și dureri de cap. Nu am călătorit în ultima vreme în afara țării, nu am fost în zone aglomerate, nu am mers la restaurant sau la vreo petrecere, am purtat masca la serviciu, în mijloacele de transport în comun și nu am cunoștință să fi intrat în contact cu vreo persoană depistată pozitiv cu noul Coronavirus (COVID-19). Ce fac? Cum aflu dacă sunt sau nu infectat?”, COVID-19?`,
         content: `
             <p>Și în acest caz, primul la care trebuie să apelați este medicul de familie care va face o evaluare telefonică a stării dvs. și va decide calea de urmat. Medicul poate decide, în această situație, că trebuie să vă testați pentru COVID-19 și, ca atare, vă îndruma să sunați la Direcția de Sănătate Publică și să menționați toate simptomele. În tot acest timp, încercați pe cât de mult posibil să stați departe sau chiar să vă izolați de restul familiei, dacă vă permite spațiul locuinței. Rămâneți în casă și așteptați serviciul de ambulanță, ce vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital.</p>
             <p>În cazul persoanelor simptomatice, precum dumneavoastră, testarea se face conform protocolului, gratuit. </p>
@@ -1394,120 +1358,67 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         `,
       },
       {
-        title: `3. Sunt în situația de la întrebarea numărul 2, dar în urma discuției cu medicul de familie și cu cei de la Direcția de Sănătate Publică nu a venit nimeni să mă testeze timp de 24h. Între timp, starea mea s-a înrăutățit, iar febra nu scade. Ce fac?`,
+        title: `Mă simt foarte rău de câteva zile, nu știu să fi intrat în contact cu vreo persoană bolnavă de Coronavirus, dar totuși mi-e teamă că am COVID-19.`,
         content: `
-            <p>Sunați la 112 și descrieți întreaga situație. Vi se va comunica ora la care va sosi serviciul de ambulanță, care vă va consulta, va realiza testarea la domiciliu, sau dacă situația o impune, vă va transporta la spital unde veți fi testat.</p>
+            <p>Sunați medicul de familie pentru orice problemă de sănătate. Doar dacă, în cazul puțin probabil, medicul dvs. nu răspunde la telefon și starea dvs. de sănătate se înrăutățește, atunci sunați la 112.</p>
         `,
       },
       {
-        title: `4. Mă simt foarte rău de câteva zile, nu știu să fi intrat în contact cu vreo persoană bolnavă de Coronavirus, dar totuși mi-e teamă că am COVID-19. Sun la DSP și nu răspunde nimeni la telefon. `,
+        title: `Copilul meu de 4 ani a mers la grădiniță, iar educatoarea a fost diagnosticată cu COVID-19. Copilul nu a purtat mască, însă educatoarea a purtat masca. Copilul nu are nici un simptom și se spune că cei mici sunt mai degrabă asimptomatici decât adulții. Mă tem că este purtător, iar noi părinții am putea să luăm de la el. Cum procedez?`,
         content: `
-            <p>În această perioadă medicii de la DSP sunt extrem de aglomerați, motiv pentru care liniile telefonice sunt suprasolicitate. Sunați medicul de familie pentru orice problemă de sănătate. Doar dacă, în cazul puțin probabil, medicul dvs. nu răspunde la telefon și starea dvs. de sănătate se înrăutățește, atunci sunați la 112.</p>
+            <p>Cel mai probabil în acest caz, educatoarea a stat în aceeași sală de clasă cu copilul mai mult de 15 minute, iar copilul nepurtând mască este contact direct. Educatoarea are obligația să declare la DSP toți contacții direcți pentru desfășurarea anchetei epidemiologice.</p>
+            <p>Întreaga grupă își va suspenda activitatea timp de 14 zile. Copilul dvs. are indicația de carantină timp de 14 zile. În această situație, unul dintre părinți va rămâne acasă împreună cu copilul. Copilul și părintele ce rămâne acasă se vor izola pe cât posibil de restul familiei.</p>
+            <p>Contactati medicul de familie și informați-l despre faptul că minorul este contact direct cu caz confirmat. În cazul în care copilul manifestă simptome clinice informați medicul și urmați indicațiile acestuia. Dacă cel mic este pozitiv, atunci toți membrii familiei care locuiesc în aceeași casă vor fi considerați la rândul lor contacți direcți și se va dispune carantina pentru 14 zile, cu excepția persoanelor care sunt vaccinate cu schema completă sau a persoanelor care au trecut prin boală și se află în perioada cuprinsă între 14 și 180 de zile de la diagnosticare cu COVID – 19.</p>
         `,
       },
       {
-        title: `5. Copilul meu de 4 ani a mers la grădiniță, iar educatoarea a fost diagnosticată cu COVID-19. Copilul nu a purtat mască, însă educatoarea a purtat masca. Copilul nu are nici un simptom și se spune că cei mici sunt mai degrabă asimptomatici decât adulții. Mă tem că este purtător, iar noi părinții am putea să luăm de la el. Cum procedez?`,
+        title: `Am petrecut câteva ore la terasă cu un amic, nici unul nu a purtat mască. La două zile distanță, el a fost diagnosticat cu COVID-19, însă eu nu am nici un simptom. Ce trebuie să fac? `,
         content: `
-            <p>Cel mai probabil în acest caz, educatoarea a stat în aceeași sală de clasă cu copilul mai mult de 15 minute, iar copilul nepurtând mască este contact direct. Educatoarea are obligația să declare la DSP toți contacții direcți pentru desfășurarea anchetei epidemiologice. </p>
-            <p>Întreaga grupă își va suspenda activitatea timp de 14 zile. Copilul dvs. are indicația de carantină timp de 14 zile. În această situație, unul dintre părinți va rămâne acasă împreună cu copilul, urmând să beneficieze de zile libere conform OUG 147/2020. Copilul și părintele ce rămâne acasă se vor izola pe cât posibil de restul familiei.</p>
-            <p>În cazul în care copilul manifestă simptome, contactați medicul de familie și urmați indicațiile acestuia. În cazul în care, copilul va fi testat la domiciliu, până la aflarea rezultatului testului copilului, este recomandat să rămâneți împreună la domiciliu. Dacă cel mic este pozitiv, atunci toți membrii familiei care locuiesc în aceeași casă vor fi considerați la rândul lor contacți direcți și se va dispune carantina pentru 14 zile. </p>
+            <p>În acest caz, cu excepția situației în care sunteți vaccinat cu schema completă sau a persoanelor care au trecut prin boală și se află în perioada cuprinsă între 14 și 180 de zile de la diagnosticarea cu COVID – 19,  sunteți contact direct și trebuie să rămâneți la domiciliu pentru următoarele 14 zile. Sunați medicul de familie care va anunța Direcția de Sănătate Publică de faptul că vă are sub observație, iar DSP va dispune carantina în cazul dv. Având în vedere că nu ați dezvoltat simptome, iar starea de sănătate este bună, nu este necesară testarea. Medicul de familie va păstra legătura cu dvs. până la epuizarea celor 14 zile. </p>
         `,
       },
       {
-        title: `6. Am petrecut câteva ore la terasă cu un amic, nici unul nu a purtat mască. La două zile distanță, el a fost diagnosticat cu COVID-19, însă eu nu am nici un simptom. Ce trebuie să fac? `,
+        title: `Mă număr printre persoanele care au luat contact direct cu o persoană confirmată cu COVID-19, dar Direcția de Sănătate Publică nu mi-a comunicat când voi fi testat. Pot alege să realizez un test „la cerere”, contra cost, la un centru de testare ales de mine?`,
         content: `
-            <p>În acest caz sunteți contact direct și trebuie să rămâneți la domiciliu pentru următoarele 14 zile. Sunați medicul de familie care va anunța Direcția de Sănătate Publică cu faptul că vă are sub observație, iar DSP va dispune carantina în cazul dv. Având în vedere că nu ați dezvoltat simptome, iar starea de sănătate este bună, nu este necesară testarea. Medicul de familie va păstra legătura cu dvs. până la epuizarea celor 14 zile. Trebuie să știți că în acest caz aveți dreptul legal la concediu medical de carantină.</p>
+            <p>Sunteți considerat contact direct dacă ați avut contact apropiat, conform definiției INSP, în ultimele 3 zile înainte ca persoana confirmată să dezvolte simptome, sau în ultimele 3 zile de la data prelevării probei persoanei confirmate. Din moment ce vă numărați printre contacții direcți ai unei persoane confirmată pozitiv cu noul Coronavirus (COVID-19), Direcția de Sănătate Publică emite o decizie de carantinare de 14 zile de la data ultimului contact cu persoana confirmată, prin care vă este interzis să părăsiți domiciliul. Testarea dumneavoastră se va face doar în cazul în care manifestați simptome specifice. Chiar în cazul în care v-ați testa la cerere, un eventual test negativ nu reduce perioada de carantinare. Ieșirea temporară din carantină pentru efectuarea unui test este posibilă doar cu acordul DSP, care emite decizie în acest sens.</p>
+            <p>Este important de știut faptul că persoanele vaccinate cu schema completă și cele care au trecut prin boală și se află în perioada cuprinsă între 14 și 180 de zile de la diagnosticarea cu COVID – 19, nu intră în carantină dacă au luat contact cu o persoană confirmată pozitiv, însă și în acest caz se recomandă anunțarea medicului de familie și observare stării de sănătate.</p>
         `,
       },
       {
-        title: `7. Mă număr printre persoanele care au luat contact direct cu o persoană confirmată cu COVID-19, dar Direcția de Sănătate Publică nu mi-a comunicat când voi fi testat. Pot alege să realizez un test „la cerere”, contra cost, la un centru de testare ales de mine?`,
+        title: `Au trecut cele 14 zile de când m-am izolat la domiciliu cu diagnostic pozitiv de COVID-19. Mă simt foarte bine, nu mai am simptome, dar nu mă sună nimeni să-mi spună ce să fac. Cum procedez ? Pot să ies din casă?`,
         content: `
-            <p>Sunteți considerat contact direct dacă ați avut contact apropiat, conform definiției INSP, în ultimele 3 zile înainte ca persoana confirmată să dezvolte simptome, sau în ultimele 3 zile de la data prelevării probei persoanei confirmate. Din moment ce vă numărați printre contacții direcți ai unei persoane confirmată pozitiv cu noul Coronavirus (COVID-19), Direcția de Sănătate Publică emite o decizie de carantinare de 14 zile de la data ultimului contact cu persoana confirmată, prin care vă este interzis să părăsiți domiciliul. Testarea dumneavoastră se va face doar în cazul în care manifestați simptome specifice. Chiar în cazul în care v-ați testa la cerere, un eventual test negativ nu reduce perioada de carantinare. </p>
+            <p>În cazul în care ați epuizat perioada de 14 zile, dispusă prin decizia DSP, puteți părăsi locuința. Contactați medicul de familie, care v-a monitorizat în toată această perioadă pentru a vă confirma vindecarea către DSP și pentru a primi sfaturi în ceea ce privește conduita dumneavoastră ulterioară.</p>
         `,
       },
       {
-        title: `8. Sunt contact direct al unei persoane diagnosticate pozitiv cu Coronavirus, am anunțat DSP și m-am carantinat. În cât timp va veni cineva să mă testeze?`,
+        title: `Dacă vin din țările de pe lista roșie care sunt condițiile pe care trebuie să le îndeplinesc ca să nu intru în carantină?`,
         content: `
-            <p>În cazul în care nu manifestați simptome testarea dumneavoastră nu este necesară. Nu părăsiți locuința, respectați regimul de carantină. Sunați medicul de familie, pentru a vă lua în evidență. Este recomandat să vă monitorizați temperatura corporală și să semnalați medicului de familie în cazul în care manifestați simptome specifice - situație în care veți fi testat. Realizați o listă a persoanelor cu care ați intrat în contact direct în ultimele 3 zile, de la debutul simptomelor, pentru a-i ajuta pe medici să realizeze o eventuală anchetă epidemiologică în cazul în care rezultatul testului dv. va fi unul pozitiv. </p>
-        `,
-      },
-      {
-        title: `9. Soția mea a stat jumătate de oră de vorbă la serviciu în același birou cu o colegă care ulterior a fost diagnosticată pozitiv. Amândouă au purtat mască și nu au stat la mai puțin de 2 metri una de cealaltă. Ce trebuie să facă? `,
-        content: `
-            <p>Potrivit definiției de caz dată de INSP, dacă persoanele care au interacționat au purtat mască, și au respectat distanța fizică de 2 metri nu se consideră contacți direcți chiar dacă ulterior una dintre ele a fost depistată pozitiv cu COVID-19. Astfel, nu se impune carantina pentru soția dvs. Așadar nu se impune nici testarea. Totuși, pentru siguranță, este necesar ca soția dvs să respecte cu strictețe regulile de igienă și protecție și să-și monitorizeze starea de sănătate zilnic. În cazul apariției simptomelor va contacta medicul de familie și va respecta indicațiile acestuia. </p>
-        `,
-      },
-      {
-        title: `10. Am fost diagnosticat pozitiv cu COVID-19, dar nu am simptome specifice. Sunt obligat să mă internez sau să rămân în spital?`,
-        content: `
-            <p>Nu sunteți obligat să vă internați. În cazul în care nu aveți simptome, sau aveți simptome ușoare, puteți alege să rămâneți la domiciliu și să țineți legătura cu medicul de familie, care vă va ține sub monitorizare pentru următoarele 14 zile. Dacă sunteți singura persoană din casă infectată, trebuie să vă izolați de restul membrilor de familie. Trebuie să știți că aveți obligația legală să nu părăsiți domiciliul până la epuizarea celor două săptămâni. Medicul de familie vă va elibera concediul medical de boală la finalul celor 14 zile.</p>
-        `,
-      },
-      {
-        title: `11. Sunt în situația descrisă la întrebarea nr. 10. Am obligația să-mi anunț vecinii că sunt COVID-19 pozitiv?`,
-        content: `
-            <p>NU. Din punct de vedere legal, nu aveți obligația să anunțați vecinii sau Asociația de proprietari despre starea dvs. Dacă, însă, vreunul dintre vecinii dvs. a fost contact direct cu dvs., sunteți obligat să anunțați la DSP sau la medicul de familie și desigur ar trebui să-l informați pe cel în cauză. </p>
-        `,
-      },
-      {
-        title: `12. Sunt COVID-19 pozitiv, am ales să mă tratez acasă, dar la câteva zile de la pozitivare m-am speriat și cred că am făcut o alegere greșită. M-aș simți mai în siguranță în spital. Ce trebuie să fac ca să fiu internat?`,
-        content: `
-            <p>Dacă doar teama este motivul, iar starea dvs. de sănătate nu este alterată, consultați-vă întâi cu medicul dvs. de familie. În cazul în care, în continuare doriți să ajungeți la spital, apelați 112, care vă va programa pentru a fi transportat la un spital pentru evaluare. Decizia de internare aparține însă medicului curant, iar dacă starea dvs. nu impune internarea, veți fi îndrumat înapoi la domiciliu pentru a a continua perioada de izolare sub monitorizarea medicului de familie. Țineți cont însă că serviciile de ambulanță și spitalele sunt suprasolicitate și cazurile grave trebuie să aibă prioritate.</p>
-        `,
-      },
-      {
-        title: `13. Am făcut un test „la cerere”, dar nu mă sună nimeni să-mi dea rezultatul. Cum procedez?`,
-        content: `
-            <p>În medie, rezultatul unui test de tip PCR este disponibil după 24 de ore, iar obligația comunicării rezultatului revine centrului de testare la care ați realizat testul „la cerere”. Așadar, contactați reprezentanții centrului de testare în cauză. Orice rezultat pozitiv este transmis obligatoriu de către centrul de testare către INSP și DSP. În cazul în care testul este pozitiv, DSP va emite decizia de izolare pentru 14 zile. Rămâneți în casă și contactați medicul de familie.</p>
-        `,
-      },
-      {
-        title: `14. Au trecut cele 14 zile de când m-am izolat la domiciliu cu diagnostic pozitiv de COVID-19. Mă simt foarte bine, nu mai am simptome, dar nu mă sună nimeni să-mi spună ce să fac. Cum procedez ? Pot să ies din casă?`,
-        content: `
-            <p>În cazul în care ați epuizat perioada de 14 zile, dispusă prin decizia DSP, puteți părăsi locuința. Contactați medicul de familie, care v-a monitorizat în toată această perioadă pentru a vă confirma vindecarea către DSP și pentru a primi sfaturi în ceea ce privește conduita dvs. ulterioară.</p>
-        `,
-      },
-      {
-        title: `15. Am fost confirmat cu COVID-19 și am fost internat 14 zile, însă și la ultimul test înainte de externare am rămas pozitiv. În acest caz este nevoie să continui izolarea la domiciliu, dacă nici spitalul și nici DSP nu mi-a comunicat că este necesar? `,
-        content: `
-            <p>Dacă nu ați primit indicație de izolare (de la spital sau DSP) suplimentar celor 14 zile în care ați fost internat, nu este necesar să vă izolați. Dacă ați fost externat mai devreme de 14 zile, va trebui să vă izolați pe perioada restantă de 14 zile de la data prelevării primei probe pozitive. Testele pot rămâne pozitive pe o perioadă mai lungă, însă se consideră că dacă au trecut 14 zile de la primul test pozitiv și aveți cel puțin 72 de ore de când nu mai aveți simptome, nu mai sunteți contagios. În prezent, nu se recomandă repetarea testului în primele 90 de zile de la diagnostic. Puteți să vă reluați activitatea, iar angajatorul nu vă poate impune prezentarea unui rezultat negativ al testului pentru a vă reîntoarce la lucru.</p>
-        `,
-      },
-      {
-        title: `16. În ce condiții pot obține concediul medical, doar atunci când sunt confirmat pozitiv cu COVID-19, sau se acceptă concediul medical și în cazul în care am fost în contact direct cu o persoană confirmată pozitiv? Concediul medical pentru ce perioadă se poate acorda?`,
-        content: `
-            <p>În cazul în care sunteți confirmat pozitiv veți primi concediu medical de boală cel puțin pentru întreaga perioadă de izolare (14 zile) dar și suplimentar dacă medicul curant din spital sau medicul de familie consideră necesar acest lucru. În cazul în care sunteți contact al unui caz confirmat, DSP vă va emite decizia de carantinare pe o perioadă egală cu numărul de zile rămase până la împlinirea a 14 zile de la data ultimului contact. În baza acestui document, medicul de familie vă va elibera concediul medical pe perioada în care ați fost carantinat.</p>
-        `,
-      },
-      {
-        title: `17. Concediul medical se acordă și părinților care rămân în regim de izolare/carantină împreună cu un minor confirmat pozitiv? Este valabil și pentru cei care rămân acasă, în izolare/carantină, sau doar pentru cei care rămân în spital?`,
-        content: `
-            <p>În cazul unui minor confirmat pozitiv, toți membrii familiei (din aceeași locuință) care au avut contact cu 3 zile înaintea debutului simptomelor sau a datei prelevării probei în cazul în care minorul nu are simptome sunt considerați contacți direcți și au indicația de carantinare. Cele 14 zile se calculează de la data prelevării probei minorului. În cazul în care, pe perioada celor 14 zile, membrii familiei nu dezvoltă simptome și nu sunt testați, vor beneficia de concediu medical de carantină. În cazul în care sunt testați și confirmați pozitiv, vor beneficia de concediu medical de boală pe perioada indicată de medicul curant sau a medicului de familie în funcție de evoluția pacientului. </p>
-        `,
-      },
-      {
-        title: `18. Sunt însărcinată și am COVID-19 cu simptome ușoare. Sunt obligată să mă internez?`,
-        content: `
-            <p>Nu sunteți obligată să vă internați, dar în acest caz medicii recomandă cu tărie să fiți permanent sub supraveghere medicală, preferabil în spital.</p>
-        `,
-      },
-      {
-        title: `19. Sunt bolnav oncologic și am nevoie de test negativ COVID-19 ca să pot merge în spital la tratament. Cum procedez? Trebuie să plătesc pentru test?`,
-        content: `
-            <p>Conform algoritmului de testare elaborat de INSP pacienții ocologici vor fi testați conform definiției de caz ori de câte ori este nevoie dacă sunt simptomatici, dar și în plus (periodic) după cum urmează:
+            <p>Cetățenii care sosesc în România de pe statele aflate în zona roșie intră în carantină, la domiciliu sau instituționalizată, cu următoarele excepții:</p>
             <ul>
-            <li>Pacienți oncologici asimptomatici aflați în curs de chimioterapie – tastare cu maximum 48 de ore inainte de fiecare cura, respectiv de fiecare prezentare la spital pentru monitorizare;</li>
-            <li>Pacienți oncologici asimptomatici aflați în curs de radioterapie – testare înainte de prima ședință și apoi la 14 zile, până la terminarea curei;</li>
-            <li>Pacienți oncologici asimptomatici – testare înainte de intervenții operatorii sau manevre invazive, cu maxim 48 de ore înaintea intervenției/manoperei;</li>
+                <li>-	Dacă fac dovada vaccinării cu schema completă, schema finalizată în urmă cu cel puțin 10 zile;</li>
+                <li>-	Dacă fac dovada trecerii prin boală și dacă se află în intervalul cuprins între 14 și 180 de zile de la diagnosticarea cu SRAS-COV-2;</li>
+                <li>- Copiii cu vârsta mai mica sau egală cu 6 ani;</li>
+                <li>-	Copiii cu vârsta între 6 și 16 ani, cu condiția prezentării rezultatului negativ al unui test RT-PCR efectuat cu cel mult 72 de ore îaintea intrării în țară sau a îmbarcării în avion;</li>
+                <li>-	Persoanele aflate în tranzit, dacă părăsesc România în cel mult 24 de ore de la intrarea pe teritoriul tării</li>
+                <li>-	Persoanele care rămân pe teritoriul național pentru o perioadă mai mică de 3 zile (72 de ore) și prezintă rezultatul negativ al unui test RT-PCR pentru infecția cu virusul SARSCoV-2, efectuat cu cel mult 72 de ore înaintea îmbarcării (pentru cei care călătoresc cu mijloace de transport în comun) sau intrării pe teritoriul național (pentru cei care călătoresc cu mijloace proprii). În situația în care persoanele nu părăsesc teritoriul național în cele 3 zile (72 de ore), cu informarea direcției de sănătate publică din județul în care locuiesc sau în care au adresa declarată la intrarea în țară, vor fi carantinate pentru o perioadă de 14 zile, începând cu cea de-a patra zi ulterioară intrării pe teritoriul României;</li>
+                <li>-	Categoriile profesionale exceptate de la carantină prin hotărâri ale CNSU sau hotărâri de guvern. </li>
             </ul>
-            </p>
-        <p>Fiecare unitate sanitară care tratează pacienți oncologici își stabilește propriul protocol de testare și programează pacienții pentru prelevarea probelor conform algoritmului. Toate aceste teste sunt gratuite pentru pacient și decontate unității sanitare din Programul național de testare. </p>
+            <p>Atenție! Persoanele peste 16 ani nu sunt exceptate de la carantină atunci când vin din zonele roșii chiar dacă prezintă rezultatul negativ al unui test RT-PCR, cu excepția situației în care părăsesc teritoriul național în cel mult 3 zile (72 de ore).</p>
+            <p>Doar în cazul persoanelor care sosesc din state aflate în zona galbenă, adulții pot folosi și ei rezultatul negativ al unui test RT-PCR pentru a fi exceptați de la carantină</p>
         `,
       },
       {
-        title: `20. Am fost testat pozitiv și sunt izolat la locuința proprie, împreună cu ceilalți membri ai familiei. Între timp au fost testați și ei și testele lor sunt negative. Pentru a-i proteja vreau să schimb locația în care să îmi continui perioada de izolare, într-o altă locuință aflată tot în proprietatea mea. Pot face acest lucru? Dacă da, care este procedura pe care o urmez?`,
+        title: `Cum pot afla dacă intru în carantină sau ce conditii trebuie să îndeplinesc dacă plec din România în altă țară?`,
         content: `
-            <p>Este recomandat să faceți acest lucru dacă aveți posibilitatea chiar din prima zi în care ați fost confirmat pozitiv, ba chiar de la data debutului simptomelor. Dacă ați fost deja luat în evidența DSP cu o anumită adresă de izolare și doriți să o schimbați , contactați DSP și în măsura în care transportul până la locuință se poate face în siguranță, vi se poate permite schimbarea locației de izolare pentru dvs. sau a celei de carantină pentru restul familiei.  </p>
+            <p>Informațiile privind condițiile de călătorie sunt postate și actualizate pe siteul web a Ministerului Afacerilor Externe, la capitolul condiții de călătorie. </p>
+            <p>De asemenea, pe paginile web ale ambasadelor României acreditate în respectivele țări sunt postate informații privind condițiile ce trebuie respectate în statele gazdă.</p>
+        `,
+      },
+      {
+        title: `Cum mă pot proteja de varianta delta a virusului?`,
+        content: `
+            <p>Măsurile sanitare de protecție recomandate în cazul variantei delta a SARS-COV-2 sunt aceleași ca pentru celelalte variante: evitarea zonelor aglomerate, evitarea contactului cu persoanele care sunt pozitive sau suspecte, purtarea măștii de protecție, igiena corectă a mâinilor, evitarea contactului cu suprafețe atinse des de alte persoane.</p>
+            <p>Varianta delta este mai contagioasă și se transmite mai ușor, însă măsurile de protecție recomandate până acum sunt eficiente și împotriva acestei tulpini, dacă sunt aplicate corect.</p>
         `,
       },
     ],
