@@ -2314,6 +2314,12 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         </div>
         
         <p>Persoanele care prezintă alt tip de documente (adeverințe emise de laboratoare de testare ori centre de vaccinare) trebuie să efectueze triajul DSP, iar reprezentanții acestei instituții stabilește măsura care se impune în fiecare caz.</p>
+
+        <div style="background-color: #FFD738; padding: 10px;">
+        <p>Pentru toate persoanele cetățeni români, cetățeni din țările Uniunii Europene, ale Spațiului Economic European sau Confederația Elvețiană, care sosesc în România din Botswana, Eswatini, Lesotho, Mozambic, Namibia, Africa de Sud, Malawi și Zimbabwe se instituie măsura carantinei, pentru o perioadă de 14 zile.<p>
+
+        <p>Persoanele care vin din țările menționate sunt testate la intrarea în țară și în a opta zi de carantină. În cazul unui rezultat negativ, persoanele pot ieși din carantină în ziua a 10-a.</p>
+        </div>
        `,
       },
     ],
