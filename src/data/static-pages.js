@@ -2287,39 +2287,32 @@ Cea mai sigură metodă de evitare a infecției este să evitați expunerea la v
         display_order: 1,
         slug: "/",
         page: `
-        <p>Comitetul Național pentru Situații de Urgență stabilește, prin o Hotărâre publicată în Monitorul Oficial Partea I, lista cu clasificarea țărilor/teritoriilor în funcție de rata de incidență cumulată.</p>
-        <p>La revenirea în România, din una dintre țările / statele de pe listă, este necesară prezentare unor documente, funcție de scenariul în care se încadrează țara respectivă.</p>
-        
-        <p>La revenirea din țări / state aflate pe lista <b>verde</b>, nu există restricții la intrarea în țară, indiferent de vârsta persoanei.
-        
-        <p>La revenirea din țări / state aflate pe lista <b>galbenă</b>, persoanele care sosesc în România intră în carantină timp de 14 zile, cu următoarele excepții:</p>
+        <h3>Pentru cetățenii care sosesc în România din state ale Uniunii Europene sau ale Spațiului Econimic European (UE, Spațiul Economic European, Confederația Elvețiană)</h3>:
         <ul>
-          <li>persoanele vaccinate, pentru care au trecut mai mult de 10 zile de la vaccinarea cu schemă completă;</li>
-          <li>persoanele care au trecut prin boală și se află în perioada cuprinsă între 14 și 180 de zile de la confirmarea bolii;</li>
-          <li>persoanele care prezintă rezultatul negativ al unui test RT-PCR realizat cu cel mult 72 de ore înainte de intrarea în țară;</li>
-          <li>copiii sub 6 ani, fără să fie nevoie să prezinte rezultatul unui test.</li>
+        <li>FĂRĂ CARANTINĂ dacă prezintă dovada vaccinării sau a trecerii prin boală în ultimele 180 de zile;</li>
+        <li>CARANTINĂ DE 14 ZILE dacă sunt nevaccinați, nu au trecut prin boală în ultimele 180 de zile, ori dacă nu prezintă un test RT-PCR negativ efectuat cu cel mult 48 de ore înaintea îmbarcării sau intrării pe teritoriul României, dacă vin din zona VERDE sau GALBENĂ;</li>
+        <li>CARANTINĂ DE 14 ZILE dacă sunt nevaccinați, nu au trecut prin boală în ultimele 180 de zile, dacă vin din zona ROȘIE;</li>
+        <li>completarea <a href="https://plf.gov.ro/" target="_blank" rel="noopener noreferrer">Formularului de localizare a pasagerilor (PLF)</a>, începând cu data de 20 decembrie.</li>
         </ul>
-        
-        <p>Persoanele care vin din țările / statele aflate pe lista <b>galbenă</b> și prezintă un certificat digital care atestă vaccinarea, certificat digital care atestă rezultatul negativ al unui test RT-PCR, sau care atestă trecerea prin boală, pot intra în România după ce polițistul de frontieră scanează codul qr de pe respectivul document, fără a mai trece prin triajul DSP.</p>
-        
-        <div style="background-color: #FFD738; padding: 10px;">
-        <p>La revenirea din țări / state aflate pe lista <b>roșie</b>: persoanele care sosesc în România intră în carantină timp de 14 zile, cu următoarele excepții:</p>
+
+        <h3>Pentru cetățenii români sau străini care sosesc în România  din afara Spațiului European (UE, Spațiul Economic European, Confederația Elvețiană)</h3>
         <ul>
-        <li>persoanele vaccinate, pentru care au trecut mai mult de 10 zile de la vaccinarea cu schemă completă;</li>
-        <li>persoanele care au trecut prin boală și se află în perioada cuprinsă între 14 și 180 de zile de la confirmarea bolii;</li>
-        <li>copiii sub 6 ani, fără să fie nevoie să prezinte rezultatul unui test;</li>
-        <li>copiii cu vârste cuprinse între 6 și 16 ani, dacă prezintă rezultatul negativ al unui teste RT-PCR, realizat cu cel mult 72 de ore înainte de intrarea în țară.</li>
+        <li>FĂRĂ CARANTINĂ dacă prezintă dovada vaccinării sau a trecerii prin boală în ultimele 180 de zile, PLUS un test RT-PCR negativ efectuat cu cel mult 48 de ore înaintea îmbarcării sau intrării pe teritoriul României;</li>
+        <li>CARANTINĂ DE 10 ZILE dacă sunt nevaccinați, nu au trecut prin boală în ultimele 180 de zile, dar prezintă un test RT-PCR negativ efectuat cu cel mult 48 de ore înaintea îmbarcării sau intrării pe teritoriul României;</li>
+        <li>CARANTINĂ DE 14 ZILE dacă nu prezintă un test RT-PCR negativ efectuat cu cel mult 48 de ore înaintea îmbarcării sau intrării pe teritoriul României, sunt nevaccinați, nu au trecut prin boală în ultimele 180 de zile;</li>
+        <li>CARANTINĂ DE 10 ZILE dacă nu prezintă un test RT-PCR negativ efectuat cu cel mult 48 de ore înaintea îmbarcării sau intrării pe teritoriul României, dar sunteți vaccinați, sau ați trecut prin boală în ultimele 180 de zile;</li>
+        <li>completarea <a href="https://plf.gov.ro/" target="_blank" rel="noopener noreferrer">Formularului de localizare a pasagerilor (PLF)</a>, începând cu data de 20 decembrie.</li>
         </ul>
-        <p>Persoanele care vin din țări / state aflate pe lista <b>roșie</b> și prezintă un certificat digital care atestă vaccinarea sau trecerea prin boală pot intra în România după ce polițistul de frontieră scanează codul qr de pe respectivul document fără a mai intra în triajul DSP.</p>
-        </div>
-        
-        <p>Persoanele care prezintă alt tip de documente (adeverințe emise de laboratoare de testare ori centre de vaccinare) trebuie să efectueze triajul DSP, iar reprezentanții acestei instituții stabilește măsura care se impune în fiecare caz.</p>
 
-        <div style="background-color: #FFD738; padding: 10px;">
-        <p>Pentru toate persoanele cetățeni români, cetățeni din țările Uniunii Europene, ale Spațiului Economic European sau Confederația Elvețiană, care sosesc în România din Botswana, Eswatini, Lesotho, Mozambic, Namibia, Africa de Sud, Malawi și Zimbabwe se instituie măsura carantinei, pentru o perioadă de 14 zile.<p>
-
-        <p>Persoanele care vin din țările menționate sunt testate la intrarea în țară și în a opta zi de carantină. În cazul unui rezultat negativ, persoanele pot ieși din carantină în ziua a 10-a.</p>
-        </div>
+        <h3>Cine și când trebuie să completeze digital de intrare în România <a href="https://plf.gov.ro/" target="_blank" rel="noopener noreferrer">formularul PLF?</a></h3>
+        <ul>
+        <li>Persoanele care intră în România și călătoresc cu avionul, trenul, mijloace de transport rutiere sau navale, începând cu data de 20 decembrie 2021;</li>
+        <li>Formularul cuprinde numele și prenumele, datele de identificare și de contact; țara, regiunea și localitatea de unde călătorește spre România, inclusiv cele tranzitate; localitatea și adresa de destinație în România; mijlocul de transport cu care călătorește spre România; data intrării în România; datele minorilor însoțitori, dacă este cazul;</li>
+        <li>Formularul digital poate fi generat electronic prin intermediul platformei https://plf.gov.ro;</li>
+        <li>Pentru eliberarea formularului este necesară autentificarea cu o adresă de e-mail, unde utilizatorul primește un link de acces. Ulterior, se completează câmpurile cu datele solicitate. Pașii sunt similari cu cei pentru generarea certificatului digital UE COVID;</li>
+        <li>Formularul se completează individual cu maximum 24 de ore înainte de a intra în România. Acesta poate fi completat electronic de pe telefonul mobil, tabletă sau calculator;</li>
+        <li>Formularul se verifică odată cu verificarea cărții de identitate/pașaportului în sistemul informatic al Poliției de Frontieră și va fi afișat dacă persoana a completat formularul. Acesta nu trebuie tipărit.</li>
+        </ul>
        `,
       },
     ],
