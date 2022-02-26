@@ -8,6 +8,11 @@ import {
 } from "react-router-dom";
 import { logPageView } from "./analyticsTracker";
 import Home from "./components/Home";
+import { I18nProvider } from "@lingui/react";
+import { i18n } from "@lingui/core";
+import { en, ro, uk, ru } from "make-plural/plurals";
+import { messages as messagesRo } from "./locales/ro/messages";
+import { Trans } from "@lingui/macro";
 
 import {
   Logo,
@@ -20,6 +25,7 @@ import LogoSvg from "./images/logo.svg";
 import gov from "./images/gov.png";
 import DSU from "./images/dsu.png";
 import "./App.scss";
+import { LanguageMenu } from "./components/LanguageMenu";
 
 const About = lazy(() => import("./components/About"));
 const Conduita = lazy(() => import("./components/Conduita"));
@@ -28,6 +34,17 @@ const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
 );
 const FooterWrapper = lazy(() => import("./components/Footer"));
+
+i18n.loadLocaleData({
+  en: { plurals: en },
+  ro: { plurals: ro },
+  uk: { plurals: uk },
+  ru: { plurals: ru },
+});
+i18n.load({
+  ro: messagesRo,
+});
+i18n.activate("ro");
 
 const customPartnerLogos = [
   <Logo url="https://www.gov.ro" key="gov">
@@ -59,15 +76,18 @@ const MenuItems = [
     Conduită
   </Link>,
   <Link to="/despre" key={"des"}>
-    Despre
+    <Trans>Despre</Trans>
   </Link>,
+  <LanguageMenu key="language" />,
 ];
 
 const AppWrapper = () => {
   return (
-    <Router>
-      <App />
-    </Router>
+    <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
+      <Router>
+        <App />
+      </Router>
+    </I18nProvider>
   );
 };
 

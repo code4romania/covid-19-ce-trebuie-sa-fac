@@ -69,6 +69,46 @@ $ npm test
 
 Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### Using lingui
+
+1. Wrapping texts using `<Trans>` component.
+
+```js
+import { Trans } from "@lingui/macro";
+
+<Trans>Hello world</Trans>;
+```
+
+2. Extracting messages
+
+`npm run extract`
+
+3. Add translations to `messages.json` for each language from the `locales` folder.
+
+```json
+// en/messages.json
+{
+  "Știri oficiale": {
+    "translation": "Official news"
+    // ...
+  }
+}
+
+// ro/messages.json
+{
+  "Știri oficiale": {
+    "translation": "Știri oficiale"
+    // ...
+  }
+}
+```
+
+4. Compiling messages
+
+`npm run compile`
+
+See more details on the official lingui [page](https://lingui.js.org/tutorials/react.html)
+
 ## Deployment
 
 - preview environments available automatically on each PR powered by [Vercel](https://vercel.com/). Preview environment for `develop` branch: https://ce-ma-fac.now.sh/
