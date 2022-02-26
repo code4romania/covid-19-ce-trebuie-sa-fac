@@ -12,6 +12,7 @@ import { I18nProvider } from "@lingui/react";
 import { i18n } from "@lingui/core";
 import { en, ro, uk, ru } from "make-plural/plurals";
 import { messages as messagesRo } from "./locales/ro/messages";
+import { Trans } from "@lingui/macro";
 
 import {
   Logo,
@@ -75,7 +76,7 @@ const MenuItems = [
     Conduită
   </Link>,
   <Link to="/despre" key={"des"}>
-    Despre
+    <Trans>Despre</Trans>
   </Link>,
   <LanguageMenu key="language" />,
 ];
