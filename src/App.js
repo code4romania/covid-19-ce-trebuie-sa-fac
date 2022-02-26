@@ -24,6 +24,7 @@ import LogoSvg from "./images/logo.svg";
 import gov from "./images/gov.png";
 import DSU from "./images/dsu.png";
 import "./App.scss";
+import { LanguageMenu } from "./components/LanguageMenu";
 
 const About = lazy(() => import("./components/About"));
 const Conduita = lazy(() => import("./components/Conduita"));
@@ -76,6 +77,7 @@ const MenuItems = [
   <Link to="/despre" key={"des"}>
     Despre
   </Link>,
+  <LanguageMenu key="language" />,
 ];
 
 const AppWrapper = () => {
