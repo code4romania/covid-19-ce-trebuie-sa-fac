@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import { logPageView } from "./analyticsTracker";
 import Home from "./components/Home";
+import { I18nProvider } from "@lingui/react";
+import { i18n } from "@lingui/core";
+import { en, ro, uk, ru } from "make-plural/plurals";
+import { messages as messagesRo } from "./locales/ro/messages";
 
 import {
   Logo,
@@ -28,6 +32,17 @@ const TermsAndConditions = lazy(() =>
   import("./components/TermsAndConditions")
 );
 const FooterWrapper = lazy(() => import("./components/Footer"));
+
+i18n.loadLocaleData({
+  en: { plurals: en },
+  ro: { plurals: ro },
+  uk: { plurals: uk },
+  ru: { plurals: ru },
+});
+i18n.load({
+  ro: messagesRo,
+});
+i18n.activate("ro");
 
 const customPartnerLogos = [
   <Logo url="https://www.gov.ro" key="gov">
@@ -65,9 +80,11 @@ const MenuItems = [
 
 const AppWrapper = () => {
   return (
-    <Router>
-      <App />
-    </Router>
+    <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
+      <Router>
+        <App />
+      </Router>
+    </I18nProvider>
   );
 };
 
