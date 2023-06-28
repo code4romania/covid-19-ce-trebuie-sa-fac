@@ -1,18 +1,17 @@
 {
-  "name": "ce-ma-fac",
+  "name": "ce-trebuie-sa-fac",
   "author": "code4romania",
-  "version": "1.0.0",
   "description": "Arbore decizional pentru informarea publicului",
   "private": true,
   "dependencies": {
     "@code4ro/taskforce-fe-components": "^2.0.1",
+    "fuse.js": "^6.0.0",
+    "query-string": "^6.12.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-ga": "^2.7.0",
+    "react-ga4": "^2.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "fuse.js": "^6.0.0",
-    "query-string": "^6.12.1"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -74,7 +73,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",
-    "node-sass": "^4.14.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "sass": "^1.63.6"
   }
 }
