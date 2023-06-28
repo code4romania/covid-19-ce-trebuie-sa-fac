@@ -10,6 +10,6 @@ export const initializeGA = () => {
 export const logPageView = (history) => {
   history.listen((location) => {
     const page = location.pathname || window.location.pathname;
-    ReactGA.set({ page: page });
+    ReactGA.send({ hitType: "pageview", page: page });
   });
 };
